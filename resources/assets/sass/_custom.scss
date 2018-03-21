@@ -1,0 +1,98 @@
+// Carousel fade transition
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    height: auto;
+    background-color: black;
+    transition: opacity ease-out .75s;
+
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+    transform: scale(1.15);
+    transition: transform ease-in 7s, opacity ease-out .75s;
+}
+
+.carousel-inner > .item > img,
+ .carousel-inner > .carousel-item > img {
+     display: block;
+     margin: auto;
+     width: auto !important;
+     height: 100% !important;
+}
+
+.navbar-transparant {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+//scorller
+.scroll-right {
+ height: 50rm;
+ overflow: hidden;
+ position: relative;
+ background: white;
+ color: Black;
+ border: 1rm solid black;
+}
+.scroll-right p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50rm;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);
+ transform:translateX(-100%);
+ /* Apply animation to this element */
+ -moz-animation: scroll-right 15s linear infinite;
+ -webkit-animation: scroll-right 15s linear infinite;
+ animation: scroll-right 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-right {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes scroll-right {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+@keyframes scroll-right {
+ 0%   {
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%);
+ }
+ 100% {
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%);
+ }
+}
+//end scroller
+
+/*
+@media (orientation: portrait) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (orientation: landscape) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:96vh;
+    }
+}
+*/
