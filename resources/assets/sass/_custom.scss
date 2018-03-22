@@ -1,3 +1,38 @@
+body {
+/* add background gradient to body */
+background-color: #8a8482;
+background: url(images/bg-body.gif);
+background-repeat: repeat-x;
+/* Safari 4-5, Chrome 1-9 */
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8a8482), to(#544e4c));
+/* Safari 5.1, Chrome 10+ */
+background: -webkit-linear-gradient(top, #544e4c, #8a8482);
+/* Firefox 3.6+ */
+background: -moz-linear-gradient(top, #544e4c, #8a8482);
+/* IE 10 */ background: -ms-linear-gradient(top, #544e4c, #8a8482);
+/* Opera 11.10+ */ background: -o-linear-gradient(top, #544e4c, #8a8482);
+}
+
+div.image_display {
+  width: 40rem;
+  box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6rem 20rem 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.image_display_r {
+  box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.shadow_only {
+  box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+}
+
+div.image_display_text_container {
+  padding: 1rem;
+  background-color: white;
+}
+
 // Carousel fade transition
 .carousel.carousel-fade .carousel-item {
     display: block;
