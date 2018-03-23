@@ -22,23 +22,25 @@
 <br>
 <div>
   <div class="row">
-    <div class="col col-4">
+    <div class="col col-2">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
       <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
     </div>
     <div class="col col-4">
-      <ul>
-    		<li tabindex="0" class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
-    			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle lang_sel_sel icl-en"><span class="wpml-ls-native icl_lang_sel_native">English</span></a>
-    			<ul class="wpml-ls-sub-menu">
-    				<li class="icl-zh-hans wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hans wpml-ls-last-item">
-    					<a href="https://crosspointacademy.org/zh-hans/" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native">简体中文</span><span class="wpml-ls-display icl_lang_sel_translated"><span class="wpml-ls-bracket icl_lang_sel_bracket"> (</span>Chinese (Simplified)<span class="wpml-ls-bracket icl_lang_sel_bracket">)</span></span></a>
-    				</li>
-    			</ul>
-    		</li>
-    	</ul>
+      <!-- Split dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary">
+    Split dropup
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </div>
+</div>
     </div>
   </div>
 </div>
