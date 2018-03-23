@@ -143,6 +143,12 @@ div.both-sidebar-included a.stunning-text-button{ float: none; display: inline-b
   background-color: #9f1b32;
 }
 
+.behind {
+  position: absolute;
+  align: center;
+  z-index: -1;
+}
+
 
 /*
 @media (orientation: portrait) {
