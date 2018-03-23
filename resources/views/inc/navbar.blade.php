@@ -50,7 +50,7 @@
               <div class="input-group-prepend">
                 <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <button class="btn main-color border border-dark btn-sm" type="button" style="">Search</button>
+              <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">Search</button>
             </div>
           </form>
         </div>
