@@ -2,9 +2,6 @@
 
 @section('content')
   <div class="container">
-    <br>
-    @include('inc.pagelabel')
-    <br>
     <div class="card bg-secondary border border-dark rounded image_display_r">
       <div class="card-img-top">
         @include('inc.jobimagecarosel')
