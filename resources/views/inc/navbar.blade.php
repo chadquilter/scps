@@ -30,7 +30,7 @@
           <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
         </div>
         <!-- Split dropup button -->
-        <div class="col col-2" style="align: right">
+        <div class="col" style="align: right">
           <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             English
           </button>
