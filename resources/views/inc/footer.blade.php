@@ -1,9 +1,9 @@
+<div class="row">
+  <div class="col main-color"></div>
+  <div class="col alt-color"></div>
+  <div class="col main-color"></div>
+</div>
 <footer class="footer navbar-dark text-white">
-  <div class="row">
-    <div class="col main-color"></div>
-    <div class="col alt-color"></div>
-    <div class="col main-color"></div>
-  </div>
   <div class="foot-container main-color">
     <div class="footer-top-1">
       &nbsp;
