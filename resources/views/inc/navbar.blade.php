@@ -77,7 +77,7 @@
             <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">Academic Calander</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">Daily Schedule</a>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
+              <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
               <div class="dropdown-menu" aria-labelledby="Deparments">
                 <a class="dropdown-item {{ ( \Request::url() == url('english') ) ? 'active' : '' }}" href="/en">English</a>
                 <a class="dropdown-item {{ ( \Request::url() == url('history') ) ? 'active' : '' }}" href="/hs">History</a>
@@ -93,7 +93,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
+          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
           <div class="dropdown-menu" aria-labelledby="Admissions">
             <a class="dropdown-item {{ ( \Request::url() == url('admission') ) ? 'active' : '' }}" href="/admission">Admission</a>
             <a class="dropdown-item {{ ( \Request::url() == url('tf') ) ? 'active' : '' }}" href="/tf">Tuition and Fees</a>
