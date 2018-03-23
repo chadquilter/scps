@@ -28,6 +28,18 @@
     <div class="col col-8">
       <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
     </div>
+    <div class="col col-4">
+      <ul>
+    		<li tabindex="0" class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+    			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle lang_sel_sel icl-en"><span class="wpml-ls-native icl_lang_sel_native">English</span></a>
+    			<ul class="wpml-ls-sub-menu">
+    				<li class="icl-zh-hans wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-zh-hans wpml-ls-last-item">
+    					<a href="https://crosspointacademy.org/zh-hans/" class="wpml-ls-link"><span class="wpml-ls-native icl_lang_sel_native">简体中文</span><span class="wpml-ls-display icl_lang_sel_translated"><span class="wpml-ls-bracket icl_lang_sel_bracket"> (</span>Chinese (Simplified)<span class="wpml-ls-bracket icl_lang_sel_bracket">)</span></span></a>
+    				</li>
+    			</ul>
+    		</li>
+    	</ul>
+    </div>
   </div>
 </div>
 <br>
