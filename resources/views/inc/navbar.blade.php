@@ -21,7 +21,7 @@
   </nav>
   <br>
   <div class="row">
-    <div class="col col-4">
+    <div class="col col-4" nowrap>
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
@@ -44,7 +44,7 @@
               <div class="input-group-prepend">
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <button class="btn main-color" type="button" style="">Main button</button>
+              <button class="btn main-color border border-dark" type="button" style="">Search</button>
             </div>
           </form>
         </div>
