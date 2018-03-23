@@ -18,10 +18,10 @@
 <br>
 <div>
   <div class="row">
-    <div class="col col-sm">
+    <div class="col text-right">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
-    <div class="col text-right">
+    <div class="col text-left">
       <h1 style="color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
     </div>
   </div>
