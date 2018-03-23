@@ -25,8 +25,8 @@
     <div class="col">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
-    <div class="col text-lg-left">
-      <h1 style="color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
+    <div class="col">
+      <h1 style="text-color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
     </div>
   </div>
 </div>
