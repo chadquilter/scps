@@ -20,16 +20,16 @@
       </ul>
 </nav>
 <br>
-<div>
   <div class="row">
     <div class="col col-2">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
-      <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
-
+      <div class="">
+        <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
+      </div>
       <!-- Split dropup button -->
-
+      <div class="">
       <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only">English</span>
       </button>
