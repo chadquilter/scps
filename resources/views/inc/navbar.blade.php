@@ -30,15 +30,16 @@
     </div>
     <div class="col col-4">
       <!-- Split dropup button -->
-<div class="btn-group dropup">
-  <button type="button" class="btn btn-secondary">
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-secondary">
     Split dropup
   </button>
   <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
   </div>
 </div>
     </div>
@@ -165,6 +166,5 @@
     @endguest
   </ul>
 </div>
-<br>
 </nav>
 </div>
