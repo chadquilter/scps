@@ -21,32 +21,32 @@
 </nav>
 <br>
   <div class="row">
-    <div class="col col-2">
+    <div class="col col-4">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
       <div class="row">
-      <div class="col">
-        <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
-      </div>
+        <div class="col">
+          <h1 style="text-align: left; color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
+        </div>
       <!-- Split dropup button -->
-      <div class="col" style="align: right">
-      <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <span class="sr-only">English</span>
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">English</a>
-        <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
+        <div class="col" style="align: right">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            English
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
+          </div>
+          <br>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-      <br>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </div>
-</div>
-</div>
 <br>
 
 <nav class="navbar navbar-expand-md navbar-dark border border-dark" style="background-color: #9f1b32;">
