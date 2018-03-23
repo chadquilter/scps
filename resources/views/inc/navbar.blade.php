@@ -85,11 +85,10 @@
                 <a class="dropdown-item {{ ( \Request::url() == url('science') ) ? 'active' : '' }}" href="/sci">Science</a>
                 <a class="dropdown-item {{ ( \Request::url() == url('vpa') ) ? 'active' : '' }}" href="/vpa">Visual Performing Arts</a>
                 <a class="dropdown-item {{ ( \Request::url() == url('electives') ) ? 'active' : '' }}" href="/elec">Electives</a>
-
-
+              </div>
+            </li>
             <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">PowerSchool</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">Administration</a>
-            <hr class="my-4">
           </div>
         </li>
 
@@ -101,8 +100,6 @@
             <a class="dropdown-item {{ ( \Request::url() == url('schoolapp') ) ? 'active' : '' }}" href="/schoolapp">Application</a>
             <a class="dropdown-item {{ ( \Request::url() == url('etuition') ) ? 'active' : '' }}" href="/etuition">e-tuition</a>
             <a class="dropdown-item {{ ( \Request::url() == url('contactadmission') ) ? 'active' : '' }}" href="/contactadmision">Contact Admissions</a>
-
-            <hr class="my-4">
           </div>
         </li>
 
