@@ -2,13 +2,13 @@
 
 @section('content')
   <div class="container">
-    <div class="card bg-secondary border border-dark rounded image_display_r">
+    <div class="card alert alert-light border border-dark rounded image_display_r">
       <div class="card-img-top">
         @include('inc.jobimagecarosel')
       </div>
     </div>
     <br>
-  <div class="card bg-secondary border border-dark rounded image_display_r">
+  <div class="card alert alert-light border border-dark rounded image_display_r">
     <div class="card-body">
     <div class="row">
       <div class="col">
