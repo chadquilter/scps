@@ -30,18 +30,19 @@
     </div>
     <div class="col col-4">
       <!-- Split dropup button -->
-      <div class="btn-group dropup">
-        <button type="button" class="btn btn-secondary">
-    Split dropup
-  </button>
-  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-  </div>
-</div>
+
+      <button type="button" class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">English</span>
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">English</a>
+        <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
+      </div>
+      <br>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </div>
 </div>
