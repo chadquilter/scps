@@ -44,7 +44,7 @@
               <div class="input-group-prepend">
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <button class="btn btn-outline-dark main-color" type="button" style="">Main button</button>
+              <button class="btn main-color" type="button" style="">Main button</button>
             </div>
           </form>
         </div>
