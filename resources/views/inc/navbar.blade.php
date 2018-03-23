@@ -28,6 +28,8 @@
       <div class="row">
         <div class="col">
           <h1 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
+          <br>
+          <h4 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">Transforming Lives for the future.</h4>
         </div>
         <!-- Split dropup button -->
         <div class="col" style="align: right">
