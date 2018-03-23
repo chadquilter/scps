@@ -1,24 +1,26 @@
 
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: none;">
-    <div class="top-navigation-right">
-      <img src="https://crosspointacademy.org/wp-content/uploads/2013/06/icon-phone.png" class="top-navigation-right-icon" alt="" />(510) 995-5333
-    </div>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="https://crosspointacademy.org/">Home</a>
+            <a class="nav-link" href="https://crosspointacademy.org/">Home</a>
           </li>
           <li class="nav-item">
-            <a href="https://crosspointacademy.org/about-us/">About Us</a>
+            <a class="nav-link" href="https://crosspointacademy.org/about-us/">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="https://crosspointacademy.org/support-us/">Support</a>
+            <a class="nav-link" href="https://crosspointacademy.org/support-us/">Support</a>
+          </li>
+          <li class"nav-item">
+            <img src="https://crosspointacademy.org/wp-content/uploads/2013/06/icon-phone.png" class="top-navigation-right-icon" alt="" />(510) 995-5333
           </li>
       </ul>
 </nav>
 <br>
 
 <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
-{{ config('app.name', 'Space City Preparatory') }}
+<div class="logo-text">
+  {{ config('app.name', 'Space City Preparatory') }}
+</div>
 <br>
 
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #9f1b32;">
