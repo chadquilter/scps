@@ -22,7 +22,7 @@
 <br>
 <div>
   <div class="row">
-    <div class="col">
+    <div class="col col-sm">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col">
