@@ -21,7 +21,7 @@
   </nav>
   <br>
   <div class="row">
-    <div class="col col-2">
+    <div class="col col-3">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
