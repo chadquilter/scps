@@ -1,8 +1,8 @@
-<a href="/"><img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps-logo.png"></a>
+<a href="/"><img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png"></a>
 <div class="ribbon"></div>
 <div class="card bg-secondary border border-dark rounded image_display_r">
   <div class="card-body">
-    <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps-logo.png">
+    <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png">
   </div>
 </div>
 <br>
