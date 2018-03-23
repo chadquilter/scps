@@ -1,11 +1,18 @@
-<div class="card">
-  <div class="card-body">
-    <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
-    {{ config('app.name', 'Space City Preparatory') }}
+
+<div class="top-navigation container">
+  <div class="top-navigation-wrapper">
+    <div class="top-navigation-right"><img src="https://crosspointacademy.org/wp-content/uploads/2013/06/icon-phone.png" class="top-navigation-right-icon" alt="" />(510) 995-5333</div>			<div class="top-navigation-left">
+      <div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-1052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-1052"><a href="https://crosspointacademy.org/">Home</a></li>
+<li id="menu-item-1735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="https://crosspointacademy.org/about-us/">About Us</a></li>
+<li id="menu-item-1057" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1057"><a href="https://crosspointacademy.org/support-us/">Support</a></li>
+</ul></div>				<br class="clear">
+    </div>
   </div>
 </div>
 <br>
-
+<img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
+{{ config('app.name', 'Space City Preparatory') }}
+<br>
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #9f1b32;">
   <div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
