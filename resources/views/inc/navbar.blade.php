@@ -43,13 +43,21 @@
       <li class="nav-item {{ ( \Request::url() == url('') ) ? 'active' : '' }}">
         <a class="nav-link" href="/">Home</a>
       </li>
-      <li class="nav-item {{ ( Request::route()->getName() == 'quotes.index') ? 'active' : '' }}">
-        <a class="nav-link" href="/quotes">Contact</a>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+        <div class="dropdown-menu" aria-labelledby="About Us">
+          <a class="dropdown-item {{ ( \Request::url() == url('excavation') ) ? 'active' : '' }}" href="/excavation">Excavation</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('groundupconstruction') ) ? 'active' : '' }}" href="/groundupconstruction">Ground Up Construction</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('finishout') ) ? 'active' : '' }}" href="/finishout">Interior Finish Out</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('steel') ) ? 'active' : '' }}" href="/steel">Structural Steel</a>
+          <hr class="my-4">
+        </div>
       </li>
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-        <div class="dropdown-menu" aria-labelledby="Services">
+        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+        <div class="dropdown-menu" aria-labelledby="Academics">
           <a class="dropdown-item {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Services Overview</a>
           <a class="dropdown-item {{ ( \Request::url() == url('asphalt') ) ? 'active' : '' }}" href="/asphalt">Concrete and Asphalt</a>
           <a class="dropdown-item {{ ( \Request::url() == url('cm') ) ? 'active' : '' }}" href="/cm">Construction Management</a>
@@ -65,14 +73,61 @@
         </div>
       </li>
 
-      <li class="nav-item {{ ( Request::route()->getName() == 'jobs.index') ? 'active' : '' }}">
-        <a class="nav-link" href="/portfolio">Portfolio</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions</a>
+        <div class="dropdown-menu" aria-labelledby="Admissions">
+          <a class="dropdown-item {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Services Overview</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('asphalt') ) ? 'active' : '' }}" href="/asphalt">Concrete and Asphalt</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('cm') ) ? 'active' : '' }}" href="/cm">Construction Management</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('concrete') ) ? 'active' : '' }}" href="/concrete">Custom Concrete</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('homes') ) ? 'active' : '' }}" href="/homes">Custom Homes</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('kitchenbath') ) ? 'active' : '' }}" href="/kitchenbath">Custom Kitchen and Bath</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('demolition') ) ? 'active' : '' }}" href="/demolition">Demolition</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('excavation') ) ? 'active' : '' }}" href="/excavation">Excavation</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('groundupconstruction') ) ? 'active' : '' }}" href="/groundupconstruction">Ground Up Construction</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('finishout') ) ? 'active' : '' }}" href="/finishout">Interior Finish Out</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('steel') ) ? 'active' : '' }}" href="/steel">Structural Steel</a>
+          <hr class="my-4">
+        </div>
       </li>
-      <li class="nav-item align-top">
-        <a class="nav-link" href="/quotes">
-          <img src="/images/icons/phoneicon.png" width="30" height="30" alt="phone-icon"> (830)220-2876•<br>
-          <img src="/images/icons/phoneicon.png" width="30" height="30" alt="phone-icon"> (830)265-0941•
-        </a>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student Life</a>
+        <div class="dropdown-menu" aria-labelledby="Student Life">
+          <a class="dropdown-item {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Services Overview</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('asphalt') ) ? 'active' : '' }}" href="/asphalt">Concrete and Asphalt</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('cm') ) ? 'active' : '' }}" href="/cm">Construction Management</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('concrete') ) ? 'active' : '' }}" href="/concrete">Custom Concrete</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('homes') ) ? 'active' : '' }}" href="/homes">Custom Homes</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('kitchenbath') ) ? 'active' : '' }}" href="/kitchenbath">Custom Kitchen and Bath</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('demolition') ) ? 'active' : '' }}" href="/demolition">Demolition</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('excavation') ) ? 'active' : '' }}" href="/excavation">Excavation</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('groundupconstruction') ) ? 'active' : '' }}" href="/groundupconstruction">Ground Up Construction</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('finishout') ) ? 'active' : '' }}" href="/finishout">Interior Finish Out</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('steel') ) ? 'active' : '' }}" href="/steel">Structural Steel</a>
+          <hr class="my-4">
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">International Program</a>
+        <div class="dropdown-menu" aria-labelledby="International Program">
+          <a class="dropdown-item {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Services Overview</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('asphalt') ) ? 'active' : '' }}" href="/asphalt">Concrete and Asphalt</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('cm') ) ? 'active' : '' }}" href="/cm">Construction Management</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('concrete') ) ? 'active' : '' }}" href="/concrete">Custom Concrete</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('homes') ) ? 'active' : '' }}" href="/homes">Custom Homes</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('kitchenbath') ) ? 'active' : '' }}" href="/kitchenbath">Custom Kitchen and Bath</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('demolition') ) ? 'active' : '' }}" href="/demolition">Demolition</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('excavation') ) ? 'active' : '' }}" href="/excavation">Excavation</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('groundupconstruction') ) ? 'active' : '' }}" href="/groundupconstruction">Ground Up Construction</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('finishout') ) ? 'active' : '' }}" href="/finishout">Interior Finish Out</a>
+          <a class="dropdown-item {{ ( \Request::url() == url('steel') ) ? 'active' : '' }}" href="/steel">Structural Steel</a>
+          <hr class="my-4">
+        </div>
+      </li>
+      <li class="nav-item {{ ( Request::route()->getName() == 'jobs.index') ? 'active' : '' }}">
+        <a class="nav-link" href="/portfolio">Contact Us</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
