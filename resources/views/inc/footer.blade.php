@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row behind">
   <div class="col main-color"></div>
   <div class="col alt-color"></div>
   <div class="col main-color"></div>
