@@ -16,9 +16,8 @@
       </ul>
 </nav>
 <br>
-
-<img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
 <div>
+<img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
   <h1 style="color: white; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
 </div>
 <br>
