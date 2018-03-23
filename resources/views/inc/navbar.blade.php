@@ -1,4 +1,4 @@
-<div class="card bg-secondary border border-dark rounded image_display_r">
+<div class="card">
   <div class="card-body">
     <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     {{ config('app.name', 'Space City Preparatory') }}
@@ -6,7 +6,7 @@
 </div>
 <br>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #9f1b32;">
   <div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
