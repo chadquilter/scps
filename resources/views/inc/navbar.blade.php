@@ -1,6 +1,14 @@
+<a href="/"><img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps-logo.png"></a>
+<div class="ribbon"></div>
+<div class="card bg-secondary border border-dark rounded image_display_r">
+  <div class="card-body">
+    <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps-logo.png">
+  </div>
+</div>
+<br>
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navbar-transparant">
   <div>
-    <a class="navbar-brand" href="/"><img alt="{{ config('app.name', 'MDG') }}" src="/images/logo-brand.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
