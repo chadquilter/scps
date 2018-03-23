@@ -13,9 +13,6 @@
       </center>
     </div>
     <div class="footer-badges">
-      <center>
-        <img class="footer-badge" height="35" width="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Energy_Star_logo.svg/586px-Energy_Star_logo.svg.png">
-      </center>
     </div>
   </div>
 </footer>
