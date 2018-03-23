@@ -19,7 +19,7 @@
 
 <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
 <div class="logo-text">
-  {{ config('app.name', 'Space City Preparatory') }}
+  <h1>{{ config('app.name', 'Space City Preparatory') }}</h1>
 </div>
 <br>
 
