@@ -1,4 +1,5 @@
 
+<div class="container">
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: none;">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -94,3 +95,4 @@
 </div>
 <br>
 </nav>
+</div>
