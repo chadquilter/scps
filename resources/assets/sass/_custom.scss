@@ -143,10 +143,10 @@ div.both-sidebar-included a.stunning-text-button{ float: none; display: inline-b
   background-color: #9f1b32;
 }
 
-.behind {
+.move-front {
   position: absolute;
   align: center;
-  z-index: -1;
+  z-index: +1;
 }
 
 
