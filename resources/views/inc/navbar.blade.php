@@ -39,9 +39,13 @@
             <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
           </div>
           <br>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <form class="form-inline">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+              </div>
+              <button class="btn btn-outline-dark main-color" type="button" style="">Main button</button>
+            </div>
           </form>
         </div>
       </div>
@@ -49,7 +53,7 @@
   </div>
 <br>
 
-<nav class="navbar navbar-expand-md navbar-dark border border-dark" style="background-color: #9f1b32;">
+<nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
   <div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
