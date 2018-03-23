@@ -21,7 +21,7 @@
   </nav>
   <br>
   <div class="row">
-    <div class="col col-4" nowrap>
+    <div class="col col-4">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
@@ -31,7 +31,7 @@
         </div>
         <!-- Split dropup button -->
         <div class="col" style="align: right">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             English
           </button>
           <div class="dropdown-menu">
@@ -44,7 +44,7 @@
               <div class="input-group-prepend">
                 <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <button class="btn main-color border border-dark" type="button" style="">Search</button>
+              <button class="btn main-color border border-dark btn-sm" type="button" style="">Search</button>
             </div>
           </form>
         </div>
