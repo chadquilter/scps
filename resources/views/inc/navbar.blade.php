@@ -1,6 +1,12 @@
 
 <div class="container">
   <nav class="navbar navbar-expand-md navbar-dark" style="background-color: none;">
+    <div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTop">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" href="https://crosspointacademy.org/">Home</a>
