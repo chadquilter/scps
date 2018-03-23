@@ -26,7 +26,7 @@
     </ul>
   </nav>
   <div class="row">
-    <div class="col col-4">
+    <div class="col col-auto">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
     <div class="col col-8">
