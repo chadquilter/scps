@@ -1,8 +1,3 @@
-<div class="row behind">
-  <div class="col main-color"></div>
-  <div class="col alt-color"></div>
-  <div class="col main-color"></div>
-</div>
 <footer class="footer navbar-dark text-white">
   <div class="foot-container main-color">
     <div class="footer-top-1">

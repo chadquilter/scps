@@ -32,7 +32,7 @@
     <div class="col col-8">
       <div class="row">
         <div class="col">
-          <h1 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
+          <h1 class="display-1" style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
           <h5 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000; font-style: oblique;">Transforming Lives for the future.</h5>
         </div>
         <!-- Split dropup button -->
