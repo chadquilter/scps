@@ -19,14 +19,10 @@
 </head>
 <body>
   <main role="main">
-
     <div class="body-container" >
       @include('inc.navbar')
-      <br>
-      @include('inc.messages')
-      <br>
+      @yield('inc.messages')
       @yield('content')
-      <br>
       @include('inc.footer')
     </div>
   </main>
