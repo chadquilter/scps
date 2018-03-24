@@ -25,12 +25,11 @@
       </li>
     </ul>
   </nav>
-  <div class="row image_display_r">
-    <div class="col">
+
+  <div class="row">
+    <div class="col image_display_r">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/blue-ribbon.png">
     </div>
-  </div>
-  <div class="row">
     <div class="col col-auto">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
     </div>
