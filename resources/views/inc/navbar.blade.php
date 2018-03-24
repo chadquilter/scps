@@ -77,9 +77,11 @@
             <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">Academic Calander</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">Daily Schedule</a>
             <div class="dropdown-item dropdown show">
-              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="departments" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="btn btn-secondary dropdown-show" href="#" role="button" id="departments" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Departments
               </a>
+              <ul class="flex-column nav pl-4">
+                <li class="nav-item">
               <div class="dropdown-menu" aria-labelledby="deparments">
                 <a class="dropdown-item {{ ( \Request::url() == url('english') ) ? 'active' : '' }}" href="/en">English</a>
                 <a class="dropdown-item {{ ( \Request::url() == url('history') ) ? 'active' : '' }}" href="/hs">History</a>
@@ -88,7 +90,7 @@
                 <a class="dropdown-item {{ ( \Request::url() == url('vpa') ) ? 'active' : '' }}" href="/vpa">Visual Performing Arts</a>
                 <a class="dropdown-item {{ ( \Request::url() == url('electives') ) ? 'active' : '' }}" href="/elec">Electives</a>
               </div>
-            </div>
+              </ul>
             <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">PowerSchool</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">Administration</a>
           </div>

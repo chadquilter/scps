@@ -4,7 +4,7 @@
   <div class="container">
     <div class="alt-color">
       @include('inc.jobimagecarosel')
-      <p>
+      <p class="lead">
         Values and Excellence
 
         California Crosspoint Academy is like no other school in the world, and we have the international reputation and experience to prove it.
