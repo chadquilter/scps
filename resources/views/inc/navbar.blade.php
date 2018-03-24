@@ -59,8 +59,8 @@
     </div>
   </div>
   <br>
-  <nav class="navbar navbar-expand-md navbar-dark border border-dark alt-color-a">
-    test
+  <nav class="navbar navbar-expand-md navbar-dark border border-dark ribbon-color">
+    <div>2017 Fastest Growing School!</div>
   </nav>
   <nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
     <div>
