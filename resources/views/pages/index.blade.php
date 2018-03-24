@@ -2,9 +2,9 @@
 
 @section('content')
   <div class="container">
-    <div class="alt-color">
+    <div class="card alt-color">
       @include('inc.jobimagecarosel')
-      <div class=jumbotron>
+      <div class="card-body jumbotron">
         <p class="lead">
           Values and Excellence
 
