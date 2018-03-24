@@ -10,7 +10,7 @@
 
           <div class="row">
             <div class="col">
-              <h1 class="lead">Values and Excellence</h1>
+              <h1 class="display-4">Values and Excellence</h1>
               <p class="lead">
                 Space City Preparatory School is like no other school in the world, and we have the international reputation and experience to prove it.
                 Our comprehensive and challenging academics place us among the top schools in the nation and prepares our students to become tomorrow’s global leaders.
