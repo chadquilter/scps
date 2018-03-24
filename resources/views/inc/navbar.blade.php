@@ -19,12 +19,17 @@
       </li>
       <li class"nav-item">
         <a class="nav-link">
-          <img src="https://crosspointacademy.org/wp-content/uploads/2013/06/icon-phone.png" class="top-navigation-right-icon" alt=""/>
+          <img src="/images/icon-phone.png" class="top-navigation-right-icon" alt="Contact Space City Preparatory Today at (832) 205-2160."/>
           (832) 205-2160
         </a>
       </li>
     </ul>
   </nav>
+  <div class="row image_display_r">
+    <div class="col">
+      <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/blue-ribbon.png">
+    </div>
+  </div>
   <div class="row">
     <div class="col col-auto">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140">
