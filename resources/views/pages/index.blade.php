@@ -3,9 +3,8 @@
 @section('content')
   <div class="container">
     <div class="alt-color">
-      <br>
+      @include('inc.jobimagecarosel')
       <div class=jumbotron>
-        @include('inc.jobimagecarosel')
         <p class="lead">
           Values and Excellence
 
