@@ -62,6 +62,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
     <div style="background-color: blue;">
+      test
     </div>
     <div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
