@@ -60,7 +60,7 @@
   </div>
   <br>
   <div class="row">
-    <div class="col image_display_r" styel="width: 80%">
+    <div class="col image_display_r" style="width: 80%">
       <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/blue-ribbon.png">
     </div>
   </div>
