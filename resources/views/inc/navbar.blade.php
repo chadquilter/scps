@@ -76,7 +76,7 @@
           <div class="dropdown-menu" aria-labelledby="Academics">
             <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">Academic Calander</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">Daily Schedule</a>
-            <div class="dropdown show">
+            <div class="dropdown-item dropdown show">
               <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="departments" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Departments
               </a>
