@@ -99,7 +99,6 @@
           <div class="dropdown-menu" aria-labelledby="Student Life">
             <a class="dropdown-item {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Athletics</a>
             <a class="dropdown-item {{ ( \Request::url() == url('asphalt') ) ? 'active' : '' }}" href="/asphalt">Personal Growth</a>
-            <hr class="my-4">
           </div>
         </li>
 
@@ -112,7 +111,6 @@
             <a class="dropdown-item {{ ( \Request::url() == url('ace') ) ? 'active' : '' }}" href="/ace">Accelerated English Camp</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/intservices">International Services</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/intservices">International Partners</a>
-            <hr class="my-4">
           </div>
         </li>
         <li class="nav-item {{ ( Request::route()->getName() == 'jobs.index') ? 'active' : '' }}">
