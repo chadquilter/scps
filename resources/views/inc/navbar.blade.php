@@ -59,7 +59,7 @@
     </div>
   </div>
   <br>
-  <nav class="navbar navbar-expand-md navbar-dark border border-dark" style="background-color= blue;">
+  <nav class="navbar navbar-expand-md navbar-dark border border-dark alt-color-a">
     test
   </nav>
   <nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
