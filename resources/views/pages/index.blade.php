@@ -7,7 +7,7 @@
         @include('inc.jobimagecarosel')
       </div>
       <div class="card-body alt-color">
-        <div class="jumbotron">
+
           <div class="row">
             <div class="col">
               <p class="lead">
@@ -24,6 +24,7 @@
               <div class="calandar">Placeholder</div>
             </div>
         </div>
+
       </div>
     </div>
   </div>
