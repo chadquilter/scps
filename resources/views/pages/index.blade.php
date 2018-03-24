@@ -2,11 +2,11 @@
 
 @section('content')
   <div class="container">
-    <div class="card alt-color">
-      <div class='card-img'>
+    <div class="card">
+      <div class='card-img-top'>
         @include('inc.jobimagecarosel')
       </div>
-      <div class="card-body">
+      <div class="card-body alt-color">
         <div class="jumbotron">
           <p class="lead">
             Values and Excellence
