@@ -59,11 +59,6 @@
     </div>
   </div>
   <br>
-  <div class="row">
-    <div class="col image_display_r img-fluid">
-      <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/blue-ribbon.png">
-    </div>
-  </div>
   <nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
     <div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
