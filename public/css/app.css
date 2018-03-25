@@ -1,6 +1,239 @@
 @import url(https://fonts.googleapis.com/css?family=Nobile:300,400,600,700&amp;
 
-lang=en);:root {
+lang=en);body {
+  /* add background gradient to body */
+  background-color: #8a8482;
+  /*background: url(images/bg-body.gif); */
+  background-repeat: repeat-x;
+  /* Safari 4-5, Chrome 1-9 */
+  /* Safari 5.1, Chrome 10+ */
+  /* Firefox 3.6+ */
+  /* IE 10 */
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #544e4c, #8a8482);
+}
+
+div.image_display {
+  width: 40rem;
+  -webkit-box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6rem 20rem 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6rem 20rem 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.image_display_r {
+  -webkit-box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.shadow_only {
+  -webkit-box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6px 20rem 0 rgba(0, 0, 0, 0.19);
+}
+
+div.image_display_text_container {
+  padding: 1rem;
+  background-color: white;
+}
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  height: auto;
+  background-color: black;
+  -webkit-transition: opacity ease-out .75s;
+  transition: opacity ease-out .75s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: opacity ease-out .75s, -webkit-transform ease-in 7s;
+  transition: opacity ease-out .75s, -webkit-transform ease-in 7s;
+  transition: transform ease-in 7s, opacity ease-out .75s;
+  transition: transform ease-in 7s, opacity ease-out .75s, -webkit-transform ease-in 7s;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .carousel-item > img {
+  display: block;
+  margin: auto;
+  width: auto !important;
+  height: 100% !important;
+}
+
+.navbar-transparant {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.scroll-right {
+  height: 50rm;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  color: Black;
+  border: 1rm solid black;
+}
+
+.scroll-right p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50rm;
+  text-align: center;
+  /* Starting position */
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  /* Apply animation to this element */
+  -webkit-animation: scroll-right 15s linear infinite;
+  animation: scroll-right 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+
+@-webkit-keyframes scroll-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    /* Browser bug fix */
+    -webkit-transform: translateX(-100%);
+    /* Browser bug fix */
+    transform: translateX(-100%);
+  }
+
+  100% {
+    /* Browser bug fix */
+    -webkit-transform: translateX(100%);
+    /* Browser bug fix */
+    transform: translateX(100%);
+  }
+}
+
+div.inner-header-wrapper {
+  width: 980px;
+  margin-left: -10px;
+}
+
+/* Normal Size with no sidebar */
+
+div.stunning-text-wrapper,
+div.navigation-wrapper {
+  width: 980px;
+  margin-left: -20px;
+}
+
+div.content-bottom-gimmick {
+  width: 960px;
+  padding: 0px 10px 0px 10px;
+  margin-left: -10px;
+}
+
+div.content-wrapper {
+  width: 960px;
+  padding: 20px 10px 0px 10px;
+  margin-left: -10px;
+}
+
+div.container .top-navigation-wrapper-gimmick {
+  width: 980px;
+  margin-left: -10px;
+}
+
+/* Normal Size with one sidebar */
+
+div.sidebar-included.left-sidebar .stunning-text-wrapper {
+  width: 660px;
+  margin-left: 0px;
+}
+
+div.sidebar-included.right-sidebar .stunning-text-wrapper {
+  width: 660px;
+  margin-left: -20px;
+}
+
+/* Normal Size with both sidebar */
+
+div.both-sidebar-included .stunning-text-wrapper {
+  width: 460px;
+  margin-left: 0px;
+}
+
+div.both-sidebar-included .stunning-text-button-wrapper {
+  float: none;
+  display: block;
+  margin: auto;
+}
+
+div.both-sidebar-included a.stunning-text-button {
+  float: none;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+.logo-text {
+  text-color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.alt-color {
+  background-color: #FAEBD7;
+}
+
+.ribbon-color {
+  background-color: #4169E1;
+}
+
+.main-color {
+  background-color: #9f1b32;
+}
+
+.move-front {
+  position: absolute;
+  align: center;
+  z-index: +1;
+}
+
+/*
+@media (orientation: portrait) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (orientation: landscape) {
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:96vh;
+    }
+}
+*/
+
+/*!
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+:root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -27,7 +260,7 @@ lang=en);:root {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nobile", sans-serif;
+  --font-family-sans-serif: "Nobile", serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -67,13 +300,13 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nobile", sans-serif;
+  font-family: "Nobile", serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f5f8fa;
+  background-color: #8a8482;
 }
 
 [tabindex="-1"]:focus {
@@ -515,7 +748,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #f5f8fa;
+  background-color: #8a8482;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1945,7 +2178,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #f5f8fa;
+  background-color: #8a8482;
 }
 
 .table-sm th,
@@ -2111,7 +2344,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #f5f8fa;
+  color: #8a8482;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -2123,7 +2356,7 @@ pre code {
 }
 
 .table-dark {
-  color: #f5f8fa;
+  color: #8a8482;
   background-color: #212529;
 }
 
@@ -2530,8 +2763,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -2647,8 +2880,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -4058,8 +4291,8 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 1px #f5f8fa, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -4327,8 +4560,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #f5f8fa;
-  border-color: #dee2e6 #dee2e6 #f5f8fa;
+  background-color: #8a8482;
+  border-color: #dee2e6 #dee2e6 #8a8482;
 }
 
 .nav-tabs .dropdown-menu {
@@ -6087,7 +6320,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nobile", sans-serif;
+  font-family: "Nobile", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6212,7 +6445,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nobile", sans-serif;
+  font-family: "Nobile", serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
