@@ -1,24 +1,22 @@
 <footer class="footer navbar-dark text-white">
   <div class="foot-container main-color">
     <div class="footer-top-1">
-
-      <div class="row">
-
-        <div class="img-1-footer">
-          <img src="/img/place-holder.jpeg"/>
+      <center>
+        <div class="row">
+          <div class="img-1-footer">
+            <img src="/img/place-holder.jpeg"/>
+          </div>
+          <div class="img-1-footer">
+            <img src="/img/place-holder.jpeg"/>
+          </div>
+          <div class="img-1-footer">
+            <img src="/img/place-holder.jpeg"/>
+          </div>
+          <div class="img-1-footer">
+            <img src="/img/place-holder.jpeg"/>
+          </div>
         </div>
-        <div class="img-1-footer">
-          <img src="/img/place-holder.jpeg"/>
-        </div>
-        <div class="img-1-footer">
-          <img src="/img/place-holder.jpeg"/>
-        </div>
-        <div class="img-1-footer">
-          <img src="/img/place-holder.jpeg"/>
-        </div>
-
-      </div>
-
+      </center>
     </div>
     <div class="footer-text" styel="width:50%;">
       <center>
