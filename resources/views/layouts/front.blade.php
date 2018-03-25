@@ -20,10 +20,10 @@
 <body>
   <main role="main">
     <div class="body-container">
-      @yield('inc.navbar')
+      @include('inc.navbar')
       @yield('inc.messages')
       @yield('content')
-      @yield('inc.footer')
+      @include('inc.footer')
     </div>
   </main>
 </body>
