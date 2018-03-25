@@ -42,7 +42,7 @@
               <p class="lead">
                 Contact Us:
               </p>
-              @include('inc.register')
+              @include('auth.register')
           </div>
       </center>
     </div>
