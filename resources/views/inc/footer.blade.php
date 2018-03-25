@@ -18,8 +18,14 @@
           </div>
           <div class="col">
               <p class="lead">
-                this is a test
+                Quick Links
               </p>
+              <br>
+              <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Links</a>
+                </li>
+              </ul>
           </div>
           <div class="col">
               <p class="lead">
