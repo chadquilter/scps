@@ -22,14 +22,32 @@
               </p>
             </div>
             <div class="col">
-              <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Links</a>
-                </li>
-              </ul>
+              <div class="row">
+                <div class="col">
+                  <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Links</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Links</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Links</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </div>
-    </div>
   </div>
 @endsection
