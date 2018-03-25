@@ -52,7 +52,6 @@
                 <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
               <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">Search</button>
-              <a class="btn main-color border border-dark btn-sm text-light" type="button" style="">Search</button>
             </div>
           </form>
         </div>
