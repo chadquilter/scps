@@ -42,7 +42,6 @@
               <p class="lead">
                 Contact Us:
               </p>
-              @include('auth.register')
           </div>
       </center>
     </div>
