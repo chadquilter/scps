@@ -22,10 +22,13 @@
               </p>
             </div>
             <div class="col">
-              <div class="calandar">Placeholder</div>
+              <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Links</a>
+                </li>
+              </ul>
             </div>
         </div>
-
       </div>
     </div>
   </div>
