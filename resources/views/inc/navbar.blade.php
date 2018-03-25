@@ -74,13 +74,11 @@
         <li class="nav-item {{ ( \Request::url() == url('') ) ? 'active' : '' }}">
           <a class="nav-link" href="/">Home</a>
         </li>
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
           <div class="dropdown-menu" aria-labelledby="Academics">
             <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">Academic Calander</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">Daily Schedule</a>
-
             <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/elec">Departments</a>
             <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">PowerSchool</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">Administration</a>
