@@ -21,9 +21,15 @@
                 Quick Links
               </p>
               <br>
-              <ul class="nav nav-pills nav-fill">
+              <ul class="nav nav-pills nav-fill main-color">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Links</a>
+                  <a class="nav-link active" href="#">New Students Apply</a>
+                </li>
+              </ul>
+              <br>
+              <ul class="nav nav-pills nav-fill main-color">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Powerschool</a>
                 </li>
               </ul>
           </div>
