@@ -49,21 +49,21 @@
                 <div class="col">
                   <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
+                      <a class="nav-link active" href="#">Camps</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
+                      <a class="nav-link active" href="#">PowerSchool</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
+                      <a class="nav-link active" href="#">E-Learning</a>
                     </li>
                   </ul>
                 </div>
