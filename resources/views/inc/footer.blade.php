@@ -31,16 +31,6 @@
                 this is a test
               </p>
           </div>
-          <div class="col">
-              <p class="lead">
-                this is a test
-              </p>
-          </div>
-          <div class="col">
-              <p class="lead">
-                this is a test
-              </p>
-          </div>
       </center>
     </div>
     <div class="footer-badges">
