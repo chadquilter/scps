@@ -35,7 +35,7 @@
           </div>
           <div class="col">
               <p class="lead">
-                Find Us on Chat-Face : )
+                Find Us on Chat-Face
               </p>
           </div>
           <div class="col">
