@@ -3,22 +3,20 @@
     <div class="footer-top-1">
 
       <div class="row">
-        <div class="col">
 
-      <div class="img-1-footer">
-        <img src="/img/place-holder.jpeg"/>
-      </div>
-      <div class="img-1-footer">
-        <img src="/img/place-holder.jpeg"/>
-      </div>
-      <div class="img-1-footer">
-        <img src="/img/place-holder.jpeg"/>
-      </div>
-      <div class="img-1-footer">
-        <img src="/img/place-holder.jpeg"/>
-      </div>
-
+        <div class="img-1-footer">
+          <img src="/img/place-holder.jpeg"/>
         </div>
+        <div class="img-1-footer">
+          <img src="/img/place-holder.jpeg"/>
+        </div>
+        <div class="img-1-footer">
+          <img src="/img/place-holder.jpeg"/>
+        </div>
+        <div class="img-1-footer">
+          <img src="/img/place-holder.jpeg"/>
+        </div>
+
       </div>
 
     </div>
