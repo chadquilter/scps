@@ -35,13 +35,14 @@
           </div>
           <div class="col">
               <p class="lead">
-                this is a test
+                Find Us on Chat-Face : )
               </p>
           </div>
           <div class="col">
               <p class="lead">
-                this is a test
+                Contact Us:
               </p>
+              @include('inc.register')
           </div>
       </center>
     </div>
