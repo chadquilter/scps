@@ -45,8 +45,6 @@
                   </ul>
                 </div>
               </div>
-
-
               <div class="row">
                 <div class="col">
                   <ul class="nav nav-pills nav-fill">
@@ -70,8 +68,6 @@
                   </ul>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>

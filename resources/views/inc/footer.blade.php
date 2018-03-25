@@ -1,7 +1,26 @@
 <footer class="footer navbar-dark text-white">
   <div class="foot-container main-color">
     <div class="footer-top-1">
-      &nbsp;
+
+      <div class="row">
+        <div class="col">
+
+      <div class="img-1-footer">
+        <img src="/img/place-holder.jpeg"/>
+      </div>
+      <div class="img-1-footer">
+        <img src="/img/place-holder.jpeg"/>
+      </div>
+      <div class="img-1-footer">
+        <img src="/img/place-holder.jpeg"/>
+      </div>
+      <div class="img-1-footer">
+        <img src="/img/place-holder.jpeg"/>
+      </div>
+
+        </div>
+      </div>
+
     </div>
     <div class="footer-text" styel="width:50%;">
       <center>
