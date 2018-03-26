@@ -59,9 +59,6 @@
     </div>
   </div>
   <br>
-  <nav class="navbar navbar-expand-md navbar-dark border border-dark ribbon-color">
-    <div class="text-light">2017 Fastest Growing School!</div>
-  </nav>
   <nav class="navbar navbar-expand-md navbar-dark border border-dark main-color">
     <div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">

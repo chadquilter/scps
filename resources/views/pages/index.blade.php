@@ -7,7 +7,7 @@
         @include('inc.jobimagecarosel')
       </div>
       <div class="card-img-caption">
-        
+        test
       </div>
       <div class="card-body alt-color">
 
