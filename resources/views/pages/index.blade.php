@@ -3,7 +3,7 @@
 @section('content')
   <div class="container">
     <div class="card alt-color">
-      <div class='card-img-top'>
+      <div class='card-img-top alt-color'>
         @include('inc.jobimagecarosel')
       </div>
       <div class="card-body alt-color">

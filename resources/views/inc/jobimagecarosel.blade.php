@@ -1,7 +1,7 @@
 
 @if (count($files) > 0)
 <br>
-<div class="card main-color border border-dark rounded image_display_r">
+<div class="card border border-dark rounded image_display_r alt-color">
   <div class="card-img-top">
     <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
