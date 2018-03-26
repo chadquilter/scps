@@ -7,7 +7,7 @@
         @include('inc.jobimagecarosel')
       </div>
       <div class="card-img-caption">
-        test
+
       </div>
       <div class="card-body alt-color">
 
@@ -27,21 +27,21 @@
             <div class="col">
               <div class="row">
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill">
+                  <ul class="nav nav-pills nav-fill main-color">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Links</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill">
+                  <ul class="nav nav-pills nav-fill main-color">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Links</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill">
+                  <ul class="nav nav-pills nav-fill main-color">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Links</a>
                     </li>
