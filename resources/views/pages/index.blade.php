@@ -27,21 +27,17 @@
             <div class="col">
               <div class="row">
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill main-color">
+                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
+                </div>
+                <div class="col">
+                  <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Links</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill main-color">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills nav-fill main-color">
+                  <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Links</a>
                     </li>
