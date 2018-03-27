@@ -68,7 +68,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="/images/btn-calander2.png" border="0">
+                      <img src="/images/btn-calendar2.png" border="0">
                     </div>
                   </div>
                 </div>
