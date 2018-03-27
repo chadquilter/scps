@@ -49,10 +49,14 @@
                     Today at SCPS
                   </div>
                   <div class="col">
-                    <a href="/admissions/application">
-                      <img src="/images/parent-information-night.jpg" border="0">
-                    </a>
-                    <hr class="lead">
+                    <div class="card">
+                      <div class="card-body">
+                        <a href="/admissions/application">
+                          <img src="/images/parent-information-night.jpg" border="0">
+                        </a>
+                        <hr class="lead">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
