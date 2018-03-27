@@ -52,6 +52,20 @@
               </div>
               <div class="row">
                 <div class="col">
+                  <div class="card main-color">
+                    <div class="card-header">
+                      Calander
+                    </div>
+                    <div class="card-body">
+                      events
+                      <br>
+                      sports
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
                   <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
                 </div>
               </div>
