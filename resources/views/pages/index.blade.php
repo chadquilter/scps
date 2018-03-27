@@ -46,6 +46,7 @@
                     <a href="/admissions/application">
                       <img src="/images/parent-information-night.jpg" border="0">
                     </a>
+                    <hr class="lead">
                   </div>
                 </div>
               </div>
