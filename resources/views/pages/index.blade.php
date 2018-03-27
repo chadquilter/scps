@@ -25,9 +25,9 @@
             <div class="row">
               <div class="col">
                 <div class="main-color" style="padding: 18px 20px 0px;">
-                  <a href="/admissions/application">
+                  <h1><a href="/admissions/application">
                     <img src="/images/new-course.png" border="0">
-                  </a>
+                  </a></h1>
                 </div>
                 <div class="col">
                   <div class="card">
