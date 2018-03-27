@@ -43,7 +43,7 @@
             <div class="row">
               <div class="col">
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
-                  Today at SCPS
+                  <h1>Today at SCPS</h1>
                 </div>
                 <div class="col">
                   <div class="card">
@@ -60,7 +60,7 @@
             <div class="row">
               <div class="col">
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
-                  Calander
+                  <h1>Calander</h1>
                 </div>
                 <div class="col">
                   <div class="card">
