@@ -33,10 +33,13 @@
                   </a>
                 </div>
                 <div class="col">
-                  Download your Application to enroll today!
-                  <hr class="lead">
-                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
-                  <br>&nbsp
+                  <div class="card">
+                    <div class="card-body">
+                      Download your Application to enroll today!
+                      <hr class="lead">
+                      <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
+                    </div>
+                  </div>
                 </div>
               </div>
               </div>
