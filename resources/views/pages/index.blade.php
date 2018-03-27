@@ -37,11 +37,13 @@
               <div class="row">
                 <div class="col">
                   <div class="main-color" style="padding: 18px 20px 0px;">
+                    Today at SCPS
+                  </div>
+                  <div class="col">
                     <a href="/admissions/application">
                       <img src="/images/parent-information-night.jpg" border="0">
                     </a>
                   </div>
-
                 </div>
               </div>
               <div class="row">
