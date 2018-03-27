@@ -32,6 +32,9 @@
                     <img src="/images/new-course.png" border="0">
                   </a>
                 </div>
+                <div class="col">
+                  <br>
+                </div>
               </div>
               </div>
               <div class="row">
