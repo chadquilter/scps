@@ -26,11 +26,13 @@
             </div>
             <div class="col">
               <div class="row">
-                <div class="col main-color" style="padding: 18px 20px 0px;">
+                <div class="col">
+                <div class="main-color" style="padding: 18px 20px 0px;">
                   <a href="/admissions/application">
                     <img src="/images/new-course.png" border="0">
                   </a>
                 </div>
+              </div>
               </div>
               <div class="row">
                 <div class="col">
