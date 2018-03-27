@@ -36,7 +36,12 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
+                  <div class="main-color" style="padding: 18px 20px 0px;">
+                    <a href="/admissions/application">
+                      <img src="/images/parent-information-night.jpg" border="0">
+                    </a>
+                  </div>
+
                 </div>
               </div>
               <div class="row">
