@@ -52,14 +52,15 @@
               </div>
               <div class="row">
                 <div class="col">
+                  <div class="main-color text-light" style="padding: 18px 20px 0px;">
+                    Calander
+                  </div>
                   <div class="card">
                     <div class="card-header alt-color">
-                      Calander
+                      Events
                     </div>
                     <div class="card-body">
-                      events
-                      <br>
-                      sports
+                      events calander
                     </div>
                   </div>
                 </div>
