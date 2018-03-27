@@ -39,7 +39,7 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <div class="main-color" style="padding: 18px 20px 0px;">
+                  <div class="main-color text-light" style="padding: 18px 20px 0px;">
                     Today at SCPS
                   </div>
                   <div class="col">
