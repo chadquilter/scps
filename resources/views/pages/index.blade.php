@@ -65,9 +65,11 @@
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
                   Calander
                 </div>
-                <div class="card">
-                  <div class="card-body">
-                    <img src="/images/btn-calander2.jpg" border="0">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/images/btn-calander2.jpg" border="0">
+                    </div>
                   </div>
                 </div>
               </div>
