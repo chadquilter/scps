@@ -66,12 +66,10 @@
                     Calander
                   </div>
                   <div class="card">
-                    <div class="card-header alt-color">
-                      Events
-                    </div>
                     <div class="card-body">
-                      <img src="/images/btn-calander2.jpg" border="0">
-                      <br>
+                      Events
+                      <hr class="lead">
+                      <img src="/images/btn-calendar2.jpg" border="0">
                     </div>
                   </div>
                 </div>
