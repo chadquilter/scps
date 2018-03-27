@@ -26,7 +26,7 @@
             </div>
             <div class="col">
               <div class="row">
-                <div style="col main-color padding: 18px 20px 0px;">
+                <div class="col main-color" style="padding: 18px 20px 0px;">
                   <a href="/admissions/application">
                     <img src="/images/new-course.png" border="0">
                   </a>
