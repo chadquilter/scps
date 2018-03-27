@@ -1,6 +1,6 @@
 <footer class="footer navbar-dark text-white">
-  <div class="foot-container main-color">
-    <div class="footer-top-1">          
+  <div class="foot-container">
+    <div class="footer-top-1">
     </div>
     <div class="footer-text" styel="width:50%;">
       <center>
