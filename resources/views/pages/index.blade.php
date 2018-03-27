@@ -27,49 +27,24 @@
             <div class="col">
               <div class="row">
                 <div class="col">
-                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Links</a>
-                    </li>
-                  </ul>
+                  <a href="/admissions/application">
+                    <img src="/images/new-course.png" border="0" style="visibility: visible; opacity: 1;">
+                  </a>
                 </div>
               </div>
               <div class="row">
                 <div class="col">
-                  <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Camps</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">PowerSchool</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">E-Learning</a>
-                    </li>
-                  </ul>
+                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
                 </div>
               </div>
-            </div>
+              <div class="row">
+                <div class="col">
+                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
+                </div>
+              </div>
           </div>
         </div>
       </div>
+    </div>
   </div>
 @endsection
