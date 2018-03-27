@@ -34,6 +34,7 @@
                 </div>
                 <div class="col">
                   <br>
+                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
                 </div>
               </div>
               </div>
@@ -60,14 +61,9 @@
                       Events
                     </div>
                     <div class="card-body">
-                      events calander
+                      <img src="/images/btn-calander2.jpg" border="0">
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
                 </div>
               </div>
           </div>
