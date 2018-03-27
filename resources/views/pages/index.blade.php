@@ -35,6 +35,7 @@
                 <div class="col">
                   <br>
                   <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">New Students Application</button>
+                  <br>
                 </div>
               </div>
               </div>
