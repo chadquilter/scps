@@ -52,8 +52,8 @@
               </div>
               <div class="row">
                 <div class="col">
-                  <div class="card main-color">
-                    <div class="card-header">
+                  <div class="card">
+                    <div class="card-header main-color">
                       Calander
                     </div>
                     <div class="card-body">
