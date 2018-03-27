@@ -47,4 +47,5 @@
     <div class="footer-badges">
     </div>
   </div>
+</div>
 </footer>
