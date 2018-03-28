@@ -40,7 +40,7 @@
                         <h6><small>
                           A good education should be available and attainable by all. CCHS has a program to help.
                         </small></h6>
-                        <br>
+                        <br><br>
                         <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
                       </div>
                       <div class="col">
