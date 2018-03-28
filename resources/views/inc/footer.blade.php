@@ -1,4 +1,4 @@
-<footer class="footer container navbar-dark alt-color text-white">
+<footer class="footer container navbar navbar-dark alt-color text-white">
   <div class="foot-container">
     <div class="footer-top-1">
       &nbsp;
