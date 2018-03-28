@@ -47,7 +47,7 @@
                         <h5><small><img src="/images/icon-academics.png" border="0">&nbsp Academics</small></h5>
                         <br>
                         <h6><small>
-                          An award-winning, internationally recognized program where over 99% of our graduates have gone on to college.
+                          An award-winning, internationally recognized program where over 99% of our graduates have gone to college.
                         </small></h6>
                         <br>
                         <h6><small><a href="/departments">Read More >></a></small></h6>
