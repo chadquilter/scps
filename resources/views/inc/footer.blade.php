@@ -26,19 +26,8 @@
                 <a class="nav-link active" href="#">New Students Apply</a>
               </li>
             </ul>
-            <br>
-            <ul class="nav nav-pills nav-fill main-color">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Powerschool</a>
-              </li>
-            </ul>
           </div>
-          <div class="col">
-            <p class="lead">
-              Find Us on Chat-Face
-            </p>
-          </div>
-          <div class="col">
+          <div class="col col-auto">
             <p class="lead">
               Contact Us:
             </p>
