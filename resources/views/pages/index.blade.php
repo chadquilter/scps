@@ -26,7 +26,7 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col">
-                        <h5><small><img src="/images/icon-tour.png" border="0">&nbsp Take a Tour</small></h5>
+                        <h5><small><img src="/images/icon-tour.png" border="0"><br> Take a Tour</small></h5>
                         <br>
                         <h6><small>
                           A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.
@@ -35,7 +35,7 @@
                         <h6><small><a href="/tour">View >></a></small></h6>
                       </div>
                       <div class="col">
-                        <h5><small><img src="/images/icon-financial-aid.png" border="0">&nbsp Financial Aid</small></h5>
+                        <h5><small><img src="/images/icon-financial-aid.png" border="0"><br> Financial Aid</small></h5>
                         <br>
                         <h6><small>
                           A good education should be available and attainable by all. SCPS has a program fit to prepare all our students.
@@ -44,7 +44,7 @@
                         <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
                       </div>
                       <div class="col">
-                        <h5><small><img src="/images/icon-academics.png" border="0">&nbsp Academics</small></h5>
+                        <h5><small><img src="/images/icon-academics.png" border="0"><br> Academics</small></h5>
                         <br>
                         <h6><small>
                           An award-winning, internationally recognized program where over 99% of our graduates have gone to college.
