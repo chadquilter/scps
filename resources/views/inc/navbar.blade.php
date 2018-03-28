@@ -44,14 +44,13 @@
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">English</a>
             <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
+            <br>
           </div>
-          <br>
           <form class="form-inline">
             <div class="input-group">
               <div class="input-group-prepend">
                 <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <br>
               <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">Search</button>
             </div>
           </form>
