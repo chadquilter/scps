@@ -139,7 +139,7 @@
           <div class="col">
             <div class="card">
               <div class="card-img-top">
-                <img src="/images/gallery_icons/Electivs-135x110.jpg" border="0">
+                <img src="/images/gallery_icons/Electives-135x110.jpg" border="0">
               </div>
             </div>
           </div>
