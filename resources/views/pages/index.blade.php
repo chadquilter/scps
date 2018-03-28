@@ -28,7 +28,7 @@
                       <div class="col">
                         <h5>Take a Tour</h5>
                         <br>
-                        <p class="lead">
+                        <p class="lead text-small">
                           A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.
                         </p>
                       </div>
