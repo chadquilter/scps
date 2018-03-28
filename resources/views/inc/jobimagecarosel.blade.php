@@ -28,6 +28,9 @@
       </a>
     </div>
   </div>
+  <div class="card-caption">
+    test
+  </div>
 </div>
 <br>
 @else
