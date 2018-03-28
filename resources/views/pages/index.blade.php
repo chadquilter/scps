@@ -31,6 +31,8 @@
                         <h6><small>
                           A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.
                         </small></h6>
+                        <br>
+                        <h6><small><a href="/tour">View >></a></small></h6>
                       </div>
                       <div class="col">
                         <h5><small><img src="/images/icon-financial-aid.png" border="0">Financial Aid</small></h5>
@@ -38,6 +40,8 @@
                         <h6><small>
                           A good education should be available and attainable by all. CCHS has a program to help.
                         </small></h6>
+                        <br>
+                        <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
                       </div>
                       <div class="col">
                         <h5><small><img src="/images/icon-academics.png" border="0">Academics</small></h5>
@@ -45,6 +49,8 @@
                         <h6><small>
                           An award-winning, internationally recognized program where over 99% of our graduates have gone on to college.
                         </small></h6>
+                        <br>
+                        <h6><small><a href="/departments">Read More >></a></small></h6>
                       </div>
                     </div>
                   </div>
