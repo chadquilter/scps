@@ -30,7 +30,7 @@
                   </a></h1>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="card image_display_r">
                     <div class="card-body">
                       Download your Application to enroll today!
                       <hr class="lead">
@@ -42,7 +42,7 @@
             </div>
             <br>
             <div class="row">
-              <div class="col">
+              <div class="col image_display_r">
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
                   <h1>Today at SCPS</h1>
                 </div>
@@ -60,7 +60,7 @@
             </div>
             <br>
             <div class="row">
-              <div class="col">
+              <div class="col image_display_r">
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
                   <h1>Calendar</h1>
                 </div>
