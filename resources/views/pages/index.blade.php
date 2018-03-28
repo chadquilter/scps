@@ -113,6 +113,14 @@
             <br>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col">
+            <img src="/images/icon-photo-gallery.png" border="0">
+            <hr>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
