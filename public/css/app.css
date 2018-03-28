@@ -2,7 +2,7 @@
 
 lang=en);body {
   /* add background gradient to body */
-  background-color: #8a8482;
+  background-color: #404040;
   /*background: url(images/bg-body.gif); */
   background-repeat: repeat-x;
   /* Safari 4-5, Chrome 1-9 */
@@ -306,7 +306,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #8a8482;
+  background-color: #404040;
 }
 
 [tabindex="-1"]:focus {
@@ -748,7 +748,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #8a8482;
+  background-color: #404040;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2178,7 +2178,7 @@ pre code {
 }
 
 .table .table {
-  background-color: #8a8482;
+  background-color: #404040;
 }
 
 .table-sm th,
@@ -2344,7 +2344,7 @@ pre code {
 }
 
 .table .thead-dark th {
-  color: #8a8482;
+  color: #404040;
   background-color: #212529;
   border-color: #32383e;
 }
@@ -2356,7 +2356,7 @@ pre code {
 }
 
 .table-dark {
-  color: #8a8482;
+  color: #404040;
   background-color: #212529;
 }
 
@@ -2763,8 +2763,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before,
 .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+          box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
 }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label,
@@ -2880,8 +2880,8 @@ select.form-control-lg:not([size]):not([multiple]),
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before,
 .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+          box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label,
@@ -4291,8 +4291,8 @@ tbody.collapse.show {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  -webkit-box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 1px #8a8482, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          box-shadow: 0 0 0 1px #404040, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .custom-control-input:active ~ .custom-control-label::before {
@@ -4560,8 +4560,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #8a8482;
-  border-color: #dee2e6 #dee2e6 #8a8482;
+  background-color: #404040;
+  border-color: #dee2e6 #dee2e6 #404040;
 }
 
 .nav-tabs .dropdown-menu {
