@@ -37,7 +37,7 @@
           <h5 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000; font-style: oblique;"> ~ Educating The World.</h5>
         </div>
         <!-- Split dropup button -->
-        <div class="col float-sm-right">
+        <div class="col col-auto float-sm-right">
           <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             English
           </button>
