@@ -129,12 +129,16 @@
               </div>
               <div class="card-img-caption">this is a test 1</div>
             </div>
+          </div>
+          <div class="col">
             <div class="card">
               <div class="card-img-top">
                 <img src="/images/btn-calendar2.png" border="0">
               </div>
               <div class="card-img-caption">this is a test 2</div>
             </div>
+          </div>
+          <div class="col">
             <div class="card">
               <div class="card-img-top">
                 <img src="/images/btn-calendar2.png" border="0">
