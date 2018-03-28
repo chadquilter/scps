@@ -22,11 +22,13 @@
             </p>
             <div class="row">
               <div class="col">
-                <div class="jumbotron">
-                  <div class="row">
-                    <div class="col">Take a Tour</div>
-                    <div class="col">Financial Aid</div>
-                    <div class="col">Academics</div>
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">Take a Tour</div>
+                      <div class="col">Financial Aid</div>
+                      <div class="col">Academics</div>
+                    </div>
                   </div>
                 </div>
               </div>
