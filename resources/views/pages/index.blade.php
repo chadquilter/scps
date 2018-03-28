@@ -20,6 +20,17 @@
               I invite you to spend a few moments to find out more about the programs and people who comprise the SCPS community.
               Better yet, schedule a phone call or a visit so you can personally see, hear, and witness what makes our middle school and high school such a transformative and uplifting place to live, learn, and grow.
             </p>
+            <div class="row">
+              <div class="col">
+                <div class="jumbotron">
+                  <div class="row">
+                    <div class="col">Take a Tour</div>
+                    <div class="col">Financial Aid</div>
+                    <div class="col">Academics</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col">
             <div class="row">
