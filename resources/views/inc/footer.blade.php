@@ -27,7 +27,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-auto">
+          <div class="col col-8">
             <p class="lead">
               Contact Us:
             </p>
