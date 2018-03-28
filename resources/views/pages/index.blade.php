@@ -38,7 +38,7 @@
                         <h5><small><img src="/images/icon-financial-aid.png" border="0">Financial Aid</small></h5>
                         <br>
                         <h6><small>
-                          A good education should be available and attainable by all. SCPS has a program fit for every student.
+                          A good education should be available and attainable by all. SCPS has a program fit to enpower and prepare students for the future.
                         </small></h6>
                         <br>
                         <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
