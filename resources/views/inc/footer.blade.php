@@ -1,23 +1,48 @@
-<footer class="footer navbar-dark bg-dark text-white">
+<footer class="footer navbar-dark bg-dark text-whitev fixed-bottom">
   <div class="foot-container">
     <div class="footer-top-1">
       &nbsp;
     </div>
     <div class="footer-text" styel="width:50%;">
-      <center>
-        <p class="lead">
-          2018,  {{ config('app.name', 'MDG') }}<hr>
-          P.O. Box 1583 Marble Falls, TX 78654 U.S<br>
-          Tele: (830)220-2876 •---• (830)265-0941<br>
-          ‡ Serving ‡<br>
-          Marble Falls, TX • Austin, TX • Houston, TX • San Antonio, TX • Dallas/Fort Worth, TX • Corpus Christi, TX • El Paso, TX • Texas, USA.
-        </p>
-      </center>
-    </div>
-    <div class="footer-badges">
-      <center>
-        <img class="footer-badge" height="35" width="35" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Energy_Star_logo.svg/586px-Energy_Star_logo.svg.png">
-      </center>
+        <div class="row">
+          <div class="col">
+            <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
+              2018,  {{ config('app.name', 'SCPS') }}
+            </p>
+            <hr>
+            <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
+              P.O. Box 590743 Houston, TX 77259 U.S<br>
+              Tele: (832) 205-2160 <br>
+            </p>
+          </div>
+          <div class="col">
+            <p class="lead">
+              Quick Links
+            </p>
+            <br>
+            <ul class="nav nav-pills nav-fill main-color">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">New Students Apply</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="nav nav-pills nav-fill main-color">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Powerschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="lead">
+              Find Us on Chat-Face
+            </p>
+          </div>
+          <div class="col">
+            <p class="lead">
+              Contact Us:
+            </p>
+          </div>
+        </div>
     </div>
   </div>
 </footer>
