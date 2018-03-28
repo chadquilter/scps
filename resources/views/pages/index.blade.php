@@ -38,7 +38,7 @@
                         <h5><small><img src="/images/icon-financial-aid.png" border="0">Financial Aid</small></h5>
                         <br>
                         <h6><small>
-                          A good education should be available and attainable by all. CCHS has a program to help.
+                          A good education should be available and attainable by all. SCPS has a program fit for every student.
                         </small></h6>
                         <br><br>
                         <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
