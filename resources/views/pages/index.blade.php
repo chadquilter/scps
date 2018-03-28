@@ -117,6 +117,7 @@
         <div class="row">
           <div class="col">
             <img src="/images/icon-photo-gallery.png" border="0">
+            <h1>Photo Gallery</h1>
             <hr>
           </div>
         </div>
