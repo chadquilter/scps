@@ -25,9 +25,27 @@
                 <div class="card">
                   <div class="card-body">
                     <div class="row">
-                      <div class="col">Take a Tour</div>
-                      <div class="col">Financial Aid</div>
-                      <div class="col">Academics</div>
+                      <div class="col">
+                        <h5>Take a Tour</h5>
+                        <br>
+                        <p class="lead">
+                          A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.
+                        </p>
+                      </div>
+                      <div class="col">
+                        <h5>Financial Aid</h5>
+                        <br>
+                        <p class="lead">
+                          A good education should be available and attainable by all. CCHS has a program to help.
+                        </p>
+                      </div>
+                      <div class="col">
+                        <h5>Academics</h5>
+                        <br>
+                        <p class="lead">
+                          An award-winning, internationally recognized program where over 99% of our graduates have gone on to college.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
