@@ -1,4 +1,5 @@
-<footer class="footer container navbar main-color text-white">
+<div class="container">
+<footer class="footer navbar main-color text-white">
   <div class="foot-container">
     <div class="footer-top-1">
       &nbsp;
@@ -46,3 +47,4 @@
     </div>
   </div>
 </footer>
+</div>
