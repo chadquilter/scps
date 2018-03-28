@@ -130,32 +130,22 @@
             </div>
           </div>
           <div class="col">
-            <div class="card">
-              <div class="card-img-top">
+
                 <img src="/images/gallery_icons/Classrooms-135x110.jpg" border="0">
-              </div>
-            </div>
+
           </div>
           <div class="col">
-            <div class="card">
-              <div class="card-img-top">
                 <img src="/images/gallery_icons/Electives-135x110.jpg" border="0">
-              </div>
-            </div>
+
           </div>
           <div class="col">
-            <div class="card">
-              <div class="card-img-top">
+
                 <img src="/images/gallery_icons/Sports-135x110.jpg" border="0">
-              </div>
-            </div>
           </div>
           <div class="col">
-            <div class="card">
-              <div class="card-img-top">
+
                 <img src="/images/gallery_icons/Studentlife-135x110.jpg" border="0">
-              </div>
-            </div>
+
           </div>
 
         </div>
