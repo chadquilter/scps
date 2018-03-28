@@ -35,19 +35,13 @@
                         <h6><small><a href="/tour">View >></a></small></h6>
                       </div>
                       <div class="col">
-                        <div class="card">
-                          <div class="card-title">
-                            <h5><small><img src="/images/icon-financial-aid.png" border="0">Financial Aid</small></h5>
-                          </div>
-                          <div class="card-body">
-                            <h6><small>
-                              A good education should be available and attainable by all. SCPS has a program fit for every student.
-                            </small></h6>
-                          </div>
-                          <div class="card-footer">
-                            <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
-                          </div>
-                        </div>
+                        <h5><small><img src="/images/icon-financial-aid.png" border="0">Financial Aid</small></h5>
+                        <br>
+                        <h6><small>
+                          A good education should be available and attainable by all. SCPS has a program fit for every student.
+                        </small></h6>
+                        <br>
+                        <h6><small><a href="/financial-aid">Learn More >></a></small></h6>
                       </div>
                       <div class="col">
                         <h5><small><img src="/images/icon-academics.png" border="0">Academics</small></h5>
