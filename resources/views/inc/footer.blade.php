@@ -1,9 +1,9 @@
-<footer class="footer navbar-dark bg-dark text-whitev fixed-bottom">
+<footer class="footer alt-color text-white">
   <div class="foot-container">
     <div class="footer-top-1">
       &nbsp;
     </div>
-    <div class="footer-text" styel="width:50%;">
+    <div class="footer-text" style="width:50%;">
         <div class="row">
           <div class="col">
             <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
