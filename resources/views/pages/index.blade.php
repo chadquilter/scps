@@ -113,7 +113,7 @@
             <br>
           </div>
         </div>
-
+        <br>
         <div class="row">
           <div class="col">
             <img src="/images/icon-photo-gallery.png" border="0">
