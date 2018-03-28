@@ -60,7 +60,7 @@
             </div>
             <br>
             <div class="row">
-              <div class="col image_display_r">
+              <div class="col">
                 <div class="main-color text-light" style="padding: 18px 20px 0px;">
                   <h1>Calendar</h1>
                 </div>
