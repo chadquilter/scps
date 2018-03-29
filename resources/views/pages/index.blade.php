@@ -23,7 +23,7 @@
             <div class="row">
               <div class="col">
                 <div class="card">
-                  <div class="card-body">
+                  <div class="card-body image_display_r">
                     <div class="row">
                       <div class="col">
                         <h5><small><img src="/images/icon-tour.png" border="0"><br> Take a Tour</small></h5>
