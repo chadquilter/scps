@@ -28,8 +28,11 @@
       </a>
     </div>
   </div>
-  <div class="card-caption">
-    test
+  <div class="card-footer">
+    <h6><small>
+    "The academic environment at CCHS is a rarity in colleges. Seeing it at the high school level essentially makes CCHS one of a kind."
+Zachary K., alumnus and West Point graduate
+    </small></h6>
   </div>
 </div>
 <br>
