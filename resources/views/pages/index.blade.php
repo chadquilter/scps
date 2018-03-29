@@ -126,7 +126,7 @@
                 <div class="img-container">
                   <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
                   <div class="img-middle">
-                    <div class="img-text">Art</div>
+                    <div class="img-text"></div>
                   </div>
                 </div>
           </div>
@@ -134,7 +134,7 @@
             <div class="img-container">
               <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
               <div class="img-middle">
-                <div class="img-text">Classrooms</div>
+                <div class="img-text"></div>
               </div>
             </div>
 
@@ -143,7 +143,7 @@
                 <div class="img-container">
                   <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
                   <div class="img-middle">
-                    <div class="img-text">Electives</div>
+                    <div class="img-text"></div>
                   </div>
                 </div>
 
@@ -152,7 +152,7 @@
                 <div class="img-container">
                   <img src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
                   <div class="img-middle">
-                    <div class="img-text">Sports</div>
+                    <div class="img-text"></div>
                   </div>
                 </div>
           </div>
@@ -160,7 +160,7 @@
                 <div class="img-container">
                   <img src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
                   <div class="img-middle">
-                    <div class="img-text">Student Life</div>
+                    <div class="img-text"></div>
                   </div>
                 </div>
 
