@@ -28,9 +28,7 @@
             </ul>
           </div>
           <div class="col col-6">
-            <p class="lead">
-              Contact Us:
-            </p>
+            @include('contact.contactform')
           </div>
         </div>
     </div>
