@@ -28,7 +28,7 @@
             </ul>
           </div>
           <div class="col col-6">
-            @include('contact.contactform')
+
           </div>
         </div>
     </div>
