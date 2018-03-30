@@ -13,6 +13,9 @@
 
 Route::get('/', 'PagesController@index');
 
-Auth::routes();
+Auth::routes([
+  'auth' => 'Auth\AuthController',
+  'password' => 'Auth\PasswordController',
+]);
 
 Route::get('/home', 'HomeController@index')->name('home');
