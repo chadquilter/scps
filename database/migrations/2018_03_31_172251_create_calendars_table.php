@@ -15,6 +15,14 @@ class CreateCalendarsTable extends Migration
     {
         Schema::create('calendars', function (Blueprint $table) {
             $table->increments('id');
+            $table->mediumText('type');
+            $table->mediumText('subtype')->nullable();
+            $table->mediumText('name');
+            $table->mediumText('url')->nullable();
+            $table->mediumText('img_url')->nullable();
+            $table->longText('description')->nullable();
+            $table->dateTime('date');
+            $table->boolean('active');
             $table->timestamps();
         });
     }

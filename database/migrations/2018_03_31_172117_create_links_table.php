@@ -15,6 +15,15 @@ class CreateLinksTable extends Migration
     {
         Schema::create('links', function (Blueprint $table) {
             $table->increments('id');
+            $table->mediumText('type');
+            $table->mediumText('subtype')->nullable();
+            $table->mediumText('name');
+            $table->mediumText('url');
+            $table->mediumText('img_url')->nullable();
+            $table->longText('description');
+            $table->boolean('navmenu');
+            $table->boolean('sidebar');
+            $table->boolean('active');
             $table->timestamps();
         });
     }

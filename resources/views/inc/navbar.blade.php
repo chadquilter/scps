@@ -70,6 +70,18 @@
         <li class="nav-item {{ ( \Request::url() == url('') ) ? 'active' : '' }}">
           <a class="nav-link" href="/">Home</a>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+          <div class="dropdown-menu" aria-labelledby="About Us">
+            <a class="dropdown-item {{ ( \Request::url() == url('sh') ) ? 'active' : '' }}" href="/ac">School History</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">Vision</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/elec">Core Values</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">ESLRs</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">Testimonials</a>
+          </div>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
           <div class="dropdown-menu" aria-labelledby="Academics">

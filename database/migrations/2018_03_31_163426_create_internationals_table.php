@@ -15,6 +15,12 @@ class CreateInternationalsTable extends Migration
     {
         Schema::create('internationals', function (Blueprint $table) {
             $table->increments('id');
+            $table->mediumText('language');
+            $table->mediumText('lang_suffix');
+            $table->longText('lang_native');
+            $table->mediumText('img_url')->nullable();
+            $table->longText('description');
+            $table->boolean('active');
             $table->timestamps();
         });
     }
