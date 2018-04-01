@@ -43,7 +43,7 @@ class AboutController extends Controller
           ->with('title', $title);
     }
 
-    public function eslrs()
+    public function eslr()
     {
 
         $title = "ESLR's";

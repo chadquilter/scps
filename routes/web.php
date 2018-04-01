@@ -19,6 +19,12 @@ Auth::routes([
 ]);
 
 Route::resource('about', 'AboutController');
+Route::get('/schoolhistory', 'AboutController@schoolhistory');
+Route::get('/corevalues', 'AboutController@corevalues');
+Route::get('/eslr', 'AboutController@eslr');
+Route::get('/testemony', 'AboutController@testemony');
+Route::get('/vision', 'AboutController@vision');
+
 Route::resource('academics', 'AcademicsController');
 Route::resource('admissions', 'AdmissionController');
 Route::resource('studentlife', 'StudentController');
