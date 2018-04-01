@@ -27,11 +27,11 @@ Route::get('/eslr', 'AboutController@eslr');
 Route::get('/testemony', 'AboutController@testemony');
 Route::get('/vision', 'AboutController@vision');
 
-Route::get('/administration', 'AcademicsController@administration');
-Route::get('/academic-calendar', 'AcademicsController@calendar');
-Route::get('/department', 'AcademicsController@department');
-Route::get('/powerschool', 'AcademicsController@powerschool');
-Route::get('/academic-schedule', 'AcademicsController@schedule');
+Route::get('/administration', 'AcademicController@administration');
+Route::get('/academic-calendar', 'AcademicController@calendar');
+Route::get('/department', 'AcademicController@department');
+Route::get('/powerschool', 'AcademicController@powerschool');
+Route::get('/academic-schedule', 'AcademicController@schedule');
 
 Route::get('/admissions', 'AdmissionController@admissions');
 Route::get('/aplication', 'AdmissionController@aplication');
@@ -39,7 +39,7 @@ Route::get('/contact', 'AdmissionController@contact');
 Route::get('/e-tuition', 'AdmissionController@etuition');
 Route::get('/tuition-fees', 'AdmissionController@tuitionfees');
 
-Route::get('/athletics', 'StudentController@athleics');
+Route::get('/athletics', 'StudentController@athletics');
 Route::get('/growth', 'StudentController@growth');
 
 Route::get('/international-academy', 'InternationalController@academy');
