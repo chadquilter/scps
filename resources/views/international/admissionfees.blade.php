@@ -47,6 +47,7 @@
                   <a class="nav-link active" href="/aplication">{{ __('Domestic Students Application')}}</a>
                 </li>
               </ul>
+              <br>
               <ul class="nav nav-pills nav-fill main-color">
                 <li class="nav-item">
                   <a class="nav-link active" href="/aplication">{{ __('International Students Application')}}</a>
