@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="CNQ Software Services">
-    <meta name="keywords" content="{{__(messages.keywords)}}"/>
-    <meta name="description" content="{{__(messages.description)}}"/>
+    <meta name="keywords" content={{__(keywords)}}/>
+    <meta name="description" content={{__(description)}}/>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{__('Space City Preparatory School') }}</title>
