@@ -6,17 +6,17 @@
     </div>
     <div class="footer-text">
         <div class="row">
-          <div class="col col-4">
-            <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
+          <div class="col">
+            <p class="lead shadow_text">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
             <hr>
-            <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
+            <p class="lead shadow_text">
               P.O. Box 590743 Houston, TX 77259 U.S<br>
               Tele: (832) 205-2160 <br>
             </p>
           </div>
-          <div class="col col-2">
+          <div class="col">
             <p class="lead">
               Quick Links
             </p>
@@ -27,7 +27,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-8">
+          <div class="col">
             @include('contact.contactmini')
           </div>
         </div>
