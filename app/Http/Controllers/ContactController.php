@@ -48,6 +48,17 @@ class ContactController extends Controller
           'description' => 'required'
         ]);
 
+        $contact = new contact;
+        $contact->title = $request->input('name');
+        $contact->description = $request->input('description');
+        $contact->phone = $request->input('phone');
+        $contact->email = $request->input('email');
+        $contact->save();
+
+        $to = explode(',', env('ADMIN_EMAILS'));
+        Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
+
+        return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
     }
 
     /**
