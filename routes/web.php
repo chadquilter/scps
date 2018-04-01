@@ -10,10 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function(){
-  App::setLocale('zh');
-  return view('new');
-});
+
 
 Route::get('/', 'PagesController@index');
 
