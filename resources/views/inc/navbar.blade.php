@@ -82,7 +82,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Academics')}}</a>
           <div class="dropdown-menu" aria-labelledby="Academics">
-            <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">{{__('Academic Calander')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">{{__('Academic Calendar')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">{{__('Daily Schedule')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/departments">{{__('Departments')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">{{__('PowerSchool')}}</a>
