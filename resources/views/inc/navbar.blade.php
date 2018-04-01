@@ -60,6 +60,27 @@
               @endforeach
             </ul>
           </li>
+
+          <li class="dropdown language-switch">
+           <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+               @if (LaravelLocalization::getCurrentLocale() =='en')
+                   <img src="/images/flags/GB.png" class="position-left" alt="">
+               @elseif (LaravelLocalization::getCurrentLocale() =='zh')
+                   <img src="/images/flags/ZH.png" class="position-left" alt="">
+               @else
+                   <img src="/images/flags/{{LaravelLocalization::getCurrentLocale()}}.png" class="position-left" alt="">
+               @endif
+
+
+               <span class="caret"></span>
+           </a>
+           <ul class="dropdown-menu">
+               <li><a class="mexico" href="{{  LaravelLocalization::getLocalizedURL('zh', Request::url()) }}"><img src="/images/flags/ZH.png" alt=""> 简体中文 Chinese (Simplified)</a></li>
+               <li><a class="english" href="{{ LaravelLocalization::getLocalizedURL('en', Request::url())  }}"><img src="/images/flags/GB.png" alt=""> English</a></li>
+           </ul>
+       </li>
+
+
           <form class="form-inline">
             <div class="input-group">
               <div class="input-group-prepend">
