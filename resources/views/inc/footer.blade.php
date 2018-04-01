@@ -6,7 +6,7 @@
     </div>
     <div class="footer-text" style="width:50%;">
         <div class="row">
-          <div class="col col-6">
+          <div class="col">
             <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
@@ -16,7 +16,7 @@
               Tele: (832) 205-2160 <br>
             </p>
           </div>
-          <div class="col col-2">
+          <div class="col">
             <p class="lead">
               Quick Links
             </p>
@@ -27,7 +27,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-6">
+          <div class="col">
             @include('contact.contactmini')
           </div>
         </div>
