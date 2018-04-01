@@ -27,7 +27,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-lg">
+          <div class="col col-8">
             @include('contact.contactmini')
           </div>
         </div>
