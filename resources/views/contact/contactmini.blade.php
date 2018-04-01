@@ -1,4 +1,4 @@
-<div class="card mx-auto border border-secondary text-left">
+<div class="card text-left">
   <div class="card-body main-color">
 
         @include('inc.messages')
