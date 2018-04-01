@@ -34,18 +34,6 @@
             <div class="main-color text-light">
               <h1>{{__('Links')}}</h1>
             </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                    <ul>
-                      <li>test</li>
-                      <li>test2</li>
-                      <li>test3</li>
-                    </ul>
-                  <hr class="lead">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
