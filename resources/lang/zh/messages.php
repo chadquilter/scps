@@ -2,6 +2,7 @@
 
 return[
     "Space City Preparatory School" => "航天城",
+    "title"=>"航天城",
     "~ Educating The World." => "教育世界。",
     "Home"=>"回家",
     "About Us"=>"关于我们",
