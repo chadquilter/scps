@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactMail;
 
 class ContactController extends Controller
 {
@@ -15,7 +17,7 @@ class ContactController extends Controller
     {
         //
         $title = 'Contact';
-        return view('contact.contactform')
+        return view('contact.create')
           ->with('title', $title);
     }
 
@@ -26,7 +28,9 @@ class ContactController extends Controller
      */
     public function create()
     {
-        //
+        $title = 'Contact';
+        return view('contact.create')
+          ->with('title', $title);
     }
 
     /**
@@ -37,7 +41,13 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+          'title' => 'required',
+          'phone' => 'required',
+          'email' => 'required|email',
+          'description' => 'required'
+        ]);
+
     }
 
     /**
