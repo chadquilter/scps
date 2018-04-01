@@ -4,7 +4,7 @@
     <div class="footer-top-1">
       &nbsp;
     </div>
-    <div class="footer-text" style="width:50%;">
+    <div class="footer-text">
         <div class="row">
           <div class="col col-4">
             <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
