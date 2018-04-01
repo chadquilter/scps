@@ -70,7 +70,7 @@
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Academics')}}</a>
-          <div class="dropdown-menu" aria-labelledby="About Us">
+          <div class="dropdown-menu" aria-labelledby="{{__('About Us')}}">
             <a class="dropdown-item {{ ( \Request::url() == url('sh') ) ? 'active' : '' }}" href="/ac">{{__('School History')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">{{__('Vision')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/elec">{{__('Core Values')}}</a>
