@@ -15,11 +15,51 @@ class AboutController extends Controller
     {
 
         $title = 'Contact';
-
         return view('about.index')
           ->with('title', $title);
     }
 
+    public function schoolhistory()
+    {
+
+        $title = 'School History';
+        return view('about.schoolhistory')
+          ->with('title', $title);
+    }
+
+    public function vision()
+    {
+
+        $title = 'Vision';
+        return view('about.vision')
+          ->with('title', $title);
+    }
+
+    public function corevalues()
+    {
+
+        $title = 'Contact';
+        return view('about.corevalues')
+          ->with('title', $title);
+    }
+
+    public function eslrs()
+    {
+
+        $title = "ESLR's";
+
+        return view('about.eslr')
+          ->with('title', $title);
+    }
+
+    public function testemony()
+    {
+
+        $title = 'Contact';
+
+        return view('about.testemony')
+          ->with('title', $title);
+    }
     /**
      * Show the form for creating a new resource.
      *
