@@ -13,10 +13,6 @@
 
 Route::get('/', 'PagesController@index');
 
-Auth::routes([
-  'auth' => 'Auth\AuthController',
-  'password' => 'Auth\PasswordController',
-]);
 
 Route::get('/about', 'AboutController@index');
 Route::get('/academics', 'AcademicsController@index');
