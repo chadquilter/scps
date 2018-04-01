@@ -3,7 +3,7 @@
 @section('content')
   <div class="container alt-color">
     <div class="row ">
-      <div class="col-md-8">
+      <div class="col">
         <div class="card">
           <div class="card-header">{{ __('CORE VALUES') }}</div>
 
@@ -28,7 +28,7 @@ We want to work in partnership with parents and emphasize comprehensive developm
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col">
       <div class="row">
         <div class="col">
           <div class="main-color text-light" style="padding: 18px 20px 0px;">
