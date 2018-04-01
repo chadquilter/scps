@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container alt-color">
+  <div class="alt-color">
     <div class="row">
       <div class="col">
         <div class="card">
