@@ -1,7 +1,5 @@
 <div class="card mx-auto border border-secondary text-left">
-  <div class="card-body alt-color">
-    <div class="row">
-      <div class="col">
+  <div class="card-body main-color">
 
         @include('inc.messages')
         <div id="after_submit"></div>
@@ -36,10 +34,7 @@
             </div>
           </form>
         </div>
-        <div class="col">
-          @include('inc.sidebarcontacts')
-        </div>
-      </div>
+
 
     </div>
   </div>
