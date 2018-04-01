@@ -23,7 +23,7 @@
                   <div class="card-body image_display_r">
                     <div class="row">
                       <div class="col">
-                        <h5><small><img src="/images/icon-tour.png" border="0"><br> Take a Tour</small></h5>
+                        <h5><small><img src="/images/icon-tour.png" border="0"><br>{{__('Take a Tour')}}</small></h5>
                         <br>
                         <h6><small>
                           {{__('A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.')}}
