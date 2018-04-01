@@ -11,15 +11,6 @@
 |
 */
 
-
-Route::get('locale', function () {
-    return \App::getLocale();
-});
-Route::get('locale/{locale}', function ($locale) {
-    \Session::put('locale', $locale);
-    return redirect()->back();
-});
-
 Route::get('/', 'PagesController@index');
 
 Auth::routes([
@@ -34,3 +25,11 @@ Route::get('/studentlife', 'StudentController@index');
 Route::get('/international', 'InternationalController@index');
 Route::get('/contact', 'ContactController@index');
 Route::get('/documents', 'DocumentController@index');
+
+Route::get('locale', function () {
+    return \App::getLocale();
+});
+Route::get('locale/{locale}', function ($locale) {
+    \Session::put('locale', $locale);
+    return redirect()->back();
+});
