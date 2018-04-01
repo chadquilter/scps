@@ -12,19 +12,18 @@
 */
 
 
+Route::get('locale/{locale}', function ($locale) {
+    \Session::put('locale', $locale);
+    return redirect()->back();
+});
+
+
 Route::get('/', 'PagesController@index');
 
 Auth::routes([
   'auth' => 'Auth\AuthController',
   'password' => 'Auth\PasswordController',
 ]);
-
-Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
-
-Route::get('locale/{locale}', function ($locale) {
-    \Session::put('locale', $locale);
-    return redirect()->back();
-});
 
 Route::get('/about', 'AboutController@index');
 Route::get('/academics', 'AcademicsController@index');
