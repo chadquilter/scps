@@ -19,9 +19,14 @@
     <span id="email_validation" class="error_message"></span>
   </div>
   <div class="row">
-    <label class="required" for="message">Your message:</label><br />
-    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    <span id="message_validation" class="error_message"></span>
+    <label class="required" for="phone">Your phone:</label><br />
+    <input id="phone" class="input" name="phone" type="text" value="" size="30" /><br />
+    <span id="phone_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Messgae:</label><br />
+    <textarea id="description" class="input" name="description" rows="7" cols="30"></textarea><br />
+    <span id="description_validation" class="error_message"></span>
   </div>
 
     <input id="submit_button" type="submit" value="Send email" />
