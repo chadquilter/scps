@@ -14,10 +14,7 @@ class AboutController extends Controller
     public function index()
     {
 
-        $title = 'Contact';
 
-        return view('about.index')
-          ->with('title', $title);
     }
 
     /**
