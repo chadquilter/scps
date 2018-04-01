@@ -19,8 +19,8 @@ Auth::routes([
 ]);
 
 Route::resource('about', 'AboutController');
-Route::get('about/schoolhistory', 'AboutController@schoolhistory');
-Route::get('about/corevalues', 'AboutController@corevalues');
+Route::get('/about/schoolhistory', 'AboutController@schoolhistory');
+Route::get('/about/corevalues', 'AboutController@corevalues');
 Route::get('/about/eslr', 'AboutController@eslr');
 Route::get('/about/testemony', 'AboutController@testemony');
 Route::get('/about/vision', 'AboutController@vision');
