@@ -35,7 +35,7 @@ Route::get('/academic-schedule', 'AcademicController@schedule');
 
 Route::get('/admissions', 'AdmissionController@admissions');
 Route::get('/aplication', 'AdmissionController@admissionsaplication');
-Route::get('/contact', 'AdmissionController@contact');
+Route::get('/admission-contact', 'AdmissionController@admissioncontact');
 Route::get('/e-tuition', 'AdmissionController@etuition');
 Route::get('/tuition-fees', 'AdmissionController@tuitionfees');
 

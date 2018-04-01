@@ -24,7 +24,7 @@ class AdmissionController extends Controller
           ->with('title', $title);
     }
 
-    public function contact()
+    public function admissioncontact()
     {
 
         $title = 'Admissions Contact';
