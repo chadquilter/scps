@@ -125,7 +125,6 @@
             <a class="dropdown-item {{ ( \Request::url() == url('international-academy') ) ? 'active' : '' }}" href="/international-academy">{{__('The Acadmey')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('international-services') ) ? 'active' : '' }}" href="/international-services">{{__('International Services')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('accelerated-english') ) ? 'active' : '' }}" href="/accelerated-english">{{__('Accelerated English Camp')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/intservices">{{__('International Services')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('international-partners') ) ? 'active' : '' }}" href="/international-partners">{{__('International Partners')}}</a>
           </div>
         </li>
