@@ -7,7 +7,7 @@
 
 @include('inc.messages')
 <div id="after_submit"></div>
-<form id="contact_form" action={{ route('Contact/store') }} method="POST" enctype="multipart/form-data">
+<form id="contact_form" action={{ route('post') }} method="POST" enctype="multipart/form-data">
   @csrf
   <div class="row">
     <label class="required" for="name">Your name:</label><br />
