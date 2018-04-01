@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="CNQ Software Services">
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
+    <meta name="keywords" content="{{__(messages.keywords)}}"/>
+    <meta name="description" content="{{__(messages.description)}}"/>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Space City Preparatory School') }}</title>
+    <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
