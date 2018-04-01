@@ -1,5 +1,5 @@
-<div class="card text-left">
-  <div class="card-body main-color">
+
+  <div class="main-color">
 
         @include('inc.messages')
         <div id="after_submit"></div>
@@ -35,6 +35,4 @@
           </form>
         </div>
 
-
     </div>
-  </div>
