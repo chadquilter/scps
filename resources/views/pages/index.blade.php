@@ -12,7 +12,7 @@
           <div class="col">
             <h1 class="display-4">Values and Excellence</h1>
             <p class="lead">
-              {{ __('messages.Space City Preparatory School is like no other school in the world, and we have the international reputation and experience to prove it.
+              {{ __('Space City Preparatory School is like no other school in the world, and we have the international reputation and experience to prove it.
               Our comprehensive and challenging academics place us among the top schools in the nation and prepares our students to become tomorrow’s global leaders.
               Our philosophy provides the morals and knowledge for purposeful and peaceful living.')}}
             </p>
