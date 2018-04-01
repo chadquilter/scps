@@ -14,6 +14,9 @@ class ContactController extends Controller
     public function index()
     {
         //
+        $title = 'Contact';
+        return view('contact.contactform')
+          ->with('title', $title);
     }
 
     /**

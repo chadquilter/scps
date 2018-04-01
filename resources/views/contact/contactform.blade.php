@@ -1,7 +1,10 @@
+@extends('layouts.front')
+
+@section('content')
+<div class="container">
 <div class="card mx-auto border border-secondary text-left">
   <div class="card-body">
-    @include('inc.messages')
-    {!! Form::open(['action' => 'QuotesController@store', 'method' => 'POST', 'enctype' => 'multipart/data']) !!}
+    {!! Form::open(['action' => 'ContactController@store', 'method' => 'POST', 'enctype' => 'multipart/data']) !!}
     <div class="form=group">
       {{Form::label('title', 'Name:')}}
       {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Name'])}}
@@ -31,3 +34,4 @@
   </div>
 </div>
 </div>
+@endsection
