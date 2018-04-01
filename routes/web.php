@@ -21,10 +21,10 @@ Auth::routes([
 
 Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
 
-Route::get('/{lang?}',  function($lang=NULL) {
-  App::setLocale($lang);
-  return view ('index');
-})->name('home');
+Route::get('locale/{locale}', function ($locale) {
+    \Session::put('locale', $locale);
+    return redirect()->back();
+});
 
 Route::get('/about', 'AboutController@index');
 Route::get('/academics', 'AcademicsController@index');
