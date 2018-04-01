@@ -13,12 +13,10 @@ class AboutController extends Controller
      */
     public function index()
     {
-        //
-        $mdg_services = Service::orderBy('service_name', 'asc')->pluck('service_name', 'id');
+
         $title = 'Contact';
 
-        return view('quotes.create')
-          ->with('mdg_services', $mdg_services)
+        return view('about.index')
           ->with('title', $title);
     }
 

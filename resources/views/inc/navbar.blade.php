@@ -50,7 +50,7 @@
           <div class="links">
               <a href="locale/en">English</a>
               <a href="locale/zh">简体中文 Chinese (Simplified)</a>
-              <a href="locale">@lang('home.check')</a>
+              <a href="locale">@lang('index.check')</a>
           </div>
 
           <form class="form-inline">
