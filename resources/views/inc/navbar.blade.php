@@ -81,11 +81,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('About Us')}}</a>
           <div class="dropdown-menu" aria-labelledby="{{__('About Us')}}">
-            <a class="dropdown-item {{ ( \Request::url() == url('sh') ) ? 'active' : '' }}" href="/ac">{{__('School History')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">{{__('Vision')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/elec">{{__('Core Values')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">{{__('ESLRs')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">{{__('Testimonials')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('about/schoolhistory') ) ? 'active' : '' }}" href="/about/schoolhistory">{{__('School History')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('vision') ) ? 'active' : '' }}" href="/about/vision">{{__('Vision')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('corevalues') ) ? 'active' : '' }}" href="/about/corevalues">{{__('Core Values')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('eslr') ) ? 'active' : '' }}" href="/about/eslr">{{__('ESLRs')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('testemony') ) ? 'active' : '' }}" href="/about/testemony">{{__('Testimonials')}}</a>
           </div>
         </li>
 
