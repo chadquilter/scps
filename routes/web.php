@@ -19,6 +19,8 @@ Auth::routes([
   'password' => 'Auth\PasswordController',
 ]);
 
+Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);
+
 Route::get('/about', 'AboutController@index');
 Route::get('/academics', 'AcademicsController@index');
 Route::get('/admissions', 'AdmissionsController@index');

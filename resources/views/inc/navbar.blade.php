@@ -39,10 +39,27 @@
             English
           </button>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">English</a>
-            <a class="dropdown-item" href="#">简体中文 Chinese (Simplified)</a>
-            <br>
+            <form class="" action="{{url('/locale')}}" method="post">
+              <select class="" name="locale" onchange="this.form.submit()">
+                <option class="dropdown-item" value="en" >English</option>
+                <option class="dropdown-item" value="zh" >简体中文 Chinese (Simplified)</option>
+              </select>
+            </form>
           </div>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              {{ Config::get('languages')[App::getLocale()] }}
+            </a>
+            <ul class="dropdown-menu">
+              @foreach (Config::get('languages') as $lang => $language)
+                @if ($lang != App::getLocale())
+                  <li>
+                    <a href="{{ route('lang.switch', $lang) }}">{{$language}}</a>
+                  </li>
+                @endif
+              @endforeach
+            </ul>
+          </li>
           <form class="form-inline">
             <div class="input-group">
               <div class="input-group-prepend">
