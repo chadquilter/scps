@@ -20,7 +20,7 @@ Auth::routes([
 
 //Route::resource('about', 'AboutController');
 Route::post('contact/create', 'ContactController@create');
-Route::post('contact/post', 'ContactController@store');
+Route::post('contact/store', 'ContactController@store');
 //Route::resource('contact', 'ContactController');
 
 Route::get('/about', 'AboutController@index');
