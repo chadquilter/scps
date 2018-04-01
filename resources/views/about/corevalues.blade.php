@@ -1,13 +1,14 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="alt-color">
-    <div class="row">
-      <div class="col">
+  <div class="container alt-color">
+
         <div class="card">
           <div class="card-header">{{ __('CORE VALUES') }}</div>
 
           <div class="card-body">
+            <div class="row">
+              <div class="col">
             <p class="lead">
               Scope of our Mission
               We want to reach all who can benefit from our school.
@@ -26,15 +27,25 @@
               We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.
             </p>
           </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="row">
+
           <div class="col">
-            <div class="main-color text-light">
+            <div class="main-color text-light" style="padding: 18px 20px 0px;">
               <h1>{{__('Links')}}</h1>
             </div>
+            <div class="row">
+              <div class="card">
+                <div class="card-body">
+                  <ul>
+                    <li>test</li>
+                    <li>test2</li>
+                    <li>test3</li>
+                  </ul>
+                  <hr class="lead">
+                </div>
+              </div>
+            </div>
           </div>
+          
         </div>
       </div>
     </div>
