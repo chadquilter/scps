@@ -128,8 +128,8 @@
             <a class="dropdown-item {{ ( \Request::url() == url('international-partners') ) ? 'active' : '' }}" href="/international-partners">{{__('International Partners')}}</a>
           </div>
         </li>
-        <li class="nav-item {{ ( Request::route()->getName() == 'jobs.index') ? 'active' : '' }}">
-          <a class="nav-link" href="/portfolio">{{__('Contact Us')}}</a>
+        <li class="nav-item {{ ( Request::route()->getName() == 'contact.index') ? 'active' : '' }}">
+          <a class="nav-link" href="/contact">{{__('Contact Us')}}</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
