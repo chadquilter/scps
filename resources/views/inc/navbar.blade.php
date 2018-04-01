@@ -9,13 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarTop">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="https://crosspointacademy.org/">{{__('Home')}}</a>
+        <a class="nav-link" href="https://spacecityschool.org/">{{__('Home')}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://crosspointacademy.org/about-us/">{{__('About Us')}}</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://crosspointacademy.org/support-us/">{{__('Support')}}</a>
+        <a class="nav-link" href="https://spacecityschool.org/about-us/">{{__('About Us')}}</a>
       </li>
       <li class"nav-item">
         <a class="nav-link">
@@ -33,8 +30,8 @@
     <div class="col col-sm-10">
       <div class="row">
         <div class="col">
-          <h1 class="display-4" style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">{{ config('app.name', 'Space City Preparatory') }}</h1>
-          <h5 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000; font-style: oblique;"> ~ Educating The World.</h5>
+          <h1 class="display-4" style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">{{__('{{ config('app.name', 'Space City Preparatory') }}')}}</h1>
+          <h5 style="text-align: left; color: #FAEBD7; text-shadow: 2px 2px 4px #000000; font-style: oblique;">{{__('~ Educating The World.')}}</h5>
         </div>
         <!-- Split dropup button -->
         <div class="col col-auto float-sm-right">
@@ -87,7 +84,7 @@
           <div class="dropdown-menu" aria-labelledby="Academics">
             <a class="dropdown-item {{ ( \Request::url() == url('ac') ) ? 'active' : '' }}" href="/ac">{{__('Academic Calander')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schedule') ) ? 'active' : '' }}" href="/schedule">{{__('Daily Schedule')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/elec">{{__('Departments')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/departments">{{__('Departments')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('ps') ) ? 'active' : '' }}" href="/concrete">{{__('PowerSchool')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('schooladmin') ) ? 'active' : '' }}" href="/homes">{{__('Administration')}}</a>
           </div>
