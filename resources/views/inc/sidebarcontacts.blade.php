@@ -9,22 +9,21 @@
 </div>
 <div class="card">
   <div class="card-body">
-    <ul>
-      <li>{{__('Space City Preparatory School')}}</li>
-      <li>{{__('P.O. Box 590743 ')}}</li>
-      <li>{{__('Houston, TX')}}</li>
-      <li>{{__('77259 U.S.')}}</li>
-      <li>{{__('Phone Number: (832) 205-2160')}}</li>
-    </ul>
+    <p>
+      {{__('Space City Preparatory School')}}
+      <br>{{__('P.O. Box 590743 ')}}
+      <br>{{__('Houston, TX')}}
+      <br>{{__('77259 U.S.')}}
+      <br>{{__('Phone Number: (832) 205-2160')}}
+    </p>
     <hr class="lead">
-    <ul>
-      <p class="lead"><strong>{{__('Admissions:')}}</strong>
+      <p><strong>{{__('Admissions:')}}</strong>
         {{__('If you have questions about admissions, visit our admissions page or contact our Admissions Directore at (832) 205-2160')}}
       </p>
-      <p class="lead"><strong>{{__('General Informations:')}}</strong>Email</p>
-      <p class="lead"><strong>{{__('Admissions:')}}</strong>Email</p>
-      <p class="lead"><strong>{{__('Job Opportunities:')}}</strong>Email</p>
-      <p class="lead"><strong>{{__('Media & Marketing:')}}</strong>Email</p>
+      <p><strong>{{__('General Informations:')}}</strong>Email</p>
+      <p><strong>{{__('Admissions:')}}</strong>Email</p>
+      <p><strong>{{__('Job Opportunities:')}}</strong>Email</p>
+      <p><strong>{{__('Media & Marketing:')}}</strong>Email</p>
     <hr class="lead">
   </div>
 </div>
