@@ -28,6 +28,25 @@ We want to work in partnership with parents and emphasize comprehensive developm
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+      <div class="row">
+        <div class="col">
+          <div class="main-color text-light" style="padding: 18px 20px 0px;">
+            <h1>{{__('Links')}}</h1>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <a href="/admissions/application">
+                  <img src="/images/parent-information-night.jpg" border="0">
+                </a>
+                <hr class="lead">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 @endsection
