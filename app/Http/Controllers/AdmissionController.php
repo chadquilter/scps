@@ -6,6 +6,47 @@ use Illuminate\Http\Request;
 
 class AdmissionController extends Controller
 {
+
+
+    public function admissions()
+    {
+
+      $title = 'Admissions';
+      return view('admission.admissions')
+        ->with('title', $title);
+    }
+
+    public function application()
+    {
+
+        $title = 'Admissions Application';
+        return view('admission.application')
+          ->with('title', $title);
+    }
+
+    public function contact()
+    {
+
+        $title = 'Admissions Contact';
+        return view('admission.contact')
+          ->with('title', $title);
+    }
+
+    public function etuition()
+    {
+
+        $title = 'Admissions E-Tuition';
+        return view('admission.e-tuition')
+          ->with('title', $title);
+    }
+
+    public function tuitionfees()
+    {
+
+        $title = 'Admission Tuition and Fees';
+        return view('admission.tuitionfees')
+          ->with('title', $title);
+    }
     /**
      * Display a listing of the resource.
      *

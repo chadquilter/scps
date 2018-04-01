@@ -6,6 +6,22 @@ use Illuminate\Http\Request;
 
 class StudentController extends Controller
 {
+
+    public function athletics()
+    {
+
+      $title = 'Athletics';
+      return view('student.athletics')
+      ->with('title', $title);
+    }
+
+    public function growth()
+    {
+
+      $title = 'Student Growth';
+      return view('student.growth')
+      ->with('title', $title);
+    }
     /**
      * Display a listing of the resource.
      *

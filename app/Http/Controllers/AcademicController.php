@@ -11,6 +11,48 @@ class AcademicController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
+     public function calendar()
+     {
+
+         $title = 'Academic Calendar';
+         return view('academic.calendar')
+           ->with('title', $title);
+     }
+
+     public function department()
+     {
+
+         $title = 'Academic Departments';
+         return view('academic.department')
+           ->with('title', $title);
+     }
+
+     public function powerschool()
+     {
+
+         $title = 'Academic Powerschool';
+         return view('academic.powerschool')
+           ->with('title', $title);
+     }
+
+     public function schedule()
+     {
+
+         $title = 'Academic Schedule';
+         return view('academic.schedule')
+           ->with('title', $title);
+     }
+
+     public function administration()
+     {
+
+         $title = 'Administration';
+         return view('academic.administration')
+           ->with('title', $title);
+     }
+
     public function index()
     {
         //

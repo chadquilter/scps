@@ -6,6 +6,46 @@ use Illuminate\Http\Request;
 
 class InternationalController extends Controller
 {
+
+    public function academy()
+    {
+
+      $title = 'International Academy';
+      return view('international.academy')
+      ->with('title', $title);
+    }
+
+    public function acceleratedenglish()
+    {
+
+      $title = 'Accelerated English Learning';
+      return view('international.acceleratedenglish')
+      ->with('title', $title);
+    }
+
+    public function admissionfees()
+    {
+
+      $title = 'International Admission and Fees';
+      return view('international.admissionfees')
+      ->with('title', $title);
+    }
+
+    public function partners()
+    {
+
+      $title = 'International Partners';
+      return view('international.partners')
+      ->with('title', $title);
+    }
+
+    public function services()
+    {
+
+      $title = 'International services';
+      return view('international.services')
+      ->with('title', $title);
+    }
     /**
      * Display a listing of the resource.
      *
