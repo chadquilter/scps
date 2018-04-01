@@ -18,10 +18,10 @@ Auth::routes([
   'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('/about', 'AboutController@index');
-Route::get('/academics', 'AcademicsController@index');
-Route::get('/admissions', 'AdmissionsController@index');
-Route::get('/studentlife', 'StudentController@index');
-Route::get('/international', 'InternationalController@index');
-Route::get('/contact', 'ContactController@index');
-Route::get('/documents', 'DocumentController@index');
+Route::resource('about', 'AboutController');
+Route::resource('academics', 'AcademicsController');
+Route::resource('admissions', 'AdmissionController');
+Route::resource('studentlife', 'StudentController');
+Route::resource('international', 'InternationalController');
+Route::resource('contact', 'ContactController');
+Route::resource('documents', 'DocumentsController');
