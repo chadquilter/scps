@@ -6,7 +6,7 @@
     </div>
     <div class="footer-text" style="width:50%;">
         <div class="row">
-          <div class="col">
+          <div class="col col-lg">
             <p class="lead" style="color: #FAEBD7; text-shadow: 2px 2px 4px #000000;">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
@@ -27,7 +27,7 @@
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col col-lg">
             @include('contact.contactmini')
           </div>
         </div>
