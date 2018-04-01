@@ -7,7 +7,7 @@
     <div class="footer-text">
         <div class="row">
           <div class="col">
-            <p class="lead shadow_text">
+            <p class="lead">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
             <hr>
