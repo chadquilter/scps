@@ -7,26 +7,25 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Scope of our Mission')}}</h1>
+              <h1>{{ __('Vision')}}</h1>
               <p class="lead">
-              {{ __('We want to reach all who can benefit from our school.
-              We want to develop each student to their full potential.
-              We want to emphasize spiritual results over academic achievement.
-              We want to be faithful to our task and trust God to give the increase.')}}
+              {{ __('People of Principle in Places of Prominence')}}
               </p>
-              <h1>{{ __('Governance and Operations')}}</h1>
+              <h1>{{ __('Motto')}}</h1>
               <p class="lead">
-              {{ __('We want to practice servant leadership: teachers serve students; administrators serve teachers.
-              We want to make what is best for our students a top priority.
-              We want to emphasize the spirit of the law over the letter of the law.
-              We want to emphasize ‘who we are’ is more important than ‘what we do’.
-              We want to place overall, long-term benefits over expediency.')}}
+              {{ __('Our mission is to see students transformed through a saving knowledge of Jesus Christ and Bible-based, Christ-centered instruction so they may be thoroughly equipped to fulfill God’s perfect plan for their lives.')}}
               </p>
               <h1>{{ __('Methodology')}}</h1>
               <p class="lead">
-              {{ __('We want to make sure the teacher is the key to the classroom.
-              We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment.
-              We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
+              {{ __('Transforming Lives for the betterment of the future.')}}
+              </p>
+              <h1>{{ __('Charter')}}</h1>
+              <p class="lead">
+              {{ __('SCPS and FCA teaches and trains students in the knowledge of God,  Through Bible-based, Christ-centered instruction, knowledge leads to wisdom, Christ-like character, and service to God in every field of study and every personal endeavor.  The goal of the school is that each individual be thoroughly equipped spiritually, academically, and physically to fulfill God’s perfect plan for his life.')}}
+              </p>
+              <h1>{{ __('Philosophy of Education')}}</h1>
+              <p class="lead">
+              {{ __('Wisdom transforms abstract knowledge into personal belief revealed through strong character.  Thus, true education naturally produces students of spiritual strength and distinction, governed by godly principles in every field of study and in all areas of their life.')}}
               </p>
           </div>
           <div class="col">
