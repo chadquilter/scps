@@ -3,8 +3,8 @@
 return[
     "Space City Preparatory School" => "航天城",
     "title"=>"航天城",
-    "keywords"=>"Preparatory School, English Learning, Learn English, Accelerated English Learning, English Language Courses, International Students, Chinese Learning Abroad, Study English",
-    "description"=>"Space City Preparatory School, based in Houston, Tx.",
+    "meta_keywords"=>"Preparatory School, English Learning, Learn English, Accelerated English Learning, English Language Courses, International Students, Chinese Learning Abroad, Study English",
+    "page_description"=>"Space City Preparatory School, based in Houston, Tx.",
     "~ Educating The World." => "教育世界。",
     "Home"=>"回家",
     "About Us"=>"关于我们",
