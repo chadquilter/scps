@@ -57,7 +57,7 @@
           <div class="col">
             <div class="row">
               <div class="col">
-                <div class="main-color" style="padding: 18px 20px 0px;">
+                <div class="main-color sidebar_pad">
                   <h1><a href="/admissions/application">
                     <img src="/images/new-course.png" border="0">
                   </a></h1>
@@ -76,7 +76,7 @@
             <br>
             <div class="row">
               <div class="col">
-                <div class="main-color text-light" style="padding: 18px 20px 0px;">
+                <div class="main-color text-light sidebar_pad">
                   <h1>{{__('Today at SCPS')}}</h1>
                 </div>
                 <div class="col">
@@ -94,7 +94,7 @@
             <br>
             <div class="row">
               <div class="col">
-                <div class="main-color text-light" style="padding: 18px 20px 0px;">
+                <div class="main-color text-light sidebar_pad">
                   <h1>{{__('Calendar')}}</h1>
                 </div>
                 <div class="col">
@@ -110,59 +110,7 @@
           </div>
         </div>
         <br>
-        <div class="row">
-          <div class="col">
-            <img src="/images/icon-photo-gallery.png" border="0">
-            <h1>{{__('Photo Gallery')}}</h1>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-                <div class="img-container">
-                  <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-                  <div class="img-middle">
-                    <div class="img-text"></div>
-                  </div>
-                </div>
-          </div>
-          <div class="col">
-            <div class="img-container">
-              <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-              <div class="img-middle">
-                <div class="img-text"></div>
-              </div>
-            </div>
-
-          </div>
-          <div class="col">
-                <div class="img-container">
-                  <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-                  <div class="img-middle">
-                    <div class="img-text"></div>
-                  </div>
-                </div>
-
-          </div>
-          <div class="col">
-                <div class="img-container">
-                  <img src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-                  <div class="img-middle">
-                    <div class="img-text"></div>
-                  </div>
-                </div>
-          </div>
-          <div class="col">
-                <div class="img-container">
-                  <img src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-                  <div class="img-middle">
-                    <div class="img-text"></div>
-                  </div>
-                </div>
-
-          </div>
-
-        </div>
+        @include('inc.photothumb')
       </div>
     </div>
   </div>
