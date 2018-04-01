@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function(){
-  App::setLocale('en');
+  App::setLocale('zh');
   return view('new');
 });
 
