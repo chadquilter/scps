@@ -3,12 +3,12 @@
 @section('content')
   <div class="container">
     <div class="card">
-      <div class="card-header">{{ __('CORE VALUES') }}</div>
+      <div class="card-header"><h1 class="display-1">{{ __('CORE VALUES') }}</h1></div>
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
             <p class="lead">
-              <h1>{{ __('Scope of our Mission')}}<h1>
+              <h1>{{ __('Scope of our Mission')}}</h1>
               <br>
               {{ __('We want to reach all who can benefit from our school.
               We want to develop each student to their full potential.
