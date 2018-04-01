@@ -29,7 +29,7 @@ Route::get('/vision', 'AboutController@vision');
 
 Route::get('/administration', 'AcademicController@administration');
 Route::get('/academic-calendar', 'AcademicController@calendar');
-Route::get('/department', 'AcademicController@department');
+Route::get('/departments', 'AcademicController@department');
 Route::get('/powerschool', 'AcademicController@powerschool');
 Route::get('/academic-schedule', 'AcademicController@schedule');
 
