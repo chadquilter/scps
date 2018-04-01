@@ -8,7 +8,7 @@
 @include('inc.messages')
 <div id="after_submit"></div>
 <form id="contact_form" action={{ url('/contact/store') }} method="POST" enctype="multipart/form-data">
-  <input type=“hidden” name=“_token” value=“{{ csrf_token() }}”>
+  <input type=“hidden” name=“_token” value={{ csrf_token() }}>
   <div class="row">
     <label class="required" for="name">Your name:</label><br />
     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
