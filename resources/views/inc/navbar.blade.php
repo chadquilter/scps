@@ -39,18 +39,8 @@
             English
           </button>
           <div class="dropdown-menu">
-            <form class="" action="{{url('/locale')}}" method="post">
-              <select class="" name="locale" onchange="this.form.submit()">
-                <option class="dropdown-item" value="en" >English</option>
-                <option class="dropdown-item" value="zh" >简体中文 Chinese (Simplified)</option>
-              </select>
-            </form>
-          </div>
-
-          <div class="links">
-              <a href="locale/en">English</a>
-              <a href="locale/zh">简体中文 Chinese (Simplified)</a>
-              <a href="locale">@lang('index.check')</a>
+              <a class="dropdown-item" value="en" >English</option>
+              <a class="dropdown-item" value="zh" >简体中文 Chinese (Simplified)</option>
           </div>
 
           <form class="form-inline">
