@@ -7,15 +7,15 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <div>
+
               <input type="button" id="departmentButton" class="btn btn-primary btn-block" value="English">
-            </div>
+
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
-            <div>
+
               <input type="button" id="departmentButton2" class="btn btn-primary btn-block" value="Math">
-            </div>
+
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
@@ -31,7 +31,7 @@
   //gets next available node from button and hides it
   $(".departmentDiv").hide();
   $( "#departmentButton" ).click(function() {
-    $(this).parent().next(".departmentDiv").toggle();
+    $(this).next(".departmentDiv").toggle();
   });
 
 
