@@ -11,6 +11,16 @@ class AboutController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    private function sidelinks(){
+      $links = ([
+         'About Us' => '/about',
+         'Vision' => '/vision',
+         'Core Values' => '/core-values',
+         'Testimonials' => '/testimonials'
+      ]);
+      return $links;
+    }
+
     public function index()
     {
 
@@ -57,15 +67,7 @@ class AboutController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    Public function sidelinks(){
-      $links = ([
-        'About Us' => '/about',
-        'Vision' => '/vision',
-        'Core Values' => '/core-values',
-        'Testimonials' => '/testimonials'
-      ]);
-      return $links;
-    }
+
 
     public function create()
     {
