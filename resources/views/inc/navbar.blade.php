@@ -132,26 +132,7 @@
           <a class="nav-link" href="/contact">{{__('Contact Us')}}</a>
         </li>
       </ul>
-      <ul class="navbar-nav ml-auto">
-        @guest
-          <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>
-        @else
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ Auth::user()->name }}</a>
-            <div class="dropdown-menu" aria-labelledby="Dashboard">
-              <a class="dropdown-item" href="/dashboard">Dashboard</a>
-              <a class="dropdown-item" href="{{ url('/logout') }}"
-              onclick="event.preventDefault();
-              document.getElementById('logout-form').submit();">
-              Logout
-            </a>
-            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
-              {{ csrf_field() }}
-            </form>
-          </div>
-        </li>
-      @endguest
-    </ul>
+
   </div>
 </nav>
 </div>
