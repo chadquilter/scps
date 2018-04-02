@@ -14,7 +14,7 @@
               @include('academic.departments.english')
             </div>
             <div>
-              <input type="button" id="departmentButton2" class="btn btn-primary btn-block" value="English">
+              <input type="button" id="departmentButton2" class="btn btn-primary btn-block" value="Math">
             </div>
             <div class="departmentDiv">
               @include('academic.departments.english')
