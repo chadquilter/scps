@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col">
               <div id="departmentButton" class="btn btn-primary btn-block">English</div>
-              <div class="departmentDiv">
+              <div id="departmentDiv" class="departmentDiv">
                 @include('academic.departments.english')
               </div>
           </div>
