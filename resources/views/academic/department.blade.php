@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <ul class="departmentlisting">
+            <table class="departmentlisting">
               <li>
                 <a id="englishbutton" href="#" class="btn btn-primary btn-block">English</a>
               </li>
@@ -28,8 +28,8 @@
   $(".department_button").onclick() {(
     var sibling = node.nextElementSibling;
     $(".departmentbutton").toggle();
-    $("."sibling.class).show();
-    $("."sibling.class).hide();
+    $(sibling).show();
+    $(sibling).hide();
   )};
 
 
