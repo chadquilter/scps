@@ -61,7 +61,7 @@ class InternationalController extends Controller
     public function services()
     {
 
-      $title = 'International services';
+      $title = 'International Services';
       $sidelinks = $this->sidelinks();
       return view('international.services')
       ->with('sidelinks', $sidelinks)
