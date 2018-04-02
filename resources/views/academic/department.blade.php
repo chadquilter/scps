@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            @include(academic.departments.english)
+            @include('academic.departments.english')
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
