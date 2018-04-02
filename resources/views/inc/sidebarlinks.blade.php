@@ -7,7 +7,7 @@
     <ul>
       @foreach($sidelinks as $sidelink)
         <li>
-          <a href="/{{$sidelink->link}}" class="btn btn-primary">{{$sidelink->label}}</a>
+          <a href="/{{$sidelink}}" class="btn btn-primary">{{$sidelink}}</a>
         </li>
       @endforeach
     </ul>
