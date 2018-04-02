@@ -93,7 +93,7 @@
           <div class="dropdown-menu" aria-labelledby="Academics">
             <a class="dropdown-item {{ ( \Request::url() == url('academic-calendar') ) ? 'active' : '' }}" href="/academic-calendar">{{__('Academic Calendar')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('academic-schedule') ) ? 'active' : '' }}" href="/academic-schedule">{{__('Daily Schedule')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('department') ) ? 'active' : '' }}" href="/department">{{__('Departments')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/departments">{{__('Departments')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('powerschool') ) ? 'active' : '' }}" href="/powerschool">{{__('PowerSchool')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('administration') ) ? 'active' : '' }}" href="/administration">{{__('Administration')}}</a>
           </div>
