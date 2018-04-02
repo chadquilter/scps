@@ -7,13 +7,14 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-
-            <a id="englishbutton" href="#" class="btn btn-primary btn-block">
-            <ul>
-            <li class="english_div">
-              @include('academic.departments.english')
-            </li>
-            <ul>
+            <ul class="departmentlisting">
+              <li>
+                <a id="englishbutton" href="#" class="btn btn-primary btn-block">
+              </li>
+              <li class="english_div">
+                @include('academic.departments.english')
+              </li>
+            </ul>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
