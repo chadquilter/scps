@@ -7,12 +7,18 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <div>
+            <div>
               <input type="button" id="departmentButton" class="btn btn-primary btn-block" value="English">
             </div>
-              <div id="departmentDiv" class="departmentDiv">
-                @include('academic.departments.english')
-              </div>
+            <div class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
+            <div>
+              <input type="button" id="departmentButton" class="btn btn-primary btn-block" value="English">
+            </div>
+            <div  class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
@@ -23,8 +29,8 @@
   </div>
   <script>
   //gets next available node from button and hides it
+  $(".departmentDiv").hide();
   $( "#departmentButton" ).click(function() {
-    alert("test");
     $(this).parent().next(".departmentDiv").toggle();
   });
 
