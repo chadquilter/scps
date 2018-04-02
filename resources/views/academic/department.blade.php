@@ -7,7 +7,9 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            @include('academic.departments.english')
+            <div class="department_div">
+              @include('academic.departments.english')
+            </div>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
@@ -16,4 +18,9 @@
       </div>
     </div>
   </div>
+  <script>
+    $("#department_div").toggle();
+    $("#department_div").show();
+    $("#department_div").hide();
+  </script>
 @endsection
