@@ -10,24 +10,27 @@
             <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
             <div class="departmentDiv">
               @include('academic.departments.english')
-            </div>
-            <br>
+            <hr class="style-two">
             <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
             <div class="departmentDiv">
               @include('academic.departments.math')
             </div>
+            <hr class="style-two">
             <input type="button" id="departmentButton3" class="btn btn-primary btn-block dpt-button" value="History">
             <div class="departmentDiv">
               @include('academic.departments.history')
             </div>
+            <hr class="style-two">
             <input type="button" id="departmentButton4" class="btn btn-primary btn-block dpt-button" value="Science">
             <div class="departmentDiv">
               @include('academic.departments.science')
             </div>
+            <hr class="style-two">
             <input type="button" id="departmentButton5" class="btn btn-primary btn-block dpt-button" value="Visual Performing Arts">
             <div class="departmentDiv">
               @include('academic.departments.arts')
             </div>
+            <hr class="style-two">
             <input type="button" id="departmentButton6" class="btn btn-primary btn-block dpt-button" value="Electives">
             <div class="departmentDiv">
               @include('academic.departments.electives')
