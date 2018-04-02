@@ -7,12 +7,23 @@ use Illuminate\Http\Request;
 class AdmissionController extends Controller
 {
 
+  private function sidelinks(){
+    $links = array(
+       'admission' => array('link' => '\admissions', 'label' => 'Admission'),
+       'application' => array('link' => '\application', 'label' => 'Admissions Application'),
+       'contact' => array('link' => '\admission-contact', 'label' => 'Admissions Contact'),
+       'etution' => array('link' => '\e-tution', 'label' => 'E-Tution'),
+       'tuitionfees' => array('link' => '\tuitionfees', 'label' => 'Tuition and Fees'),
+    );
+    return $links;
+  }
 
     public function admissions()
     {
 
       $title = 'Admissions';
       return view('admission.admissions')
+        ->with('sidelinks', $sidelinks)
         ->with('title', $title);
     }
 
@@ -21,6 +32,7 @@ class AdmissionController extends Controller
 
         $title = 'Admissions Application';
         return view('admission.application')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
@@ -29,6 +41,7 @@ class AdmissionController extends Controller
 
         $title = 'Admissions Contact';
         return view('admission.contact')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
@@ -37,6 +50,7 @@ class AdmissionController extends Controller
 
         $title = 'Admissions E-Tuition';
         return view('admission.e-tuition')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
@@ -45,6 +59,7 @@ class AdmissionController extends Controller
 
         $title = 'Admission Tuition and Fees';
         return view('admission.tuitionfees')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
     /**

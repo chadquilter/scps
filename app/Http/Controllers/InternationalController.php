@@ -7,11 +7,23 @@ use Illuminate\Http\Request;
 class InternationalController extends Controller
 {
 
+    private function sidelinks(){
+      $links = array(
+       'academy' => array('link' => '\academy', 'label' => 'The Academy'),
+       'acceleratedenglish' => array('link' => '\accelerated-english', 'label' => 'Accelerated English'),
+       'admissionfees' => array('link' => '\international-admission', 'label' => 'Admission and Fees'),
+       'partners' => array('link' => '\international-partners', 'label' => 'International Partners'),
+       'services' => array('link' => '\international-services', 'label' => 'International Services'),
+     );
+     return $links;
+    }
+
     public function academy()
     {
 
       $title = 'International Academy';
       return view('international.academy')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
 
@@ -20,6 +32,7 @@ class InternationalController extends Controller
 
       $title = 'Accelerated English Learning';
       return view('international.acceleratedenglish')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
 
@@ -28,6 +41,7 @@ class InternationalController extends Controller
 
       $title = 'International Admission and Fees';
       return view('international.admissionfees')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
 
@@ -36,6 +50,7 @@ class InternationalController extends Controller
 
       $title = 'International Partners';
       return view('international.partners')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
 
@@ -44,6 +59,7 @@ class InternationalController extends Controller
 
       $title = 'International services';
       return view('international.services')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
     /**

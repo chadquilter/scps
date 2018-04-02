@@ -12,13 +12,24 @@ class AcademicController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+     private function sidelinks(){
+       $links = array(
+          'calendar' => array('link' => '\academic-calendar', 'label' => 'Academic Calendar'),
+          'departments' => array('link' => '\department', 'label' => 'Departments'),
+          'powerschool' => array('link' => '\powerschool', 'label' => 'Powerschool'),
+          'schedule' => array('link' => '\academic-schedule', 'label' => 'Academic Schedule'),
+          'administration' => array('link' => '\administration', 'label' => 'Administration'),
+       );
+       return $links;
+     }
 
      public function calendar()
      {
 
          $title = 'Academic Calendar';
          return view('academic.calendar')
-           ->with('title', $title);
+          ->with('sidelinks', $sidelinks)
+          ->with('title', $title);
      }
 
      public function department()
@@ -26,7 +37,8 @@ class AcademicController extends Controller
 
          $title = 'Academic Departments';
          return view('academic.department')
-           ->with('title', $title);
+          ->with('sidelinks', $sidelinks)
+          ->with('title', $title);
      }
 
      public function powerschool()
@@ -34,7 +46,8 @@ class AcademicController extends Controller
 
          $title = 'Powerschool';
          return view('academic.powerschool')
-           ->with('title', $title);
+          ->with('sidelinks', $sidelinks)
+          ->with('title', $title);
      }
 
      public function schedule()
@@ -42,7 +55,8 @@ class AcademicController extends Controller
 
          $title = 'Academic Schedule';
          return view('academic.schedule')
-           ->with('title', $title);
+          ->with('sidelinks', $sidelinks)
+          ->with('title', $title);
      }
 
      public function administration()
@@ -50,7 +64,8 @@ class AcademicController extends Controller
 
          $title = 'Administration';
          return view('academic.administration')
-           ->with('title', $title);
+          ->with('sidelinks', $sidelinks)
+          ->with('title', $title);
      }
 
     public function index()

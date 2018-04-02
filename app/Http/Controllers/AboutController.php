@@ -25,7 +25,9 @@ class AboutController extends Controller
     {
 
         $title = 'About Us';
+        $sidelinks = $this->sidelinks();
         return view('about.index')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
@@ -33,7 +35,9 @@ class AboutController extends Controller
     {
 
         $title = 'School History';
+        $sidelinks = $this->sidelinks();
         return view('about.schoolhistory')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
@@ -41,14 +45,18 @@ class AboutController extends Controller
     {
 
         $title = 'Vision';
+        $sidelinks = $this->sidelinks();
         return view('about.vision')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 
     public function corevalues()
     {
         $title = 'Core Values';
+        $sidelinks = $this->sidelinks();
         return view('about.corevalues')
+          ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
 

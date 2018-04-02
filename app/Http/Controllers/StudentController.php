@@ -7,11 +7,20 @@ use Illuminate\Http\Request;
 class StudentController extends Controller
 {
 
+  private function sidelinks(){
+    $links = array(
+     'athletics' => array('link' => '\athletics', 'label' => 'Student Athletics'),
+     'growth' => array('link' => '\growth', 'label' => 'Student Growth'),
+   );
+   return $links;
+  }
+
     public function athletics()
     {
 
       $title = 'Athletics';
       return view('student.athletics')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
 
@@ -20,6 +29,7 @@ class StudentController extends Controller
 
       $title = 'Student Growth';
       return view('student.growth')
+      ->with('sidelinks', $sidelinks)
       ->with('title', $title);
     }
     /**
