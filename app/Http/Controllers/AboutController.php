@@ -12,12 +12,12 @@ class AboutController extends Controller
      * @return \Illuminate\Http\Response
      */
     private function sidelinks(){
-      $links = ([
-         'About Us' => '/about',
-         'Vision' => '/vision',
-         'Core Values' => '/core-values',
-         'Testimonials' => '/testimonials'
-      ]);
+      $links = array(
+         'about' => array('link' => '\about', 'label' => 'About Us'),
+         'vision' => array('link' => '\vision', 'label' => 'Vision'),
+         'core-values' => array('link' => '\core-values', 'label' => 'Core Values'),
+         'testimonials' => array('link' => '\testimonials', 'label' => 'Testemonials'),
+      );
       return $links;
     }
 

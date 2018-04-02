@@ -5,9 +5,11 @@
 <div class="card">
   <div class="card-body">
     <ul>
-      <li>test</li>
-      <li>test2</li>
-      <li>test3</li>
+      @foreach($sidelinks as $sidelink)
+        <li>
+          <a href="/{{$sidelink->link}}" class="btn btn-primary">{{$sidelink->label}}</a>
+        </li>
+      @endforeach
     </ul>
     <hr class="lead">
   </div>
