@@ -14,23 +14,23 @@
             <br>
             <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
             <div class="departmentDiv">
-              @include('academic.departments.english')
+              @include('academic.departments.math')
             </div>
             <input type="button" id="departmentButton3" class="btn btn-primary btn-block dpt-button" value="History">
             <div class="departmentDiv">
-              @include('academic.departments.english')
+              @include('academic.departments.history')
             </div>
             <input type="button" id="departmentButton4" class="btn btn-primary btn-block dpt-button" value="Science">
             <div class="departmentDiv">
-              @include('academic.departments.english')
+              @include('academic.departments.science')
             </div>
             <input type="button" id="departmentButton5" class="btn btn-primary btn-block dpt-button" value="Visual Performing Arts">
             <div class="departmentDiv">
-              @include('academic.departments.english')
+              @include('academic.departments.arts')
             </div>
             <input type="button" id="departmentButton6" class="btn btn-primary btn-block dpt-button" value="Electives">
             <div class="departmentDiv">
-              @include('academic.departments.english')
+              @include('academic.departments.electives')
             </div>
           </div>
           <div class="col">
