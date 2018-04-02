@@ -41,6 +41,7 @@
                 </div>
               </form>
             </div>
+            <br>
             <div class="col">
               @include('inc.sidebarcontacts')
             </div>
