@@ -21,7 +21,7 @@
   </div>
   <script>
   //gets next available node from button and hides it
-  $( ".department_button" ).click(function() {
+  $( "#department_button" ).click(function() {
     alert('hello');
     $(this).parent().next(".departmentDiv").toggle();
   });
