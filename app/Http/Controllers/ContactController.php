@@ -25,7 +25,7 @@ class ContactController extends Controller
     public function index()
     {
         //
-        $title = 'Contact';
+        $title = 'Contact Us Today!';
         $sidelinks = $this->sidelinks();
         return view('contact.create')
           ->with('sidelinks', $sidelinks)
@@ -39,7 +39,7 @@ class ContactController extends Controller
      */
     public function create()
     {
-        $title = 'Contact';
+        $title = 'Contact Us Today!';
         $sidelinks = $this->sidelinks();
         return view('contact.create')
           ->with('sidelinks', $sidelinks)
