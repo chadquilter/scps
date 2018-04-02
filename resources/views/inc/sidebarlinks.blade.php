@@ -7,6 +7,7 @@
     <ul>
       @foreach($sidelinks as $sidelink)
           <a href="/{{$sidelink["link"]}}" class="btn btn-primary btn-block">{{$sidelink["label"]}}</a>
+          <a class="btn-primary btn-block {{ ( \Request::url() == url('services') ) ? 'active' : '' }}" href="/services">Services Overview</a>
           <br>
       @endforeach
     </ul>
