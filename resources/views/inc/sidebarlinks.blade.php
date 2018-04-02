@@ -6,10 +6,8 @@
   <div class="card-body">
     <ul>
       @foreach($sidelinks as $sidelink)
-        <li>
           <a href="/{{$sidelink["link"]}}" class="btn btn-primary">{{$sidelink["label"]}}</a>
           <br>
-        </li>
       @endforeach
     </ul>
     <hr class="lead">
