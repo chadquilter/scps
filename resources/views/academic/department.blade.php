@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col">
               <div id=ebuttonDIV>
-                <a id="englishbutton" href="#" class="btn btn-primary btn-block">English</a>
+                <div id="englishbutton" class="btn btn-primary btn-block">English</div>
               </div>
               <div id="departmentDiv">
                 @include('academic.departments.english')
