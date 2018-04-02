@@ -37,7 +37,6 @@ class AboutController extends Controller
 
     public function corevalues()
     {
-
         $title = 'Core Values';
         return view('about.corevalues')
           ->with('title', $title);
@@ -46,16 +45,28 @@ class AboutController extends Controller
 
     public function testemony()
     {
-
         $title = 'Testemony';
+        $sidelinks = sidelinks();
         return view('about.testemony')
-          ->with('title', $title);
+          ->with('title', $title)
+          ->with('sidelinks', $sidlinks);
     }
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
+
+    Public function sidelinks(){
+      $links = ([
+        'About Us' => '/about',
+        'Vision' => '/vision',
+        'Core Values' => '/core-values',
+        'Testimonials' => '/testimonials'
+      ]);
+      return $links;
+    }
+
     public function create()
     {
         //
