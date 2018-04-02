@@ -32,7 +32,7 @@ class AcademicController extends Controller
      public function powerschool()
      {
 
-         $title = 'Academic Powerschool';
+         $title = 'Powerschool';
          return view('academic.powerschool')
            ->with('title', $title);
      }

@@ -54,7 +54,7 @@
                 </li>
               </ul>
           </div>
-          <div class="col">
+          <div class="col pull-right">
             @include('inc.sidebarlinks')
           </div>
         </div>

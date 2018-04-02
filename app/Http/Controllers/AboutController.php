@@ -14,7 +14,7 @@ class AboutController extends Controller
     public function index()
     {
 
-        $title = 'Contact';
+        $title = 'About Us';
         return view('about.index')
           ->with('title', $title);
     }
@@ -38,25 +38,16 @@ class AboutController extends Controller
     public function corevalues()
     {
 
-        $title = 'Contact';
+        $title = 'Core Values';
         return view('about.corevalues')
           ->with('title', $title);
     }
 
-    public function eslr()
-    {
-
-        $title = "ESLR's";
-
-        return view('about.eslr')
-          ->with('title', $title);
-    }
 
     public function testemony()
     {
 
-        $title = 'Contact';
-
+        $title = 'Testemony';
         return view('about.testemony')
           ->with('title', $title);
     }
