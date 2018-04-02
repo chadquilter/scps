@@ -7,15 +7,28 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-
-              <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
-
+            <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
-
-              <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
-
+            <br>
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
+            <div class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="History">
+            <div class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Science">
+            <div class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Visual Performing Arts">
+            <div class="departmentDiv">
+              @include('academic.departments.english')
+            </div>
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Electives">
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
