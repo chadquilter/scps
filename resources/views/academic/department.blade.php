@@ -7,9 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <div id=ebuttonDIV>
-                <div id="englishbutton" class="btn btn-primary btn-block">English</div>
-              </div>
+              <div id="englishbutton" class="btn btn-primary btn-block">English</div>
               <div id="departmentDiv">
                 @include('academic.departments.english')
               </div>
@@ -25,7 +23,7 @@
   //gets next available node from button and hides it
   $( ".department_button" ).click(function() {
     $(this).parent().next(".departmentDiv").toggle();
-    });
+  });
 
 
   </script>
