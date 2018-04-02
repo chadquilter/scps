@@ -22,6 +22,7 @@ class InternationalController extends Controller
     {
 
       $title = 'International Academy';
+      $sidelinks = $this->sidelinks();
       return view('international.academy')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);
@@ -31,6 +32,7 @@ class InternationalController extends Controller
     {
 
       $title = 'Accelerated English Learning';
+      $sidelinks = $this->sidelinks();
       return view('international.acceleratedenglish')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);
@@ -40,6 +42,7 @@ class InternationalController extends Controller
     {
 
       $title = 'International Admission and Fees';
+      $sidelinks = $this->sidelinks();
       return view('international.admissionfees')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);
@@ -49,6 +52,7 @@ class InternationalController extends Controller
     {
 
       $title = 'International Partners';
+      $sidelinks = $this->sidelinks();
       return view('international.partners')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);
@@ -58,6 +62,7 @@ class InternationalController extends Controller
     {
 
       $title = 'International services';
+      $sidelinks = $this->sidelinks();
       return view('international.services')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);

@@ -19,6 +19,7 @@ class StudentController extends Controller
     {
 
       $title = 'Athletics';
+      $sidelinks = $this->sidelinks();
       return view('student.athletics')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);
@@ -28,6 +29,7 @@ class StudentController extends Controller
     {
 
       $title = 'Student Growth';
+      $sidelinks = $this->sidelinks();
       return view('student.growth')
       ->with('sidelinks', $sidelinks)
       ->with('title', $title);

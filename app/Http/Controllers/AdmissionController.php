@@ -22,6 +22,7 @@ class AdmissionController extends Controller
     {
 
       $title = 'Admissions';
+      $sidelinks = $this->sidelinks();
       return view('admission.admissions')
         ->with('sidelinks', $sidelinks)
         ->with('title', $title);
@@ -31,6 +32,7 @@ class AdmissionController extends Controller
     {
 
         $title = 'Admissions Application';
+        $sidelinks = $this->sidelinks();
         return view('admission.application')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -40,6 +42,7 @@ class AdmissionController extends Controller
     {
 
         $title = 'Admissions Contact';
+        $sidelinks = $this->sidelinks();
         return view('admission.contact')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -49,6 +52,7 @@ class AdmissionController extends Controller
     {
 
         $title = 'Admissions E-Tuition';
+        $sidelinks = $this->sidelinks();
         return view('admission.e-tuition')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -58,6 +62,7 @@ class AdmissionController extends Controller
     {
 
         $title = 'Admission Tuition and Fees';
+        $sidelinks = $this->sidelinks();
         return view('admission.tuitionfees')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);

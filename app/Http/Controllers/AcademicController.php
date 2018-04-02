@@ -27,6 +27,7 @@ class AcademicController extends Controller
      {
 
          $title = 'Academic Calendar';
+         $sidelinks = $this->sidelinks();
          return view('academic.calendar')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -36,6 +37,7 @@ class AcademicController extends Controller
      {
 
          $title = 'Academic Departments';
+         $sidelinks = $this->sidelinks();
          return view('academic.department')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -45,6 +47,7 @@ class AcademicController extends Controller
      {
 
          $title = 'Powerschool';
+         $sidelinks = $this->sidelinks();
          return view('academic.powerschool')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -54,6 +57,7 @@ class AcademicController extends Controller
      {
 
          $title = 'Academic Schedule';
+         $sidelinks = $this->sidelinks();
          return view('academic.schedule')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
@@ -63,6 +67,7 @@ class AcademicController extends Controller
      {
 
          $title = 'Administration';
+         $sidelinks = $this->sidelinks();
          return view('academic.administration')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
