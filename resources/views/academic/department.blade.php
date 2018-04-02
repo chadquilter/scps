@@ -8,13 +8,13 @@
         <div class="row">
           <div class="col">
 
-              <input type="button" id="departmentButton" class="btn btn-primary btn-block" value="English">
+              <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
 
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
 
-              <input type="button" id="departmentButton2" class="btn btn-primary btn-block" value="Math">
+              <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
 
             <div class="departmentDiv">
               @include('academic.departments.english')
@@ -30,7 +30,7 @@
   <script>
   //gets next available node from button and hides it
   $(".departmentDiv").hide();
-  $( "#departmentButton" ).click(function() {
+  $( ".dpt-button" ).click(function() {
     $(this).next(".departmentDiv").toggle();
   });
 
