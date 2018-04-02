@@ -23,12 +23,12 @@
   </div>
   <script>
   //gets next available node from button and hides it
-  $(".department_button").onclick() {(
-    $sibling  = self.next();
+  $(".department_button").onclick() (
+    $sibling = this.next();
     $sibling.toggle();
     $sibling.show();
     $sibling.hide();
-  )};
+  );
 
 
   </script>
