@@ -33,7 +33,7 @@
               <div class="form=group">
                 <label class="required" for="message"><string>Message: (required)</strong></label>
                   <br>
-                  <textarea id="description" class="input" name="description" rows="7" cols="50"></textarea><br />
+                  <textarea id="description" class="input" name="description" rows="7" cols="40"></textarea><br />
                   <span id="description_validation" class="error_message"></span>
                 </div>
                 <div class="form=group">
