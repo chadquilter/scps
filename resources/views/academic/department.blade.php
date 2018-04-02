@@ -7,14 +7,12 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <table class="departmentlisting">
-              <li>
+              <div id=ebuttonDIV>
                 <a id="englishbutton" href="#" class="btn btn-primary btn-block">English</a>
-              </li>
-              <li class="english_div">
+              </div>
+              <div id="englishDiv">
                 @include('academic.departments.english')
-              </li>
-            </ul>
+              </div>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
@@ -26,10 +24,10 @@
   <script>
   //gets next available node from button and hides it
   $(".department_button").onclick() {(
-    var sibling = node.nextElementSibling;
-    $(".departmentbutton").toggle();
-    $(sibling).show();
-    $(sibling).hide();
+    $sibling  = self.next();
+    $sibling.toggle();
+    $sibling.show();
+    $sibling.hide();
   )};
 
 
