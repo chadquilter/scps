@@ -9,7 +9,7 @@
           <div class="col">
             <ul class="departmentlisting">
               <li>
-                <a id="englishbutton" href="#" class="btn btn-primary btn-block">
+                <a id="englishbutton" href="#" class="btn btn-primary btn-block">English</a>
               </li>
               <li class="english_div">
                 @include('academic.departments.english')
