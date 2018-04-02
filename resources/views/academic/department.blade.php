@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <a href="#" id="departmentButton" class="btn btn-primary btn-block">English</a>
+              <div href="#" id="departmentButton" class="btn btn-primary btn-block">English</div>
               <div class="departmentDiv">
                 @include('academic.departments.english')
               </div>
