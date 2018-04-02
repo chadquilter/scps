@@ -1,6 +1,6 @@
 
 <div class="main-color text-light sidebar_pad shadow_only">
-  <h5 class="display-5">{{__('Bookmarks')}}</h5>
+  <h3 class="display-3">{{__('Bookmarks')}}</h3>
 </div>
 <div class="card">
   <div class="card-body shadow_only">
