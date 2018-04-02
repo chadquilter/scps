@@ -7,7 +7,9 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
+              <div>
               <input type="button" id="departmentButton" class="btn btn-primary btn-block" value="English">
+            </div>
               <div id="departmentDiv" class="departmentDiv">
                 @include('academic.departments.english')
               </div>
