@@ -10,7 +10,7 @@
               <div id=ebuttonDIV>
                 <a id="englishbutton" href="#" class="btn btn-primary btn-block">English</a>
               </div>
-              <div id="englishDiv">
+              <div id="departmentDiv">
                 @include('academic.departments.english')
               </div>
           </div>
@@ -23,12 +23,9 @@
   </div>
   <script>
   //gets next available node from button and hides it
-  $(".department_button").onclick() (
-    $sibling = $(this).next();
-    $sibling.toggle();
-    $sibling.show();
-    $sibling.hide();
-  );
+  $( ".department_button" ).click(function() {
+    $(this).parent().next(".departmentDiv").toggle();
+    });
 
 
   </script>
