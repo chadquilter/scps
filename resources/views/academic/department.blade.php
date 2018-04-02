@@ -19,8 +19,8 @@
     </div>
   </div>
   <script>
-    $("#department_div").toggle();
-    $("#department_div").show();
-    $("#department_div").hide();
+    $(".department_div").toggle();
+    $(".department_div").show();
+    $(".department_div").hide();
   </script>
 @endsection
