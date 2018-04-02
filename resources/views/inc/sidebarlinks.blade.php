@@ -3,10 +3,10 @@
 </div>
 <br>
 <div class="card">
-  <div class="card-body">
+  <div class="card-body image_display_r">
     <ul>
       @foreach($sidelinks as $sidelink)
-          <a href="/{{$sidelink["link"]}}" class="btn btn-primary btn-block image_display_r">{{$sidelink["label"]}}</a>
+          <a href="/{{$sidelink["link"]}}" class="btn btn-primary btn-block">{{$sidelink["label"]}}</a>
           <br>
       @endforeach
     </ul>
