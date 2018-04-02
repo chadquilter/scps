@@ -10,6 +10,7 @@
             <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
             <div class="departmentDiv">
               @include('academic.departments.english')
+            </div>
             <hr class="style-two">
             <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
             <div class="departmentDiv">
