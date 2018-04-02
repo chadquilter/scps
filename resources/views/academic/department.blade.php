@@ -24,7 +24,7 @@
   <script>
   //gets next available node from button and hides it
   $(".department_button").onclick() (
-    $sibling = this.next();
+    $sibling = $(this).next();
     $sibling.toggle();
     $sibling.show();
     $sibling.hide();
