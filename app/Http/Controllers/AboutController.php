@@ -59,7 +59,7 @@ class AboutController extends Controller
         $sidelinks = $this->sidelinks();
         return view('about.testemony')
           ->with('title', $title)
-          ->with('sidelinks', $sidlinks);
+          ->with('sidelinks', $sidelinks);
     }
     /**
      * Show the form for creating a new resource.
