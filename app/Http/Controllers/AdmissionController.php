@@ -31,7 +31,7 @@ class AdmissionController extends Controller
     public function admissionsaplication()
     {
 
-        $title = 'Admissions Application';
+        $title = 'New Student Application';
         $sidelinks = $this->sidelinks();
         return view('admission.application')
           ->with('sidelinks', $sidelinks)
@@ -51,7 +51,7 @@ class AdmissionController extends Controller
     public function etuition()
     {
 
-        $title = 'Admissions E-Tuition';
+        $title = 'E-Tuition';
         $sidelinks = $this->sidelinks();
         return view('admission.e-tuition')
           ->with('sidelinks', $sidelinks)
