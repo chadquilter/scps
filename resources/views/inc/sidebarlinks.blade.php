@@ -10,6 +10,6 @@
           <br>
       @endforeach
     </ul>
-    <hr class="lead">
+    <hr class="style-two">
   </div>
 </div>
