@@ -7,8 +7,9 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <div class="department_div">
+            <div class="english_div">
               @include('academic.departments.english')
+              <a id="englishbutton" href="#" class="btn btn-primary btn-block">
             </div>
           </div>
           <div class="col">
@@ -19,7 +20,7 @@
     </div>
   </div>
   <script>
-    $(".department_div").toggle();
+    $(".department_button").toggle();
     $(".department_div").show();
     $(".department_div").hide();
   </script>
