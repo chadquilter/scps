@@ -1,7 +1,7 @@
 <div class="gallery">
   <div class="card">
     <div class="card-header">
-      {{__('Gallery')}}
+      <h1 class="display-1">{{__($title)}}</h1>
     </div>
     <div class="card-body alt-color">
       <div class="card image_display_r">
