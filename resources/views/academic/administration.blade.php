@@ -7,12 +7,9 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Kendall Gherrett - Superintended')}}</h1>
+              <h1>{{ __('Administrator')}}</h1>
               <p class="lead">
-              {{ __('We want to reach all who can benefit from our school.
-              We want to develop each student to their full potential.
-              We want to emphasize spiritual results over academic achievement.
-              We want to be faithful to our task and trust God to give the increase.')}}
+              {{ __('')}}
               </p>
               <h1>{{ __('Governance and Operations')}}</h1>
               <p class="lead">
