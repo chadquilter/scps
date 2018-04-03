@@ -10,7 +10,12 @@
             <p class="lead">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
-            <hr class="style-two">
+            <hr class="style-two1">
+            <p class="lead">
+              Private Middle & High School
+              Houston, TX | Pasadena, TX
+            </p>
+            <hr class="style-two1">
             <address class="shadow_text">
               P.O. Box 590743 <br>
               Houston, TX<br>
