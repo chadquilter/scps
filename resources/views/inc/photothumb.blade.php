@@ -8,14 +8,14 @@
 <div class="row">
   <div class="col">
         <div class="img-container">
-          <a href="art-gallery">
+          <a href="/art-gallery">
             <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
           </a>
         </div>
   </div>
   <div class="col">
     <div class="img-container">
-      <a href="class-gallery">
+      <a href="/class-gallery">
         <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
       </a>
     </div>
