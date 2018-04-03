@@ -30,7 +30,7 @@
   </div>
   <div class="card-footer">
     <h6><small>
-      "The academic environment at SCPS is a rarity in colleges. Seeing it at the high school level essentially makes CCHS one of a kind."
+      "The academic environment at SCPS is a rarity in colleges. Seeing it at the high school level essentially makes Space City Prepratory School one of a kind."
       <br>
       Zachary K., alumnus and West Point graduate
     </small></h6>
