@@ -7,11 +7,11 @@
     <div class="footer-text">
         <div class="row">
           <div class="col">
-            <p class="lead">
+            <p class="shadow_text">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
             <hr class="style-two1">
-            <p class="lead">
+            <p class="shadow_text">
               Private Middle & High School
               Houston, TX | Pasadena, TX
             </p>
