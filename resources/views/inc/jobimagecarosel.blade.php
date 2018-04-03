@@ -13,8 +13,8 @@
       <div class="carousel-inner" role="listbox">
         @foreach($files as $file)
           @php $active = $loop->index === 0 ? 'active' : ''; @endphp
-        <div class="carousel-item embed-responsive-item {{$active}}">
-            <img class="img-fluid" src="/images/{{$file}}" alt="Custom Houses, Custom Construction, custom tile, carpet, drywall, Custom Metal Work, Paving, Asphalt, Show House, kitchen, bath House Remodeling, House Renovations, House Repair, Custom Deck, tile, shower,Custom Bridges, Custom Roads, Excivation, Interior Design, Custom Patio, rock floor">
+        <div class="carousel-item  {{$active}}">
+            <img class="" src="/images/{{$file}}" alt="Custom Houses, Custom Construction, custom tile, carpet, drywall, Custom Metal Work, Paving, Asphalt, Show House, kitchen, bath House Remodeling, House Renovations, House Repair, Custom Deck, tile, shower,Custom Bridges, Custom Roads, Excivation, Interior Design, Custom Patio, rock floor">
         </div>
         @endforeach
       </div>
