@@ -24,7 +24,7 @@ class GalleryController extends Controller
       $title = 'Sports Photo Gallery';
       $sidelinks = $this->sidelinks();
       $files = Storage::disk('images')->files('showcase');
-      return view('contact.create')
+      return view('gallery.sports-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
         ->with('title', $title);
@@ -34,7 +34,7 @@ class GalleryController extends Controller
       $title = 'Student Life Photo Gallery';
       $sidelinks = $this->sidelinks();
       $files = Storage::disk('images')->files('showcase');
-      return view('contact.create')
+      return view('gallery.student-life-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
         ->with('title', $title);
@@ -44,7 +44,7 @@ class GalleryController extends Controller
       $title = 'Art Photo Gallery';
       $sidelinks = $this->sidelinks();
       $files = Storage::disk('images')->files('showcase');
-      return view('contact.create')
+      return view('gallery.art-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
         ->with('title', $title);
@@ -54,7 +54,7 @@ class GalleryController extends Controller
       $title = 'Elective Photo Gallery';
       $sidelinks = $this->sidelinks();
       $files = Storage::disk('images')->files('showcase');
-      return view('contact.create')
+      return view('gallery.elective-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
         ->with('title', $title);
@@ -64,7 +64,7 @@ class GalleryController extends Controller
       $title = 'Classroom Photo Gallery';
       $sidelinks = $this->sidelinks();
       $files = Storage::disk('images')->files('showcase');
-      return view('contact.create')
+      return view('gallery.classroom-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
         ->with('title', $title);
