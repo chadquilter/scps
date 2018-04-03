@@ -10,7 +10,7 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="{{$loop->index}}" class={{$active}}></li>
         @endforeach
       </ol>
-      <div class="carousel-inner embed-responsive embed-responsive-16by9" role="listbox">
+      <div class="carousel-inner" role="listbox">
         @foreach($files as $file)
           @php $active = $loop->index === 0 ? 'active' : ''; @endphp
         <div class="carousel-item embed-responsive-item {{$active}}">
@@ -30,7 +30,7 @@
   </div>
   <div class="card-footer">
     <h6><small>
-      "The academic environment at CCHS is a rarity in colleges. Seeing it at the high school level essentially makes CCHS one of a kind."
+      "The academic environment at SCPS is a rarity in colleges. Seeing it at the high school level essentially makes CCHS one of a kind."
       <br>
       Zachary K., alumnus and West Point graduate
     </small></h6>
