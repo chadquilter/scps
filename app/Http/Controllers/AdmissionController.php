@@ -12,8 +12,8 @@ class AdmissionController extends Controller
        'admission' => array('link' => 'admissions', 'label' => 'Admission'),
        'application' => array('link' => 'application', 'label' => 'Admissions Application'),
        'contact' => array('link' => 'admission-contact', 'label' => 'Admissions Contact'),
-       'etution' => array('link' => 'e-tution', 'label' => 'E-Tution'),
-       'tuitionfees' => array('link' => 'tuitionfees', 'label' => 'Tuition and Fees'),
+       'etution' => array('link' => 'e-tuition', 'label' => 'E-Tution'),
+       'tuitionfees' => array('link' => 'tuition-fees', 'label' => 'Tuition and Fees'),
     );
     return $links;
   }
