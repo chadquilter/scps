@@ -11,10 +11,12 @@
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
             <hr>
-            <p class="lead shadow_text">
-              P.O. Box 590743 Houston, TX 77259 U.S<br>
-              Tele: (832) 205-2160 <br>
-            </p>
+            <address class="shadow_text">
+              P.O. Box 590743 <br>
+              Houston, TX<br>
+              77259 U.S<br>
+              Phone: (832) 205-2160
+            </address>
           </div>
           <div class="col">
             <p class="lead">
