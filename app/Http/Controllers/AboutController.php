@@ -26,7 +26,7 @@ class AboutController extends Controller
 
         $title = 'About Us';
         $sidelinks = $this->sidelinks();
-        return view('about.index')
+        return view('about.aboutus')
           ->with('sidelinks', $sidelinks)
           ->with('title', $title);
     }
