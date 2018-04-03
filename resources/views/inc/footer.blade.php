@@ -30,7 +30,7 @@
             <br>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
-                <a class="nav-link active" href="/aplication">New Students Apply</a>
+                <a class="nav-link active" href="/application">New Students Apply</a>
               </li>
             </ul>
             <br>
