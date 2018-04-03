@@ -13,7 +13,7 @@
             <hr class="style-two1">
             <p class="shadow_text">
               Private Middle & High School
-              Houston, TX | Pasadena, TX
+              Houston, TX | Pasadena, TX | Marblefalls, TX
             </p>
             <hr class="style-two1">
             <address class="shadow_text">
