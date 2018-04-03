@@ -10,7 +10,7 @@
             <p class="lead">
               2018,  {{ config('app.name', 'SCPS') }}
             </p>
-            <hr>
+            <hr class="style-two">
             <address class="shadow_text">
               P.O. Box 590743 <br>
               Houston, TX<br>
