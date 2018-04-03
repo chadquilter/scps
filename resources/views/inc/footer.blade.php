@@ -24,7 +24,7 @@
             </address>
           </div>
           <div class="col">
-            <p class="lead">
+            <p class="shadow_text">
               Quick Links
             </p>
             <br>
