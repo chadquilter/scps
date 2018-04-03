@@ -52,10 +52,10 @@ Route::get('/international-partners', 'InternationalController@partners');
 Route::get('/international-services', 'InternationalController@services');
 
 Route::get('/student-life-gallery', 'GalleryController@student');
-Route::get('/sports-gallery', 'StudentController@sports');
-Route::get('/elective-gallery', 'StudentController@elective');
-Route::get('/art-gallery', 'StudentController@art');
-Route::get('/classroom-gallery', 'StudentController@classroom');
+Route::get('/sports-gallery', 'GalleryController@sports');
+Route::get('/elective-gallery', 'GalleryController@elective');
+Route::get('/art-gallery', 'GalleryController@art');
+Route::get('/classroom-gallery', 'GalleryController@classroom');
 
 Route::resource('contact', 'ContactController');
 Route::resource('documents', 'DocumentsController');
