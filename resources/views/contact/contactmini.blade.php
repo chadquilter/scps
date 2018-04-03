@@ -2,7 +2,7 @@
   <div class="main-color">
 
         @include('inc.messages')
-        <div id="after_submit"></div>
+        <h5 class="shadow_text"><h5>
         <form id="contact_form_mini" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
           @csrf
           <div class="form=group">
