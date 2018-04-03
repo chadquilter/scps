@@ -17,6 +17,7 @@ class AboutController extends Controller
          'vision' => array('link' => 'vision', 'label' => 'Vision'),
          'core-values' => array('link' => 'core-values', 'label' => 'Core Values'),
          'testimonials' => array('link' => 'testimonials', 'label' => 'Testemonials'),
+         'school-history' => array('link' => 'school-history', 'label' => 'School History'),
       );
       return $links;
     }
