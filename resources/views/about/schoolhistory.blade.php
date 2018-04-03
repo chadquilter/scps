@@ -7,26 +7,17 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Scope of our Mission')}}</h1>
+              <h1>{{ __('Our Past:')}}</h1>
               <p class="lead">
-              {{ __('We want to reach all who can benefit from our school.
-              We want to develop each student to their full potential.
-              We want to emphasize spiritual results over academic achievement.
-              We want to be faithful to our task and trust God to give the increase.')}}
+              {{ __('We started as a small school in Houston, TX that emphisized quality over quantity teaching practices.')}}
               </p>
-              <h1>{{ __('Governance and Operations')}}</h1>
+              <h1>{{ __('Our Present:')}}</h1>
               <p class="lead">
-              {{ __('We want to practice servant leadership: teachers serve students; administrators serve teachers.
-              We want to make what is best for our students a top priority.
-              We want to emphasize the spirit of the law over the letter of the law.
-              We want to emphasize ‘who we are’ is more important than ‘what we do’.
-              We want to place overall, long-term benefits over expediency.')}}
+              {{ __('Our school has grown to include a brand new campus with camps and elective programs in Austin as well as Houston, TX.')}}
               </p>
-              <h1>{{ __('Methodology')}}</h1>
+              <h1>{{ __('Our Future:')}}</h1>
               <p class="lead">
-              {{ __('We want to make sure the teacher is the key to the classroom.
-              We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment.
-              We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
+              {{ __('We plan to keep the same quality and mentorship that made our legacy what it is today.')}}
               </p>
           </div>
           <div class="col">

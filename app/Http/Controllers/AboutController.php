@@ -62,11 +62,11 @@ class AboutController extends Controller
     }
 
 
-    public function testemony()
+    public function testimony()
     {
-        $title = 'Testemony';
+        $title = 'Testimony';
         $sidelinks = $this->sidelinks();
-        return view('about.testemony')
+        return view('about.tistemony')
           ->with('title', $title)
           ->with('sidelinks', $sidelinks);
     }

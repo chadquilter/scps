@@ -27,7 +27,7 @@ Route::get('/about', 'AboutController@index');
 Route::get('/school-history', 'AboutController@schoolhistory');
 Route::get('/core-values', 'AboutController@corevalues');
 Route::get('/eslr', 'AboutController@eslr');
-Route::get('/testemony', 'AboutController@testemony');
+Route::get('/testimony', 'AboutController@testimony');
 Route::get('/vision', 'AboutController@vision');
 
 Route::get('/administration', 'AcademicController@administration');

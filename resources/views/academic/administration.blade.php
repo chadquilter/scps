@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Scope of our Mission')}}</h1>
+              <h1>{{ __('Kendall Gherrett - Superintended')}}</h1>
               <p class="lead">
               {{ __('We want to reach all who can benefit from our school.
               We want to develop each student to their full potential.

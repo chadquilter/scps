@@ -79,7 +79,7 @@
             <a class="dropdown-item {{ ( \Request::url() == url('school-history') ) ? 'active' : '' }}" href="/school-history">{{__('School History')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('vision') ) ? 'active' : '' }}" href="/vision">{{__('Vision')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('core-values') ) ? 'active' : '' }}" href="/core-values">{{__('Core Values')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('testemony') ) ? 'active' : '' }}" href="/testemony">{{__('Testimonials')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('testimony') ) ? 'active' : '' }}" href="/testimony">{{__('Testimonials')}}</a>
           </div>
         </li>
 
