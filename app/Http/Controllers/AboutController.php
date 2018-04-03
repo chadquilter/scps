@@ -13,10 +13,10 @@ class AboutController extends Controller
      */
     private function sidelinks(){
       $links = array(
-         'about' => array('link' => '\about', 'label' => 'About Us'),
-         'vision' => array('link' => '\vision', 'label' => 'Vision'),
-         'core-values' => array('link' => '\core-values', 'label' => 'Core Values'),
-         'testimonials' => array('link' => '\testimonials', 'label' => 'Testemonials'),
+         'about' => array('link' => 'about', 'label' => 'About Us'),
+         'vision' => array('link' => 'vision', 'label' => 'Vision'),
+         'core-values' => array('link' => 'core-values', 'label' => 'Core Values'),
+         'testimonials' => array('link' => 'testimonials', 'label' => 'Testemonials'),
       );
       return $links;
     }
