@@ -9,7 +9,7 @@ class InternationalController extends Controller
 
     private function sidelinks(){
       $links = array(
-       'academy' => array('link' => 'academy', 'label' => 'The Academy'),
+       'academy' => array('link' => 'international-academy', 'label' => 'The Academy'),
        'acceleratedenglish' => array('link' => 'accelerated-english', 'label' => 'Accelerated English'),
        'admissionfees' => array('link' => 'international-admission', 'label' => 'Admission and Fees'),
        'partners' => array('link' => 'international-partners', 'label' => 'International Partners'),
