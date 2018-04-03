@@ -1,6 +1,6 @@
 <div class="gallery">
   <div class="card">
-    <div class="card-header">
+    <div class="card-header alt-color">
       {{__('Gallery')}}
     </div>
     <div class="card-body">
