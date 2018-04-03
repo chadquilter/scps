@@ -15,7 +15,7 @@
   </div>
   <div class="col">
     <div class="img-container">
-      <a href="/class-gallery">
+      <a href="/classroom-gallery">
         <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
       </a>
     </div>

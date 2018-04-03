@@ -53,7 +53,7 @@ Route::get('/international-services', 'InternationalController@services');
 
 Route::get('/student-life-gallery', 'GalleryController@student');
 Route::get('/sports-gallery', 'GalleryController@sports');
-Route::get('/elective-gallery', 'GalleryController@elective');
+Route::get('/electives-gallery', 'GalleryController@elective');
 Route::get('/art-gallery', 'GalleryController@art');
 Route::get('/classroom-gallery', 'GalleryController@classroom');
 
