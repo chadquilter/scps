@@ -9,6 +9,7 @@
           <div class="col">
               <h1 class="display-1">“</h1>
               <p class="lead">
+                <h1 class="display-1">“</h1>
               {{ __('...unlike most high schools, SCPS was like a home. Not only because of the circumstances that caused me to see the place as my home physically, but more because of the people, the teachers, the students, even the administration, that made me feel welcomed and loved, a feeling that can only be so real in a family.')}}
               </p>
               <hr class="style-two">
