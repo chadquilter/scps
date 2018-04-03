@@ -8,44 +8,39 @@
 <div class="row">
   <div class="col">
         <div class="img-container">
-          <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-          <div class="img-middle">
-            <div class="img-text"></div>
-          </div>
+          <a href="art-gallery">
+            <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
+          </a>
         </div>
   </div>
   <div class="col">
     <div class="img-container">
-      <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-      <div class="img-middle">
-        <div class="img-text"></div>
-      </div>
+      <a href="class-gallery">
+        <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
+      </a>
     </div>
 
   </div>
   <div class="col">
         <div class="img-container">
-          <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-          <div class="img-middle">
-            <div class="img-text"></div>
-          </div>
+          <a href="/electives-gallery">
+            <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
+          </a>
         </div>
 
   </div>
   <div class="col">
         <div class="img-container">
-          <img src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-          <div class="img-middle">
-            <div class="img-text"></div>
-          </div>
+          <a href="/sports-gallery">
+            <img src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
+          </a>
         </div>
   </div>
   <div class="col">
         <div class="img-container">
-          <img src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
-          <div class="img-middle">
-            <div class="img-text"></div>
-          </div>
+          <a href="/student-life-gallery">
+            <img src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image" style="width:100%">
+          </a>
         </div>
 
   </div>

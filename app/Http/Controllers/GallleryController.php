@@ -11,6 +11,64 @@ class GallleryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     private function sidelinks(){
+       $links = array(
+        'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
+        'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
+      );
+      return $links;
+     }
+
+    public function sports(){
+      $title = 'Sports Photo Gallery';
+      $sidelinks = $this->sidelinks();
+      $files = Storage::disk('images')->files('showcase');
+      return view('contact.create')
+        ->with('sidelinks', $sidelinks)
+        ->with('files', $files)
+        ->with('title', $title);
+    }
+
+    public function student(){
+      $title = 'Student Life Photo Gallery';
+      $sidelinks = $this->sidelinks();
+      $files = Storage::disk('images')->files('showcase');
+      return view('contact.create')
+        ->with('sidelinks', $sidelinks)
+        ->with('files', $files)
+        ->with('title', $title);
+    }
+
+    public function art(){
+      $title = 'Art Photo Gallery';
+      $sidelinks = $this->sidelinks();
+      $files = Storage::disk('images')->files('showcase');
+      return view('contact.create')
+        ->with('sidelinks', $sidelinks)
+        ->with('files', $files)
+        ->with('title', $title);
+    }
+
+    public function elective(){
+      $title = 'Elective Photo Gallery';
+      $sidelinks = $this->sidelinks();
+      $files = Storage::disk('images')->files('showcase');
+      return view('contact.create')
+        ->with('sidelinks', $sidelinks)
+        ->with('files', $files)
+        ->with('title', $title);
+    }
+
+    public function classroom(){
+      $title = 'Classroom Photo Gallery';
+      $sidelinks = $this->sidelinks();
+      $files = Storage::disk('images')->files('showcase');
+      return view('contact.create')
+        ->with('sidelinks', $sidelinks)
+        ->with('files', $files)
+        ->with('title', $title);
+    }
+
     public function index()
     {
         //
