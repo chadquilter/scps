@@ -39,7 +39,7 @@ class DashboardController extends Controller
         //$quotes = Quote::orderBy('created_at', 'desc', 'title')->paginate(4, ['*'], 'quotes');
         //$addresses = Address::orderBy('created_at', 'desc', 'zipcode')->paginate(1, ['*'], 'address');
 
-        return view('dashboard')
+        return view('dashboard.dashboard')
           ->with('user', $user)
           ->with('dt', $fdt);
     }
