@@ -13,10 +13,8 @@
 
 Route::get('/', 'PagesController@index');
 
-Auth::routes([
-  'auth' => 'Auth\AuthController',
-  'password' => 'Auth\PasswordController',
-]);
+Auth::routes();
+Route::get('/dashboard', 'DashboardController@index');
 
 //Route::resource('about', 'AboutController');
 Route::post('contact/create', 'ContactController@create');
