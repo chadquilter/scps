@@ -37,22 +37,23 @@
               <div class="form-group row">
                 <label for="message" class="col-sm-4 col-form-label text-md-right">{{ __('Message:') }}</label>
                 <div class="col-md-6">
-                  <input id="message" type="textarea" class="form-control{{ $errors->has('message') ? ' is-invalid' : '' }}" name="message" value="{{ old('message') }}" required autofocus>
+                  <textarea id="message" ows="7" cols="40" class="form-control{{ $errors->has('message') ? ' is-invalid' : '' }}" name="message" value="{{ old('message') }}" required autofocus>
+                  </div>
                 </div>
-              </div>
 
+                <div class="form=group">
+                  <input id="submit_button" type="submit" value="Send email" />
+                </div>
+              </form>
+            </div>
+            <br>
+            <div class="col">
+              @include('inc.sidebarcontacts')
+            </div>
+          </div>
 
-              <div class="form=group row">
-                <input id="submit_button" type="submit" value="Send email" />
-              </div>
-            </form>
-          </div>
-          <br>
-          <div class="col">
-            @include('inc.sidebarcontacts')
-          </div>
         </div>
       </div>
     </div>
-  </div>
-@endsection
+
+  @endsection
