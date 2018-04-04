@@ -2,10 +2,12 @@
 
 @section('content')
   <div class="container">
-    @include('gallery.gallery')
-    <br>
-    @include('inc.photothumb')
-    <br>
+    <div class="alt-color">
+      @include('gallery.gallery')
+      <br>
+      @include('inc.photothumb')
+      <br>
+    </div>
   </div>
 
 @endsection
