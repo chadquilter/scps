@@ -58,4 +58,4 @@ Route::get('/classroom-gallery', 'GalleryController@classroom');
 Route::resource('contact', 'ContactController');
 Route::resource('documents', 'DocumentsController');
 
-Route::resource('schedule', 'ScheduleController');
+Route::resource('schedule', 'SchedulesController');
