@@ -4,4 +4,6 @@
   <div class="container">
     @include('gallery.gallery')
   </div>
+  <br>
+  @include('inc.photothumb')
 @endsection
