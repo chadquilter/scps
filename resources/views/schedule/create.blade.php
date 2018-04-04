@@ -14,9 +14,9 @@
           <form action="{{ route('schedule.store') }}" method="post">
             {{ csrf_field() }}
             <div class="form-group row">
-              <label for="task" class="col-sm-4 col-form-label text-md-right">{{ __('Task Name') }}</label>
+              <label for="name" class="col-sm-4 col-form-label text-md-right">{{ __('Task Name') }}</label>
               <div class="col-md-6">
-                <input id="task" type="text" class="form-control{{ $errors->has('task') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
               </div>
             </div>
             <div class="form-group row">
