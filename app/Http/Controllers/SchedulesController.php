@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Schedule;
 
 class SchedulesController extends Controller
 {
@@ -13,7 +14,8 @@ class SchedulesController extends Controller
      */
     public function index()
     {
-        //
+      $tasks = Schedule::all();
+      return view('schedule.index', compact('tasks'));
     }
 
     /**
@@ -23,7 +25,7 @@ class SchedulesController extends Controller
      */
     public function create()
     {
-        //
+        return view('schedule.create');
     }
 
     /**
@@ -34,7 +36,8 @@ class SchedulesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Schedule::create($request->all());
+        return redirect()->route('schedule.index');
     }
 
     /**
