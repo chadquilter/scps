@@ -4,9 +4,9 @@
   <div class="container">
     <div class="alt-color">
       @include('gallery.gallery')
-      <br>
-      @include('inc.photothumb')
-      <br>
+      <div>
+        @include('inc.photothumb')
+      </div>
     </div>
   </div>
 
