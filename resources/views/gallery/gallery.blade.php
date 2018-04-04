@@ -5,6 +5,8 @@
     </div>
     <div class="card-body alt-color">
       @include('inc.jobimagecarosel')
+      <br>
+      @include('inc.photothumb')
     </div>
   </div>
 </div>
