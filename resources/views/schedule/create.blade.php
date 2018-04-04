@@ -27,6 +27,7 @@
                   <option id="academic">Daily</option>
                   <option id="academic">Sports</option>
                   <option id="academic">Events</option>
+                </select>
               </div>
             </div>
             <div class="form-group row">
