@@ -12,6 +12,9 @@
           <span data-feather="scheule"></span>
            <a href="/schedule" class="alert alert-primary btn btn-secondary" role="button">Calendar Manager</a>
         @endif
+        @if ( Request::route()->getName() == 'schedule.index')
+          <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Calendar Task</a>
+        @endif
       </div>
     </div>
 </p>
