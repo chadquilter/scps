@@ -7,13 +7,13 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Administrator')}}</h1>
+              <h1>{{ __('Administration')}}</h1>
               <p class="lead">
-              {{ __('1812')}}
+              {{ __('Our administration is here to work with you!')}}
               </p>
               <h1>{{ __('Creativtiy')}}</h1>
               <p class="lead">
-              {{ __('1812! never surrender, never give up!')}}
+              {{ __('')}}
               </p>
               <h1>{{ __('Methodology')}}</h1>
               <p class="lead">
