@@ -8,7 +8,7 @@
           <span data-feather="home"></span>
            <a href="/dashboard" class="alert alert-primary btn btn-secondary" role="button">Return to Dashboard</a>
         @endif
-        @if ( Request::route()->getName() == 'schedule.index')
+        @if ( Request::route()->getName() != 'schedule.index')
           <span data-feather="scheule"></span>
            <a href="/schedule" class="alert alert-primary btn btn-secondary" role="button">Return to Dashboard</a>
         @endif
