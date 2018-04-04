@@ -10,7 +10,7 @@
         @endif
         @if ( Request::route()->getName() != 'schedule.index')
           <span data-feather="scheule"></span>
-           <a href="/schedule" class="alert alert-primary btn btn-secondary" role="button">Return to Dashboard</a>
+           <a href="/schedule" class="alert alert-primary btn btn-secondary" role="button">Calendar Manager</a>
         @endif
       </div>
     </div>
