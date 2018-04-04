@@ -23,7 +23,7 @@ class GalleryController extends Controller
     public function sports(){
       $title = 'Sports Photo Gallery';
       $sidelinks = $this->sidelinks();
-      $files = Storage::disk('images.gallery')->files('sports');
+      $files = Storage::disk('images')->files('gallery.sports');
       return view('gallery.sports-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
