@@ -17,6 +17,14 @@
                 <br>
                 <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
                 <span id="name_validation" class="error_message"></span>
+
+                <div class="form-group row">
+                  <label for="name" class="col-sm-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                  <div class="col-md-6">
+                    <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                  </div>
+                </div>
+
               </div>
               <div class="form=group">
                 <label class="required" for="email"><strong>Your email: (required)</strong></label>
