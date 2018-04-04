@@ -22,7 +22,11 @@
             <div class="form-group row">
               <label for="type" class="col-sm-4 col-form-label text-md-right">{{ __('Task Type') }}</label>
               <div class="col-md-6">
-                <input id="type" type="select" class="form-control{{ $errors->has('type') ? ' is-invalid' : '' }}" name="type" value="{{ old('type') }}" required autofocus>
+                <select id="type" class="form-control{{ $errors->has('type') ? ' is-invalid' : '' }}" name="type" value="{{ old('type') }}" required autofocus>
+                  <option id="academic">Academic</option>
+                  <option id="academic">Daily</option>
+                  <option id="academic">Sports</option>
+                  <option id="academic">Events</option>
               </div>
             </div>
             <div class="form-group row">
