@@ -12,51 +12,47 @@
             <div id="after_submit"></div>
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
-              <div class="form=group">
-                <label class="required" for="name"><strong>Your name: (required)</strong></label>
-                <br>
-                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                <span id="name_validation" class="error_message"></span>
 
-                <div class="form-group row">
-                  <label for="name" class="col-sm-4 col-form-label text-md-right">{{ __('Name') }}</label>
-                  <div class="col-md-6">
-                    <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
-                  </div>
+              <div class="form-group row">
+                <label for="name" class="col-sm-4 col-form-label text-md-right">{{ __('Your Name:') }}</label>
+                <div class="col-md-6">
+                  <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
                 </div>
+              </div>
 
-              </div>
-              <div class="form=group">
-                <label class="required" for="email"><strong>Your email: (required)</strong></label>
-                <br>
-                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-                <span id="email_validation" class="error_message"></span>
-              </div>
-              <div class="form=group">
-                <label class="required" for="phone"><strong>Your phone: (required)</strong></label>
-                <br>
-                <input id="phone" class="input" name="phone" type="text" value="" size="30" /><br />
-                <span id="phone_validation" class="error_message"></span>
-              </div>
-              <div class="form=group">
-                <label class="required" for="message"><string>Message: (required)</strong></label>
-                  <br>
-                  <textarea id="description" class="input" name="description" rows="7" cols="40"></textarea><br />
-                  <span id="description_validation" class="error_message"></span>
+              <div class="form-group row">
+                <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('Your Email:') }}</label>
+                <div class="col-md-6">
+                  <input id="text" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
                 </div>
-                <div class="form=group">
-                  <input id="submit_button" type="submit" value="Send email" />
+              </div>
+
+              <div class="form-group row">
+                <label for="phone" class="col-sm-4 col-form-label text-md-right">{{ __('Your Phone:') }}</label>
+                <div class="col-md-6">
+                  <input id="phone" type="phone" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required autofocus>
                 </div>
-              </form>
-            </div>
-            <br>
-            <div class="col">
-              @include('inc.sidebarcontacts')
-            </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="message" class="col-sm-4 col-form-label text-md-right">{{ __('Message:') }}</label>
+                <div class="col-md-6">
+                  <input id="message" type="textarea" class="form-control{{ $errors->has('message') ? ' is-invalid' : '' }}" name="message" value="{{ old('message') }}" required autofocus>
+                </div>
+              </div>
+
+
+              <div class="form=group row">
+                <input id="submit_button" type="submit" value="Send email" />
+              </div>
+            </form>
           </div>
-
+          <br>
+          <div class="col">
+            @include('inc.sidebarcontacts')
+          </div>
         </div>
       </div>
     </div>
-
-  @endsection
+  </div>
+@endsection
