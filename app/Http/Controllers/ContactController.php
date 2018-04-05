@@ -25,8 +25,9 @@ class ContactController extends Controller
      }
 
      //check url before doing redirect
-     private function store_redirect() {
-       if (Request::url() == url('school-history')) {
+    private function store_redirect() {
+       $current_url = Request::url();
+       if ($current_url == url('school-history')) {
          return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
        }
        return;
