@@ -20,7 +20,7 @@ class ContactMail extends Mailable
      */
     public $contact;
 
-    public function __construct(Quote $contact)
+    public function __construct(Contact $contact)
     {
         $this->contact = $contact;
     }
