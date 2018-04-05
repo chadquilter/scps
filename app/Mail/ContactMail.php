@@ -2,7 +2,7 @@
 
 namespace App\Mail;
 
-use App\Quote;
+use App\Contact;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -39,7 +39,6 @@ class ContactMail extends Mailable
                 'contactTitle' => $this->contact->title,
                 'contactPhone' => $this->contact->phone,
                 'contactEmail' => $this->contact->email,
-                'contactDescription' => $this->contact->description,
                 'contactNotes' => $this->contact->notes,
                 'contactDate' => $date,
             ]);

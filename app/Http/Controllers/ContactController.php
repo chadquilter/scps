@@ -65,8 +65,8 @@ class ContactController extends Controller
         $contact->email = $request->input('email');
         $contact->save();
 
-        //$to = explode(',', env('ADMIN_EMAILS'));
-        //Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
+        $to = explode(',', env('ADMIN_EMAILS'));
+        Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
 
         return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
     }
