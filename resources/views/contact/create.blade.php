@@ -7,12 +7,11 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-
             @include('inc.messages')
             <div id="after_submit"></div>
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
-
+              <div><strong>All Fields Required.</strong></div>
               <div class="form-group row">
                 <label for="name" class="col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Name:') }}</strong></label>
                 <div class="col-md-6">
@@ -42,8 +41,7 @@
               </div>
 
                 <div class="form=group row">
-                  <div><strong>All Fields Required.</strong></div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 float-right">
                     <input id="submit_button" type="submit" value="Send email" />
                   </div>
                 </div>
