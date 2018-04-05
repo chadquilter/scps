@@ -38,7 +38,7 @@ class ContactController extends Controller
      //check url before doing redirect
     protected function store_redirect() {
        $url = $this->getMini();
-      return redirect($url)->with('success', 'Message Sent! A representitive will contact you with further details.');
+      return redirect('$url')->with('success', 'Message Sent! A representitive will contact you with further details.');
      }
 
     public function index()
