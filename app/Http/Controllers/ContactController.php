@@ -31,7 +31,7 @@ class ContactController extends Controller
        }
        return;
      }
-     
+
     public function index()
     {
         //
@@ -73,12 +73,10 @@ class ContactController extends Controller
         $contact->email = $request->input('email');
         $contact->save();
 
-
-
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
 
-        store_redirect();
+        $this->store_redirect();
     }
 
 
