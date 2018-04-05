@@ -21,8 +21,8 @@ class ContactController extends Controller
       'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
     );
 
-     private function setMini($is_mini){
-       $this->is_mini = $is_mini;
+     private function setMini(){
+       $this->is_mini = $this->Request::url();
      }
 
      /* get mini value */
@@ -38,7 +38,7 @@ class ContactController extends Controller
      //check url before doing redirect
     protected function store_redirect() {
        $url = $this->getMini();
-      return redirect('$url')->with('success', 'Message Sent! A representitive will contact you with further details.');
+      return redirect($this->Request::url())->with('success', 'Message Sent! A representitive will contact you with further details.');
      }
 
     public function index()
@@ -86,7 +86,6 @@ class ContactController extends Controller
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
         //redirect or not
-        $this->setMini($request->input('is_Mini'));
         $this->store_redirect();
     }
 
