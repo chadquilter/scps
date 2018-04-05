@@ -2,8 +2,7 @@
 
 @section('content')
   <div class="container">
-    <div class="card">
-      <div class='card-body alt-color'>
+
         <div class="row">
           <div class="col col-auto">
             <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="{{ asset('/images/scps_logo.png')}} " height="140">
@@ -16,8 +15,10 @@
               </div>
             </div>
           </div>
-        </div>
-        <hr>
+    </div>
+    <hr class="style-two">
+    <div class="card">
+      <div class='card-body alt-color'>
         <div>
           <strong>From: </strong> {{ $contactName }}
           <br>
