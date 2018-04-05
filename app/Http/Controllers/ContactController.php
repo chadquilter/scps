@@ -56,7 +56,7 @@ class ContactController extends Controller
      */
     public function store(storeContactPost $request)
     {
-        $contact = new contact;
+        $contact = new contacts;
         $contact->title = $request->input('name');
         $contact->notes = $request->input('notes');
         $contact->phone = $request->input('phone');
