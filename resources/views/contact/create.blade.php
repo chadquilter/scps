@@ -16,6 +16,11 @@
                 <small>All Fields Required.</small>
               </div>
               <div class="card-body">
+                <div class="main-color text-light sidebar_pad shadow_only">
+                  <h4 class="display-4">{{__('Feel free to contact us anytime.')}}</h4>
+                  <small>All Fields Required.</small>
+                </div>
+                <br>
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
 
