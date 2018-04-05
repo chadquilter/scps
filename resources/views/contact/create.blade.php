@@ -37,8 +37,7 @@
               <div class="form-group row">
                 <label for="notes" class="col-sm-4 col-form-label text-md-right">{{ __('Message:') }}</label>
                 <div class="col-md-6">
-                  <textarea id="notes" rows="7" cols="40" class="form-control{{ $errors->has('notes') ? ' is-invalid' : '' }}" name="notes" value="{{ old('notes') }}" required autofocus>
-                  </textarea>
+                  <textarea id="notes" rows="7" cols="40" class="form-control{{ $errors->has('notes') ? ' is-invalid' : '' }}" name="notes" required autofocus>{{ old('notes') }}</textarea>
                 </div>
               </div>
 
