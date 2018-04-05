@@ -15,30 +15,19 @@ class ContactController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     private $is_mini = 'contact';
      private $links = array(
       'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
       'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
     );
 
-     private function setMini(){
-       $this->is_mini = $this->Request::url();
-     }
-
-     /* get mini value */
-     private function getMini(){
-       return $this->is_mini;
-     }
-
     protected function sidelinks(){
       return $this->links;
      }
 
-
      //check url before doing redirect
     protected function store_redirect() {
-      return redirect('\$this->getMini()')->with('success', 'Message Sent! A representitive will contact you with further details.');
-     }
+      return back()->with('success', 'Message Sent! A representitive will contact you with further details.');
+    }
 
     public function index()
     {
