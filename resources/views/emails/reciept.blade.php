@@ -28,6 +28,7 @@
             <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
             <p class="lead">Have a Wonderfull Day!</p>
             <br>
+          </div>
             <div class="row">
               <div class="col">
                 <div class="main-color text-light sidebar_pad shadow_only">
@@ -51,9 +52,8 @@
                 <hr class="style-two">
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <br>
+
     </div>
   @endsection
