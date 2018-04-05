@@ -37,7 +37,7 @@ class ContactController extends Controller
 
      //check url before doing redirect
     private function store_redirect() {
-       $this->is_mini = getMini();
+       $is_mini = $this->getMini();
        if ($is_mini == url('school-history')) {
          return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
        }
