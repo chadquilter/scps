@@ -24,11 +24,6 @@ class ContactController extends Controller
       return $this->links;
      }
 
-     //check url before doing redirect
-    protected function store_redirect() {
-      return back()->with('success', 'Message Sent! A representitive will contact you with further details.');
-    }
-
     public function index()
     {
         //
@@ -62,8 +57,6 @@ class ContactController extends Controller
      */
     public function store(storeContactPost $request)
     {
-
-
         $contact = new Contact;
         $contact->name = $request->input('name');
         $contact->notes = $request->input('notes');
