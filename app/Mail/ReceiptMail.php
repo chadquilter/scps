@@ -34,7 +34,7 @@ class ReceiptMail extends Mailable
     {
 
         $date = Carbon::now()->toDateTimeString();
-        return $this->view('emails.recipt')
+        return $this->view('emails.reciept')
             ->with([
                 'contactName' => $this->contact->name,
                 'contactPhone' => $this->contact->phone,
