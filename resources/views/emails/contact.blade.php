@@ -24,8 +24,8 @@
         </div>
         <div class="card">
         <div class="card-body shadow_only">
-          <hr class="style-two">
           <strong>From:</strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactName }}</p>
           <strong>Date:</strong>
           <p class="lead">{{ $contactDate }}</p>
@@ -33,7 +33,6 @@
           <p class="lead">{{ $contactPhone }}</p>
           <strong>Email:</strong>
           <p class="lead">{{ $contactEmail }}</p>
-          <hr class="style-two">
         </div>
       </div>
       <br>
