@@ -54,14 +54,8 @@
                 </div>
               </div>
 
-                <div class="form=group row">
-                  <div class="col-lg float-right">
-                    <input id="submit_button" type="submit" value="Send email" />
-                  </div>
-                </div>
-
             </div>
-            <div class="card-footer">
+            <div class="card-footer ml-auto">
               <h4></h4>
               <small>All Fields Required.</small>
               <div class="form=group">
