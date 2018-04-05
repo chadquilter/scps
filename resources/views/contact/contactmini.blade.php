@@ -6,30 +6,33 @@
         <hr>
         <form id="contact_form_mini" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
           @csrf
-          <div class="form=group">
-            <label class="required shadow_text" for="name"><strong>Your name: (required)</strong></label>
-            <br>
-            <input id="name" class="input" name="name" type="text" value="" size="20" /><br />
-            <span id="name_validation" class="error_message"></span>
-          </div>
-          <div class="form=group">
-            <label class="required shadow_text" for="email"><strong>Your email: (required)</strong></label>
-            <br>
-            <input id="email" class="input" name="email" type="text" value="" size="20" /><br />
-            <span id="email_validation" class="error_message"></span>
-          </div>
-          <div class="form=group">
-            <label class="required shadow_text" for="phone"><strong>Your phone: (required)</strong></label>
-            <br>
-            <input id="phone" class="input" name="phone" type="text" value="" size="20" /><br />
-            <span id="phone_validation" class="error_message"></span>
-          </div>
-          <div class="form=group">
-            <label class="required shadow_text" for="message"><strong>Message: (required)</strong></label>
-              <br>
-              <textarea id="description" class="input" name="description" rows="5" cols="20"></textarea><br />
-              <span id="description_validation" class="error_message"></span>
+          <div class="form-group row">
+            <label for="name" class="shadow_text col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Name:') }}</strong></label>
+            <div class="col-md-6">
+              <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
             </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="email" class="shadow_text col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Email:') }}</strong></label>
+            <div class="col-md-6">
+              <input id="text" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="phone" class="shadow_text col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Phone:') }}</strong></label>
+            <div class="col-md-6">
+              <input id="phone" type="phone" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required autofocus>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="notes" class="shadow_text col-sm-4 col-form-label text-md-right"><strong>{{ __('Message:') }}</strong></label>
+            <div class="col-md-6">
+              <textarea id="notes" rows="7" cols="40" class="form-control{{ $errors->has('notes') ? ' is-invalid' : '' }}" name="notes" required autofocus>{{ old('notes') }}</textarea>
+            </div>
+          </div>
             <div class="form=group">
               <input id="submit_button" type="submit" value="Send email" />
             </div>
