@@ -36,7 +36,7 @@ class ContactMail extends Mailable
         $date = Carbon::now()->toDateTimeString();
         return $this->view('emails.contact')
             ->with([
-                'contactTitle' => $this->contact->title,
+                'contactName' => $this->contact->name,
                 'contactPhone' => $this->contact->phone,
                 'contactEmail' => $this->contact->email,
                 'contactNotes' => $this->contact->notes,
