@@ -74,7 +74,7 @@ class ContactController extends Controller
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
         //redirect or not
-        $this->store_redirect();
+        return back()->with('success', 'Message Sent! A representitive will contact you with further details.');
     }
 
 
