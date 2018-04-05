@@ -30,13 +30,13 @@ class ContactController extends Controller
        return $this->is_mini;
      }
 
-     private function sidelinks(){
+    protected function sidelinks(){
       return $this->links;
      }
 
 
      //check url before doing redirect
-    private function store_redirect() {
+    protected function store_redirect() {
        $url = $this->getMini();
       return redirect($url)->with('success', 'Message Sent! A representitive will contact you with further details.');
      }
