@@ -31,6 +31,7 @@
           </div>
         </div>
         <br>
+            </div>
             <div class="row">
               <div class="col">
                 <div class="main-color text-light sidebar_pad shadow_only">
@@ -54,7 +55,7 @@
 
             </div>
         </div>
-      </div>
+
 
     </div>
   @endsection
