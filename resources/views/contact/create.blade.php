@@ -12,19 +12,15 @@
             <div id="after_submit"></div>
             <div class="main-color text-light sidebar_pad shadow_only">
               <h4 class="display-4">{{__('Feel free to contact us anytime.')}}</h4>
-              <small>All Fields Required.</small>
+
             </div>
+            <br>
             <div class="card">
-              <div class="card-header main-color">
-                <h4>Feel free to contact us anytime.</h4>
+              <div class="card-header">
+                <h4></h4>
                 <small>All Fields Required.</small>
               </div>
               <div class="card-body">
-                <div class="main-color text-light sidebar_pad shadow_only">
-                  <h4 class="display-4">{{__('Feel free to contact us anytime.')}}</h4>
-                  <small>All Fields Required.</small>
-                </div>
-                <br>
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
 
