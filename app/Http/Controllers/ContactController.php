@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
+use App\Contact;
 use App\Http\Requests\storeContactPost as storeContactPost;
 
 class ContactController extends Controller
@@ -56,6 +57,7 @@ class ContactController extends Controller
      */
     public function store(storeContactPost $request)
     {
+
         $contact = new contacts;
         $contact->title = $request->input('name');
         $contact->notes = $request->input('notes');
