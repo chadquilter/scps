@@ -14,14 +14,14 @@
               @csrf
 
               <div class="form-group row">
-                <label for="name" class="col-sm-4 col-form-label text-md-right">{{ __('Your Name:') }}</label>
+                <label for="name" class="col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Name:') }}</strong></label>
                 <div class="col-md-6">
                   <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
                 </div>
               </div>
 
               <div class="form-group row">
-                <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('Your Email:') }}</label>
+                <label for="email" class="col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Email:') }}</strong></label>
                 <div class="col-md-6">
                   <input id="text" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
                 </div>
@@ -35,14 +35,17 @@
               </div>
 
               <div class="form-group row">
-                <label for="notes" class="col-sm-4 col-form-label text-md-right">{{ __('Message:') }}</label>
+                <label for="notes" class="col-sm-4 col-form-label text-md-right"><strong>{{ __('Message:') }}</strong></label>
                 <div class="col-md-6">
                   <textarea id="notes" rows="7" cols="40" class="form-control{{ $errors->has('notes') ? ' is-invalid' : '' }}" name="notes" required autofocus>{{ old('notes') }}</textarea>
                 </div>
               </div>
 
-                <div class="form=group">
-                  <input id="submit_button" type="submit" value="Send email" />
+                <div class="form=group row">
+                  <div><strong>All Fields Required.</strong></div>
+                  <div class="col-md-6">
+                    <input id="submit_button" type="submit" value="Send email" />
+                  </div>
                 </div>
               </form>
             </div>
