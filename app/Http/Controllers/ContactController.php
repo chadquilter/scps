@@ -15,7 +15,7 @@ class ContactController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     private $is_mini;
+     private $is_mini = '';
      private $links = array(
       'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
       'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
