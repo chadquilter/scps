@@ -2,7 +2,7 @@
   <h1>Alert: Recieved SCPS Contact Email!</h1>
   <hr>
   <div>
-    <strong>From: </strong> {{ $quoteTitle }}
+    <strong>From: </strong> {{ $quoteName }}
     <br>
     <strong>Date: </strong> {{ $quoteDate }}
     <br>
