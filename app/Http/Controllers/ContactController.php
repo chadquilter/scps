@@ -59,7 +59,7 @@ class ContactController extends Controller
     {
 
         $contact = new Contact;
-        $contact->title = $request->input('name');
+        $contact->name = $request->input('name');
         $contact->notes = $request->input('notes');
         $contact->phone = $request->input('phone');
         $contact->email = $request->input('email');
