@@ -19,6 +19,9 @@
     <hr class="style-two">
     <div class="card">
       <div class='card-body alt-color'>
+        <div class="main-color text-light sidebar_pad shadow_only">
+          <h4 class="display-4">Subject:</h4>
+        </div>
         <div class="card">
         <div class="card-body shadow_only">
           <strong>From:</strong>
@@ -32,9 +35,12 @@
         </div>
       </div>
       <br>
+      <div class="main-color text-light sidebar_pad shadow_only">
+        <h4 class="display-4">Subject:</h4>
+      </div>
       <div class="card">
         <div class="card-body shadow_only">
-          <strong>Notes: </strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactNotes }}</p>
         </div>
       </div>
