@@ -66,8 +66,8 @@ class ContactController extends Controller
         $contact->save();
 
         $to = explode(',', env('ADMIN_EMAILS'));
-        Mail::to($to)->send(new ContactMail($contact));
-        Mail::to($to)->send(new ReceiptMail($contact));
+        Mail::to($to)->subject('Space City Preparatory has recieved a meesage from '.$request->input('name'))->send(new ContactMail($contact));
+        Mail::to($to)->subject('Message Sent, Thank-You '.$request->input('name').'!')->send(new ReceiptMail($contact));
         //redirect or not
         return redirect()->back()->with('success', 'Message Sent! A representitive will contact you with further details.');
     }
