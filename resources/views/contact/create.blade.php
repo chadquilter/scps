@@ -10,6 +10,8 @@
             <div><p class="lead">All Fields Required.</p></div>
             @include('inc.messages')
             <div id="after_submit"></div>
+            <div class="card">
+              <div class="card-body">
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
 
@@ -48,6 +50,8 @@
                 </div>
               </form>
             </div>
+          </div>
+        </div>
             <br>
             <div class="col">
               @include('inc.sidebarcontacts')
