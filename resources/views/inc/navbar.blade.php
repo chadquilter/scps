@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarTop">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="https://spacecityschool.org/">{{__('Home')}}</a>
+        <a class="nav-link" href="/">{{__('/Home')}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://spacecityschool.org/about-us/">{{__('About Us')}}</a>
+        <a class="nav-link" href="/about-us">{{__('/About-Us')}}</a>
       </li>
       <li class"nav-item">
         <a class="nav-link">
