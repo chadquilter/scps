@@ -15,19 +15,29 @@ class ContactController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+     private $is_mini;
+     private $links = array(
+      'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
+      'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
+    );
+
+     public function setMini($is_mini){
+       $this->is_mini = $is_mini;
+     }
+
+     /* get mini value */
+     public function getMini(){
+       return $this->is_mini;
+     }
 
      private function sidelinks(){
-       $links = array(
-        'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
-        'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
-      );
-      return $links;
+      return $this->links;
      }
 
      //check url before doing redirect
-    private function store_redirect() {
-       $current_url = Request::url();
-       if ($current_url == url('school-history')) {
+    private function store_redirect($is_mini) {
+       $is_mini = getMini();
+       if ($is_mini == url('school-history')) {
          return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
        }
        return;
@@ -67,6 +77,7 @@ class ContactController extends Controller
     public function store(storeContactPost $request)
     {
 
+
         $contact = new Contact;
         $contact->name = $request->input('name');
         $contact->notes = $request->input('notes');
@@ -76,7 +87,8 @@ class ContactController extends Controller
 
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
-
+        //redirect or not
+        setMini($request->input('is_Mini'));
         $this->store_redirect();
     }
 
