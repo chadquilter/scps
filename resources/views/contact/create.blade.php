@@ -15,15 +15,16 @@
 
             </div>
             <br>
+            <div class="card">
+              <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
+                @csrf
+              <div class="card-header">
+                <h4>Contact Form:</h4>
+              </div>
 
-            <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
-              @csrf
-              <div class="card">
-                <div class="card-header">
-                  <h4>Contact Form:</h4>
-                </div>
+              <div class="card-body">
 
-                <div class="card-body">
+
 
               <div class="form-group row">
                 <label for="name" class="col-sm-4 col-form-label text-md-right"><strong>{{ __('Your Name:') }}</strong></label>
@@ -53,20 +54,22 @@
                 </div>
               </div>
 
-              <div class="card-footer">
-                <div class="row">
-                <div class="col">
-                  <h4></h4>
-                  <small>All Fields Required.</small>
+                <div class="form=group row">
+                  <div class="col-lg float-right">
+                    <input id="submit_button" type="submit" value="Send email" />
+                  </div>
                 </div>
-                <div class="col">
-                  <input id="submit_button" type="submit" value="Send email" />
-                </div>
+
+            </div>
+            <div class="card-footer">
+              <h4></h4>
+              <small>All Fields Required.</small>
+              <div class="form=group">
+                <input id="submit_button" type="submit" value="Send email" />
               </div>
             </div>
-            </div>
-          </form>
-
+            </form>
+          </div>
         </div>
             <br>
             <div class="col">
