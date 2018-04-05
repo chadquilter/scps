@@ -19,10 +19,7 @@
               <div class="card-header">
                 <h4>Contact Form:</h4>
               </div>
-              <div class="card-footer">
-                <h4></h4>
-                <small>All Fields Required.</small>
-              </div>
+
               <div class="card-body">
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
@@ -61,6 +58,10 @@
                   </div>
                 </div>
               </form>
+            </div>
+            <div class="card-footer">
+              <h4></h4>
+              <small>All Fields Required.</small>
             </div>
           </div>
         </div>
