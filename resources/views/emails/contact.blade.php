@@ -20,28 +20,35 @@
     <div class="card">
       <div class='card-body alt-color'>
         <div class="main-color text-light sidebar_pad shadow_only">
-          <h4 class="display-4">Subject:</h4>
+          <h4 class="display-4">Contact sent from:</h4>
+          <hr class="style-two">
         </div>
         <div class="card">
         <div class="card-body shadow_only">
           <strong>From:</strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactName }}</p>
           <strong>Date:</strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactDate }}</p>
           <strong>Phone:</strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactPhone }}</p>
           <strong>Email:</strong>
+          <hr class="style-two">
           <p class="lead">{{ $contactEmail }}</p>
         </div>
       </div>
       <br>
       <div class="main-color text-light sidebar_pad shadow_only">
-        <h4 class="display-4">Subject:</h4>
+        <h4 class="display-4">Message:</h4>
+        <hr class="style-two">
       </div>
       <div class="card">
         <div class="card-body shadow_only">
           <hr class="style-two">
           <p class="lead">{{ $contactNotes }}</p>
+          <hr class="style-two">
         </div>
       </div>
     </div>
