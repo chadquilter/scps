@@ -27,7 +27,7 @@ class storeContactPost extends FormRequest
           'name' => 'required|max:255',
           'email' => 'required|email',
           'phone' => 'required|max:20',
-          'message' => 'required|max:255',
+          'notes' => 'required|max:255',
         ];
     }
 }
