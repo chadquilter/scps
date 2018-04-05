@@ -56,10 +56,12 @@
 
             </div>
             <div class="card-footer">
-              <div class="mr-auto">
-                <h4></h4>
-                <small>All Fields Required.</small>
-                <div class="form=group">
+              <div class="row">
+                <div class="col">
+                  <h4></h4>
+                  <small>All Fields Required.</small>
+                </div>
+                <div class="col form=group ml-auto">
                   <input id="submit_button" type="submit" value="Send email" />
                 </div>
               </div>
