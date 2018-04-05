@@ -6,7 +6,7 @@
         <hr>
         <form id="contact_form_mini" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
           @csrf
-          <input type=hidden value="mini"> 
+          <input type=hidden value="{{ ( \Request::url() "> 
           <div class="form-group row">
             <label for="name" class="shadow_text col-sm-4 col-form-label text-md-right"><strong>{{ __('Name:') }}</strong></label>
             <div class="col-md-6">
