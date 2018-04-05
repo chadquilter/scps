@@ -19,18 +19,17 @@
     <hr class="style-two">
     <div class="card">
       <div class='card-body alt-color'>
-        <div>
-          <strong>From: </strong> {{ $contactName }}
+        <div class="card">
+        <div class="card-title">
+          <h4 class="display-4">From:</h4> {{ $contactName }}
           <br>
-          <strong>Date: </strong> {{ $contactDate }}
+          <h4 class="display-4">Date:</h4> {{ $contactDate }}
           <br>
-          <strong>Phone: </strong> {{ $contactPhone }}
+          <h4 class="display-4">Phone:</h4> {{ $contactPhone }}
           <br>
-          <strong>Email: </strong> {{ $contactEmail }}
+          <h4 class="display-4">Email:</h4> {{ $contactEmail }}
         </div>
-        <br>
-        <hr>
-        <div>
+        <div class="card-body shadow_only">
           <strong>Notes: </strong> {{ $contactNotes }}
         </div>
       </div>
