@@ -38,6 +38,7 @@
                 <label for="message" class="col-sm-4 col-form-label text-md-right">{{ __('Message:') }}</label>
                 <div class="col-md-6">
                   <textarea id="message" rows="7" cols="40" class="form-control{{ $errors->has('message') ? ' is-invalid' : '' }}" name="message" value="{{ old('message') }}" required autofocus>
+                  </textarea>
                 </div>
               </div>
 
