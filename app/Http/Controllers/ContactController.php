@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
-use App\Http\Requests\storeContactPost;
+use App\Http\Requests\storeContactPost as storeContactPost;
 
 class ContactController extends Controller
 {
