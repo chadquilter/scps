@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
-    <link href="{{ \url() }}/css/app.css" rel="stylesheet">
+    <link href="{{!! \url() !!}}/css/app.css" rel="stylesheet">
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
