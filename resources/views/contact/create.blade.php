@@ -11,7 +11,7 @@
             @include('inc.messages')
             <div id="after_submit"></div>
             <div class="card">
-              <div class="card-header main-color"><h4 class="display-4">All Fields Required.</h4></div>
+              <div class="card-header main-color"><h4>Feel free to contact us Today!</h4></div>
               <div class="card-body">
             <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
               @csrf
