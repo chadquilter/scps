@@ -88,7 +88,7 @@ class ContactController extends Controller
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
         //redirect or not
-        setMini($request->input('is_Mini'));
+        $this->setMini($request->input('is_Mini'));
         $this->store_redirect();
     }
 
