@@ -56,7 +56,7 @@
 
             </div>
             <div class="card-footer">
-              <div class="ml-auto">
+              <div class="mr-auto">
                 <h4></h4>
                 <small>All Fields Required.</small>
                 <div class="form=group">
