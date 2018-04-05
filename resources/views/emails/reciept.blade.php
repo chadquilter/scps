@@ -24,8 +24,8 @@
         </div>
         <div class="card">
           <div class="card-body shadow_only">
-            <hr class="style-two">
             <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
+            <hr class="style-two">
             <p class="lead">Have a Wonderfull Day!</p>
             <br>
           </div>
@@ -52,6 +52,7 @@
                     77259 U.S<br>
                     Phone: (832) 205-2160
                   </address>
+                  <br>
                 </div>
 
             </div>
