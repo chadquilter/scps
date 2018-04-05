@@ -49,17 +49,13 @@ class ContactController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     *
+     * @param  StoreContactPost  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(storeContactPost $request)
     {
-        $this->validate($request, [
-          'name' => 'required',
-          'phone' => 'required',
-          'email' => 'required|email',
-          'description' => 'required'
-        ]);
+
 
         $contact = new contact;
         $contact->title = $request->input('name');
