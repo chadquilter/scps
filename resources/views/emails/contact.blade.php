@@ -20,8 +20,8 @@
     <div class="card">
       <div class='card-body alt-color'>
         <div class="card">
-        <div class="card-title">
-          <h4 class="display-4">From:</h4> {{ $contactName }}
+        <div class="card-body shadow_only">
+          <h4 class="display-4">From:</strong> {{ $contactName }}
           <br>
           <h4 class="display-4">Date:</h4> {{ $contactDate }}
           <br>
@@ -29,10 +29,15 @@
           <br>
           <h4 class="display-4">Email:</h4> {{ $contactEmail }}
         </div>
+      </div>
+      <br>
+      <div class="card">
         <div class="card-body shadow_only">
           <strong>Notes: </strong> {{ $contactNotes }}
         </div>
       </div>
     </div>
+    <br>
   </div>
+</div>
 @endsection
