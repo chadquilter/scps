@@ -24,6 +24,14 @@ class ContactController extends Controller
       return $links;
      }
 
+     //check url before doing redirect
+     private function store_redirect() {
+       if (Request::url() == url('school-history')) {
+         return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
+       }
+       return;
+     }
+     
     public function index()
     {
         //
@@ -65,11 +73,14 @@ class ContactController extends Controller
         $contact->email = $request->input('email');
         $contact->save();
 
+
+
         $to = explode(',', env('ADMIN_EMAILS'));
         Mail::to($to)->cc('chadquilter@gmail.com')->send(new ContactMail($contact));
 
-        return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
+        store_redirect();
     }
+
 
     /**
      * Display the specified resource.
