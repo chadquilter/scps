@@ -21,12 +21,12 @@ class ContactController extends Controller
       'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
     );
 
-     public function setMini($is_mini){
+     private function setMini($is_mini){
        $this->is_mini = $is_mini;
      }
 
      /* get mini value */
-     public function getMini(){
+     private function getMini(){
        return $this->is_mini;
      }
 
@@ -34,9 +34,10 @@ class ContactController extends Controller
       return $this->links;
      }
 
+
      //check url before doing redirect
     private function store_redirect() {
-       $is_mini = getMini();
+       $this->is_mini = getMini();
        if ($is_mini == url('school-history')) {
          return redirect('/contact')->with('success', 'Message Sent! A representitive will contact you with further details.');
        }
