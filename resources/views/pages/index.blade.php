@@ -92,20 +92,7 @@
               </div>
             </div>
             <br>
-            <div class="row">
-              <div class="col">
-                <div class="main-color text-light sidebar_pad">
-                  <h1>{{__('Calendar')}}</h1>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body image_display_r">
-                      <img src="/images/btn-calendar2.png" border="0">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            @include('inc.sidecalendar')
             <br>
           </div>
         </div>
