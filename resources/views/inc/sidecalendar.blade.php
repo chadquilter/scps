@@ -9,8 +9,6 @@
           <div class="row">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
-            </div>
-            <div class="col">
               <h2>Events</h2>
             </div>
           </div>
@@ -18,8 +16,6 @@
           <div class="row">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
-            </div>
-            <div class="col">
               <h2>Events</h2>
             </div>
           </div>
