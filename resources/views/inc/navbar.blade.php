@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarTop">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/">{{__('/Home')}}</a>
+        <a class="nav-link" href="/">{{__('Home')}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about-us">{{__('/About-Us')}}</a>
+        <a class="nav-link" href="/about">{{__('About-Us')}}</a>
       </li>
       <li class"nav-item">
         <a class="nav-link">
@@ -46,8 +46,6 @@
               </select>
             </form>
           </div>
-
-
           <form class="form-inline">
             <div class="input-group">
               <div class="input-group-prepend">
