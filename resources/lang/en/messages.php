@@ -32,7 +32,8 @@ return[
     "International Partners"=>"国际合作伙伴",
     "Contact Us"=>"联系我们",
     "Documents"=>"文件",
-
+    "meta_keywords"=>"Prep school, English learning, learning English, accelerating English learning, English language courses, international students, studying in China, learning English",
+    "page_description"=>"Space City Preparatory School, headquartered in Texas, Houston.",
     "indextitle"=>"Values and Excellence",
     "Space City Preparatory School is like no other school in the world, and we have the international reputation and experience to prove it. Our comprehensive and challenging academics place us among the top schools in the nation and prepares our students to become tomorrow’s global leaders. Our philosophy provides the morals and knowledge for purposeful and peaceful living."=>"空间城市预科学校就像世界上没有其他学校, 我们有国际声誉和经验来证明它。我们的全面和富有挑战性的学者把我们放在全国顶尖的学校之中, 让我们的学生成为明天的全球领导者。我们的哲学为有目的和和平的生活提供了道德和知识。",
     "I invite you to spend a few moments to find out more about the programs and people who comprise the SCPS community. Better yet, schedule a phone call or a visit so you can personally see, hear, and witness what makes our middle school and high school such a transformative and uplifting place to live, learn, and grow."=>"我邀请你花一些时间来了解更多的项目和人谁组成的 SCPS 社区。更好的是, 安排一个电话或访问, 这样你就可以亲自看到, 听到, 并见证什么使我们的中学和高中这样一个变革和振奋的地方生活, 学习和成长。",
