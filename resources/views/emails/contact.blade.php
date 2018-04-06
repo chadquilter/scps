@@ -5,7 +5,7 @@
 
         <div class="row">
           <div class="col col-auto">
-            <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="{{ asset('/images/scps_logo.png')}} " height="75">
+            <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="{{ asset('/images/scps_logo_sm.png')}} " height="75">
           </div>
           <div class="col col-sm-10">
             <div class="row">
