@@ -19,7 +19,6 @@
         <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image">
       </a>
     </div>
-
   </div>
   <div class="col">
         <div class="img-container">
@@ -27,7 +26,6 @@
             <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
-
   </div>
   <div class="col">
         <div class="img-container">
