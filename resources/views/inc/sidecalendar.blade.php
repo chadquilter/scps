@@ -7,12 +7,16 @@
       <div class="card">
         <div class="card-body image_display_r">
           <div class="row">
-            <h2>Events</h2><hr>
+            <h2>Events</h2>
+          </div>
+          <div class="row">
             <img src="/images/event_sidebar.png" border="0">
           </div>
           <hr>
           <div class="row">
-            <h2>Sports</h2><hr>
+            <h2>Sports</h2>
+          </div>
+          <div class="row">
             <img src="/images/sport_sidebar.png" border="0">
           </div>
         </div>
