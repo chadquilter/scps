@@ -7,11 +7,21 @@
       <div class="card">
         <div class="card-body image_display_r">
           <div class="row">
-            <img src="/images/event_sidebar.png" border="0"><h3>Events</h3>
+            <div class="card">
+              <div class="card-title"><h3>Events</h3></div>
+              <div class="card-body">
+                <img src="/images/event_sidebar.png" border="0">
+              </div>
+            </div>
           </div>
           <hr>
           <div class="row">
-            <img src="/images/sport_sidebar.png" border="0"><h3>Sports<h3>
+            <div class="card">
+              <div class="card-title"><h3>Events</h3></div>
+              <div class="card-body">
+                <img src="/images/sport_sidebar.png" border="0">
+              </div>
+            </div>
           </div>
         </div>
       </div>
