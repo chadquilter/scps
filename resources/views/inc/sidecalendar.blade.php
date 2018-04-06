@@ -7,11 +7,11 @@
       <div class="card">
         <div class="card-body image_display_r">
           <div class="row">
-            <img src="/images/event_sidebar.png" border="0">Events
+            <img src="/images/event_sidebar.png" border="0"><h3>Events</h3>
           </div>
           <hr>
           <div class="row">
-            <img src="/images/sport_sidebar.png" border="0">Sports
+            <img src="/images/sport_sidebar.png" border="0"><h3>Sports<h3>
           </div>
         </div>
       </div>
