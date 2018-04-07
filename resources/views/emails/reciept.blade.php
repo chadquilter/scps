@@ -22,33 +22,29 @@
           </div>
         </div>
         <br>
-            </div>
-          </div>
-            <div class="row">
-              <div class="col">
-                <div class="main-color text-light sidebar_pad shadow_only">
-
-                  <p class="shadow_text">
-                    2018,  {{ config('app.name', 'SCPS') }}
-                  </p>
-                  <hr class="style-two1">
-                  <p class="shadow_text">
-                    Private Middle & High School
-                    Houston, TX | Pasadena, TX | Marblefalls, TX
-                  </p>
-                  <hr class="style-two1">
-                  <address class="shadow_text">
-                    P.O. Box 590743 <br>
-                    Houston, TX<br>
-                    77259 U.S<br>
-                    Phone: (832) 205-2160
-                  </address>
-                  <br>
-                </div>
-
-            </div>
-        </div>
-
-
+      </div>
     </div>
-  @endsection
+    <div class="row">
+      <div class="col">
+        <div class="main-color text-light sidebar_pad shadow_only">
+          <p class="shadow_text">
+            2018,  {{ config('app.name', 'SCPS') }}
+          </p>
+          <hr class="style-two1">
+          <p class="shadow_text">
+            Private Middle & High School
+            Houston, TX | Pasadena, TX | Marblefalls, TX
+          </p>
+          <hr class="style-two1">
+          <address class="shadow_text">
+            P.O. Box 590743 <br>
+            Houston, TX<br>
+            77259 U.S<br>
+            Phone: (832) 205-2160
+          </address>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+@endsection
