@@ -1,5 +1,5 @@
 <div class="card">
-  <div class="card-title">
+  <div class="card-header">
   <h1>{{__('History')}}</h1>
 </div>
   <div class="card-body shadow_only">
@@ -11,7 +11,7 @@
 <input type="button" id="subdepartmentButton" class="btn btn-danger btn-block subdpt-button" value="{{__('World History')}}">
 <div class="card subdepartmentDiv">
 
-        <div class="card-title">
+        <div class="card-header">
 <h1>{{ __('World History')}}</h1>
 </div>
 <div class="card-body">
