@@ -6,11 +6,13 @@
 <hr class="style-two">
 
 <input type="button" id="subdepartmentButton" class="btn btn-outline-danger btn-block subdpt-button" value="{{__('World History')}}">
-<div class="subdepartmentDiv">
+<div class="card subdepartmentDiv">
+    <div class="card-body shadow_only">
 <h1>{{ __('World History')}}</h1>
 <p class="lead">
 {{ __('This course covers the history of civilized man from Creation and Fall of Man through Ancient and Medieval History. The ancient civilizations include Israel, Mesopotamia, Egypt, India, other Ancient Middle Eastern Empires, China, Greece, and the Roman Empire. After exploring the fall of the Roman Empire, the students will examine the European Middle Ages. Throughout the course, students will study various people groups and civilizations and examine their effects on each other.  Furthermore, the students will identify the civilizations’ influence to the development of various aspects of society then and now.')}}
 </p>
+</div>
 </div>
 
 <input type="button" id="subdepartmentButton" class="btn btn-outline-danger btn-block subdpt-button" value="{{__('U.S. History')}}">
