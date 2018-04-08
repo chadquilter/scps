@@ -7,32 +7,32 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="English">
+            <input type="button" id="departmentButton" class="btn btn-primary btn-block dpt-button" value="{{__('English')}}">
             <div class="departmentDiv">
               @include('academic.departments.english')
             </div>
             <hr class="style-two">
-            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="Math">
+            <input type="button" id="departmentButton2" class="btn btn-primary btn-block dpt-button" value="{{__('Math')}}">
             <div class="departmentDiv">
               @include('academic.departments.math')
             </div>
             <hr class="style-two">
-            <input type="button" id="departmentButton3" class="btn btn-primary btn-block dpt-button" value="History">
+            <input type="button" id="departmentButton3" class="btn btn-primary btn-block dpt-button" value="{{__('History')}}">
             <div class="departmentDiv">
               @include('academic.departments.history')
             </div>
             <hr class="style-two">
-            <input type="button" id="departmentButton4" class="btn btn-primary btn-block dpt-button" value="Science">
+            <input type="button" id="departmentButton4" class="btn btn-primary btn-block dpt-button" value="{{__('Science')}}">
             <div class="departmentDiv">
               @include('academic.departments.science')
             </div>
             <hr class="style-two">
-            <input type="button" id="departmentButton5" class="btn btn-primary btn-block dpt-button" value="Visual Performing Arts">
+            <input type="button" id="departmentButton5" class="btn btn-primary btn-block dpt-button" value="{{__('Visual Performing Arts')}}">
             <div class="departmentDiv">
               @include('academic.departments.arts')
             </div>
             <hr class="style-two">
-            <input type="button" id="departmentButton6" class="btn btn-primary btn-block dpt-button" value="Electives">
+            <input type="button" id="departmentButton6" class="btn btn-primary btn-block dpt-button" value="{{__('Electives')}}">
             <div class="departmentDiv">
               @include('academic.departments.electives')
             </div>
