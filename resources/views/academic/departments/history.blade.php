@@ -1,3 +1,6 @@
+<div class="card">
+  <div class="card-body shadow_only">
+
 <h1>{{__('History')}}</h1>
 <p class="lead">{{ __('History review and analysis goes beyond causes and effects but leads to the study and understanding of cultures, movements, motivations, and critical moments. Students gain an accurate and broad perspective of history by studying all of time, engaging in simulations and documentary projects, and examining every civilization. Students learn to apply their studies by recognizing patterns and historical trends to anticipate and understand today’s current events.')}}</p>
 <hr class="style-two">
@@ -80,6 +83,9 @@
 <p class="lead">
 {{ __('This course is designed to be a comprehensive first-year college course that introduces students to the systematic and scientific study of the behavior and mental processes of both human beings and animals. Students will be exposed to psychological facts, principles, and phenomena associated with each of the major subfields within psychology. They will also learn about the ethics and methods of psychological research and practice.')}}
 </p>
+</div>
+
+  </div>
 </div>
 
 <script>
