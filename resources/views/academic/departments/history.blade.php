@@ -2,7 +2,7 @@
   <div class="card-header">
   <h1>{{__('History')}}</h1>
 </div>
-  <div class="card-body shadow_only">
+<div class="card-body shadow_only">
 
 
 <p class="lead">{{ __('History review and analysis goes beyond causes and effects but leads to the study and understanding of cultures, movements, motivations, and critical moments. Students gain an accurate and broad perspective of history by studying all of time, engaging in simulations and documentary projects, and examining every civilization. Students learn to apply their studies by recognizing patterns and historical trends to anticipate and understand today’s current events.')}}</p>
@@ -11,7 +11,7 @@
 <input type="button" id="subdepartmentButton" class="btn btn-danger btn-block subdpt-button" value="{{__('World History')}}">
 <div class="card subdepartmentDiv">
 
-        <div class="card-header">
+<div class="card-header">
 <h1>{{ __('World History')}}</h1>
 </div>
 <div class="card-body">
@@ -20,15 +20,19 @@
 </p>
 </div>
 </div>
-
+<br>
 <input type="button" id="subdepartmentButton" class="btn btn-danger btn-block subdpt-button" value="{{__('U.S. History')}}">
-<div class="subdepartmentDiv">
+<div class="card subdepartmentDiv">
+<div class="card-header">
 <h1>{{ __('U.S. History')}}</h1>
+</div>
+<div class="card-body">
 <p class="lead">
 {{ __('This course will be a survey of the history of the United States, from its colonial origins to Reconstruction. We will examine the major historical events to see how one period of time has influenced and shaped succeeding eras while learning from the past. Historical periods and topics include: Age of Exploration, Colonial America, the American Revolution, Creation of the Nation, the Constitution and Federalism, Age of Reform, Sectionalism v. Nationalism, Manifest Destiny, the Civil War, Reconstruction. These will be examined in the areas of political, economic, religious, social, intellectual, and artistic changes and developments.')}}
 </p>
 </div>
-
+</div>
+<br>
 <input type="button" id="subdepartmentButton" class="btn btn-primary btn-block subdpt-button" value="{{__('AP U.S. History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('AP U.S. History')}}</h1>
@@ -52,7 +56,7 @@
 {{ __('This course serves as a college level introduction to the U.S. national government explaining both who governs, and to what end it is done, by investigating the politics of policymaking and examining the government institutions which make these type of policies and the impact they have on people throughout the U.S. The class begins with a study of our constitutional underpinnings before an extensive study of each of the three branches of government including the federal bureaucracy. Finally, the course studies civil rights, public policy, and the political process.')}}
 </p>
 </div>
-
+<br>
 <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Economics')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('Economics')}}</h1>
