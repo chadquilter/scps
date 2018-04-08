@@ -2,7 +2,7 @@
 <p>{{ __('History review and analysis goes beyond causes and effects but leads to the study and understanding of cultures, movements, motivations, and critical moments. Students gain an accurate and broad perspective of history by studying all of time, engaging in simulations and documentary projects, and examining every civilization. Students learn to apply their studies by recognizing patterns and historical trends to anticipate and understand today’s current events.')}}</p>
 <hr class="style-two">
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('World History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('World History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('World History')}}</h1>
 <p class="lead">
@@ -10,7 +10,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('U.S. History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('U.S. History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('U.S. History')}}</h1>
 <p class="lead">
@@ -18,7 +18,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('AP U.S. History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP U.S. History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('AP U.S. History')}}</h1>
 <p class="lead">
@@ -26,7 +26,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('Government')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Government')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('Government')}}</h1>
 <p class="lead">
@@ -34,7 +34,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('AP Government')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Government')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('AP Government')}}</h1>
 <p class="lead">
@@ -42,7 +42,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-dark btn-block subdpt-button" value="{{__('Economics')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Economics')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('Economics')}}</h1>
 <p class="lead">
