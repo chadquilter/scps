@@ -5,9 +5,9 @@
 <p class="lead">{{ __('History review and analysis goes beyond causes and effects but leads to the study and understanding of cultures, movements, motivations, and critical moments. Students gain an accurate and broad perspective of history by studying all of time, engaging in simulations and documentary projects, and examining every civilization. Students learn to apply their studies by recognizing patterns and historical trends to anticipate and understand today’s current events.')}}</p>
 <hr class="style-two">
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-danger btn-block subdpt-button" value="{{__('World History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-danger btn-block subdpt-button" value="{{__('World History')}}">
 <div class="card subdepartmentDiv">
-    <div class="card-body shadow_only">
+    <div class="card-body">
 <h1>{{ __('World History')}}</h1>
 <p class="lead">
 {{ __('This course covers the history of civilized man from Creation and Fall of Man through Ancient and Medieval History. The ancient civilizations include Israel, Mesopotamia, Egypt, India, other Ancient Middle Eastern Empires, China, Greece, and the Roman Empire. After exploring the fall of the Roman Empire, the students will examine the European Middle Ages. Throughout the course, students will study various people groups and civilizations and examine their effects on each other.  Furthermore, the students will identify the civilizations’ influence to the development of various aspects of society then and now.')}}
@@ -15,7 +15,7 @@
 </div>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-danger btn-block subdpt-button" value="{{__('U.S. History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-danger btn-block subdpt-button" value="{{__('U.S. History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('U.S. History')}}</h1>
 <p class="lead">
@@ -23,7 +23,7 @@
 </p>
 </div>
 
-<input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP U.S. History')}}">
+<input type="button" id="subdepartmentButton" class="btn btn-primary btn-block subdpt-button" value="{{__('AP U.S. History')}}">
 <div class="subdepartmentDiv">
 <h1>{{ __('AP U.S. History')}}</h1>
 <p class="lead">
