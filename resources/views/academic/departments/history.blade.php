@@ -1,40 +1,44 @@
-<h1>{{ __('ESL')}}</h1>
+<h4 class="lead">History</h1>
+<h4>{{ __('History review and analysis goes beyond causes and effects but leads to the study and understanding of cultures, movements, motivations, and critical moments. Students gain an accurate and broad perspective of history by studying all of time, engaging in simulations and documentary projects, and examining every civilization. Students learn to apply their studies by recognizing patterns and historical trends to anticipate and understand today’s current events.')}}</h4>
+<hr class="style-two">
+
+<h1>{{ __('World History')}}</h1>
 <p class="lead">
-{{ __('ESL is designed to introduce English reading, writing, and oral language skills to English Language Learners. Students will study phonics and practice pronunciation, develop reading comprehension skills, and develop oral fluency. Students will build their English vocabulary and receive assistance in academic language that will help them succeed in all content areas.')}}
+{{ __('This course covers the history of civilized man from Creation and Fall of Man through Ancient and Medieval History. The ancient civilizations include Israel, Mesopotamia, Egypt, India, other Ancient Middle Eastern Empires, China, Greece, and the Roman Empire. After exploring the fall of the Roman Empire, the students will examine the European Middle Ages. Throughout the course, students will study various people groups and civilizations and examine their effects on each other. Furthermore, the students will identify the civilizations’ influence to the development of various aspects of society then and now.')}}
 </p>
-<h1>{{ __('ADVANCED ESL')}}</h1>
+<h1>{{ __('U.S. History')}}</h1>
 <p class="lead">
-{{ __('This course is for Advanced English Language Learners. Students continue to refine skills in reading, writing, speaking, listening, and grammar. Grammar instruction emphasizes the editing process for personal habitual error patterns each student makes in the English language. Note-taking skills, academic vocabulary and literary analysis are emphasized. Subject matter includes the analysis and comprehension of poetry, short stories, novels, film, art and cultural awareness.')}}
+{{ __('This course will be a survey of the history of the United States, from its colonial origins to Reconstruction. We will examine the major historical events to see how one period of time has influenced and shaped succeeding eras while learning from the past. Historical periods and topics include: Age of Exploration, Colonial America, the American Revolution, Creation of the Nation, the Constitution and Federalism, Age of Reform, Sectionalism v. Nationalism, Manifest Destiny, the Civil War, Reconstruction. These will be examined in the areas of political, economic, religious, social, intellectual, and artistic changes and developments.')}}
 </p>
-<h1>{{ __('ENGLISH I')}}</h1>
+<h1>{{ __('AP U.S. History')}}</h1>
 <p class="lead">
-{{ __('This is a college prep course that will develop strong literary skills by equipping students to be critical thinkers, analytical writers, comprehensive readers, and articulate speakers. Selected novels, dramas, short stories, poems, and articles will be analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech as well as practice narrative, persuasive, and expository writing, with primary emphasis placed ')}}
+{{ __('This is a challenging course that is equivalent to a freshman college course where students can earn college credit. Students will survey American history including the Age of Exploration, Colonial America, the American Revolution, Creation of the Nation, the Constitution and Federalism, Age of Reform, Sectionalism v. Nationalism, Manifest Destiny, the Civil War, Reconstruction, Industrialization, Urbanization, the Gilded Age, Populism, Imperialism, the Progressive Era, World War I, the Great Depression, the New Deal World War II, the Cold War, Civil Rights Movement, the Vietnam War, Watergate, etc. Concurrently, students will analyze and synthesize history in writing and class discussions.')}}
 </p>
-<h1>{{ __('ENGLISH HONERS')}}</h1>
+<h1>{{ __('Government')}}</h1>
 <p class="lead">
-{{ __('This course is designed to access a variety of types of literature and make reading a transformative habit. In the process students will be trained to Read Well, Write Well, and Think Well. In light of this goal, we will be doing a variety of assignments, types of literature, writings, presentations, and activities. We will be reading several novels, discuss poetry, Shakespeare, and develop the skills necessary to have a good discussion.')}}
+{{ __('This course actively connects civil government to the everyday lives of students. Some of the key issues explored are the responsibilities of government vs. individual liberty, centralized vs. localized government, and first principles vs. evolving authorization. A large portion of the class is spent studying the structure, organization, and practices of the United States government. The expected outcome of this course is that students will be inspired and prepared to be active citizens of the United States.')}}
 </p>
-<h1>{{ __('ENGLISH II HONORS')}}</h1>
+<h1>{{ __('AP Government')}}</h1>
 <p class="lead">
-{{ __('This course integrates world literature with composition and prepares students for AP Language and AP Literature. Selected novels, dramas, short stories, and articles that encompass the scope of world literature will be read and analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech.')}}
+{{ __('This course serves as a college level introduction to the U.S. national government explaining both who governs, and to what end it is done, by investigating the politics of policymaking and examining the government institutions which make these type of policies and the impact they have on people throughout the U.S. The class begins with a study of our constitutional underpinnings before an extensive study of each of the three branches of government including the federal bureaucracy. Finally, the course studies civil rights, public policy, and the political process.')}}
 </p>
-<h1>{{ __('American Literature')}}</h1>
+<h1>{{ __('Economics')}}</h1>
 <p class="lead">
-{{ __('This course addresses some of the major literary movements of the time, including the Colonial Period (1600s), the Age of Reason (1700s), the Romantic Period (early 1800s), Realism (mid 1800s), and Naturalism (post-Civil War). Students will read a variety of historically-relevant fiction and non-fiction short stories, articles, essays, novels, and plays which explore themes, build cultural literacy, connect history with literature.')}}
+{{ __('This course explores Economics as the science of choice. People make countless decisions every day, and economics attempts to explain the reasoning behind these decisions through the perspective of individuals, firms, as well as the government. Complex concepts such as supply and demand, price controls, profitability, and government regulation in terms of understandable real world situations will be addressed.')}}
 </p>
-<h1>{{ __('British Literature')}}</h1>
+<h1>{{ __('AP Microeconomics')}}</h1>
 <p class="lead">
-{{ __('This course is a survey course which encompasses major prose and poetry of English writers spanning the periods from Anglo-Saxon to modern/contemporary. The goal is to acquire an understanding of the ideas and literary genres that define these periods and to build a foundation for advanced studies in English literature. All readings will be considered in a literary and historical context so that an understanding will be gained of the historical, cultural and philosophical influences.')}}
+{{ __('This course covers material which includes the functions and operations of free market economies. Students must be comfortable with graphing concepts, as much of the instruction and analysis will be based on graphs. The course will begin with basic economic concepts such as scarcity, opportunity costs and the functions of economic systems. The majority of the course will deal with the nature and function of product markets; topics will include: the market system, including product markets and resource markets; government activity and the affects on market mechanisms; type of firms and their market functions; and international economics and the world economy.')}}
 </p>
-<h1>{{ __('Advanced Composition & Literature')}}</h1>
+<h1>{{ __('AP European History')}}</h1>
 <p class="lead">
-{{ __('This course is designed to engage students in college level reading, discussion, and analysis of novels, plays, poetry, non-fiction essays, and literary criticism. Students will learn how to read interesting, thought-provoking texts with enough depth to produce interesting, engaging discussions, write in a clear, intelligent manner, and grow as people.')}}
+{{ __('This college level course covers the period from 1450 to 2000 AD. All arenas of human endeavor are included: politics, economics, art & architecture, philosophy, culture, medicine, war, industry, famous persons, events and literature. The emphasis of the course is on learning the key ideas, events and people who shaped Western Civilization. Historical periods include the Renaissance, Reformation, Age of Exploration, Age of Absolutism, Scientific Revolution, the Enlightenment, the French Revolution & Napoleon, the Industrial Revolution, the Era of National Unification, the Age of “Progress”, Imperialism, World War I, World War II, the Immediate Post-war Era, the Era of European Unification, and Globalization.')}}
 </p>
-<h1>{{ __('AP Language')}}</h1>
+<h1>{{ __('U.S. History Sheltered')}}</h1>
 <p class="lead">
-{{ __('Students will analyze, at a college level, rhetorical strategies and techniques in a variety of non-fiction texts and begin to incorporate these skills in their own writing and speaking, with a goal toward confident and effective communication.')}}
+{{ __('This class is designed to cover the same curriculum as other U.S. History classes, but it utilizes techniques specially designed to help English Language Learners. A goal of this class is to see how one period of time has influenced and shaped succeeding eras. Historical periods and topics include: Age of Exploration, Colonial America, the American Revolution, Creation of the Nation, the Constitution and Federalism, Age of Reform, Sectionalism v. Nationalism, Manifest Destiny, the Civil War, Reconstruction, etc. These periods and topics will be examined to determine whether the US upheld the founding ideals of democracy, equality, opportunity, rights, and liberty.')}}
 </p>
-<h1>{{ __('AP Literature')}}</h1>
+<h1>{{ __('AP Psychology')}}</h1>
 <p class="lead">
-{{ __('This course is designed to engage students in close reading, discussion, and analysis of novels, plays, poetry, non-fiction essays and literary criticism. While the course devotes significant time to preparing students for the AP Literature exam, the class seeks to look beyond the exam itself toward more lasting purposes, namely, developing a solid and enduring worldview lens through which to interpret difficult texts.')}}
+{{ __('This course is designed to be a comprehensive first-year college course that introduces students to the systematic and scientific study of the behavior and mental processes of both human beings and animals. Students will be exposed to psychological facts, principles, and phenomena associated with each of the major subfields within psychology. They will also learn about the ethics and methods of psychological research and practice.')}}
 </p>
