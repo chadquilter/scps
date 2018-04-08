@@ -47,9 +47,8 @@
   <script>
   //gets next available node from button and hides it
   $(".departmentDiv").hide();
-  $( ".dpt-button .subdpt-button" ).click(function() {
+  $(".dpt-button").click(function() {
     $(this).next(".departmentDiv").toggle();
   });
-
   </script>
 @endsection
