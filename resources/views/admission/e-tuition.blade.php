@@ -7,27 +7,12 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Scope of our Mission')}}</h1>
+              <h1>{{ __('E-Tuition Application')}}</h1>
               <p class="lead">
-              {{ __('We want to reach all who can benefit from our school.
-              We want to develop each student to their full potential.
-              We want to emphasize spiritual results over academic achievement.
-              We want to be faithful to our task and trust God to give the increase.')}}
+              {{ __('By enrolling in e-Tuition you will help the school and yourself to process the tuition more effectively. Electronic fund transfers greatly reduce the time, labor, and resources needed to collect, post, record, and reconcile monthly payments. It is also safer and more accurate than handling large amounts of cash or large numbers of checks for deposit.')}}
               </p>
-              <h1>{{ __('Governance and Operations')}}</h1>
-              <p class="lead">
-              {{ __('We want to practice servant leadership: teachers serve students; administrators serve teachers.
-              We want to make what is best for our students a top priority.
-              We want to emphasize the spirit of the law over the letter of the law.
-              We want to emphasize ‘who we are’ is more important than ‘what we do’.
-              We want to place overall, long-term benefits over expediency.')}}
-              </p>
-              <h1>{{ __('Methodology')}}</h1>
-              <p class="lead">
-              {{ __('We want to make sure the teacher is the key to the classroom.
-              We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment.
-              We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
-              </p>
+              <br>
+              <a class="btn btn-primary" href="\documents">Application .PDF</a>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
