@@ -9,13 +9,15 @@
           <div class="col">
               <h1 class="display-4">{{ __('Program Fees')}}</h1>
               <p class="lead">
-              {{ __('Applicant Testing Fee = $75
-                Newly Enrolled Student Fee = $400
-                Registration = $650 (non-refundable)
-                High School Tuition  =  $14,500; $ 12,000 (additional child in family)
-                Middle School Tuition = $12,750; $10,500 (additional child in family)
-                Special Discounts:
-                  Early Registration (by February 5, 2018) = $150 off/student')}}
+                <ul>
+                <li>{{ __('Applicant Testing Fee = $75')}}</li>
+                <li>{{ __('Newly Enrolled Student Fee = $400')}}</li>
+                <li>{{ __('Registration = $650 (non-refundable)')}}</li>
+                <li>{{ __('High School Tuition  =  $14,500; $ 12,000 (additional child in family)')}}</li>
+                <li>{{ __('Middle School Tuition = $12,750; $10,500 (additional child in family)')}}</li>
+                <li>{{ __('Special Discounts:')}}</li>
+                <li>{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
+                </ul>
               <br>
                 {{ __('Newly Enrolled Student Fee = $400')}}
               </p>
@@ -25,7 +27,7 @@
               </p>
               <h1>{{ __('International Students:')}}</h1>
               <p class="lead">
-              {{ __('California Crosspoint Academy is authorized by the United States government to issue the I-20 form necessary to obtain international student visas. Please see our separate literature for specific information and costs for enrolling in our international programs.')}}
+              {{ __('SCPA is authorized by the United States government to issue the I-20 form necessary to obtain international student visas. Please see our separate literature for specific information and costs for enrolling in our international programs.')}}
               </p>
               <h1 class="display-4">{{ __('Participation Fees')}}</h1>
               <h1>{{ __('Class Trips:')}}</h1>
@@ -42,7 +44,7 @@
               </p>
               <h1>{{ __('Other Services:')}}</h1>
               <p class="lead">
-              {{ __('California Crosspoint Academy has a Food Service, Transportation Service, and After School Tutoring Service. There are also special classes and enrichment opportunities throughout the year. Please refer to our specific literature for more information about each program.')}}
+              {{ __('Space City Preparatory has a Food Service, Transportation Service, and After School Tutoring Service. There are also special classes and enrichment opportunities throughout the year. Please refer to our specific literature for more information about each program.')}}
               </p>
               <h1 class="display-1">{{ __('Financial Policies')}}</h1>
               <h1>{{ __('Refunds:')}}</h1>
@@ -82,7 +84,7 @@
               <div class="alert alert-danger">
                 <h1>Statement of Non-Discrimination</h1>
                 <p class="lead">
-                  {{ __('California Crosspoint Academy admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
+                  {{ __('Space City Preparatory admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
                 </p>
               </div>
           </div>
