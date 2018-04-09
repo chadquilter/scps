@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <div class="card rounded">
+            <div class="card rounded-circle">
               <div class="card-header">
               <h1>{{ __('Fees')}}</h1>
             </div>
