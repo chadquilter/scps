@@ -97,7 +97,7 @@
           <div class="dropdown-menu" aria-labelledby="Admissions">
             <a class="dropdown-item {{ ( \Request::url() == url('admissions') ) ? 'active' : '' }}" href="/admissions">{{__('Admission')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('tuition-fees') ) ? 'active' : '' }}" href="/tuition-fees">{{__('Tuition and Fees')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('application') ) ? 'active' : '' }}" href="/aplication">{{__('Application')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('application') ) ? 'active' : '' }}" href="/application">{{__('Application')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('e-tuition') ) ? 'active' : '' }}" href="/e-tuition">{{__('e-tuition')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('admission-contact') ) ? 'active' : '' }}" href="/admission-contact">{{__('Contact Admissions')}}</a>
           </div>
