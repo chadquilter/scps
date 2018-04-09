@@ -82,6 +82,7 @@
                   </li>
                 </ul>
             </div>
+          </div>
               <br>
               <div class="alert alert-danger">
                 <h1>Statement of Non-Discrimination</h1>
