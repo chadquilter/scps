@@ -1,11 +1,11 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('History')}}</h1>
+    <h1>{{__('English')}}</h1>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('')}}</p>
     <hr class="style-two">
-    
+
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('World History')}}">
     <div class="card subdepartmentDiv">
       <div class="card-header">
@@ -126,6 +126,7 @@
 
     </div>
   </div>
+</div>
 
 <script>
 $(".subdepartmentDiv").hide();
