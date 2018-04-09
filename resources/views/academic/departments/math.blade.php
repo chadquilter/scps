@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('English')}}</h1>
+    <h1>{{__('Math')}}</h1>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('Mathematics is the language of creation, and students learn to use math to describe, explain, and anticipate what they observe and see in nature. Like poets who beautifully convey imagery and scenery, mathematicians skillfully portray a creation of order, consistency, and beauty. Classes balance both computational and problem-solving skills and focus on practical applications with realistic scenarios and solutions.')}}</p>
@@ -22,7 +22,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ADVANCED ESL')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ADVANCED ESL')}}</h1>
+        <h1>{{ __('Algerbra')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -66,19 +66,6 @@
       <div class="card-body">
         <p class="lead">
           {{ __('This course introduces the basic principles of Geometry and the development of proofs. It emphasizes and integrates logical and spatial visualization skills. The topics cover parallel lines and planes, congruent triangles, quadrilaterals, similar polygons, and circles. Students will find the area of plane figures and volumes of solids.')}}
-        </p>
-      </div>
-    </div>
-    <br>
-
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('American Literature')}}">
-    <div class="card mathdepartmentDiv">
-      <div class="card-header">
-        <h1>{{ __('American Literature')}}</h1>
-      </div>
-      <div class="card-body">
-        <p class="lead">
-          {{ __('')}}
         </p>
       </div>
     </div>
