@@ -15,7 +15,7 @@
         <p class="lead">
           <ol>
             @foreach($electives as $elective)
-            {{ __($electives["elective"])}}
+            {{ __($elective["elective"])}}
             @endforeach
 
           </ol>
