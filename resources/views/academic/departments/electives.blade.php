@@ -13,11 +13,11 @@
       </div>
       <div class="card-body">
         <p class="lead">
-          <ol>
+          <ul>
             @foreach($electives as $elective)
             <li>{{ __($elective)}}</li>
             @endforeach
-          </ol>
+          </ul>
         </p>
       </div>
     </div>
