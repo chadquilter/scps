@@ -9,7 +9,7 @@
     <hr class="style-two">
 
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('World History')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
 
       <div class="card-header">
         <h1>{{ __('World History')}}</h1>
@@ -22,7 +22,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('U.S. History')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('U.S. History')}}</h1>
       </div>
@@ -34,7 +34,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP U.S. History')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP U.S. History')}}</h1>
       </div>
@@ -46,7 +46,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Government')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('Government')}}</h1>
       </div>
@@ -58,7 +58,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Government')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Government')}}</h1>
       </div>
@@ -70,7 +70,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Economics')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('Economics')}}</h1>
       </div>
@@ -82,7 +82,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Microeconomics')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Microeconomics')}}</h1>
       </div>
@@ -94,7 +94,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP European History')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP European History')}}</h1>
       </div>
@@ -106,7 +106,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('U.S. History Sheltered')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('U.S. History Sheltered')}}</h1>
       </div>
@@ -118,7 +118,7 @@
     </div>
     <br>
     <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Psychology')}}">
-    <div class="card subdepartmentDiv">
+    <div class="card histdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Psychology')}}</h1>
       </div>
@@ -133,8 +133,8 @@
 </div>
 
 <script>
-$(".subdepartmentDiv").hide();
+$(".histdepartmentDiv").hide();
 $(".subdpt-button").click(function() {
-  $(this).next(".subdepartmentDiv").toggle();
+  $(this).next(".histdepartmentDiv").toggle();
 });
 </script>
