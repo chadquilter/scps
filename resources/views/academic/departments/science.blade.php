@@ -6,7 +6,7 @@
     <p class="lead">{{ __('')}}</p>
     <hr class="style-two">
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('ESL')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ESL')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('ESL')}}</h1>
@@ -19,7 +19,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('ADVANCED ESL')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ADVANCED ESL')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('ADVANCED ESL')}}</h1>
@@ -32,7 +32,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('ENGLISH I')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH I')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('ENGLISH I')}}</h1>
@@ -45,7 +45,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('ENGLISH HONERS')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH HONERS')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('ENGLISH HONERS')}}</h1>
@@ -58,7 +58,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('ENGLISH II HONORS')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH II HONORS')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('ENGLISH II HONORS')}}</h1>
@@ -71,7 +71,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('American Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('American Literature')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('American Literature')}}</h1>
@@ -84,7 +84,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('British Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('British Literature')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('British Literature')}}</h1>
@@ -97,7 +97,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('Advanced Composition & Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Advanced Composition & Literature')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('Advanced Composition & Literature')}}</h1>
@@ -110,7 +110,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Language')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Language')}}</h1>
@@ -123,7 +123,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Language')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Literature')}}</h1>
