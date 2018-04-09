@@ -23,6 +23,29 @@ class AcademicController extends Controller
        return $links;
      }
 
+     private function electives(){
+       $electives = array('American Culture',
+        'Audio Visual',
+        'Chinese Culture',
+        'Chorale',
+        'Conditioning',
+        'Design/Construction',
+        'Drivers Education',
+        'English Symposium',
+        'Financial Literacy',
+        'Graphic Design',
+        'Health',
+        'Home Economics',
+        'Latin',
+        'Lifeskills',
+        'Men’s Drill',
+        'Robotics',
+        'SAT Prep',
+        'Worship',
+        'Yearbook');
+       return $electives;
+     }
+
      public function calendar()
      {
 
@@ -38,8 +61,10 @@ class AcademicController extends Controller
 
          $title = 'Academic Departments';
          $sidelinks = $this->sidelinks();
+         $electives = $this->electives();
          return view('academic.department')
           ->with('sidelinks', $sidelinks)
+          ->with('electives', $electives)
           ->with('title', $title);
      }
 
