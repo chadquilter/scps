@@ -3,7 +3,7 @@
     <h1>{{__('English')}}</h1>
   </div>
   <div class="card-body shadow_only">
-    <p class="lead">{{ __('')}}</p>
+    <p class="lead">{{ __('Skillful use of the language arts allows students to synthesize, formulate, and construct intelligent, lofty, and excellent thinking. These ideas and emotions deserve and require precise and masterful wording to properly express and communicate their depth and magnificence. The English Language Arts curriculum develops proficiency in every genre, level, and skill, but emphasizes university preparatory expository writing and literary analysis.')}}</p>
     <hr class="style-two">
 
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ESL')}}">

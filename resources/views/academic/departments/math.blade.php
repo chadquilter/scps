@@ -3,17 +3,17 @@
     <h1>{{__('English')}}</h1>
   </div>
   <div class="card-body shadow_only">
-    <p class="lead">{{ __('')}}</p>
+    <p class="lead">{{ __('Mathematics is the language of creation, and students learn to use math to describe, explain, and anticipate what they observe and see in nature. Like poets who beautifully convey imagery and scenery, mathematicians skillfully portray a creation of order, consistency, and beauty. Classes balance both computational and problem-solving skills and focus on practical applications with realistic scenarios and solutions.')}}</p>
     <hr class="style-two">
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ESL')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra I')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ESL')}}</h1>
+        <h1>{{ __('Algebra I')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('ESL is designed to introduce English reading, writing, and oral language skills to English Language Learners. Students will study phonics and practice pronunciation, develop reading comprehension skills, and develop oral fluency. Students will build their English vocabulary and receive assistance in academic language that will help them succeed in all content areas.')}}
+          {{ __('')}}
         </p>
       </div>
     </div>
@@ -26,46 +26,46 @@
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course is for Advanced English Language Learners. Students continue to refine skills in reading, writing, speaking, listening, and grammar. Grammar instruction emphasizes the editing process for personal habitual error patterns each student makes in the English language. Note-taking skills, academic vocabulary and literary analysis are emphasized. Subject matter includes the analysis and comprehension of poetry, short stories, novels, film, art and cultural awareness.')}}
+          {{ __('real numbers, simplifying and factoring polynomial expressions, and solving and understanding properties of linear and quadratic functions. Topics also expand to include solving systems of linear equations and inequalities. Algebra I is foundational for all advanced level math and science courses.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH I')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra II')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH I')}}</h1>
+        <h1>{{ __('Algebra II')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This is a college prep course that will develop strong literary skills by equipping students to be critical thinkers, analytical writers, comprehensive readers, and articulate speakers. Selected novels, dramas, short stories, poems, and articles will be analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech as well as practice narrative, persuasive, and expository writing, with primary emphasis placed ')}}
+          {{ __('This course extends the mathematical content of Algebra I and Geometry. The major topics covered are the following functions: linear, quadratic, polynomial, rational, and radical. Also covered are solving polynomial equations, investigating conic sections, defining and applying exponential and logarithmic functions, and analyzing sequences and series. An introduction to triangle trigonometry is also covered as a preview for Precalculus.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH HONERS')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra 2H')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH HONERS')}}</h1>
+        <h1>{{ __('Algebra 2H')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course is designed to access a variety of types of literature and make reading a transformative habit. In the process students will be trained to Read Well, Write Well, and Think Well. In light of this goal, we will be doing a variety of assignments, types of literature, writings, presentations, and activities. We will be reading several novels, discuss poetry, Shakespeare, and develop the skills necessary to have a good discussion.')}}
+          {{ __('This course extends the mathematical content of Algebra 1 and Geometry. Algebra 2 topics include linear functions, systems of linear equations and inequalities, quadratic functions, relations and functions, radical functions, exponential functions, logarithmic functions, polynomial functions, rational functions, trigonometric functions, sequences, series, statistics, probability, matrices, and determinants.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH II HONORS')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Geometry')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH II HONORS')}}</h1>
+        <h1>{{ __('Geometry')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course integrates world literature with composition and prepares students for AP Language and AP Literature. Selected novels, dramas, short stories, and articles that encompass the scope of world literature will be read and analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech.')}}
+          {{ __('This course introduces the basic principles of Geometry and the development of proofs. It emphasizes and integrates logical and spatial visualization skills. The topics cover parallel lines and planes, congruent triangles, quadrilaterals, similar polygons, and circles. Students will find the area of plane figures and volumes of solids.')}}
         </p>
       </div>
     </div>
@@ -78,62 +78,76 @@
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course addresses some of the major literary movements of the time, including the Colonial Period (1600s), the Age of Reason (1700s), the Romantic Period (early 1800s), Realism (mid 1800s), and Naturalism (post-Civil War). Students will read a variety of historically-relevant fiction and non-fiction short stories, articles, essays, novels, and plays which explore themes, build cultural literacy, connect history with literature.')}}
+          {{ __('')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('British Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Pre-Calculus')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('British Literature')}}</h1>
+        <h1>{{ __('Pre-Calculus')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course is a survey course which encompasses major prose and poetry of English writers spanning the periods from Anglo-Saxon to modern/contemporary. The goal is to acquire an understanding of the ideas and literary genres that define these periods and to build a foundation for advanced studies in English literature. All readings will be considered in a literary and historical context so that an understanding will be gained of the historical, cultural and philosophical influences.')}}
+          {{ __('This course involves a rigorous study of trigonometry, vectors in two dimensions, and advanced algebraic topics such as polynomial and rational functions, exponential and logarithmic functions, analytic geometry, mathematical induction, sequences and series. The coursework is very applications oriented and will involve a great amount of work with word problems.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Advanced Composition & Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Pre-Calculus Honors')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Advanced Composition & Literature')}}</h1>
+        <h1>{{ __('Pre-Calculus Honors')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course is designed to engage students in college level reading, discussion, and analysis of novels, plays, poetry, non-fiction essays, and literary criticism. Students will learn how to read interesting, thought-provoking texts with enough depth to produce interesting, engaging discussions, write in a clear, intelligent manner, and grow as people.')}}
+          {{ __('This honors course involves a rigorous study of trigonometry, vectors in two and three dimensions, and advanced algebraic topics such as polynomial and rational functions, exponential and logarithmic functions, analytic geometry, mathematical induction, sequences and series. The coursework is very applications oriented and will involve a great amount of work with word problems.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Calculus AB')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Language')}}</h1>
+        <h1>{{ __('Calculus AB')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('Students will analyze, at a college level, rhetorical strategies and techniques in a variety of non-fiction texts and begin to incorporate these skills in their own writing and speaking, with a goal toward confident and effective communication.')}}
+          {{ __('This course will cover aspects of trigonometry, precalculus, and calculus in order to prepare students for the rigors of a college calculus course. The main precalculus topics cover the following functions: polynomial, rational, trigonometric, exponential and logarithmic. The main calculus topics covered are limits, derivatives, applications of derivatives, and elementary integration.')}}
         </p>
       </div>
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Calculus AB')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Literature')}}</h1>
+        <h1>{{ __('AP Calculus AB')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This course is designed to engage students in close reading, discussion, and analysis of novels, plays, poetry, non-fiction essays and literary criticism. While the course devotes significant time to preparing students for the AP Literature exam, the class seeks to look beyond the exam itself toward more lasting purposes, namely, developing a solid and enduring worldview lens through which to interpret difficult texts.')}}
+          {{ __('This one year course covers the same material as the first semester of a college calculus course. The class will cover limits of functions, definition and applications of the derivative, definition and applications of the definite integral, techniques of integration, infinite series, inverse trigonometric and hyperbolic functions.')}}
         </p>
       </div>
     </div>
+    <br>
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Calculus BC')}}">
+    <div class="card mathdepartmentDiv">
+      <div class="card-header">
+        <h1>{{ __('AP Calculus BC')}}</h1>
+      </div>
+      <div class="card-body">
+        <p class="lead">
+          {{ __('This course will include, but not be limited to: Riemann sums, methods of integration, surface areas, lengths of curves, parametric equations, direction fields, differential equations, sequences and series, and MacLaurin and Taylor series.')}}
+        </p>
+      </div>
+    </div>
+    <br>
+
 
   </div>
 </div>
