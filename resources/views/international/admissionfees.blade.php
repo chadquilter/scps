@@ -9,13 +9,11 @@
           <div class="col">
 
               <h1>{{ __('Fees')}}</h1>
-
               <p class="lead">
               {{ __('2018-2019 International Student Tuition and Fee Schedule The tuition and fee amounts below are payable to SCPS upon receipt of acceptance letter. Except for the I-20 and Administrative fees, all amounts are fully refundable if the student is denied an F-1 visa.')}}
               </p>
-            </div>
-          </div>
-          <div class="card">
+              <br>
+          <div class="card shadow_only">
             <div class="card-body">
               <h1>{{ __('NON-REFUNDABLE APPLICATION FEE: $600.00 USD')}}</h1>
               <p class="lead">
