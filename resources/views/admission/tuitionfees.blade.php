@@ -13,13 +13,11 @@
                 <li>{{ __('Applicant Testing Fee = $75')}}</li>
                 <li>{{ __('Newly Enrolled Student Fee = $400')}}</li>
                 <li>{{ __('Registration = $650 (non-refundable)')}}</li>
-                <li>{{ __('High School Tuition  =  $14,500; $ 12,000 (additional child in family)')}}</li>
-                <li>{{ __('Middle School Tuition = $12,750; $10,500 (additional child in family)')}}</li>
+                <li>{{ __('High School Tuition  =  $14,500 *($12,000 for additional students)')}}</li>
+                <li>{{ __('Middle School Tuition = $12,750 *($10,500 for additional students)')}}</li>
                 <li>{{ __('Special Discounts:')}}</li>
                 <li>{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
                 </ul>
-              <br>
-                {{ __('Newly Enrolled Student Fee = $400')}}
               </p>
               <h1>{{ __('Special Courses:')}}</h1>
               <p class="lead">
