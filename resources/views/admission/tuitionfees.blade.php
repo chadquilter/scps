@@ -10,13 +10,13 @@
             <h1 class="display-4">{{ __('Program Fees')}}</h1>
             <p class="lead">
               <ul class="list-group">
-                <li class="list-group-item list-group-item-primary">{{ __('Applicant Testing Fee = $75')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('Newly Enrolled Student Fee = $400')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('Registration = $650 (non-refundable)')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('High School Tuition  =  $14,500 *($12,000 for additional students)')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('Middle School Tuition = $12,750 *($10,500 for additional students)')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('Special Discounts:')}}</li>
-                <li class="list-group-item list-group-item-primary">{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Applicant Testing Fee = $75')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Newly Enrolled Student Fee = $400')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Registration = $650 (non-refundable)')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('High School Tuition  =  $14,500 *($12,000 for additional students)')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Middle School Tuition = $12,750 *($10,500 for additional students)')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Special Discounts:')}}</li>
+                <li class="list-group-item list-group-item-success">{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
               </ul>
             </p>
             <h1>{{ __('Special Courses:')}}</h1>
