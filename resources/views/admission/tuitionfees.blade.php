@@ -64,7 +64,7 @@
 
               <div class="card">
                 <div class="card-header">
-              <h1 class="display-4">{{ __('What’s New for 2018 – 2019')}}</h1>
+              <h3 class="display-5">{{ __('What’s New for 2018 – 2019')}}</h3>
             </div>
             <div class="card-body">
                 <ul>
