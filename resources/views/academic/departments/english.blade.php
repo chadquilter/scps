@@ -114,11 +114,21 @@
     <div class="card subdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Language')}}</h1>
+      </div>
         <div class="card-body">
           <p class="lead">
             {{ __('Students will analyze, at a college level, rhetorical strategies and techniques in a variety of non-fiction texts and begin to incorporate these skills in their own writing and speaking, with a goal toward confident and effective communication.')}}
           </p>
+        </div>
+      </div>
+      <br>
+
+      <input type="button" id="subdepartmentButton" class="btn btn-outline-primary btn-block subdpt-button" value="{{__('AP Language')}}">
+      <div class="card subdepartmentDiv">
+        <div class="card-header">
           <h1>{{ __('AP Literature')}}</h1>
+        </div>
+          <div class="card-body">
           <p class="lead">
             {{ __('This course is designed to engage students in close reading, discussion, and analysis of novels, plays, poetry, non-fiction essays and literary criticism. While the course devotes significant time to preparing students for the AP Literature exam, the class seeks to look beyond the exam itself toward more lasting purposes, namely, developing a solid and enduring worldview lens through which to interpret difficult texts.')}}
           </p>
