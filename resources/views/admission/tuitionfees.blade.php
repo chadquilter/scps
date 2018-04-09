@@ -44,7 +44,12 @@
               <p class="lead">
               {{ __('Space City Preparatory has a Food Service, Transportation Service, and After School Tutoring Service. There are also special classes and enrichment opportunities throughout the year. Please refer to our specific literature for more information about each program.')}}
               </p>
+              <br>
+              <div class="card">
+                <div class="card-header">
               <h1 class="display-1">{{ __('Financial Policies')}}</h1>
+            </div>
+            <div class="card-body">
               <h1>{{ __('Refunds:')}}</h1>
               <p class="lead">
               {{ __('School fees (e.g. testing, registration, etc.) are non-refundable. Refunds on items not received or used are subject to the policies of the publisher, manufacturer, or supplier.')}}
@@ -61,10 +66,12 @@
               <p class="lead">
               {{ __('Payments are considered overdue after the 5th of each month at which time a minimum late fee of $30/month or 1.5% of the outstanding balance will be charged. Families will be charged $30 for each occurrence of a returned check plus any bank charges incurred by the school. Families with severely delinquent accounts will not be allowed to re-enroll and may be refused attendance until the balance is settled. Please contact the school office before letting your account balance become a problem.')}}
               </p>
-
+            </div>
+          </div>
+          <br>
               <div class="card">
                 <div class="card-header">
-              <h3 class="display-5">{{ __('What’s New for 2018 – 2019')}}</h3>
+              <h3 class="display-5">{{ __('What’s New for 2018 – 2019:')}}</h3>
             </div>
             <div class="card-body">
                 <ul>
