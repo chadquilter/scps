@@ -28,7 +28,7 @@
               {{ __('SCPA is authorized by the United States government to issue the I-20 form necessary to obtain international student visas. Please see our separate literature for specific information and costs for enrolling in our international programs.')}}
             </p>
 
-            <div class="card">
+            <div class="card shadow-only">
               <div class="card-header">
                 <h1 class="display-4">{{ __('Participation Fees')}}</h1>
               </div>
@@ -53,7 +53,7 @@
             </div>
 
             <br>
-            <div class="card">
+            <div class="card shadow-only">
               <div class="card-header">
                 <h1 class="display-4">{{ __('Financial Policies')}}</h1>
               </div>
@@ -77,7 +77,7 @@
               </div>
             </div>
             <br>
-            <div class="card">
+            <div class="card shadow-only">
               <div class="card-header">
                 <h3 class="display-5">{{ __('What’s New for 2018 – 2019:')}}</h3>
               </div>
@@ -99,7 +99,7 @@
               </div>
             </div>
             <br>
-            <div class="alert alert-danger">
+            <div class="alert alert-danger shadow-only">
               <h1>Statement of Non-Discrimination</h1>
               <p class="lead">
                 {{ __('Space City Preparatory admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
