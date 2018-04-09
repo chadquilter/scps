@@ -40,7 +40,7 @@
               </li>
             </ul>
           </div>
-          <div class="chat-face-div">
+          <div class="col">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
