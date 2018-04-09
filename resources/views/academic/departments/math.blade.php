@@ -13,25 +13,12 @@
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('')}}
-        </p>
-      </div>
-    </div>
-    <br>
-
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ADVANCED ESL')}}">
-    <div class="card mathdepartmentDiv">
-      <div class="card-header">
-        <h1>{{ __('Algerbra')}}</h1>
-      </div>
-      <div class="card-body">
-        <p class="lead">
           {{ __('real numbers, simplifying and factoring polynomial expressions, and solving and understanding properties of linear and quadratic functions. Topics also expand to include solving systems of linear equations and inequalities. Algebra I is foundational for all advanced level math and science courses.')}}
         </p>
       </div>
     </div>
     <br>
-
+    
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra II')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
