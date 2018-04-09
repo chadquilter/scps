@@ -11,16 +11,6 @@
               <p class="lead">
               {{ __('Our administration is here to work with you!')}}
               </p>
-              <h1>{{ __('Creativtiy')}}</h1>
-              <p class="lead">
-              {{ __('')}}
-              </p>
-              <h1>{{ __('Methodology')}}</h1>
-              <p class="lead">
-              {{ __('We want to make sure the teacher is the key to the classroom.
-              We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment.
-              We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
-              </p>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
