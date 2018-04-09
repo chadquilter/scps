@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Program Fees')}}</h1>
+              <h1 class="display-4">{{ __('Program Fees')}}</h1>
               <p class="lead">
               {{ __('Applicant Testing Fee = $75
                 Newly Enrolled Student Fee = $400
@@ -27,7 +27,7 @@
               <p class="lead">
               {{ __('California Crosspoint Academy is authorized by the United States government to issue the I-20 form necessary to obtain international student visas. Please see our separate literature for specific information and costs for enrolling in our international programs.')}}
               </p>
-              <h1 class="display-1">{{ __('Participation Fees')}}</h1>
+              <h1 class="display-4">{{ __('Participation Fees')}}</h1>
               <h1>{{ __('Class Trips:')}}</h1>
               <p class="lead">
               {{ __('Students participate in educational trips during the school year. Details for each trip are provided early in the school year so students can plan and fundraise for these award-winning experiences.')}}
@@ -61,7 +61,7 @@
               <p class="lead">
               {{ __('Payments are considered overdue after the 5th of each month at which time a minimum late fee of $30/month or 1.5% of the outstanding balance will be charged. Families will be charged $30 for each occurrence of a returned check plus any bank charges incurred by the school. Families with severely delinquent accounts will not be allowed to re-enroll and may be refused attendance until the balance is settled. Please contact the school office before letting your account balance become a problem.')}}
               </p>
-              <h1 class="display-1">{{ __('What’s New for 2018 – 2019')}}</h1>
+              <h1 class="display-4">{{ __('What’s New for 2018 – 2019')}}</h1>
 
                 <ul>
                   <li>
