@@ -24,25 +24,25 @@ class AcademicController extends Controller
      }
 
      private function electives(){
-       $electives = array('elective' => 'American Culture',
-        'elective' => 'Audio Visual',
-        'elective' => 'Chinese Culture',
-        'elective' => 'Chorale',
-        'elective' => 'Conditioning',
-        'elective' => 'Design/Construction',
-        'elective' => 'Drivers Education',
-        'elective' => 'English Symposium',
-        'elective' => 'Financial Literacy',
-        'elective' => 'Graphic Design',
-        'elective' => 'Health',
-        'elective' => 'Home Economics',
-        'elective' => 'Latin',
-        'elective' => 'Lifeskills',
-        'elective' => 'Men’s Drill',
-        'elective' => 'Robotics',
-        'elective' => 'SAT Prep',
-        'elective' => 'Worship',
-        'elective' => 'Yearbook');
+       $electives = array('American Culture',
+        'Audio Visual',
+        'Chinese Culture',
+        'Chorale',
+        'Conditioning',
+        'Design/Construction',
+        'Drivers Education',
+        'English Symposium',
+        'Financial Literacy',
+        'Graphic Design',
+        'Health',
+        'Home Economics',
+        'Latin',
+        'Lifeskills',
+        'Men’s Drill',
+        'Robotics',
+        'SAT Prep',
+        'Worship',
+        'Yearbook');
        return $electives;
      }
 
