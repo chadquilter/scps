@@ -39,7 +39,7 @@
             <div class="form-group row">
               <label for="date" class="col-sm-4 col-form-label text-md-right">{{ __('Task Date') }}</label>
               <div class="col-md-6">
-                <input id="task" type="date" class="form-control{{ $errors->has('date') ? ' is-invalid' : '' }}" name="date" value="{{ old('date') }}" required autofocus>
+                <input id="task_date" type="date" class="form-control{{ $errors->has('task_date') ? ' is-invalid' : '' }}" name="task_date" value="{{ old('taks_date') }}" required autofocus>
               </div>
             </div>
             <div class="form-group row">

@@ -19,7 +19,7 @@ class CreateSchedulesTable extends Migration
             $table->string('type');
             $table->text('description')->nullable();
             $table->date('task_date');
-	    $table->timestamps();
+	          $table->timestamps();
         });
     }
 
