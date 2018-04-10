@@ -22,7 +22,7 @@
             <table class="table table-striped table-hover table-responsive">
               <thead class="thead-inverse">
                 <tr>
-                  <th nowrap><h3><span class="badge badge-secondary">{{ $items->total() }}</span> Total Tasks:</h3></th>
+                  <th nowrap><h3><span class="badge badge-secondary">{{ $items->count() }}</span> Total Tasks:</h3></th>
                   <th></th>
                   <th></th>
                 </tr>
