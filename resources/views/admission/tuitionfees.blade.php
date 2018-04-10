@@ -8,17 +8,21 @@
         <div class="row">
           <div class="col">
             <h1 class="display-4">{{ __('Program Fees')}}</h1>
-            <p class="lead">
-              <ul class="list-group">
-                <li class="list-group-item list-group-item-success">{{ __('Applicant Testing Fee = $75')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('Newly Enrolled Student Fee = $400')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('Registration = $650 (non-refundable)')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('High School Tuition  =  $14,500 *($12,000 for additional students)')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('Middle School Tuition = $12,750 *($10,500 for additional students)')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('Special Discounts:')}}</li>
-                <li class="list-group-item list-group-item-success">{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
-              </ul>
-            </p>
+            <div class="card">
+              <div class="card-body">
+                <p class="lead">
+                  <ul class="list-group">
+                    <li class="list-group-item list-group-item-success">{{ __('Applicant Testing Fee = $75')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('Newly Enrolled Student Fee = $400')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('Registration = $650 (non-refundable)')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('High School Tuition  =  $14,500 *($12,000 for additional students)')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('Middle School Tuition = $12,750 *($10,500 for additional students)')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('Special Discounts:')}}</li>
+                    <li class="list-group-item list-group-item-success">{{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
             <h1>{{ __('Special Courses:')}}</h1>
             <p class="lead">
               {{ __('There is a $250 per course fee for all Advanced Placement classes. Students may also be responsible for other costs related to certain course activities (e.g. lab materials, field trips) or the purchase of specific materials or equipment (e.g. lab goggles and lab coats, online licenses). Students are provided class information to purchase/provide for their own textbooks and class materials.  The Parent-Teacher Fellowship sponsors a used textbook sale to help families buy and sell their used textbooks.')}}
