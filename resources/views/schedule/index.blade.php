@@ -39,10 +39,7 @@
                     </td>
                     <td width=10%><a href="/schedule/{{$item->id}}/edit" class="btn btn-primary">Edit</a></td>
                     <td width=10%>
-                      {!!Form::open(['action' => ['ScheduleController@destroy', $item->id], 'method' => 'POST', 'class' => 'pull-right'])!!}
-                      {{Form::hidden('_method', 'DELETE')}}
-                      {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
-                      {!!Form::close()!!}
+
                     </td>
                   </tr>
                 @endforeach
