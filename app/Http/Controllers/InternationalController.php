@@ -9,11 +9,11 @@ class InternationalController extends Controller
 
     private function sidelinks(){
       $links = array(
-       'academy' => array('link' => 'international-academy', 'label' => 'The Academy'),
-       'acceleratedenglish' => array('link' => 'accelerated-english', 'label' => 'Accelerated English'),
-       'admissionfees' => array('link' => 'international-admission', 'label' => 'Admission and Fees'),
-       'partners' => array('link' => 'international-partners', 'label' => 'International Partners'),
-       'services' => array('link' => 'international-services', 'label' => 'International Services'),
+       'academy' => array('link' => 'international/international-academy', 'label' => 'The Academy'),
+       'acceleratedenglish' => array('link' => 'international/accelerated-english', 'label' => 'Accelerated English'),
+       'admissionfees' => array('link' => 'international/international-admission', 'label' => 'Admission and Fees'),
+       'partners' => array('link' => 'international/international-partners', 'label' => 'International Partners'),
+       'services' => array('link' => 'international/international-services', 'label' => 'International Services'),
      );
      return $links;
     }

@@ -9,8 +9,8 @@ class StudentController extends Controller
 
   private function sidelinks(){
     $links = array(
-     'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
-     'growth' => array('link' => 'growth', 'label' => 'Student Growth'),
+     'athletics' => array('link' => 'student-life/athletics', 'label' => 'Student Athletics'),
+     'growth' => array('link' => 'student-life/growth', 'label' => 'Student Growth'),
    );
    return $links;
   }
