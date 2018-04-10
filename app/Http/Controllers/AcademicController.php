@@ -41,7 +41,6 @@ class AcademicController extends Controller
         'Men’s Drill',
         'Robotics',
         'SAT Prep',
-        'Worship',
         'Yearbook');
        return $electives;
      }
