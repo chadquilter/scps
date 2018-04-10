@@ -35,7 +35,7 @@
                       <hr class="my-1">
                       Description: </strpmg> <span class="badge badge-secondary"> {{$item->description}} </span>
                       Type: </strong> <span class="badge badge-secondary"> {{$item->type}} </span>
-                      Date: </strong> <span class="badge badge-secondary"> {{$item->date}} </span>
+                      Date: </strong> <span class="badge badge-secondary"> {{$item->task_date}} </span>
                     </td>
                     <td width=10%><a href="/schedule/{{$item->id}}/edit" class="btn btn-primary">Edit</a></td>
                     <td width=10%>
