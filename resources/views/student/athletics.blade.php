@@ -7,27 +7,11 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Scope of our Mission')}}</h1>
-              <p class="lead">
-              {{ __('We want to reach all who can benefit from our school.
-              We want to develop each student to their full potential.
-              We want to emphasize spiritual results over academic achievement.
-              We want to be faithful to our task and trust God to give the increase.')}}
-              </p>
-              <h1>{{ __('Governance and Operations')}}</h1>
-              <p class="lead">
-              {{ __('We want to practice servant leadership: teachers serve students; administrators serve teachers.
-              We want to make what is best for our students a top priority.
-              We want to emphasize the spirit of the law over the letter of the law.
-              We want to emphasize ‘who we are’ is more important than ‘what we do’.
-              We want to place overall, long-term benefits over expediency.')}}
-              </p>
-              <h1>{{ __('Methodology')}}</h1>
-              <p class="lead">
-              {{ __('We want to make sure the teacher is the key to the classroom.
-              We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment.
-              We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
-              </p>
+            <h1>{{ __('Philosophy of Athletics')}}</h1>
+            <hr class="style-two">
+            <p class="lead">
+            {{ __('The purpose of our athletic program is to train student-athletes to manage their individual and team participation in a sportsman-like manner. This program offers its participants training to build appropriate skill sets while offering competitive opportunities to strengthen character evidenced through gracious winning and losing. It is the desire of the athletic department that every team or individual that competes at Space City Preparatory School experience the joy of rising to one’s full potential. ')}}
+            </p>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
