@@ -47,7 +47,7 @@ class AcademicController extends Controller
 
      private function administration_staff(){
        $admin = array(
-          'jpm' => array('link' => 'images/admin/th.jpeg', 'label' => 'Our curtious staff are here to assist all our Students and Partners!', 'bio' => '')
+          'jpm' => array('link' => '/images/admin/th.jpeg', 'label' => 'Our curtious staff are here to assist all our Students and Partners!', 'bio' => '')
        );
        return $admin;
      }
