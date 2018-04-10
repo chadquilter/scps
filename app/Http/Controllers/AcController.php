@@ -92,10 +92,10 @@ class AcController extends Controller
     public function update(Request $request, $id)
     {
       $ac = Schedule::findOrFail($id);
-      $ac->name = $request->name;
-      $ac->description = $request->description;
+      //$ac->name = $request->name;
+      //$ac->description = $request->description;
       $ac->type = $request->type;
-      $ac->task_date = $request->task_date;
+      //$ac->task_date = $request->task_date;
       $ac->save();
 
       return response(null, Response::HTTP_OK);
