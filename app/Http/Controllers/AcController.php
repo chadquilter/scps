@@ -6,9 +6,19 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Faker\Generator;
 use App\Schedule;
+use Carbon\Carbon;
 
 class AcController extends Controller
 {
+  /**
+   * Create a new controller instance.
+   *
+   * @return void
+   */
+   public function __construct()
+   {
+      $this->middleware('auth');
+    }
     /**
      * Display a listing of the resource.
      *
