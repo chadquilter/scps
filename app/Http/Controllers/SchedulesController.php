@@ -14,8 +14,8 @@ class SchedulesController extends Controller
      */
     public function index()
     {
-      $tasks = Schedule::all();
-      return view('schedule.index', compact('tasks'));
+      $items = Schedule::all();
+      return view('schedule.index', compact('items'));
     }
 
     /**
