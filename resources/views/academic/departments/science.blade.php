@@ -45,19 +45,6 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH HONERS')}}">
-    <div class="card scidepartmentDiv">
-      <div class="card-header">
-        <h1>{{ __('ENGLISH HONERS')}}</h1>
-      </div>
-      <div class="card-body">
-        <p class="lead">
-          {{ __('This course is designed to access a variety of types of literature and make reading a transformative habit. In the process students will be trained to Read Well, Write Well, and Think Well. In light of this goal, we will be doing a variety of assignments, types of literature, writings, presentations, and activities. We will be reading several novels, discuss poetry, Shakespeare, and develop the skills necessary to have a good discussion.')}}
-        </p>
-      </div>
-    </div>
-    <br>
-
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Chemistry')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">

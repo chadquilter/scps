@@ -9,7 +9,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('List of Electives')}}">
     <div class="card elecdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('List of Electives')}}</h1>
+        <h1>{{ __('Elective Options:')}}</h1>
       </div>
       <div class="card-body">
         <p class="lead">
