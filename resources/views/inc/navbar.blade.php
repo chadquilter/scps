@@ -12,7 +12,7 @@
         <a class="nav-link" href="/">{{__('Home')}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about">{{__('About-Us')}}</a>
+        <a class="nav-link" href="/about-us">{{__('About-Us')}}</a>
       </li>
       <li class"nav-item">
         <a class="nav-link">
@@ -74,51 +74,51 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('About Us')}}</a>
           <div class="dropdown-menu" aria-labelledby="{{__('About Us')}}">
-            <a class="dropdown-item {{ ( \Request::url() == url('school-history') ) ? 'active' : '' }}" href="/school-history">{{__('School History')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('vision') ) ? 'active' : '' }}" href="/vision">{{__('Vision')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('core-values') ) ? 'active' : '' }}" href="/core-values">{{__('Core Values')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('testimony') ) ? 'active' : '' }}" href="/testimony">{{__('Testimonials')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('school-history') ) ? 'active' : '' }}" href="/about-us/school-history">{{__('School History')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('vision') ) ? 'active' : '' }}" href="/about-us/vision">{{__('Vision')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('core-values') ) ? 'active' : '' }}" href="/about-us/core-values">{{__('Core Values')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('testimony') ) ? 'active' : '' }}" href="/about-us/testimony">{{__('Testimonials')}}</a>
           </div>
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Academics')}}</a>
           <div class="dropdown-menu" aria-labelledby="Academics">
-            <a class="dropdown-item {{ ( \Request::url() == url('academic-calendar') ) ? 'active' : '' }}" href="/academic-calendar">{{__('Academic Calendar')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('academic-schedule') ) ? 'active' : '' }}" href="/academic-schedule">{{__('Daily Schedule')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/departments">{{__('Departments')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('powerschool') ) ? 'active' : '' }}" href="/powerschool">{{__('PowerSchool')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('administration') ) ? 'active' : '' }}" href="/administration">{{__('Administration')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('academic-calendar') ) ? 'active' : '' }}" href="/academic/academic-calendar">{{__('Academic Calendar')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('academic-schedule') ) ? 'active' : '' }}" href="/academic/academic-schedule">{{__('Daily Schedule')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('departments') ) ? 'active' : '' }}" href="/academic/departments">{{__('Departments')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('powerschool') ) ? 'active' : '' }}" href="/academic/powerschool">{{__('PowerSchool')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('administration') ) ? 'active' : '' }}" href="/academic/administration">{{__('Administration')}}</a>
           </div>
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Admissions')}}</a>
           <div class="dropdown-menu" aria-labelledby="Admissions">
-            <a class="dropdown-item {{ ( \Request::url() == url('admissions') ) ? 'active' : '' }}" href="/admissions">{{__('Admission')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('tuition-fees') ) ? 'active' : '' }}" href="/tuition-fees">{{__('Tuition and Fees')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('application') ) ? 'active' : '' }}" href="/application">{{__('Application')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('e-tuition') ) ? 'active' : '' }}" href="/e-tuition">{{__('e-tuition')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('admission-contact') ) ? 'active' : '' }}" href="/admission-contact">{{__('Contact Admissions')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('admissions') ) ? 'active' : '' }}" href="/admission/admissions">{{__('Admission')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('tuition-fees') ) ? 'active' : '' }}" href="/admission/tuition-fees">{{__('Tuition and Fees')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('application') ) ? 'active' : '' }}" href="/admission/application">{{__('Application')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('e-tuition') ) ? 'active' : '' }}" href="/admission/e-tuition">{{__('e-tuition')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('admission-contact') ) ? 'active' : '' }}" href="/admission/admission-contact">{{__('Contact Admissions')}}</a>
           </div>
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Student Life')}}</a>
           <div class="dropdown-menu" aria-labelledby="Student Life">
-            <a class="dropdown-item {{ ( \Request::url() == url('athletics') ) ? 'active' : '' }}" href="/athletics">{{__('Athletics')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('growth') ) ? 'active' : '' }}" href="/growth">{{__('Personal Growth')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('athletics') ) ? 'active' : '' }}" href="/student-life/athletics">{{__('Athletics')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('growth') ) ? 'active' : '' }}" href="/student-life/growth">{{__('Personal Growth')}}</a>
           </div>
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('International Program')}}</a>
           <div class="dropdown-menu" aria-labelledby="International Program">
-            <a class="dropdown-item {{ ( \Request::url() == url('international-admission') ) ? 'active' : '' }}" href="/international-admission">{{__('Fees and Admissions')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-academy') ) ? 'active' : '' }}" href="/international-academy">{{__('The Acadmey')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-services') ) ? 'active' : '' }}" href="/international-services">{{__('International Services')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('accelerated-english') ) ? 'active' : '' }}" href="/accelerated-english">{{__('Accelerated English Camp')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-partners') ) ? 'active' : '' }}" href="/international-partners">{{__('International Partners')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-admission') ) ? 'active' : '' }}" href="/international/international-admission">{{__('Fees and Admissions')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-academy') ) ? 'active' : '' }}" href="/international/international-academy">{{__('The Acadmey')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-services') ) ? 'active' : '' }}" href="/international/international-services">{{__('International Services')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('accelerated-english') ) ? 'active' : '' }}" href="/international/accelerated-english">{{__('Accelerated English Camp')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-partners') ) ? 'active' : '' }}" href="/international/international-partners">{{__('International Partners')}}</a>
           </div>
         </li>
         <li class="nav-item {{ ( Request::route()->getName() == 'contact.index') ? 'active' : '' }}">

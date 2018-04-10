@@ -21,41 +21,41 @@ Route::post('contact/create', 'ContactController@create');
 Route::post('contact/store', 'ContactController@store');
 //Route::resource('contact', 'ContactController');
 
-Route::get('/about', 'AboutController@index');
-Route::get('/school-history', 'AboutController@schoolhistory');
-Route::get('/core-values', 'AboutController@corevalues');
-Route::get('/eslr', 'AboutController@eslr');
-Route::get('/testimony', 'AboutController@testimony');
-Route::get('/vision', 'AboutController@vision');
+Route::get('/about-us/about', 'AboutController@index');
+Route::get('/about-us/school-history', 'AboutController@schoolhistory');
+Route::get('/about-us/core-values', 'AboutController@corevalues');
+Route::get('/about-us/eslr', 'AboutController@eslr');
+Route::get('/about-us/testimony', 'AboutController@testimony');
+Route::get('/about-us/vision', 'AboutController@vision');
 
-Route::get('/administration', 'AcademicController@administration');
-Route::get('/academic-calendar', 'AcademicController@calendar');
-Route::get('/departments', 'AcademicController@department');
-Route::get('/powerschool', 'AcademicController@powerschool');
-Route::get('/academic-schedule', 'AcademicController@schedule');
+Route::get('/academic/administration', 'AcademicController@administration');
+Route::get('/academic/academic-calendar', 'AcademicController@calendar');
+Route::get('/academic/departments', 'AcademicController@department');
+Route::get('/academic/powerschool', 'AcademicController@powerschool');
+Route::get('/academic/academic-schedule', 'AcademicController@schedule');
 
-Route::get('/admissions', 'AdmissionController@admissions');
-Route::get('/application', 'AdmissionController@admissionsaplication');
-Route::get('/admission-contact', 'ContactController@index');
-Route::get('/e-tuition', 'AdmissionController@etuition');
-Route::get('/tuition-fees', 'AdmissionController@tuitionfees');
+Route::get('/admission/admissions', 'AdmissionController@admissions');
+Route::get('/admission/application', 'AdmissionController@admissionsaplication');
+Route::get('/admission/admission-contact', 'ContactController@index');
+Route::get('/admission/e-tuition', 'AdmissionController@etuition');
+Route::get('/admission/tuition-fees', 'AdmissionController@tuitionfees');
 
-Route::get('/athletics', 'StudentController@athletics');
-Route::get('/growth', 'StudentController@growth');
+Route::get('/student-life/athletics', 'StudentController@athletics');
+Route::get('/student-life/growth', 'StudentController@growth');
 
-Route::get('/international-academy', 'InternationalController@academy');
-Route::get('/accelerated-english', 'InternationalController@acceleratedenglish');
-Route::get('/international-admission', 'InternationalController@admissionfees');
-Route::get('/international-partners', 'InternationalController@partners');
-Route::get('/international-services', 'InternationalController@services');
+Route::get('/international-school/international-academy', 'InternationalController@academy');
+Route::get('/international-school/accelerated-english', 'InternationalController@acceleratedenglish');
+Route::get('/international-school/international-admission', 'InternationalController@admissionfees');
+Route::get('/international-school/international-partners', 'InternationalController@partners');
+Route::get('/international-school/international-services', 'InternationalController@services');
 
-Route::get('/student-life-gallery', 'GalleryController@student');
-Route::get('/sports-gallery', 'GalleryController@sports');
-Route::get('/electives-gallery', 'GalleryController@elective');
-Route::get('/art-gallery', 'GalleryController@art');
-Route::get('/classroom-gallery', 'GalleryController@classroom');
+Route::get('/gallery/student-life-gallery', 'GalleryController@student');
+Route::get('/gallery/sports-gallery', 'GalleryController@sports');
+Route::get('/gallery/electives-gallery', 'GalleryController@elective');
+Route::get('/gallery/art-gallery', 'GalleryController@art');
+Route::get('/gallery/classroom-gallery', 'GalleryController@classroom');
 
-Route::resource('contact', 'ContactController');
-Route::resource('documents', 'DocumentsController');
+Route::resource('contact-us', 'ContactController');
+Route::resource('/scps/documents', 'DocumentsController');
 
-Route::resource('schedule', 'SchedulesController');
+Route::resource('scps-schedule', 'SchedulesController');
