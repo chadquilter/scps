@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Administration')}}</h1>
+              <h1>{{ __('Dedicated Staff & Faculty')}}</h1>
               <p class="lead">
               {{ __('Our administration is here to work with you!')}}
               </p>
