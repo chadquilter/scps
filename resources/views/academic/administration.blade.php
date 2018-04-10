@@ -11,6 +11,20 @@
               <p class="lead">
               {{ __('Our administration is here to work with you!')}}
               </p>
+              <div class="row">
+                <div class="col">
+                  @foreach ($admin as $profile)
+                  <div class="card shadow_only">
+                    <div class="card-img-top">
+                      <img src="{{ $profile["link"]}}">
+                    </div>
+                    <div class="card-body">
+                      {{$profile["label"]}}
+                    </div>
+                  </div>
+                  @endforeach
+                </div>
+              </div>
           </div>
           <div class="col">
             @include('inc.sidebarlinks')
