@@ -17,7 +17,7 @@
             </div>
           @endif
 
-          @if(count($tasks) > 0)
+          @if(count($items) > 0)
             <div class="container border border-secondary rounded shadow_only">
             <table class="table table-striped table-hover table-responsive">
               <thead class="thead-inverse">
