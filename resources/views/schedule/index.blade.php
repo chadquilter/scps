@@ -50,7 +50,7 @@
               <tfoot>
                 <tr>
                   <td>
-                    {{$tasks->links()}}
+                    {{$items->links()}}
                   </td>
                   <td></td>
                   <td></td>
