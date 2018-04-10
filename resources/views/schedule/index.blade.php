@@ -28,7 +28,7 @@
                 </tr>
               </thead>
               <tbody>
-                @foreach($tasks as $item)
+                @foreach($items as $item)
                   <tr>
                     <td width=80%>
                       <strong> {{$item->name}} </strong>
