@@ -8,6 +8,7 @@
         <div class="row">
           <div class="col">
             <h1 class="display-4">{{ __('Program Fees')}}</h1>
+            <hr class="style-two">
             <div class="card">
               <div class="card-body">
                 <p class="lead">
