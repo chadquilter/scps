@@ -114,11 +114,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('International Program')}}</a>
           <div class="dropdown-menu" aria-labelledby="International Program">
-            <a class="dropdown-item {{ ( \Request::url() == url('international-admission') ) ? 'active' : '' }}" href="/international/international-admission">{{__('Fees and Admissions')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-academy') ) ? 'active' : '' }}" href="/international/international-academy">{{__('The Acadmey')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-services') ) ? 'active' : '' }}" href="/international/international-services">{{__('International Services')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('accelerated-english') ) ? 'active' : '' }}" href="/international/accelerated-english">{{__('Accelerated English Camp')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('international-partners') ) ? 'active' : '' }}" href="/international/international-partners">{{__('International Partners')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-admission') ) ? 'active' : '' }}" href="/international-school/international-admission">{{__('Fees and Admissions')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-academy') ) ? 'active' : '' }}" href="/international-school/international-academy">{{__('The Acadmey')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-services') ) ? 'active' : '' }}" href="/international-school/international-services">{{__('International Services')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-school/accelerated-english') ) ? 'active' : '' }}" href="/international-school/accelerated-english">{{__('Accelerated English Camp')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-partners') ) ? 'active' : '' }}" href="/international-school/international-partners">{{__('International Partners')}}</a>
           </div>
         </li>
         <li class="nav-item {{ ( Request::route()->getName() == 'contact.index') ? 'active' : '' }}">
