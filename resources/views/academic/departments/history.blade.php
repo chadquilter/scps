@@ -110,7 +110,7 @@
       <div class="card-header">
         <h1>{{ __('U.S. History Sheltered')}}</h1>
       </div>
-      <div class="card-header">
+      <div class="card-body">
         <p class="lead">
           {{ __('This class is designed to cover the same curriculum as other U.S. History classes, but it utilizes techniques specially designed to help English Language Learners. A goal of this class is to see how one period of time has influenced and shaped succeeding eras. Historical periods and topics include: Age of Exploration, Colonial America, the American Revolution, Creation of the Nation, the Constitution and Federalism, Age of Reform, Sectionalism v. Nationalism, Manifest Destiny, the Civil War, Reconstruction, etc. These periods and topics will be examined to determine whether the US upheld the founding ideals of democracy, equality, opportunity, rights, and liberty.')}}
         </p>
