@@ -8,35 +8,35 @@
 <div class="row">
   <div class="col">
         <div class="img-container">
-          <a href="/art-gallery">
+          <a href="/gallery/art-gallery">
             <img src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
   </div>
   <div class="col">
     <div class="img-container">
-      <a href="/classroom-gallery">
+      <a href="/gallery/classroom-gallery">
         <img src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image">
       </a>
     </div>
   </div>
   <div class="col">
         <div class="img-container">
-          <a href="/electives-gallery">
+          <a href="/gallery/electives-gallery">
             <img src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
   </div>
   <div class="col">
         <div class="img-container">
-          <a href="/sports-gallery">
+          <a href="/gallery/sports-gallery">
             <img src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
   </div>
   <div class="col">
         <div class="img-container">
-          <a href="/student-life-gallery">
+          <a href="/gallery/student-life-gallery">
             <img src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
