@@ -7,7 +7,8 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h2><u>{{ __('International Services and Camps')}}</u></h2>
+              <h2>{{ __('International Services and Camps')}}</h2>
+              <hr class="style-two">
               <p class="lead">
               {{ __('Each year, we welcome international students to Space City Preparatory from China and other countries. These families value our rich academic program and entrust their children’s futures to our staff and school community. We take our role seriously, providing special services to help our international students as they make the transition to life in America.')}}
               </p>
