@@ -18,7 +18,7 @@
                     <li class="list-group-item list-group-item-success"><h2><u>{{ __('Registration = $650')}}<br>{{ __('(non-refundable)')}}</u></h2></li>
                     <li class="list-group-item list-group-item-success"><h2><u>{{ __('High School Tuition  =  $14,500')}}</u></h2><br>{{ __('*($12,000 for additional students)')}}</li>
                     <li class="list-group-item list-group-item-success"><h2><u>{{ __('Middle School Tuition = $12,750')}}</u></h2><br>{{ __('*($10,500 for additional students)')}}</li>
-                    <li class="list-group-item list-group-item-success"><h2><u>{{ __('Special Discounts:')}}<br>
+                    <li class="list-group-item list-group-item-success"><h2><u>{{ __('Special Discounts:')}}</u></h2><br>
                     {{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
                   </ul>
                 </p>
