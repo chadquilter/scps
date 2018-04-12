@@ -11,7 +11,7 @@
               <p class="lead">
               {{ __('Each year, we welcome international students to Space City Preparatory from China and other countries. These families value our rich academic program and entrust their children’s futures to our staff and school community. We take our role seriously, providing special services to help our international students as they make the transition to life in America.')}}
               </p>
-              <h2><u>{{ __('Transitional Services')}}<u></h2>
+              <h2><u>{{ __('Transitional Services')}}</u></h2>
               <p class="lead">
               {{ __('International students who are refining their English language skills have access to classes specially designed for those learning English as a second language. We offer sheltered classes for credit in some subjects for English language learners. We have a bilingual high school program in Mandarin and English called The Academy at SCPS, which provides intensive English instruction and academic support. In addition, a four-week summer program Accelerated English Camp, is designed to transition newly arrived students academically, socially, and culturally to American school life.')}}
               </p>
