@@ -14,7 +14,7 @@
                   @foreach ($admin as $profile)
                   <div class="card shadow_only">
                     <div class="card-img-top">
-                      <img src="{{ $profile["link"]}}">
+                      <img class="img-fluid" src="{{ $profile["link"]}}">
                     </div>
                     <div class="card-body">
                       {{$profile["label"]}}
