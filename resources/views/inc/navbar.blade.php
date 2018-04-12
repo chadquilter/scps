@@ -22,7 +22,6 @@
       </li>
     </ul>
   </nav>
-
   <div class="row">
     <div class="col col-auto">
       <a href="/"><img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140"></a>
@@ -125,7 +124,7 @@
           <a class="nav-link" href="/contact-us">{{__('Contact')}}</a>
         </li>
       </ul>
-
+      
   </div>
 </nav>
 </div>
