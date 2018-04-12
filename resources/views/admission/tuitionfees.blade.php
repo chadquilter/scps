@@ -85,7 +85,7 @@
             <br>
             <div class="card shadow_only">
               <div class="card-header">
-                <h4 class="display-5">{{ __('What’s New for 2018 – 2019:')}}</h4>
+                <h4 class="display-4">{{ __('What’s New for 2018 – 2019:')}}</h4>
               </div>
               <div class="card-body">
                 <ul>
@@ -106,7 +106,7 @@
             </div>
             <br>
             <div class="alert alert-danger shadow_only">
-              <h1>Statement of Non-Discrimination</h1>
+              <h2><u>Statement of Non-Discrimination</u></h2>
               <p class="lead">
                 {{ __('Space City Preparatory admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
               </p>
