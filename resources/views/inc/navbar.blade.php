@@ -122,7 +122,7 @@
           </div>
         </li>
         <li class="nav-item {{ ( Request::route()->getName() == 'contact.index') ? 'active' : '' }}">
-          <a class="nav-link" href="/contact">{{__('Contact')}}</a>
+          <a class="nav-link" href="/contact-us">{{__('Contact')}}</a>
         </li>
       </ul>
 
