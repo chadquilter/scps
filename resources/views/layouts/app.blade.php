@@ -11,9 +11,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Space City Preparatory School') }}</title>
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
-    <link href="/css/footer.css" rel="stylesheet">
-    <link href="/css/image_styles.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body style="background-attachment:fixed;background-color:#fff;background-position:center top;background-repeat:repeat-x;background-image: url(/images/art-bg.jpg); width=100%; z-index: 1;">

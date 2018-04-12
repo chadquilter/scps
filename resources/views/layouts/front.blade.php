@@ -12,6 +12,7 @@
     <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
