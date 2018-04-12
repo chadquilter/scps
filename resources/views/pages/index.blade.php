@@ -29,7 +29,7 @@
                           {{__('A beautiful campus, with facilities that enhance the learning environment, support our strong academic program.')}}
                         </small></h6>
                         <br>
-                        <h6><small><a href="/tour">{{__('View >>')}}</a></small></h6>
+                        <h6><small><a href="/gallery/classroom-gallery">{{__('View >>')}}</a></small></h6>
                       </div>
                       <div class="col">
                         <h5><small><img src="/images/icon-financial-aid.png" border="0"><br>{{__('Financial Aid')}}</small></h5>
@@ -38,7 +38,7 @@
                           {{__('A good education should be available and attainable by all. SCPS has a program fit to prepare all our students.')}}
                         </small></h6>
                         <br>
-                        <h6><small><a href="/financial-aid">{{__('Learn More >>')}}</a></small></h6>
+                        <h6><small><a href="/admission/tuition-fees">{{__('Learn More >>')}}</a></small></h6>
                       </div>
                       <div class="col">
                         <h5><small><img src="/images/icon-academics.png" border="0"><br>{{__('Academics')}}</small></h5>
@@ -46,7 +46,7 @@
                         <h6><small>
                           {{__('An award-winning, internationally recognized program where over 99% of our graduates have gone to college.')}}                        </small></h6>
                         <br>
-                        <h6><small><a href="/departments">{{__('Read More >>')}}</a></small></h6>
+                        <h6><small><a href="/academic/departments">{{__('Read More >>')}}</a></small></h6>
                       </div>
                     </div>
                   </div>
