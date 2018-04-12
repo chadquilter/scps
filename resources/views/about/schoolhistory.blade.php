@@ -7,8 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-              <h1>{{ __('Our Past:')}}</h1>
-              <hr class="style-two">
+              <h1><u>{{ __('Our Past:')}}</u></h1>
               <p class="lead">
               {{ __('We started as a small school in Houston, TX that emphisized quality over quantity teaching practices.')}}
               </p>
