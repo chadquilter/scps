@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <h1 class="display-4">{{ __('Program Fees')}}</h1>
+            <h4 class="display-4">{{ __('Program Fees')}}</h4>
             <hr class="style-two">
             <div class="card">
               <div class="card-body">
@@ -35,7 +35,7 @@
 
             <div class="card shadow_only">
               <div class="card-header">
-                <h1 class="display-4">{{ __('Participation Fees')}}</h1>
+                <h4 class="display-4">{{ __('Participation Fees')}}</h4>
               </div>
               <div class="card-body">
                 <h1>{{ __('Class Trips:')}}</h1>
@@ -60,7 +60,7 @@
             <br>
             <div class="card shadow_only">
               <div class="card-header">
-                <h1 class="display-4">{{ __('Financial Policies')}}</h1>
+                <h4 class="display-4">{{ __('Financial Policies')}}</h4>
               </div>
               <div class="card-body">
                 <h1>{{ __('Refunds:')}}</h1>
@@ -84,18 +84,18 @@
             <br>
             <div class="card shadow_only">
               <div class="card-header">
-                <h3 class="display-5">{{ __('What’s New for 2018 – 2019:')}}</h3>
+                <h4 class="display-5">{{ __('What’s New for 2018 – 2019:')}}</h4>
               </div>
               <div class="card-body">
                 <ul>
                   <li>
-                    <h1>{{ __('Campus Renovations:')}}</h1>
+                    <h2>{{ __('Campus Renovations:')}}</h2>
                     <p class="lead">
                       {{ __('We will soon complete our first round of upgrades to our Hayward campus facilities, including 1) completion of the large science research lab, 2) renovation of the multi-Purpose Room, and 3) technology equipment upgrades in many of the classrooms.')}}
                     </p>
                   </li>
                   <li>
-                    <h1>{{ __('New Facilities:')}}</h1>
+                    <h2>{{ __('New Facilities:')}}</h2>
                     <p class="lead">
                       {{ __('We are beginning the financing and planning stages to construct a gymnasium, fitness center, recreation room, and event center, along with a student residence hall with study, recreation, fellowship , and meeting rooms.  We hope these projects will formally start the 18-19 school year and be partially ready for the 2019-2020 school year.')}}
                     </p>
