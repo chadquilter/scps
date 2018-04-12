@@ -89,13 +89,13 @@
               <div class="card-body">
                 <ul>
                   <li>
-                    <h2>{{ __('Campus Renovations:')}}</h2>
+                    <h2><u>{{ __('Campus Renovations:')}}</u></h2>
                     <p class="lead">
                       {{ __('We will soon complete our first round of upgrades to our Hayward campus facilities, including 1) completion of the large science research lab, 2) renovation of the multi-Purpose Room, and 3) technology equipment upgrades in many of the classrooms.')}}
                     </p>
                   </li>
                   <li>
-                    <h2>{{ __('New Facilities:')}}</h2>
+                    <h2><u>{{ __('New Facilities:')}}</u></h2>
                     <p class="lead">
                       {{ __('We are beginning the financing and planning stages to construct a gymnasium, fitness center, recreation room, and event center, along with a student residence hall with study, recreation, fellowship , and meeting rooms.  We hope these projects will formally start the 18-19 school year and be partially ready for the 2019-2020 school year.')}}
                     </p>
