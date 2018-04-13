@@ -24,7 +24,7 @@ class ContactMail extends Mailable
     {
         $this->contact = $contact;
         //add subject line to contact
-        $subject = 'Hello, a contact has been sent from '.$this->contact->name.' to Space City.';
+        $subject = 'Hello, a contact has been sent from '.$this->contact->name.' to Space City Preparatory.';
         $this->subject($subject);
     }
 
