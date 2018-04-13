@@ -23,6 +23,7 @@ class ReceiptMail extends Mailable
     public function __construct(Contact $contact)
     {
         $this->contact = $contact;
+        $this->subject('Hello, from Space City!');
     }
 
     /**
