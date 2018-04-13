@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col">
     <img src="/images/icon-photo-gallery.png" border="0">
-    <h1 class="lead">{{__('Photo Gallery')}}</h1>
+    <h2 class="display-2">{{__('Photo Gallery')}}</h2>
   </div>
 </div>
 <div class="row">
