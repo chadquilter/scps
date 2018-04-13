@@ -1,11 +1,11 @@
 <div class="row">
   <div class="col">
     <img src="/images/icon-photo-gallery.png" border="0">
-    <h1>{{__('Photo Gallery')}}</h1>
-    <hr>
+    <h1 class="lead">{{__('Photo Gallery')}}</h1>
   </div>
 </div>
 <div class="row">
+  <hr>
   <div class="col-sm">
     <br>
         <div class="img-container">
