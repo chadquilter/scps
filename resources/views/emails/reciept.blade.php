@@ -20,6 +20,7 @@
             <p class="lead">Have a Wonderfull Day!</p>
             <br>
           </div>
+          <small>This email was intended for {{ $contactName}}.</small>
         </div>
         <br>
       </div>
