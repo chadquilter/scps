@@ -12,7 +12,7 @@
     <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
 </head>
-<body>
+<body style="background-color: #404040;">
   <main role="main">
     <div class="body-container">
       @yield('content')
