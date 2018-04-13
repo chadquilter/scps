@@ -1,7 +1,8 @@
 <div class="row">
   <div class="col">
     <img src="/images/icon-photo-gallery.png" border="0">
-    <h3 class="display-3"><u>{{__('Photo Gallery')}}</u></h3>
+    <h4 class="display-4">{{__('Photo Gallery')}}</h4>
+    <hr>
   </div>
 </div>
 <div class="row">
