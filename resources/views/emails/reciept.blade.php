@@ -18,7 +18,7 @@
             <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
             <hr class="style-two">
             Have a Wonderfull Day!</br>
-            Best,<br>regards.</p>
+            Best, regards.</p>
             <br>
           </div>
           <small>
