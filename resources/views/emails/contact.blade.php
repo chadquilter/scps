@@ -24,9 +24,6 @@
           <strong>Email:</strong>
           <p class="lead">{{ $contactEmail }}</p>
         </div>
-        <div class="card-footer">
-          <small>This email was intended for {{ $contactName}}.</small>
-        </div>
       </div>
       <br>
       <div class="main-color text-light sidebar_pad shadow_only">
@@ -37,6 +34,9 @@
           <hr class="style-two">
           <p class="lead">{{ $contactNotes }}</p>
           <hr class="style-two">
+        </div>
+        <div class="card-footer">
+          <small>This email was intended for {{ $contactName}}.</small>
         </div>
       </div>
     </div>
