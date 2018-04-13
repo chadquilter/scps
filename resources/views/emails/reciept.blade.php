@@ -18,9 +18,14 @@
             <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
             <hr class="style-two">
             <p class="lead">Have a Wonderfull Day!</p>
+            <p>Best,<br>regards.</p>
             <br>
           </div>
-          <small>This email was intended for {{ $contactName}}.</small>
+          <small>
+            This email was intended for {{ $contactName}}.<br>
+            Please do not reply.<br>  
+            Replies to this message are undeliverable and will not reach Talent Acquisition.
+          </small>
         </div>
         <br>
       </div>
