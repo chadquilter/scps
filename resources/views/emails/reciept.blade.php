@@ -17,14 +17,12 @@
           <div class="card-body shadow_only">
             <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
             <hr class="style-two">
-            <p class="lead">Have a Wonderfull Day!</p>
-            <p>Best,<br>regards.</p>
+            Have a Wonderfull Day!</br>
+            Best,<br>regards.</p>
             <br>
           </div>
           <small>
-            This email was intended for {{ $contactName}}.<br>
-            Please do not reply.<br>  
-            Replies to this message are undeliverable and will not reach Talent Acquisition.
+            This email was intended for {{ $contactName}}. Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.
           </small>
         </div>
         <br>
