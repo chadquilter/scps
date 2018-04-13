@@ -23,7 +23,7 @@
           </div>
           <div class="card-footer">
             <small>
-              This email was intended for {{ $contactName}}. Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.
+              This email was intended for {{ $contactName }} at {{ $contactEmail }}. Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.
             </small>
           </div>
         </div>

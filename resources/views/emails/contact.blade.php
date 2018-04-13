@@ -14,9 +14,10 @@
           <h4 class="display-4">Contact sent from:</h4>
         </div>
         <div class="card">
+        <div class="card-header">
+          <h4 class="display-4">{{ $contactName }}</h4>
+        </div>
         <div class="card-body shadow_only">
-          <p class="lead">{{ $contactName }}</p>
-          <hr class="style-two">
           <strong>Date:</strong>
           <p class="lead">{{ $contactDate }}</p>
           <strong>Phone:</strong>
