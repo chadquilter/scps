@@ -36,7 +36,7 @@
           <hr class="style-two">
         </div>
         <div class="card-footer">
-          <small>This email was intended for {{ env(APP_NAME) }}.</small>
+          <small>This email was intended for {{ env('APP_NAME') }}.</small>
         </div>
       </div>
     </div>
