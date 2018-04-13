@@ -23,7 +23,9 @@ class ContactMail extends Mailable
     public function __construct(Contact $contact)
     {
         $this->contact = $contact;
-        $this->subject('Hello, from Space City!');
+        //add subject line to contact
+        $subject = 'Hello, a contact sent from '.$this->contact->name.' to Space City.';
+        $this->subject($subject);
     }
 
     /**
