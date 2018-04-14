@@ -26,7 +26,7 @@
               <br>
               <a class="btn btn-primary" href="\documents">International Application .PDF</a>
           </div>
-          <div class="col">
+          <div style="postion:relative; z-index:2;">
             @include('inc.sidebarlinks')
           </div>
         </div>

@@ -80,7 +80,7 @@
               </li>
             </ul>
           </div>
-          <div class="pull-right" style="postion:relative; z-index:2;">
+          <div class="col pull-right">
             @include('inc.sidebarlinks')
           </div>
         </div>
