@@ -36,7 +36,7 @@
         <div class="col col-auto float-sm-right">
 
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Dropdown Example
+            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Select Langauge:
             <span class="caret"></span></button>
             <ul class="dropdown-menu">
               <li><a href="/english">English</a></li>
