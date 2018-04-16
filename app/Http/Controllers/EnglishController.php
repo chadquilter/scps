@@ -9,7 +9,7 @@ class EnglishController extends Controller
 {
     //sets app language to english
     public function index(){
-      App::setLocale('en');
+      setLocale('en');
       return redirect()->back();
     }
 
