@@ -9,13 +9,6 @@ use App\Http\Controllers\Controller;
 class AboutController extends Controller
 {
 
-
-    public function __construct()
-    {
-        $lang = Session::get('lang');
-        //setLocale('/locale/{$lang}');
-        setLocal($lang);
-    }
     /**
      * Display a listing of the resource.
      *

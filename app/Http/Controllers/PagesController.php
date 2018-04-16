@@ -11,12 +11,6 @@ use Storage;
 class PagesController extends Controller
 {
 
-  public function __construct(Request $request)
-  {
-      $lang = session('lang');
-      setLocal('$lang');
-  }
-
     public function index(){
       $title = 'Welcome to '.config('app.name');
       $files = Storage::disk('images')->files('showcase');
