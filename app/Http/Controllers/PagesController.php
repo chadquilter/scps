@@ -10,7 +10,7 @@ use Storage;
 class PagesController extends Controller
 {
 
-  public function __construct()
+  public function __construct(Request $request)
   {
       $lang = $request->session()->get('lang');
       App::setLocale($lang);
