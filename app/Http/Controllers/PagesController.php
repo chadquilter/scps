@@ -13,7 +13,7 @@ class PagesController extends Controller
   public function __construct(Request $request)
   {
       $lang = $request->session()->get('lang');
-      setLocale($lang);
+      App::setLocale($lang);
   }
 
     public function index(){
