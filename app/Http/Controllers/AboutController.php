@@ -6,6 +6,13 @@ use Illuminate\Http\Request;
 
 class AboutController extends Controller
 {
+
+
+    public function __construct()
+    {
+        $lang = $request->session()->get('lang');
+        App::setLocale($lang);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -22,15 +29,6 @@ class AboutController extends Controller
       return $links;
     }
 
-    private function setlanguage(){
-          $lang = $request->session()->get('lang');
-          App::setLocale($lang);
-    }
-
-    public function __construct()
-    {
-       $this->setlangauge();
-     }
 
     public function index()
     {

@@ -8,14 +8,10 @@ use Storage;
 class PagesController extends Controller
 {
 
-  private function setlanguage(){
-      $lang = $request->session()->get('lang');
-      App::setLocale($lang);
-  }
-
   public function __construct()
   {
-     $this->setlangauge();
+      $lang = $request->session()->get('lang');
+      App::setLocale($lang);
   }
 
     public function index(){
