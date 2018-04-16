@@ -194,4 +194,9 @@ return [
 
     'same_site' => null,
 
+    /*
+    Add language key
+    */
+    'lang' => 'en',
+
 ];

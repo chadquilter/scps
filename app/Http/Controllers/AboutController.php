@@ -22,6 +22,16 @@ class AboutController extends Controller
       return $links;
     }
 
+    private function setlanguage(){
+          $lang = $request->session()->get('lang');
+          App::setLocale($lang);
+    }
+
+    public function __construct()
+    {
+       $this->setLangauge();
+     }
+
     public function index()
     {
 

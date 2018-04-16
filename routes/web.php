@@ -11,12 +11,8 @@
 |
 */
 Route::get('/locale/{lang?}', function($lang=null){
-    App::setLocale($lang);
-    $title = 'Welcome to '.config('app.name');
-    $files = Storage::disk('images')->files('showcase');
-    return view('pages.index')
-      ->with('title', $title)
-      ->with('files', $files);
+    $request->session()->put('lang',$lang);
+    return redirect()->back();
 });
 Route::get('/', 'PagesController@index');
 
