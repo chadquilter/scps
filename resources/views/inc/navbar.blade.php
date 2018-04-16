@@ -42,6 +42,7 @@
               <li><a href="/localization/en">English</a></li>
               <li><a href="/localization/zh">简体中文 Chinese (Simplified)</a></li>
             </ul>
+            {{config('app.locale')}}
           </div>
           <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
             @csrf
