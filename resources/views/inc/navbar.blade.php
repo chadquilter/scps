@@ -34,12 +34,13 @@
         </div>
         <!-- Split dropup button -->
         <div class="col col-auto float-sm-right">
+
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Select Langauge:
             <span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><a href="/locale/en">English</a></li>
-              <li><a href="/locale/zh">简体中文 Chinese (Simplified)</a></li>
+              <li class=" {{( \config('app.locale') == 'en' ) ? 'active' : '' )}}"><a href="/locale/en">English</a></li>
+              <li class=" {{( \config('app.locale') == 'zh' ) ? 'active' : '' )}} ?"><a href="/locale/zh">简体中文 Chinese (Simplified)</a></li>
             </ul>
           </div>
           <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
