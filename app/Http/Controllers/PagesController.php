@@ -14,7 +14,7 @@ class PagesController extends Controller
   public function __construct(Request $request)
   {
       $lang = session('lang');
-      setLocale($lang);
+      setLocale('/locale/{$lang}');
   }
 
     public function index(){
