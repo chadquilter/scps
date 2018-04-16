@@ -9,7 +9,6 @@ class ChineseController extends Controller
 {
     //sets app language to english
     public function index(){
-      setLocale('zh');
       return redirect()->back();
     }
 
