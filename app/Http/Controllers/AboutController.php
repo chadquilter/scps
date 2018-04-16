@@ -14,7 +14,7 @@ class AboutController extends Controller
     {
         $lang = $request->session()->get('lang');
         //setLocale('/locale/{$lang}');
-        setLocale('','en');
+        setLocale(1,'en');
     }
     /**
      * Display a listing of the resource.
