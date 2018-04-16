@@ -14,7 +14,7 @@ class AboutController extends Controller
     {
         $lang = Session::get('lang');
         //setLocale('/locale/{$lang}');
-        setLocale(1,$lang);
+        setLocal($lang);
     }
     /**
      * Display a listing of the resource.
