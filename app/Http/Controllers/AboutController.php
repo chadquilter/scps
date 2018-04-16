@@ -13,7 +13,7 @@ class AboutController extends Controller
     public function __construct(Request $request)
     {
         $lang = $request->session()->get('lang');
-        App::setLocale($lang);
+        setLocale($lang);
     }
     /**
      * Display a listing of the resource.
