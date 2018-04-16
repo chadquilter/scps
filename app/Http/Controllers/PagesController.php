@@ -5,16 +5,15 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Config\session;
 
 use Storage;
 
 class PagesController extends Controller
 {
 
-  public function __construct()
+  public function __construct(Request $request)
   {
-      $lang = Session::get('lang');
+      $lang = $request->session()->get('lang');
       setLocale(1,$lang);
   }
 
