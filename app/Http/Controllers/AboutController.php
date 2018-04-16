@@ -29,7 +29,7 @@ class AboutController extends Controller
 
     public function __construct()
     {
-       $this->setLangauge();
+       $this->setlangauge();
      }
 
     public function index()
