@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'PagesController@index');
+Route::get('/english', 'EnglishController@index');
+Route::get('/chinese', 'ChineseController@index');
 
 Auth::routes();
 Route::get('/dashboard', 'DashboardController@index');

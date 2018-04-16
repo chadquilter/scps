@@ -34,18 +34,17 @@
         </div>
         <!-- Split dropup button -->
         <div class="col col-auto float-sm-right">
-          <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            English
-          </button>
-          <div class="dropdown-menu">
-            <form class="" action="{{url('/locale')}}" method="post">
-              <select class="" name="locale" onchange="this.form.submit()">
-                <option class="dropdown-item" value="en" >English</option>
-                <option class="dropdown-item" value="zh" >简体中文 Chinese (Simplified)</option>
-              </select>
-            </form>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Dropdown Example
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="/english">English</a></li>
+              <li><a href="/chinese">简体中文 Chinese (Simplified)</a></li>
+            </ul>
           </div>
-          <form class="form-inline">
+          <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
+            @csrf
             <div class="input-group">
               <div class="input-group-prepend">
                 <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
@@ -124,7 +123,7 @@
           <a class="nav-link" href="/contact-us">{{__('Contact')}}</a>
         </li>
       </ul>
-      
+
   </div>
 </nav>
 </div>
