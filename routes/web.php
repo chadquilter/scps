@@ -10,10 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/locale/{lang}', function($lang){
+    App:setLocale($lang);
+    return redirect()->back();
+});
 Route::get('/', 'PagesController@index');
 
 Route::get('localization/{locale}','LocalizationController@index');
+
 
 Auth::routes();
 Route::get('/dashboard', 'DashboardController@index');
