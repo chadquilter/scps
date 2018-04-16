@@ -10,9 +10,9 @@ class AboutController extends Controller
 {
 
 
-    public function __construct(Request $request)
+    public function __construct()
     {
-        $lang = $request->session()->get('lang');
+        $lang = Session::get('lang');
         //setLocale('/locale/{$lang}');
         setLocale(1,$lang);
     }
