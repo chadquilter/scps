@@ -12,11 +12,11 @@ class Localization
 
     protected $app;
 
-    public function __construct(Application $app, Request $request, Session $session)
+    public function __construct(Application $app, Request $request)
     {
         if(Session::has('lang'))
         {
-            $lang = $session->get('lang');
+            $lang = Session::get('lang');
             $app->setLocale($lang);
         }
     }
