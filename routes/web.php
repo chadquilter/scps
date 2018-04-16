@@ -10,8 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/locale/{lang?}', function(Request $request, $lang=null){
-    $request->session()->put('lang',$lang);
+Route::get('/locale/{lang?}', function( $lang=null){
+    Session::set('lang', $lang);
     return redirect()->back();
 });
 Route::get('/', 'PagesController@index');
