@@ -12,7 +12,7 @@
 */
 Route::get('/locale/{lang?}', function($lang=null){
     App::setLocale($lang);
-    return view('/');
+    return view('pages.index');
 });
 Route::get('/', 'PagesController@index');
 
