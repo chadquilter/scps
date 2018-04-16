@@ -34,7 +34,7 @@
         </div>
         <!-- Split dropup button -->
         <div class="col col-auto float-sm-right">
-
+          {{config('app.locale')}}
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Select Langauge:
             <span class="caret"></span></button>
@@ -42,7 +42,6 @@
               <li><a href="/localization/en">English</a></li>
               <li><a href="/localization/zh">简体中文 Chinese (Simplified)</a></li>
             </ul>
-            {{config('app.locale')}}
           </div>
           <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
             @csrf
