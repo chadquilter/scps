@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Session;
 Route::get('/locale/{lang?}', function( $lang=null){
     Session::put('lang', $lang);
 
-    //session(['lang'=>$lang]);
+    session(['lang'=>$lang]);
     return refresh();
 });
 Route::get('/', 'PagesController@index');
