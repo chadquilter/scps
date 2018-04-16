@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col">
             <p class="shadow_text">
-              {{_('2018,  {{ config('app.name', 'SCPS') }}')}}
+              {{_('2018, '.config('app.name', 'SCPS'))}}
             </p>
             <hr class="style-two1">
             <p class="shadow_text">
