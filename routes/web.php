@@ -11,7 +11,7 @@
 |
 */
 Route::get('/locale/{lang?}', function( $lang=null){
-    Session::put('lang', $value);
+    Session::put('lang', $lang);
     return redirect()->back();
 });
 Route::get('/', 'PagesController@index');
