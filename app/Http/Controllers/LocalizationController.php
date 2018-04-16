@@ -13,7 +13,7 @@ class LocalizationController extends Controller
        //set’s application’s locale
        app()->setLocale($locale);
        //Gets the translated message and displays it
-       echo trans('lang.msg');
+       return redirect()->back();
     }
 
 }
