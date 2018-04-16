@@ -39,8 +39,8 @@
             <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Select Langauge:
             <span class="caret"></span></button>
             <ul class="dropdown-menu">
-              <li><a href="{{ LaravelLocalization::getLocalizedURL('en', Request::url()) }}">English</a></li>
-              <li><a href="{{ LaravelLocalization::getLocalizedURL('zh', Request::url()) }}">简体中文 Chinese (Simplified)</a></li>
+              <li><a href="/localization/en">English</a></li>
+              <li><a href="/localization/zh">简体中文 Chinese (Simplified)</a></li>
             </ul>
           </div>
           <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
