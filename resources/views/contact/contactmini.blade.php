@@ -2,7 +2,7 @@
   <div class="main-color">
 
         @include('inc.messages')
-        <h4 class="shadow_text">Contact Us!</h4>
+        <h4 class="shadow_text">{{_('Contact Us!')}}'</h4>
         <hr>
         <form id="contact_form_mini" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
           @csrf

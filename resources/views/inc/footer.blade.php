@@ -8,11 +8,11 @@
         <div class="row">
           <div class="col">
             <p class="shadow_text">
-              2018,  {{ config('app.name', 'SCPS') }}
+              {{_('2018,  {{ config('app.name', 'SCPS') }}')}}
             </p>
             <hr class="style-two1">
             <p class="shadow_text">
-              Private Middle & High School
+              {{_('Private Middle & High School')}}
               Houston, TX | Pasadena, TX | Marblefalls, TX
             </p>
             <hr class="style-two1">
@@ -25,18 +25,18 @@
           </div>
           <div class="col">
             <p class="shadow_text">
-              Quick Links
+              {{_('Quick Links')}}
             </p>
             <br>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
-                <a class="nav-link active" href="/application">New Students Apply</a>
+                <a class="nav-link active" href="/application">{{_('New Students Apply')}}</a>
               </li>
             </ul>
             <br>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
-                <a class="nav-link active" href="/powerschool">Powerschool</a>
+                <a class="nav-link active" href="/powerschool">{{_('Powerschool')}}</a>
               </li>
             </ul>
           </div>
