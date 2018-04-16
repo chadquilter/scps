@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/locale/{lang}', function($lang){
+Route::get('/locale/{lang?}', function($lang=null){
     App:setLocale($lang);
     return redirect()->back();
 });
