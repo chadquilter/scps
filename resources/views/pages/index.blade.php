@@ -57,7 +57,7 @@
           <div class="col">
             <div class="row">
               <div class="col">
-                <div class="main-color sidebar_pad">
+                <div class="main-color text-light sidebar_pad">
                   <h1>
                     <div class="row">
                       <div class="col">
@@ -65,7 +65,7 @@
                       </div>
                       <div class="col pull-left">
                         <small>{{ __('New Students')}}</small><br>
-                        {{ __('Application')}}
+                        <h1>{{ __('Application')}}</h1>
                       </div>
                     </div>
                   </h1>
