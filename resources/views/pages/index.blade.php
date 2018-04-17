@@ -60,10 +60,10 @@
                 <div class="main-color text-light sidebar_pad">
                   <h1>
                     <div class="row">
-                      <div class="col">
+                      <div class="col col-sm">
                         <img src="/images/new-course.png" border="0">
                       </div>
-                      <div class="col pull-right">
+                      <div class="col">
                         <h6>{{ __('New Students')}}</h6>
                         <h1>{{ __('Application')}}</h1>
                       </div>
