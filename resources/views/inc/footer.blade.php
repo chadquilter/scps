@@ -25,7 +25,7 @@
           </div>
           <div class="col">
             <p class="shadow_text">
-              {{ _('Quick Links') }}
+              {{ __('Quick Links') }}
             </p>
             <br>
             <ul class="nav nav-pills nav-fill main-color">

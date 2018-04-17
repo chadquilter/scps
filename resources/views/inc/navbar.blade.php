@@ -36,7 +36,7 @@
         <div class="col col-auto float-sm-right">
 
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">Select Langauge:
+            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-toggle="dropdown">{{ __('Select Langauge:')}}
             <span class="caret"></span></button>
             <ul class="dropdown-menu">
               <li class=" {{ ( \config('app.locale') == 'en' ) ? 'active' : '' }}"><a href="/locale/en">English</a></li>
@@ -49,7 +49,7 @@
               <div class="input-group-prepend">
                 <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
               </div>
-              <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">Search</button>
+              <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">{{ __('Search')}}</button>
             </div>
           </form>
         </div>
