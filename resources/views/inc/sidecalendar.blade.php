@@ -9,14 +9,14 @@
           <div class="row">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
-              <h1>{{_('Events')}}</h1>
+              <h1>{{__('Events')}}</h1>
             </div>
           </div>
           <hr>
           <div class="row">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
-              <h1>{{_('Sports')}}</h1>
+              <h1>{{__('Sports')}}</h1>
             </div>
           </div>
         </div>
