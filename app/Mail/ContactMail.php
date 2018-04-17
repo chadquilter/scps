@@ -25,7 +25,7 @@ class ContactMail extends Mailable
         $this->contact = $contact;
         $to = explode(',', env('ADMIN_EMAILS'));
         $this->to($to, 'SCPS Administration');
-        $this->reply('kendall@spacecityschool.com', 'SCPS Administration');
+        $this->from('kendall@spacecityschool.com', 'SCPS Administration');
         //add subject line to contact
         $subject = 'Hello, a contact has been sent from '.$this->contact->name.' to Space City Preparatory.';
         $this->subject($subject);
