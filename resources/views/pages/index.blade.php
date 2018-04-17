@@ -59,7 +59,15 @@
               <div class="col">
                 <div class="main-color sidebar_pad">
                   <h1><a href="/admissions/application">
-                    <img src="/images/new-course.png" border="0">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/new-course.png" border="0">
+                      </div>
+                      <div class="col">
+                        <small>{{ __('New Students')}}</small><br>
+                        {{ __('Application')}}
+                      </div>
+                    </div>
                   </a></h1>
                 </div>
                 <div class="col">
