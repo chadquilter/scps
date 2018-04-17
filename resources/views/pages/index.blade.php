@@ -63,8 +63,8 @@
                       <div class="col">
                         <img src="/images/new-course.png" border="0">
                       </div>
-                      <div class="col pull-left">
-                        <small>{{ __('New Students')}}</small><br>
+                      <div class="col pull-right">
+                        <h6>{{ __('New Students')}}</h6><br>
                         <h1>{{ __('Application')}}</h1>
                       </div>
                     </div>
