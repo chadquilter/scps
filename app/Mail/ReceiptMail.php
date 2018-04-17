@@ -25,7 +25,7 @@ class ReceiptMail extends Mailable
         $this->contact = $contact;
         $this->to($this->contact->email, $this->contact->name);
         $to = explode(',', env('ADMIN_EMAILS'));
-        $this->to($to, 'SCPS Administration');
+        $this->cc($to, 'SCPS Administration');
         $this->subject('Hello '.$this->contact->name.', thanks for contacting Space City Preparatory!');
     }
 
