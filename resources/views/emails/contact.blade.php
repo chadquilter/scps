@@ -37,7 +37,7 @@
           <hr class="style-two">
         </div>
         <div class="card-footer">
-          <small>{{ __('This email was intended for')}} {{ env('APP_NAME') }}.<a href="https://spacecityschool.com">Unsubscribe</a></small>
+          <small>{{ __('This email was intended for')}} {{ env('APP_NAME') }}.</small>
         </div>
       </div>
     </div>
