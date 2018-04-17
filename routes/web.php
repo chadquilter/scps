@@ -14,14 +14,10 @@ use Illuminate\Support\Facades\Session;
 
 Route::get('/locale/{lang?}', function( $lang=null){
     Session::put('lang', $lang);
-
-    session(['lang'=>$lang]);
+    //session(['lang'=>$lang]);
     return redirect()->back();
 });
 Route::get('/', 'PagesController@index');
-
-Route::get('localization/{locale}','LocalizationController@index');
-
 
 Auth::routes();
 Route::get('/dashboard', 'DashboardController@index');
