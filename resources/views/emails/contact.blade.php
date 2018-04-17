@@ -11,24 +11,24 @@
     <div class="card">
       <div class='card-body alt-color'>
         <div class="main-color text-light sidebar_pad shadow_only">
-          <h4 class="display-4">Contact sent from:</h4>
+          <h4 class="display-4">{{ __('Contact sent from:')}}'</h4>
         </div>
         <div class="card">
         <div class="card-header">
           <h4 class="display-4">{{ $contactName }}</h4>
         </div>
         <div class="card-body shadow_only">
-          <strong>Date:</strong>
+          <strong>{{ __('Date:')}}</strong>
           <p class="lead">{{ $contactDate }}</p>
-          <strong>Phone:</strong>
+          <strong>{{ __('Phone:')}}</strong>
           <p class="lead">{{ $contactPhone }}</p>
-          <strong>Email:</strong>
+          <strong>{{ __ ('Email:')}}</strong>
           <p class="lead">{{ $contactEmail }}</p>
         </div>
       </div>
       <br>
       <div class="main-color text-light sidebar_pad shadow_only">
-        <h4 class="display-4">Message:</h4>
+        <h4 class="display-4">{{ __('Message:')}}</h4>
       </div>
       <div class="card">
         <div class="card-body shadow_only">
@@ -37,7 +37,7 @@
           <hr class="style-two">
         </div>
         <div class="card-footer">
-          <small>This email was intended for {{ env('APP_NAME') }}.</small>
+          <small>{{ __('This email was intended for')}} {{ env('APP_NAME') }}.</small>
         </div>
       </div>
     </div>

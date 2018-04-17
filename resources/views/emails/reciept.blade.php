@@ -11,19 +11,24 @@
     <div class="card">
       <div class='card-body alt-color'>
         <div class="main-color text-light sidebar_pad shadow_only">
-          <h4 class="display-4">Message Recieved!</h4>
+          <h4 class="display-4">{{ __('Message Recieved!')}}'</h4>
         </div>
         <div class="card">
           <div class="card-body shadow_only">
-            <p class="lead">Thank You {{ $contactName }} for contacting us! <br> A representative will be contacting you shortly.</p>
+            <p class="lead">{{ __('Thank You')}} {{ $contactName }} {{ __('for contacting us!')}}
+              <br>
+              {{ __('A representative will be contacting you shortly.')}}
+            </p>
             <hr class="style-two">
-            Have a Wonderfull Day!</br>
-            Best, regards.</p>
+            {{ __('Have a Wonderfull Day!')}}
+          </br>
+            {{ __('Best, regards.')}}
+          </p>
             <br>
           </div>
           <div class="card-footer">
             <small>
-              This email was intended for {{ $contactName }} at {{ $contactEmail }}. Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.
+              {{ __('This email was intended for')}} {{ $contactName }} {{__('at')}} {{ $contactEmail }}. {{ __('Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.')}}
             </small>
           </div>
         </div>
@@ -38,7 +43,7 @@
           </p>
           <hr class="style-two1">
           <p class="shadow_text">
-            Private Middle & High School
+            {{ __('Private Middle & High School')}}
             Houston, TX | Pasadena, TX | Marblefalls, TX
           </p>
           <hr class="style-two1">
