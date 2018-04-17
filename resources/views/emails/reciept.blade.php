@@ -29,6 +29,7 @@
           <div class="card-footer">
             <small>
               {{ __('This email was intended for')}} {{ $contactName }} {{__('at')}} {{ $contactEmail }}. {{ __('Please do not reply, replies to this message are undeliverable and will not reach Space City Prepartory.')}}
+              <a href="https://spacecityschool.com">Unsubscribe</a>
             </small>
           </div>
         </div>
