@@ -11,7 +11,7 @@
     <div class="card">
       <div class='card-body alt-color'>
         <div class="main-color text-light sidebar_pad shadow_only">
-          <h4 class="display-4">{{ __('Message Recieved!')}}'</h4>
+          <h4 class="display-4">{{ __('Message Recieved!')}}</h4>
         </div>
         <div class="card">
           <div class="card-body shadow_only">
