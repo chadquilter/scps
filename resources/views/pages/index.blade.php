@@ -44,7 +44,8 @@
                         <h5><small><img src="/images/icon-academics.png" border="0"><br>{{__('Academics')}}</small></h5>
                         <br>
                         <h6><small>
-                          {{__('An award-winning, internationally recognized program where over 99% of our graduates have gone to college.')}}                        </small></h6>
+                          {{__('An award-winning, internationally recognized program where over 99% of our graduates have gone to college.')}}
+                        </small></h6>
                         <br>
                         <h6><small><a href="/academic/departments">{{__('Read More >>')}}</a></small></h6>
                       </div>
