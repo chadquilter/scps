@@ -94,9 +94,11 @@
                       <a href="/admissions/application">
                         <img src="/images/parent-information-night.jpg" border="0">
                       </a>
-                      <h1 class="display-4">Parent</h1>
-                      <div class="alert alert-warning shadow_only"><h1 class="display-4">Information</h1></div>
-                      <h1 class="display-4">Night</h1>
+                      <div class="alert alert-dark shadow_only">
+                        <h1 class="display-4">Parent</h1>
+                        <div class="alert alert-warning shadow_only"><h1 class="display-4">Information</h1></div>
+                        <h1 class="display-4">Night</h1>
+                      </div>
                       <hr>
                     </div>
                   </div>
