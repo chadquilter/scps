@@ -97,7 +97,7 @@
                       <div class="alert alert-info shadow_only">
                         <center>
                           <h1 class="text-success">Parent</h1>
-                          <div class=""><h1>Information</h1></div>
+                          <div class="bg-warning text-light"><h3>Information</h3></div>
                           <h1 class="text-success">Night</h1>
                         </center>
                       </div>
