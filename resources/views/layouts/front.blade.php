@@ -26,4 +26,7 @@
     </div>
   </main>
 </body>
+<script>
+  $(window).scrollTop(0);
+</script>
 </html>

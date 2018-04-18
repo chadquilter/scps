@@ -27,5 +27,8 @@
   </main>
 </body>
 <!-- Scripts -->
+<script>
+  $(window).scrollTop(0);
+</script>
 <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </html>
