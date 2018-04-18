@@ -94,9 +94,9 @@
                       <a href="/admissions/application" class="nounderline">
                       <div class="alert alert-info shadow_only border-info">
                         <center>
-                          <h1 class="text-success"><strong>Parent</strong></h1>
-                          <div class="bg-warning text-light"><h1>Info</h1></div>
-                          <h1 class="text-success"><strong>Night</strong></h1>
+                          <h2 class="text-success"><strong>Parent</strong></h1>
+                          <div class="bg-warning text-light"><h2><strong>Info</strong></h2></div>
+                          <h2 class="text-success"><strong>Night</strong></h2>
                         </center>
                       </div>
                       </a>
