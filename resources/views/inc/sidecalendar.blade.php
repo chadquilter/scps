@@ -7,17 +7,21 @@
       <div class="card">
         <div class="card-body image_display_r">
           <div class="row">
+            <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
               <h1>{{__('Events')}}</h1>
             </div>
+            </a>
           </div>
           <hr>
           <div class="row">
+            <a href="/academic/academic-calendar" class="nounderline">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
               <h1>{{__('Sports')}}</h1>
             </div>
+          </a>
           </div>
         </div>
       </div>

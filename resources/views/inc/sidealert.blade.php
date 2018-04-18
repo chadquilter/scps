@@ -6,7 +6,7 @@
     <div class="col">
       <div class="card">
         <div class="card-body">
-          <a href="/admissions/application" class="nounderline">
+          <a href="/admission/admission-contact" class="nounderline">
           <div class="alert alert-info shadow_only border-info">
             <center>
               <h2 class="text-success"><strong>Parent</strong></h1>
