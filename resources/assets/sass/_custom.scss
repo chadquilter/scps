@@ -255,9 +255,9 @@ hr.style-two {
   }
 }
 
-.nounderline a
+.nounderline
 {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .nounderline:hover {
