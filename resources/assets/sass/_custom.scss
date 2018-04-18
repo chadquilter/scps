@@ -255,8 +255,12 @@ hr.style-two {
   }
 }
 
-.nounderline{
+.nounderline a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
   text-decoration: none;
+
 }
 
 .gold-header{
@@ -268,7 +272,7 @@ hr.style-two {
 .gold-subheader{
   text-align:
   left; color: #FAEBD7;
-  text-shadow: .5rem .5rem 1rem #000000; 
+  text-shadow: .5rem .5rem 1rem #000000;
   font-style: oblique;
 }
 
