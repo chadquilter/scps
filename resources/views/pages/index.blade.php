@@ -92,7 +92,7 @@
                   <div class="card">
                     <div class="card-body">
                       <a href="/admissions/application" class="nounderline">
-                      <div class="alert alert-info shadow_only border-secondary">
+                      <div class="alert alert-info shadow_only border-info">
                         <center>
                           <h1 class="text-success"><strong>Parent</strong></h1>
                           <div class="bg-warning text-light"><h1>Info</h1></div>
