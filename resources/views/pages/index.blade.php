@@ -96,9 +96,9 @@
                       </a>
                       <div class="alert alert-secondary shadow_only">
                         <center>
-                          <strong><h1 class="text-success">Parent</h1></strong>
-                          <div class="bg-warning text-light"><h1 class="display-4">Information</h1></div>
-                          <strong><h1 class="text-success">Night</h1></strong>
+                          <h1 class="text-success"><strong>Parent</strong></h1>
+                          <div class="bg-warning text-light"><h1>Info</h1></div>
+                          <h1 class="text-success"><strong>Night</strong></h1>
                         </center>
                       </div>
                       <hr>
