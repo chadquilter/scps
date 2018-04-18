@@ -8,7 +8,7 @@
 <div class="row">
   <div class="col-sm">
     <br>
-        <div class="img-container">
+        <div class="img-container fade">
           <a href="/gallery/art-gallery">
             <img class="img-fluid" src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image">
           </a>
@@ -16,7 +16,7 @@
   </div>
   <div class="col-sm">
     <br>
-    <div class="img-container">
+    <div class="img-container fade">
       <a href="/gallery/classroom-gallery">
         <img class="img-fluid" src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar" class="img-image">
       </a>
@@ -24,7 +24,7 @@
   </div>
   <div class="col-sm">
     <br>
-        <div class="img-container">
+        <div class="img-container fade">
           <a href="/gallery/electives-gallery">
             <img class="img-fluid" src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar" class="img-image">
           </a>
@@ -32,7 +32,7 @@
   </div>
   <div class="col-sm">
         <br>
-        <div class="img-container">
+        <div class="img-container fade">
           <a href="/gallery/sports-gallery">
             <img class="img-fluid" src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar" class="img-image">
           </a>
@@ -40,7 +40,7 @@
   </div>
   <div class="col-sm">
     <br>
-        <div class="img-container">
+        <div class="img-container fade">
           <a href="/gallery/student-life-gallery">
             <img class="img-fluid" src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar" class="img-image">
           </a>

@@ -13,6 +13,17 @@ background: -moz-linear-gradient(top, #544e4c, #8a8482);
 /* Opera 11.10+ */ background: -o-linear-gradient(top, #544e4c, #8a8482);
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+  opacity: 0.5;
+}
+
 div.image_display {
   width: 40rem;
   box-shadow: 0 4rem 8rem 0 rgba(0, 0, 0, 0.2), 0 6rem 20rem 0 rgba(0, 0, 0, 0.19);
