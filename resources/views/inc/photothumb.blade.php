@@ -10,7 +10,7 @@
     <br>
         <div class="img-container">
           <a href="/gallery/art-gallery">
-            <img class="img-image fade" src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image">
+            <img class="img-image" src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image">
           </a>
         </div>
   </div>
@@ -18,7 +18,7 @@
     <br>
     <div class="img-container">
       <a href="/gallery/classroom-gallery">
-        <img class="img-image fade" src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar">
+        <img class="img-image" src="/images/gallery_icons/Classrooms-135x110.jpg" alt="Avatar">
       </a>
     </div>
   </div>
@@ -26,7 +26,7 @@
     <br>
         <div class="img-container">
           <a href="/gallery/electives-gallery">
-            <img class="img-image fade" src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar">
+            <img class="img-image" src="/images/gallery_icons/Electives-135x110.jpg" alt="Avatar">
           </a>
         </div>
   </div>
@@ -34,7 +34,7 @@
         <br>
         <div class="img-container">
           <a href="/gallery/sports-gallery">
-            <img class="img-image fade" src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar">
+            <img class="img-image" src="/images/gallery_icons/Sports-135x110.jpg" alt="Avatar">
           </a>
         </div>
   </div>
@@ -42,7 +42,7 @@
     <br>
         <div class="img-container">
           <a href="/gallery/student-life-gallery">
-            <img class="img-image fade" src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar">
+            <img class="img-image" src="/images/gallery_icons/Studentlife-135x110.jpg" alt="Avatar">
           </a>
         </div>
   </div>
