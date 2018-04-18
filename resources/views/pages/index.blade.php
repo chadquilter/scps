@@ -92,8 +92,8 @@
                   <div class="card">
                     <div class="card-body">
                       <a href="/admissions/application">
-                        <img src="/images/parent-information-night.jpg" border="0">
-                      </a>
+
+
                       <div class="alert alert-info shadow_only border-dark">
                         <center>
                           <h1 class="text-success"><strong>Parent</strong></h1>
@@ -101,6 +101,7 @@
                           <h1 class="text-success"><strong>Night</strong></h1>
                         </center>
                       </div>
+                      </a>
                       <hr>
                     </div>
                   </div>
