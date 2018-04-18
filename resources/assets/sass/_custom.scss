@@ -236,39 +236,3 @@ hr.style-two {
     }
 }
 */
-
-/*
-Extra small devices (portrait phones, less than 544px)
-No media query since this is the default in Bootstrap because it is "mobile first"
-*/
-h1 {font-size:1rem;} /*1rem = 16px*/
-/*
-####################################################
-M E D I A  Q U E R I E S
-####################################################
-*/
-
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Bootstrap 4 breakpoints
-*/
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
