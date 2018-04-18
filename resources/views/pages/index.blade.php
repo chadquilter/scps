@@ -96,7 +96,7 @@
                       </a>
                       <div class="alert alert-dark shadow_only">
                         <h1 class="display-4">Parent</h1>
-                        <div class="alert alert-warning shadow_only"><h1 class="display-4">Information</h1></div>
+                        <div class="alert alert-warning shadow_only text-light"><h1 class="display-4">Information</h1></div>
                         <h1 class="display-4">Night</h1>
                       </div>
                       <hr>
