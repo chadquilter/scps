@@ -28,7 +28,10 @@
 </body>
 <!-- Scripts -->
 <script>
-  $(window).scrollTop(0);
+  $(window).load(function() {
+    // chat face un focus
+    $(window).scrollTop(0);
+  });
 </script>
 <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </html>

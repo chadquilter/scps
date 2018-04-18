@@ -27,6 +27,9 @@
   </main>
 </body>
 <script>
-  $(window).scrollTop(0);
+  $(window).load(function() {
+    // chat face un focus
+    $(window).scrollTop(0);
+  });
 </script>
 </html>
