@@ -9,9 +9,9 @@
           <a href="/admission/admission-contact" class="nounderline">
           <div class="alert alert-info shadow_only border-info">
             <center>
-              <h2 class="text-success"><strong>Parent</strong></h1>
-              <div class="bg-warning text-light"><h2><strong>Info</strong></h2></div>
-              <h2 class="text-success"><strong>Night</strong></h2>
+              <h2 class="text-success"><strong>{{ __('Parent') }}</strong></h1>
+              <div class="bg-warning text-light"><h2><strong>{{ __('Info') }}</strong></h2></div>
+              <h2 class="text-success"><strong>{{ __('Night') }}</strong></h2>
             </center>
           </div>
           </a>
