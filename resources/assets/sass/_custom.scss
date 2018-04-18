@@ -236,3 +236,21 @@ hr.style-two {
     }
 }
 */
+
+@media all and (max-device-width: 720px){
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+@media all and (max-device-width: 640px){
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-device-width: 320px){
+  html {
+    font-size: 1.0rem;
+  }
+}
