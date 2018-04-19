@@ -27,7 +27,7 @@
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
-            <br>
+            <hr>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
                 <a class="nav-link active" href="/application">{{__('New Students Apply')}}</a>
