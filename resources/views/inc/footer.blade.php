@@ -6,7 +6,7 @@
     </div>
     <div class="footer-text">
         <div class="row">
-          <div class="col col-md-4">
+          <div class="col">
             <p class="shadow_text">
               {{_('2018, '.config('app.name', 'SCPS'))}}
             </p>
@@ -23,7 +23,7 @@
               Phone: (832) 205-2160
             </address>
           </div>
-          <div class="col col-md-4 col-lg-2">
+          <div class="col col-sm-2 col-md-2 col-lg-2">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
