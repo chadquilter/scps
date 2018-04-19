@@ -24,7 +24,6 @@ class GalleryController extends Controller
          return $links;
     }
 
-
      private function sidelinks(){
        $links = array(
         'athletics' => array('link' => 'athletics', 'label' => 'Student Athletics'),
@@ -65,7 +64,7 @@ class GalleryController extends Controller
       return view('gallery.art-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
-        ->wtih('links', $links)
+        ->with('links', $links)
         ->with('title', $title);
     }
 
