@@ -6,24 +6,25 @@
   </div>
 </div>
 <div class="row">
+
   <div class="col-sm">
     <br>
     <div class="row">
         <div class="col">
+          <div class="img-container">
             <div class="card bg-inverse">
-
-                <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
-                    <h4 class="card-title">Art Gallery</h4>
-                </div>
-
+              <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
+              <div class="card-img-overlay h-100 d-flex flex-column justify-content-end alert alert-dark">
+                  <h4 class="card-title">Art Gallery</h4>
+              </div>
             </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
     </div>
-
   </div>
+
   <div class="col-sm">
     <br>
         <div class="img-container">
