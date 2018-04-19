@@ -8,6 +8,22 @@
 <div class="row">
   <div class="col-sm">
     <br>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-inverse">
+                <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end alert alert-dark">
+                    <h4 class="card-title">Art Gallery</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
+
+  </div>
+  <div class="col-sm">
+    <br>
         <div class="img-container">
           <a href="/gallery/art-gallery">
             <img class="img-image" src="/images/gallery_icons/Art-135x110.jpg" alt="Avatar" class="img-image">
