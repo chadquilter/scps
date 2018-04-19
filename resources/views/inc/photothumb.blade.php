@@ -10,11 +10,10 @@
 <div class="card-deck">
   @foreach($links as $link)
 
-  <div class="col-sm">
-    <br>
-    <a href="{{ $link["link"] }}" class="nounderline">
+
     <div class="card card-inverse text-center img-container shadow_only" style="min-width: 9rem; max-width: 9rem;">
       <!-- Image -->
+      <a href="{{ $link["link"] }}" class="nounderline">
       <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
       <!-- Text Overlay -->
       <div class="card-img-overlay d-flex align-items-end">
@@ -22,9 +21,10 @@
           <h4 class="card-text"><strong>{{ __($link["label"])}}</strong></h4>
         </div>
       </div>
-    </div>
     </a>
-  </div>
+    </div>
+
+
 
   @endforeach
 </div>
