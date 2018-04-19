@@ -8,7 +8,7 @@
 <div class="row">
   @foreach($links as $link)
 
-  <div class="col-sm-4">
+  <div class="col-sm">
     <br>
     <a href="{{ $link["link"] }}" class="nounderline">
     <div class="card card-inverse text-center img-container shadow_only" style="min-width: 10rem; max-width: 10rem;">
