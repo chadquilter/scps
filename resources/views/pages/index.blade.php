@@ -54,15 +54,16 @@
                 </div>
               </div>
             </div>
-
-
+          </div>
+          <div class="col">
+            @include('inc.sidenewstudent')
             <br>
             @include('inc.sidealert')
             <br>
             @include('inc.sidecalendar')
             <br>
+          </div>
         </div>
-        <br>
         @include('inc.photothumb')
       </div>
     </div>
