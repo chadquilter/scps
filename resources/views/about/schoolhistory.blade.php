@@ -20,7 +20,7 @@
               {{ __('We plan to keep the same quality and mentorship that made our legacy what it is today.')}}
               </p>
           </div>
-          <div class="col">
+          <div class="col col-md-6">
             @include('inc.sidebarlinks')
           </div>
         </div>

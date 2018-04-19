@@ -10,17 +10,17 @@
             <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
-                        <hr>
+              <hr>
               <div class="bg-warning text-light"><h1><strong>{{__('Events')}}</strong></h1></div>
             </div>
             </a>
           </div>
-          <hr class="style-two">
+          <hr >
           <div class="row">
             <a href="/academic/academic-calendar" class="nounderline">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
-                        <hr>
+              <hr>
               <div class="bg-warning text-light"><strong><h1>{{__('Sports')}}</strong></h1></div>
             </div>
           </a>

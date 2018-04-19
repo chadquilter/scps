@@ -10,7 +10,7 @@
               <h1>{{ __('Class Schedules and Events')}}</h1>
 
           </div>
-          <div class="col">
+          <div class="col col-md-6">
             @include('inc.sidebarlinks')
           </div>
         </div>

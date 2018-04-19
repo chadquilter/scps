@@ -14,7 +14,7 @@
               <br>
               <a class="btn btn-primary" href="\documents">Application .PDF</a>
           </div>
-          <div class="col">
+          <div class="col col-md-6">
             @include('inc.sidebarlinks')
           </div>
         </div>

@@ -37,7 +37,7 @@
               @include('academic.departments.electives')
             </div>
           </div>
-          <div class="col">
+          <div class="col col-md-6">
             @include('inc.sidebarlinks')
           </div>
         </div>
