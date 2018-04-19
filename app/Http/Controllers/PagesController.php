@@ -25,8 +25,8 @@ class PagesController extends Controller
     public function index(){
       $title = 'Welcome to '.config('app.name');
       $files = Storage::disk('images')->files('showcase');
-      $links = gallery_items();
-      
+      $links = $this->gallery_items();
+
       return view('pages.index')
         ->with('title', $title)
         ->with('links', $links)
