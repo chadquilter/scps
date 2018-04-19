@@ -15,7 +15,7 @@
       <!-- Text Overlay -->
       <div class="card-img-overlay align-items-end">
         <div class="alert alert-dark">
-          <p class="card-text">{{ __( '{$link["label"]}' )}}</p>
+          <p class="card-text">{{ __($link["label"])}}</p>
         </div>
       </div>
     </div>
