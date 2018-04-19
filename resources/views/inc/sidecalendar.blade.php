@@ -10,7 +10,7 @@
             <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
-              <h1>{{__('Events')}}</h1>
+              <div class="bg-warning text-light"><h1><strong>{{__('Events')}}</strong></h1></div>
             </div>
             </a>
           </div>
@@ -19,7 +19,7 @@
             <a href="/academic/academic-calendar" class="nounderline">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
-              <h1>{{__('Sports')}}</h1>
+              <div class="bg-warning text-light"><strong><h1>{{__('Sports')}}</strong></h1></div>
             </div>
           </a>
           </div>
