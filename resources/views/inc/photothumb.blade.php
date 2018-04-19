@@ -11,7 +11,7 @@
   <div class="col">
     <br>
     <a href="{{ $link["link"] }}" class="nounderline">
-    <div class="card card-inverse text-center img-container" style="min-width: 11rem; max-width: 13rem;">
+    <div class="card card-inverse text-center img-container shadow_only" style="min-width: 11rem; max-width: 13rem;">
       <!-- Image -->
       <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
       <!-- Text Overlay -->
