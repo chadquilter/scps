@@ -9,8 +9,8 @@
   <div class="card-deck-wrapper">
     <div class="card-deck">
       @foreach($links as $link)
-        
-        <div class="card card-inverse text-center img-container shadow_only" style="min-width: 9rem; max-width: 9rem;">
+
+        <div class="card card-inverse text-center img-container shadow_only" style="min-width: 8.5rem; max-width: 8.5rem;">
           <!-- Image -->
           <a href="{{ $link["link"] }}" class="nounderline">
             <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
