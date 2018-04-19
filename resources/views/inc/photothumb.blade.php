@@ -6,6 +6,8 @@
   </div>
 </div>
 <div class="row">
+<div class="card-deck-wrapper">
+<div class="card-deck">
   @foreach($links as $link)
 
   <div class="col-sm">
@@ -25,5 +27,8 @@
   </div>
 
   @endforeach
+</div>
+</div>
+
 </div>
 <hr>
