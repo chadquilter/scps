@@ -59,7 +59,7 @@
             <br>
             @include('inc.sidealert')
             <br>
-            @include('inc.sidecalendar')
+
             <br>
         </div>
         <br>
