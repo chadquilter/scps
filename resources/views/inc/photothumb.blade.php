@@ -7,9 +7,10 @@
 </div>
 <div class="row">
   @foreach($links as $link)
-  <a href="{{ $link["link"] }}">
+
   <div class="col">
     <br>
+    <a href="{{ $link["link"] }}" class="nounderline">
     <div class="card card-inverse text-center img-container" style="max-width: 202px;">
       <!-- Image -->
       <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
@@ -20,8 +21,9 @@
         </div>
       </div>
     </div>
+    </a>
   </div>
-  </a>
+
   @endforeach
 </div>
 <hr>
