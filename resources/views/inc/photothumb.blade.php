@@ -15,8 +15,8 @@
       <!-- Image -->
       <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
       <!-- Text Overlay -->
-      <div class="card-img-overlay d-flex align-items-end">
-        <div class="bg-light">
+      <div class="card-img-overlay d-flex align-items-stretch">
+        <div class="bg-warning text-white">
           <h2 class="card-text"><strong>{{ __($link["label"])}}</strong></h2>
         </div>
       </div>
