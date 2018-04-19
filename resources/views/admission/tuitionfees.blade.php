@@ -112,7 +112,7 @@
               </p>
             </div>
           </div>
-          <div class="col col-sm-4 col-md-4 col-lg-4">
+          <div class="col col-md-4 col-lg-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
