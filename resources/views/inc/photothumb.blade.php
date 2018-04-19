@@ -17,7 +17,7 @@
       <!-- Text Overlay -->
       <div class="card-img-overlay d-flex align-items-end">
         <div class="bg-warning text-white sidebar_pad">
-          <h4 class="card-text">{{ __($link["label"])}}</h4>
+          <h2 class="card-text"><strong>{{ __($link["label"])}}</strong></h2>
         </div>
       </div>
     </div>
