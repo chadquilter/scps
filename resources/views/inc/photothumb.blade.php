@@ -11,13 +11,13 @@
   <div class="col-sm">
     <br>
     <a href="{{ $link["link"] }}" class="nounderline">
-    <div class="card card-inverse text-center img-container shadow_only" style="min-width: 10rem; max-width: 10rem;">
+    <div class="card card-inverse text-center img-container shadow_only" style="min-width: 8rem; max-width: 8rem;">
       <!-- Image -->
       <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
       <!-- Text Overlay -->
       <div class="card-img-overlay d-flex align-items-end">
         <div class="bg-warning text-white" style="width:100%;">
-          <h2 class="card-text"><strong>{{ __($link["label"])}}</strong></h2>
+          <h3 class="card-text"><strong>{{ __($link["label"])}}</strong></h3>
         </div>
       </div>
     </div>
