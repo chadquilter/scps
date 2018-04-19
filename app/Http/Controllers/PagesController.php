@@ -17,11 +17,11 @@ class PagesController extends Controller
    */
     private function gallery_items(){
       $links = array(
-        'art' => array('link' => '/images/gallery_icons/Art-135x110.jpg', 'label' => 'Art'),
-        'classrooms' => array('link' => '/images/gallery_icons/Classrooms-135x110.jpg', 'label' => 'Classroom'),
-        'electives' => array('link' => '/images/gallery_icons/Electives-135x110.jpg', 'label' => 'Electives'),
-        'sports' => array('link' => '/images/gallery_icons/Sports-135x110.jpg', 'label' => 'Sports'),
-        'studentlife' => array('link' => '/images/gallery_icons/Studentlife-135x110.jpg', 'label' => 'Student-Life'),
+        'art' => array('link' => '/gallery/art-gallery', 'image_link' => '/images/gallery_icons/Art-135x110.jpg', 'label' => 'Art'),
+        'classrooms' => array('link' => '/gallery/classroom-gallery', 'image_link' => '/images/gallery_icons/Classrooms-135x110.jpg', 'label' => 'Classroom'),
+        'electives' => array('link' => '/gallery/electives-gallery', 'image_link' =>  '/images/gallery_icons/Electives-135x110.jpg', 'label' => 'Electives'),
+        'sports' => array('link' => '/gallery/sports-gallery', 'image_link' =>  '/images/gallery_icons/Sports-135x110.jpg', 'label' => 'Sports'),
+        'studentlife' => array('link' => '/gallery/student-life-gallery', 'image_link' =>  '/images/gallery_icons/Studentlife-135x110.jpg', 'label' => 'Student-Life'),
       );
       return $links;
     }
