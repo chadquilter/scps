@@ -1,6 +1,6 @@
 
 <div class="card">
-  <div class="card-body main-color border-transparent">
+  <div class="card-body main-color border-0">
     @include('inc.messages')
     <h4 class="shadow_text">{{ __('Contact Us!') }}</h4>
     <hr>
