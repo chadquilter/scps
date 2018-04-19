@@ -55,6 +55,7 @@
               </div>
             </div>
           </div>
+          <br>
           <div class="col col-lg-4">
             @include('inc.sidenewstudent')
             <br>
