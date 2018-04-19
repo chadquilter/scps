@@ -13,7 +13,7 @@
               {{ __('The Academy at Space City Preparatory is a transition high school program that provides intensive English instruction while allowing students to learn new content using special instructional program to develop English proficiency while continuing academic instruction in core subjects. SCPS has successfully used this curriculum and approach for years in Beijing to teach students American curriculum while at the same time strengthening their English comprehension and speaking skills.')}}
               </p>
           </div>
-          <div class="col col-md-4 col-lg-4">
+          <div class="col col-md-6 col-lg-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
