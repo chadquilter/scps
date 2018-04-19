@@ -55,11 +55,11 @@
               </div>
             </div>
           </div>
-            @include('inc.sidenewstudent')
+
             <br>
             @include('inc.sidealert')
             <br>
-
+            @include('inc.sidecalendar')
             <br>
         </div>
         <br>
