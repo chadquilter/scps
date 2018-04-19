@@ -13,7 +13,7 @@
             <div class="card bg-inverse">
 
                 <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
-                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                <div class="card-img-overlay h-2 d-flex flex-column justify-content-end">
                     <h4 class="card-title">Art Gallery</h4>
                 </div>
 
