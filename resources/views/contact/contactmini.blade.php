@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="form=group">
-        <input id="submit_button" type="submit" value="{{ __('Send Email')}}" />
+        <input id="submit_button" type="submit" class="btn btn-primary" value="{{ __('Send Email')}}" />
       </div>
     </form>
   </div>
