@@ -7,6 +7,7 @@
         @include('inc.jobimagecarosel')
       </div>
       <div class="card-body alt-color">
+
         <div class="row">
           <div class="col">
             <h1 class="text_shadow"><u><b>{{__('Values and Excellence')}}</u></b></h1>
@@ -54,17 +55,16 @@
               </div>
             </div>
           </div>
-          @include('inc.sidenewstudent')
-          <br>
-          @include('inc.sidealert')
-          <br>
-          @include('inc.sidecalendar')
-          <br>
+            @include('inc.sidenewstudent')
+            <br>
+            @include('inc.sidealert')
+            <br>
+            @include('inc.sidecalendar')
+            <br>
         </div>
+        <br>
+        @include('inc.photothumb')
       </div>
-      <br>
-      @include('inc.photothumb')
     </div>
   </div>
-</div>
 @endsection
