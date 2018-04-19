@@ -21,7 +21,7 @@ class PagesController extends Controller
         'classrooms' => array('link' => '/gallery/classroom-gallery', 'image_link' => '/images/gallery_icons/Classrooms-135x110.jpg', 'label' => 'Classroom'),
         'electives' => array('link' => '/gallery/electives-gallery', 'image_link' =>  '/images/gallery_icons/Electives-135x110.jpg', 'label' => 'Electives'),
         'sports' => array('link' => '/gallery/sports-gallery', 'image_link' =>  '/images/gallery_icons/Sports-135x110.jpg', 'label' => 'Sports'),
-        'studentlife' => array('link' => '/gallery/student-life-gallery', 'image_link' =>  '/images/gallery_icons/Studentlife-135x110.jpg', 'label' => 'Student-Life'),
+        'studentlife' => array('link' => '/gallery/student-life-gallery', 'image_link' =>  '/images/gallery_icons/Studentlife-135x110.jpg', 'label' => 'Life'),
       );
       return $links;
     }
