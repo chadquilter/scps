@@ -10,7 +10,11 @@ use Storage;
 
 class PagesController extends Controller
 {
-
+  /**
+   * Display a listing of the resource.
+   *
+   * @return \Illuminate\Http\Response
+   */
     private function gallery_items(){
       $links = array(
         'art' => array('link' => '/images/gallery_icons/Art-135x110.jpg', 'label' => 'Art Gallery'),
