@@ -11,13 +11,12 @@
     <br>
 
 
-<div class="card card-inverse text-center" style="max-width: 202px;">
+<div class="card card-inverse text-center img-container" style="max-width: 202px;">
 <!-- Image -->
-  <img class="card-img-top" src="/images/gallery_icons/Art-135x110.jpg" alt="Thumbnail to Art Gallery Section">
+  <img class="card-img-top img-image" src="/images/gallery_icons/Art-135x110.jpg" alt="Thumbnail to Art Gallery Section">
   <!-- Text Overlay -->
-    <div class="card-img-overlay">
-      <h4 class="card-title">What Next?</h4>
-      <div class="alert alert-info">
+    <div class="card-img-overlay align-items-end">
+      <div class="alert alert-dark">
         <p class="card-text">Is this the end?</p>
       </div>
     </div>
