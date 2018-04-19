@@ -55,7 +55,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-md-4">
+          <div class="col col-md-6">
             @include('inc.sidenewstudent')
             <br>
             @include('inc.sidealert')
