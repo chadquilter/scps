@@ -5,9 +5,9 @@
     </div>
     <div class="col">
       <div class="card">
-        <div class="card-body">
+        <div class="card-body shadow_only">
           <a href="/admission/admission-contact" class="nounderline">
-          <div class="alert alert-info shadow_only border-info">
+          <div class="alert alert-info border-info">
             <center>
               <h2 class="text-success"><strong>{{ __('Parent') }}</strong></h1>
               <div class="bg-warning text-light"><h2><strong>{{ __('Info') }}</strong></h2></div>
