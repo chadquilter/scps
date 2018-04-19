@@ -7,7 +7,6 @@
 </div>
 <div class="row">
   @foreach($links as $link)
-  <a href="{{ $link["link"] }}" class="nounderline">
   <div class="col">
     <br>
     <div class="card card-inverse text-center img-container" style="max-width: 202px;">
@@ -16,12 +15,13 @@
       <!-- Text Overlay -->
       <div class="card-img-overlay d-flex align-items-end">
         <div class="bg-warning text-white sidebar_pad">
-          <h4 class="card-text">{{ __($link["label"])}}</h4>
+          <a href="{{ $link["link"] }}" class="nounderline">
+            <h4 class="card-text">{{ __($link["label"])}}</h4>
+          </a>
         </div>
       </div>
     </div>
   </div>
-  </a>
   @endforeach
 </div>
 <hr>
