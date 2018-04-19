@@ -9,18 +9,18 @@
   <div class="col">
     <br>
     <div class="row">
-        <div class="col">
+        <div class="col-md-4">
             <div class="card bg-inverse">
-
+              <div class="img-container">
                 <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
-                <div class="card-img-overlay h-2 d-flex flex-column justify-content-end">
+                <div class="card-img-overlay h-100 d-flex flex-column justify-content-end alert alert-dark">
                     <h4 class="card-title">Art Gallery</h4>
                 </div>
-
+              </div>
             </div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
     </div>
 
   </div>
