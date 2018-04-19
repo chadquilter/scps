@@ -6,10 +6,10 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-sm">
+  <div class="col">
     <br>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col">
             <div class="card bg-inverse">
               <div class="img-container">
                 <img class="card-img" src="/images/gallery_icons/Art-135x110.jpg" alt="Art Gallery">
@@ -19,8 +19,8 @@
               </div>
             </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col"></div>
+        <div class="col"></div>
     </div>
 
   </div>
