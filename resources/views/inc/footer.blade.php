@@ -6,7 +6,7 @@
     </div>
     <div class="footer-text">
         <div class="row">
-          <div class="col">
+          <div class="col col-md-4">
             <p class="shadow_text">
               {{_('2018, '.config('app.name', 'SCPS'))}}
             </p>
@@ -23,7 +23,7 @@
               Phone: (832) 205-2160
             </address>
           </div>
-          <div class="col">
+          <div class="col col-md-4 col-lg-2">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
@@ -40,7 +40,7 @@
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col col-sm-2 col-md-2 col-lg-2">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
