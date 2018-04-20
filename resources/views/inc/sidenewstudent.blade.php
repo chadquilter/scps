@@ -15,11 +15,10 @@
           </div>
         </div>
       </div>
-      <br>
       <div class="col">
         <div class="card image_display_r">
           <div class="card-body">
-            <div class="bg-warning text-light">
+            <div class="">
               <h5><strong>{{__('Download your Application to enroll today!')}}</strong></h5>
             </div>
             <hr>
