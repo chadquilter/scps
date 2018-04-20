@@ -20,10 +20,10 @@
         <div class="card image_display_r">
           <div class="card-body">
             <div class="bg-warning text-light">
-              <h5>{{__('Download your Application to enroll today!')}}</h5>
+              <h5><strong>{{__('Download your Application to enroll today!')}}</strong></h5>
             </div>
             <hr>
-            <button class="btn primary-color border border-dark btn-sm text-light" type="button" style="">{{__('New Students Application')}}</button>
+            <button class="btn btn-primary border border-dark btn-sm text-light" type="button" style="">{{__('New Students Application')}}</button>
           </div>
         </div>
       </div>
