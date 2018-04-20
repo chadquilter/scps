@@ -1,4 +1,4 @@
-<svg viewBox="0 0 550 400" preserveAspectRatio="xMidYMax meet">
+<svg viewBox="0 0 550 400" preserveAspectRatio="xMidYMax meet" style="width:100%; height:100%; position:absolute; ">
   <g id="stems" fill="none" stroke="green"></g>
   <g id="leaves"></g>
 </svg>
@@ -14,7 +14,7 @@ class EventManager {
   }
 
   off(event, callback) {
-    var listeners = this.eventLookup[event];                
+    var listeners = this.eventLookup[event];
     if (event === "*") this.eventLookup = {};
     else if(!callback) this.eventLookup[event] = [];
     else _.remove(listeners, { callback });
