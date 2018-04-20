@@ -1,7 +1,6 @@
   <div class="row">
     <div class="col">
       <div class="main-color text-light sidebar_pad">
-        <h1>
           <div class="row">
             <div class="col col-sm-2 col-xs-2">
               <img src="/images/new-course.png" border="0">
@@ -14,7 +13,6 @@
               <h1>{{ __('Application')}}</h1>
             </div>
           </div>
-        </h1>
       </div>
       <div class="col">
         <div class="card image_display_r">
