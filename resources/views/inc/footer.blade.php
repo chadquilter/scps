@@ -1,7 +1,7 @@
 <div class="container">
-<footer class="footer main-color text-white">
-  <div class="foot-container">
-    <div class="footer-text">
+<footer class="footer">
+  <div class="card foot-container">
+    <div class="card-body main-color text-white footer-text">
         <br>
         <div class="row">
           <div class="col text-center">
