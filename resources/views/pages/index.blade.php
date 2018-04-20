@@ -58,12 +58,7 @@
           </div>
           <br>
           <div class="col col-lg-4">
-            @include('inc.sidenewstudent')
-            <br>
-            @include('inc.sidealert')
-            <br>
-            @include('inc.sidecalendar')
-            <br>
+
           </div>
         </div>
         @include('inc.photothumb')
