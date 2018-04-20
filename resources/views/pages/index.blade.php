@@ -66,7 +66,9 @@
             <br>
           </div>
         </div>
-        @include('inc.photothumb')
+        <div class="row">
+          @include('inc.photothumb')
+        </div>
       </div>
     </div>
   </div>
