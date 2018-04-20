@@ -1,4 +1,4 @@
-
+<div class="container">
 <footer class="footer navbar main-color text-white">
   <div class="foot-container">
     <div class="footer-top-1">
@@ -41,7 +41,7 @@
             </ul>
           </div>
           <div class="col">
-            @include('contact.contactmini')
+        
           </div>
           <div class="col">
             <div id="fb-root"></div>
@@ -70,3 +70,4 @@
     </div>
   </div>
 </footer>
+</div>
