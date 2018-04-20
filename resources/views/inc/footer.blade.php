@@ -2,6 +2,7 @@
 <footer class="footer main-color text-white">
   <div class="foot-container">
     <div class="footer-text">
+        <br>
         <div class="row">
           <div class="col text-center">
             <p class="shadow_text">
