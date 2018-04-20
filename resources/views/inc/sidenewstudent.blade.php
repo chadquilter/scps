@@ -13,6 +13,7 @@
               <h1>{{ __('Application')}}</h1>
             </div>
           </div>
+        </div>
       </div>
       <div class="col">
         <div class="card image_display_r">
