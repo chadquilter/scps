@@ -13,19 +13,20 @@
               {{_('Private Middle & High School')}}
               Houston, TX | Pasadena, TX | Marblefalls, TX
             </p>
-            <hr class="style-two1">
+            <hr class="style-two">
             <address class="shadow_text">
               P.O. Box 590743 <br>
               Houston, TX<br>
               77259 U.S<br>
               Phone: (832) 205-2160
             </address>
+            <hr class="style-two">
           </div>
           <div class="col">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
-            <hr>
+            <hr class="style-two">
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
                 <a class="nav-link active" href="/application">{{__('New Students Apply')}}</a>
@@ -37,6 +38,7 @@
                 <a class="nav-link active" href="/powerschool">{{__('Powerschool')}}</a>
               </li>
             </ul>
+            <hr class="style-two">
           </div>
 
           <div class="col">
