@@ -43,11 +43,11 @@
               <a class="dropdown-item {{ ( \config('app.locale') == 'zh' ) ? 'active' : '' }}" href="/locale/zh">简体中文 Chinese (Simplified)</a>
             </ul>
           </div>
-          <form id="contact_form" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
+          <form id="contact_form row" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
             @csrf
             <div class="input-group">
               <div class="input-group-prepend">
-                <input type="text" class="form-control form-control-sm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="{{ __('Search')}}" aria-label="{{ __('Search')}}" aria-describedby="basic-addon1">
               </div>
               <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">{{ __('Search')}}</button>
             </div>
