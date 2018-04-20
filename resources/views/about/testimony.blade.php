@@ -24,8 +24,8 @@
               <strong>“</strong>
               {{ __('the teachers, the students, even the administration, that made me feel welcomed and loved, a feeling that can only be so real in a family.')}}
               <footer class="blockquote-footer">Space City Student</footer>
-              </blockquote>
               <hr class="style-two">
+              </blockquote>
           </div>
           <div class="co col-md-6 col-lg-4">
             @include('inc.sidebarlinks')
