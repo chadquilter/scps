@@ -57,8 +57,13 @@
 
           </div>
           <br>
-          <div class="col col-lg-4">
-
+          <div class="col col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xlg-4">
+            @include('inc.sidenewstudent')
+            <br>
+            @include('inc.sidealert')
+            <br>
+            @include('inc.sidecalendar')
+            <br>
           </div>
         </div>
         @include('inc.photothumb')
