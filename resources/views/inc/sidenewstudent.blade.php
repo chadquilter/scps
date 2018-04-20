@@ -2,7 +2,7 @@
     <div class="col">
       <div class="main-color text-light sidebar_pad">
           <div class="row">
-            <div class="col col-sm-2 col-xs-2">
+            <div class="col col-2">
               <img src="/images/new-course.png" border="0">
             </div>
             <div class="col text-left">
