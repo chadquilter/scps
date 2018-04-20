@@ -1,7 +1,7 @@
 <div class="container">
-<footer class="footer main-color text-white">
-  <div class="foot-container">
-    <div class="footer-text">
+<footer class="footer">
+  <div class="card foot-container">
+    <div class="card-body main-color text-white footer-text">
         <br>
         <div class="row">
           <div class="col text-center">
@@ -13,19 +13,20 @@
               {{_('Private Middle & High School')}}
               Houston, TX | Pasadena, TX | Marblefalls, TX
             </p>
-            <hr class="style-two1">
+            <hr class="style-two">
             <address class="shadow_text">
               P.O. Box 590743 <br>
               Houston, TX<br>
               77259 U.S<br>
               Phone: (832) 205-2160
             </address>
+            <hr class="style-two">
           </div>
-          <div class="col col-2">
+          <div class="col">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
-            <hr>
+            <hr class="style-two">
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
                 <a class="nav-link active" href="/application">{{__('New Students Apply')}}</a>
@@ -37,9 +38,10 @@
                 <a class="nav-link active" href="/powerschool">{{__('Powerschool')}}</a>
               </li>
             </ul>
+            <hr class="style-two">
           </div>
 
-          <div class="col col-2">
+          <div class="col">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
