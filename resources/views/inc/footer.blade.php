@@ -1,6 +1,6 @@
 <div class="container">
-<footer class="footer navbar main-color text-white">
-  <div class="foot-container">
+<footer class="footer main-color text-white">
+
 
         <div class="row">
           <div class="col">
@@ -12,7 +12,7 @@
               {{_('Private Middle & High School')}}
               Houston, TX | Pasadena, TX | Marblefalls, TX
             </p>
-            <hr class="style-two1">
+            <hr class="style-two">
             <address class="shadow_text">
               P.O. Box 590743 <br>
               Houston, TX<br>
@@ -28,6 +28,6 @@
 
         </div>
 
-  </div>
+
 </footer>
 </div>
