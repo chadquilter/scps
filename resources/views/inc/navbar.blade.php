@@ -21,6 +21,7 @@
         </a>
       </li>
     </ul>
+    </div>
   </nav>
   <div class="row">
     <div class="col col-auto">
