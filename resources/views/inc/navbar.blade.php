@@ -14,7 +14,7 @@
       <li class="nav-item">
         <a class="nav-link" href="/about-us">{{__('About-Us')}}</a>
       </li>
-      <li class"nav-item">
+      <li class="nav-item">
         <a class="nav-link">
           <img src="/images/icon-phone.png" class="top-navigation-right-icon" alt="Contact Space City Preparatory Today at (832) 205-2160."/>
           (832) 205-2160
