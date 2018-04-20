@@ -1,8 +1,14 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 <svg viewBox="0 0 550 400" preserveAspectRatio="xMidYMax meet" style="width:100%; height:100%; position:absolute; ">
   <g id="stems" fill="none" stroke="green"></g>
   <g id="leaves"></g>
 </svg>
 <br />
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<script src='http://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js'></script>
+
+
 
 <script>
 // Based on the stem generator in Flash Math Creativity
