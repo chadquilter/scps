@@ -1,5 +1,5 @@
 <div class="container">
-<footer class="footer navbar main-color text-white">
+<footer class="footer main-color text-white">
 
       <div class="row">
 
