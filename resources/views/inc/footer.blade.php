@@ -40,7 +40,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-sm-4 col-xs-4 col-md-4 col-lg-4">
+          <div class="col">
             @include('contact.contactmini')
           </div>
           <div class="col col-sm-2 col-xs-2 col-md-2 col-lg-2">
