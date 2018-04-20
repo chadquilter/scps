@@ -6,11 +6,11 @@
   </div>
 </div>
 <div class="row">
-  <div class="card-deck-wrapper shadow_only">
+  <div class="card-deck-wrapper">
     <div class="card-deck">
       @foreach($links as $link)
 
-        <div class="card card-inverse text-center img-container" style="min-width: 9.0rem; max-width: 9.5rem;">
+        <div class="card card-inverse text-center img-container shadow_only border-warning" style="min-width: 9.0rem; max-width: 9.5rem;">
           <!-- Image -->
           <a href="{{ $link["link"] }}" class="nounderline">
             <img class="card-img-top img-image" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
