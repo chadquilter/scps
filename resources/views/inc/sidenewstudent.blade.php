@@ -8,8 +8,9 @@
             <div class="col text-left">
               <h6>{{ __('New Students')}}</h6>
             </div>
+          </div>
           <div class="row">
-            <div class="col col-10">
+            <div class="col">
               <h1>{{ __('Application')}}</h1>
             </div>
           </div>
