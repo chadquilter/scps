@@ -5,7 +5,7 @@
             <div class="col col-sm-2 col-xs-2">
               <img src="/images/new-course.png" border="0">
             </div>
-            <div class="col text-left">
+            <div class="col col-sm-4 col-xs-4 text-left">
               <h6>{{ __('New Students')}}</h6>
             </div>
           <div class="row">
