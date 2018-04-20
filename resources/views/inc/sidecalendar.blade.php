@@ -15,7 +15,7 @@
             </div>
             </a>
           </div>
-          <hr >
+          <hr>
           <div class="row">
             <a href="/academic/academic-calendar" class="nounderline">
             <div class="col">
