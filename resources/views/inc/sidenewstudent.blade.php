@@ -16,11 +16,11 @@
         </div>
       </div>
       <div class="col">
-        <div class="card image_display_r">
+        <div class="card image_display_r border-0">
           <div class="card-body main-color">
             <h5>{{__('Download your Application to enroll today!')}}</h5>
             <hr>
-            <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">{{__('New Students Application')}}</button>
+            <button class="btn primary-color border border-dark btn-sm text-light" type="button" style="">{{__('New Students Application')}}</button>
           </div>
         </div>
       </div>
