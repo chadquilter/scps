@@ -3,7 +3,7 @@
   <div class="foot-container">
     <div class="footer-text">
         <div class="row">
-          <div class="col">
+          <div class="col text-center">
             <p class="shadow_text">
               {{_('2018, '.config('app.name', 'SCPS'))}}
             </p>
