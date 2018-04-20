@@ -7,6 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
+              <hr class="style-two">
               <blockquote class="blockquote text-right">
               <strong>“</strong>
               {{ __('...unlike most high schools, SCPS was like a home. Not only because of the circumstances that caused me to see the place as my home physically, but more because of the people, the teachers, the students, even the administration, that made me feel welcomed and loved, a feeling that can only be so real in a family.')}}
