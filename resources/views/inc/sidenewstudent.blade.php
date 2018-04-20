@@ -16,7 +16,8 @@
           </div>
         </div>
       </div>
-
+</div>
+<div class="row">
       <div class="col">
         <div class="card image_display_r">
           <div class="card-body">
@@ -28,4 +29,4 @@
           </div>
         </div>
       </div>
-    </div>
+  </div>
