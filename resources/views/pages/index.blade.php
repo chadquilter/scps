@@ -54,6 +54,9 @@
                 </div>
               </div>
             </div>
+            <div class="row grow-container">
+              @include('inc.grow')
+            </div>
           </div>
           <br>
           <div class="col col-lg-4">
