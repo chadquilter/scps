@@ -6,12 +6,11 @@
             <div class="col col-sm-2 col-xs-2">
               <img src="/images/new-course.png" border="0">
             </div>
-            <div class="col">
+            <div class="col text-bottom">
               <h6>{{ __('New Students')}}</h6>
             </div>
           <div class="row">
             <div class="col text-left">
-              <h6>{{ __('New Students')}}</h6>
               <h1>{{ __('Application')}}</h1>
             </div>
           </div>
