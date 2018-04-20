@@ -21,7 +21,7 @@
               Phone: (832) 205-2160
             </address>
           </div>
-          <div class="col col-2">
+          <div class="col">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
@@ -39,7 +39,7 @@
             </ul>
           </div>
 
-          <div class="col col-2">
+          <div class="col">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
