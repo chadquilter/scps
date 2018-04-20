@@ -40,7 +40,7 @@ class GalleryController extends Controller
       return view('gallery.sports-gallery')
         ->with('sidelinks', $sidelinks)
         ->with('files', $files)
-        ->with('links'. $links)
+        ->with('links', $links)
         ->with('title', $title);
     }
 
