@@ -1,4 +1,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<style >
+* {
+  box-sizing: border-box;
+  }
+</style>
+
 <svg viewBox="0 0 550 400" preserveAspectRatio="xMidYMax meet" style="width:100%; height:100%; position:absolute; ">
   <g id="stems" fill="none" stroke="green"></g>
   <g id="leaves"></g>
