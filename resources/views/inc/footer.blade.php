@@ -40,7 +40,7 @@
               </li>
             </ul>
           </div>
-          <div class="col col-sm-2 col-md-2 col-lg-2">
+          <div class="col col-sm-2 col-xs-2 col-md-2 col-lg-2">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
@@ -60,7 +60,7 @@
            });
 
           </script>
-            <div class="fb-page" data-href="https://www.facebook.com/spacecityschool" data-tabs="timeline" data-width="300" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spacecityschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spacecityschool">Space City Preparatory School</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/spacecityschool" data-tabs="timeline" data-width="250" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spacecityschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spacecityschool">Space City Preparatory School</a></blockquote></div>
           </div>
           <div class="col">
             @include('contact.contactmini')
