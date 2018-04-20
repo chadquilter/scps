@@ -10,7 +10,7 @@
             <p class="shadow_text">
               {{_('2018, '.config('app.name', 'SCPS'))}}
             </p>
-            <hr class="style-two1">
+            <hr class="style-two">
             <p class="shadow_text">
               {{_('Private Middle & High School')}}
               Houston, TX | Pasadena, TX | Marblefalls, TX
@@ -23,7 +23,7 @@
               Phone: (832) 205-2160
             </address>
           </div>
-          <div class="col col-sm-2 col-xs-2 col-md-2 col-lg-2">
+          <div class="col">
             <p class="shadow_text">
               {{ __('Quick Links') }}
             </p>
@@ -43,7 +43,7 @@
           <div class="col">
             @include('contact.contactmini')
           </div>
-          <div class="col col-sm-2 col-xs-2 col-md-2 col-lg-2">
+          <div class="col">
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
