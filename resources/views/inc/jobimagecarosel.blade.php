@@ -7,7 +7,7 @@
       <ol class="carousel-indicators">
         @foreach($files as $file)
           @php $active = $loop->index === 0 ? 'active' : ''; @endphp
-          <li data-target="#carouselExampleIndicators" data-slide-to="{{$loop->index}}" class={{$active}}></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="{{$loop->index}}" class="{{$active}}"></li>
         @endforeach
       </ol>
       <div class="carousel-inner embed-responsive embed-responsive-16by9" role="listbox">
