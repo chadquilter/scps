@@ -30,13 +30,13 @@
             <hr>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
-                <a class="nav-link" href="/application">{{__('New Students Apply')}}</a>
+                <a class="nav-link active" href="/application">{{__('New Students Apply')}}</a>
               </li>
             </ul>
             <br>
             <ul class="nav nav-pills nav-fill main-color">
               <li class="nav-item">
-                <a class="nav-link" href="/powerschool">{{__('Powerschool')}}</a>
+                <a class="nav-link active" href="/powerschool">{{__('Powerschool')}}</a>
               </li>
             </ul>
           </div>
