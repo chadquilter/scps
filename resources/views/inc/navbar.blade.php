@@ -46,7 +46,7 @@
           <form id="contact_form row" action={{ url('/search-scps')  }} method="POST" enctype="multipart/form-data">
             @csrf
             <div class="input-group input-group-sm">
-              <div class="col-xs-3 input-group-prepend">
+              <div class="col-sm-2 input-group-prepend">
                 <input type="text" class="form-control" placeholder="{{ __('Search')}}" aria-label="{{ __('Search')}}" aria-describedby="basic-addon1">
               </div>
               <button class="btn main-color border border-dark btn-sm text-light" type="button" style="">{{ __('Search')}}</button>
