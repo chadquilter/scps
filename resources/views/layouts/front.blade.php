@@ -27,12 +27,6 @@
       @include('inc.footer')
     </div>
   </main>
-  <script>
-    $(window).load(function() {
-      // chat face un focus
-      window.scrollTo(0,document.body.scrollHeight);
-    });
-  </script>
 </body>
 
 </html>
