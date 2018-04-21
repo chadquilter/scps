@@ -27,11 +27,12 @@
       @include('inc.footer')
     </div>
   </main>
+  <script>
+    $(window).load(function() {
+      // chat face un focus
+      $(window).scrollTop(0);
+    });
+  </script>
 </body>
-<script>
-  $(window).load(function() {
-    // chat face un focus
-    $(window).scrollTop(0);
-  });
-</script>
+
 </html>
