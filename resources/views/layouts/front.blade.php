@@ -30,7 +30,7 @@
   <script>
     $(window).load(function() {
       // chat face un focus
-      $(window).scrollTop(0);
+      window.scrollTo(0,document.body.scrollHeight);
     });
   </script>
 </body>
