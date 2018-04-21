@@ -56,7 +56,10 @@
               <script>
                 $(window).load(function() {
                   // chat face un focus
-                  $(window).scrollTop(0);
+                  //$(window).scrollTop(0);
+                  window.setTimeout(function() {
+                    $(window).scrollTop(0);
+                  }, 0);
                 });
               </script>
               <div class="fb-page" data-href="https://www.facebook.com/spacecityschool" data-tabs="timeline" data-width="250" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spacecityschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spacecityschool">Space City Preparatory School</a></blockquote></div>
