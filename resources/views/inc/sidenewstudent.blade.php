@@ -15,8 +15,8 @@
             </div>
           </div>
         </div>
-
-
+      </div>
+      <hr>
       <div class="col">
         <div class="card">
           <div class="card-body image_display_r">
@@ -28,5 +28,4 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
