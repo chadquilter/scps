@@ -1,6 +1,6 @@
   <div class="row">
     <div class="col">
-      <div class="main-color text-light sidebar_pad">
+      <div class="main-color text-light sidebar_pad shadow_only">
           <div class="row">
             <div class="col col-2">
               <img src="/images/new-course.png" border="0">
@@ -16,8 +16,9 @@
           </div>
         </div>
       </div>
-</div>
-<div class="row">
+    </div>
+    <hr class="style-two">
+    <div class="row">
       <div class="col">
         <div class="card">
           <div class="card-body image_display_r">
