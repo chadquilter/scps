@@ -29,7 +29,7 @@
             </p>
             <hr class="style-two">
             <ul class="nav nav-pills nav-fill main-color">
-              <li class="nav-item">
+              <li class="nav-item bg-secondary border-dark">
                 <a class="nav-link active" href="/application">{{__('New Students Apply')}}</a>
               </li>
             </ul>
