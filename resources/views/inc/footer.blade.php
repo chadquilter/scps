@@ -1,9 +1,10 @@
 <div class="container">
-<footer class="footer">
-  <div class="card foot-container">
-    <div class="card-body main-color text-white footer-text">
+  <footer class="footer">
+    <div class="card border-0">
+      <div class="card-body main-color text-white">
         <br>
         <div class="row">
+
           <div class="col text-center">
             <p class="shadow_text">
               {{_('2018, '.config('app.name', 'SCPS'))}}
@@ -45,32 +46,31 @@
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
 
-            $(function() {
-              $(document).scrollTop();
-            });
+              $(function() {
+                $(document).scrollTop();
+              });
 
-            $(document).ready(function(){
-               $(window).scrollTop(0);
-           });
+              $(document).ready(function(){
+                $(window).scrollTop(0);
+              });
 
-          </script>
-            <div class="fb-page" data-href="https://www.facebook.com/spacecityschool" data-tabs="timeline" data-width="250" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spacecityschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spacecityschool">Space City Preparatory School</a></blockquote></div>
+              </script>
+              <div class="fb-page" data-href="https://www.facebook.com/spacecityschool" data-tabs="timeline" data-width="250" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/spacecityschool" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/spacecityschool">Space City Preparatory School</a></blockquote></div>
+            </div>
+
+            <div class="col">
+              @include('contact.contactmini')
+            </div>
+
           </div>
-
-          <div class="col">
-            @include('contact.contactmini')
-          </div>
-
-
         </div>
-    </div>
+      </div>
+    </footer>
   </div>
-</footer>
-</div>
