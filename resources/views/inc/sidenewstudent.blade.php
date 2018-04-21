@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-      </div>
+
 
       <div class="col">
         <div class="card">
@@ -28,4 +28,5 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
