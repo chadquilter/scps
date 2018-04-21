@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    
+    <hr class="style-two">
     <div class="row">
       <div class="col">
         <div class="card">
