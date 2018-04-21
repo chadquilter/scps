@@ -16,7 +16,7 @@
           </div>
         </div>
       </div>
-      test <br>
+      <br>test
       <div class="col">
         <div class="card">
           <div class="card-body image_display_r">
