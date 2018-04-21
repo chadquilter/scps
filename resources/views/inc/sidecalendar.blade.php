@@ -21,7 +21,7 @@
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
               <hr>
-              <div class="bg-warning text-light" style="width:100%;"><strong><h1>{{__('Sports')}}</strong></h1></div>
+              <div class="bg-warning text-light" style="width:100%;"><h1><strong>{{__('Sports')}}</strong></h1></div>
             </div>
           </a>
           </div>

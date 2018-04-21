@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
+
 </head>
 <body>
   <main role="main">
@@ -26,11 +27,12 @@
       @include('inc.footer')
     </div>
   </main>
+  <script>
+    $(window).load(function() {
+      // chat face un focus
+      window.scrollTo(0,document.body.scrollHeight);
+    });
+  </script>
 </body>
-<script>
-  $(window).load(function() {
-    // chat face un focus
-    $(window).scrollTop(0);
-  });
-</script>
+
 </html>
