@@ -43,12 +43,7 @@
           </div>
 
           <div class="col">
-            <script>
-              $(window).load(function() {
-                // chat face un focus
-                $(window).scrollTop(0, 0);
-              });
-            </script>
+
             <div id="fb-root"></div>
             <script>(
               function(d, s, id) {
