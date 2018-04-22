@@ -11,7 +11,6 @@
             <hr class="style-two">
             <div class="card">
               <div class="card-body">
-                <p class="lead">
                   <ul class="list-group">
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Applicant Testing Fee = $75')}}</h3></li>
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Newly Enrolled Student Fee = $400')}}</h3></li>
@@ -21,7 +20,6 @@
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Special Discounts:')}}</h3><br>
                     {{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
                   </ul>
-                </p>
               </div>
             </div>
             <br>
