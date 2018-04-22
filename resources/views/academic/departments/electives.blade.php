@@ -12,13 +12,11 @@
         <h1>{{ __('Elective Options:')}}</h1>
       </div>
       <div class="card-body">
-        <p class="lead">
           <ul>
             @foreach($electives as $elective)
             <li>{{ __($elective)}}</li>
             @endforeach
           </ul>
-        </p>
       </div>
     </div>
 
