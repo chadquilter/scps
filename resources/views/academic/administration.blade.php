@@ -9,19 +9,24 @@
           <div class="col">
             <h1>{{ __('Dedicated Staff & Faculty')}}</h1>
             <hr class="style-two">
-
+            <div class="row">
+              <div class="col">
                   @foreach ($admin as $profile)
                   <div class="card shadow_only">
-                    <div class="card-img-top">
-                      <img class="img-fluid" src="{{ $profile["link"]}}">
+                    <div class="card-img-top embed-responsive embed-responsive-16by9">
+                      <img class="img-fluid" src="{{ $profile["link"]}}" alt="Dedicated Staff to help you out!">
                     </div>
                     <div class="card-footer">
-                      {{$profile["label"]}}
+                      <div class="card-text">
+                        {{$profile["label"]}}
+                      </div>
                     </div>
                   </div>
                   @endforeach
+                </div>
+              </div>
           </div>
-          <div class="col">
+          <div class="col col-md-6 col-lg-4">
             @include('inc.sidebarlinks')
           </div>
         </div>

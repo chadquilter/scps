@@ -14,7 +14,7 @@
         @foreach($files as $file)
           @php $active = $loop->index === 0 ? 'active' : ''; @endphp
         <div class="carousel-item embed-responsive-item {{$active}}">
-            <img class="img-fluid" src="/images/{{$file}}" alt="Custom Houses, Custom Construction, custom tile, carpet, drywall, Custom Metal Work, Paving, Asphalt, Show House, kitchen, bath House Remodeling, House Renovations, House Repair, Custom Deck, tile, shower,Custom Bridges, Custom Roads, Excivation, Interior Design, Custom Patio, rock floor">
+            <img class="img-fluid" src="/images/{{$file}}" alt="School, Learning in the US, Learn English In the US, Enlgish in the USA, Learning world wide, learn english, speak english, learn american culture, speak native language usa">
         </div>
         @endforeach
       </div>
