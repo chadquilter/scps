@@ -97,7 +97,7 @@
             <a class="dropdown-item {{ ( \Request::url() == url('admission/admissions') ) ? 'active' : '' }}" href="/admission/admissions">{{__('Admission')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('admission/tuition-fees') ) ? 'active' : '' }}" href="/admission/tuition-fees">{{__('Tuition and Fees')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('admission/application') ) ? 'active' : '' }}" href="/admission/application">{{__('Application')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('admission/e-tuition') ) ? 'active' : '' }}" href="/admission/e-tuition">{{__('e-tuition')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('admission/e-tuition') ) ? 'active' : '' }}" href="/admission/e-tuition">{{__('E-Tuition')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('admission/admission-contact') ) ? 'active' : '' }}" href="/admission/admission-contact">{{__('Contact Admissions')}}</a>
           </div>
         </li>
