@@ -21,7 +21,7 @@
                   </div>
                   @endforeach
           </div>
-          <div class="col">
+          <div class="col col-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
