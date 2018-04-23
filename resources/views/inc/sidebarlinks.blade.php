@@ -7,7 +7,7 @@
   <div class="card-body shadow_only">
     <ul>
       @foreach($sidelinks as $sidelink)
-          <a class="btn btn-outline-danger btn-block {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{$sidelink["label"]}}</a>
+          <a class="btn btn-outline-danger btn-block {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
           <br>
       @endforeach
     </ul>
