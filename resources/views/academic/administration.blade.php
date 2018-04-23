@@ -13,8 +13,8 @@
               <div class="col">
                   @foreach ($admin as $profile)
                   <div class="card shadow_only">
-                    <div class="card-img-top embed-responsive">
-                      <img class="img-fluid" src="{{ $profile["link"]}}" alt="Dedicated Staff to help you out!">
+                    <div class="card-img-top img-fluid embed-responsive">
+                      <img class="img-fluid embed-responsive" src="{{ $profile["link"]}}" alt="Dedicated Staff to help you out!">
                     </div>
                     <div class="card-footer">
                       <div class="card-text">
