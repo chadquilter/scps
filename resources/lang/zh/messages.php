@@ -11,7 +11,7 @@ return[
   "Academics":"学术",
   "Academic Calendar":"学术日历",
   "Daily Schedule":"每日日程安排",
-  "Departments":"Departments",
+  "Departments":"部门",
   "College Counseling":"大学咨询",
   "PowerSchool":"动力学校",
   "Administration":"管理",
