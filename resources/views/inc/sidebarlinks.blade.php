@@ -9,7 +9,7 @@
       @foreach($sidelinks as $sidelink)
           <li>
             <h6>
-              <a class="btn btn-outline-danger btn-block {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
+              <a class="btn btn-outline-danger btn-lg {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
             </h6>
             <br>
           </li>
