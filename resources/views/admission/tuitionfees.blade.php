@@ -25,11 +25,11 @@
               </div>
             </div>
             <br>
-            <h2><u>{{ __('Special Courses:')}}</u></h2>
+            <h3><u>{{ __('Special Courses:')}}</u></h3>
             <p class="lead">
               {{ __('There is a $250 per course fee for all Advanced Placement classes. Students may also be responsible for other costs related to certain course activities (e.g. lab materials, field trips) or the purchase of specific materials or equipment (e.g. lab goggles and lab coats, online licenses). Students are provided class information to purchase/provide for their own textbooks and class materials.  The Parent-Teacher Fellowship sponsors a used textbook sale to help families buy and sell their used textbooks.')}}
             </p>
-            <h2><u>{{ __('International Students:')}}</u></h2>
+            <h3><u>{{ __('International Students:')}}</u></h3>
             <p class="lead">
               {{ __('SCPA is authorized by the United States government to issue the I-20 form necessary to obtain international student visas. Please see our separate literature for specific information and costs for enrolling in our international programs.')}}
             </p>
