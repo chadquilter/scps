@@ -1,7 +1,7 @@
 <div class="image_display_r">
 <div class="row">
   <div class="col">
-    <div class="main-color text-light sidebar_pad ">
+    <div class="main-color text-light sidebar_pad shadow_only">
       <h1>{{__('Calendar')}}</h1>
     </div>
   </div>
@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col">
       <div class="card">
-        <div class="card-body image_display_r">
+        <div class="card-body shadow_only">
           <div class="row">
             <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
