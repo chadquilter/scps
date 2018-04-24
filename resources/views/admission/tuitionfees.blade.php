@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col">
             <h2>{{ __('Program Fees')}}</h2>
-            <hr class="style-two">
+            <hr>
             <div class="card">
               <div class="card-body">
                   <ul class="list-group">
