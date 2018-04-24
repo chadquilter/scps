@@ -1,4 +1,4 @@
-<div class="main-color text-light sidebar_pad">
+<div class="main-color text-light sidebar_pad image_display_r">
   <h1>{{__('Our Map')}}</h1>
 </div>
 <div class="card">
