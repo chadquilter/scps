@@ -19,7 +19,7 @@
               {{ __('If you are an international student, please visit our International Program page for admission details.')}}
               </p>
           </div>
-          <div class="col col-4">
+          <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>

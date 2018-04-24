@@ -28,7 +28,7 @@
               {{ __('Wisdom transforms abstract knowledge into personal belief revealed through strong character.  Thus, true education naturally produces students of spiritual strength and distinction, governed by godly principles in every field of study and in all areas of their life.')}}
               </p>
           </div>
-          <div class="col col-4">
+          <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>

@@ -13,7 +13,7 @@
               {{ __('Space City Preparatory has a highly esteemed international reputation for developing programs that combine the best teaching resources and methods of the East and the West. SCPS staff regularly work with schools and education organizations overseas to provide expertise and experience in providing a transformative education that prepares students for the best universities in the world.')}}
               </p>
           </div>
-          <div class="col col-4">
+          <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>

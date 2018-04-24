@@ -20,7 +20,7 @@
               {{ __('We want to make sure the teacher is the key to the classroom. We want to equip our teachers to teach: spiritual health, professional training, tools and resources, supportive and positive environment. We want to work in partnership with parents and emphasize comprehensive development: academic, physical, psychological, social, cultural.')}}
               </p>
           </div>
-          <div class="col col-4">
+          <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
