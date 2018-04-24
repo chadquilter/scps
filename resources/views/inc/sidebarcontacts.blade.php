@@ -34,7 +34,8 @@
           <br>{{__('P.O. Box 590743 ')}}
           <br>{{__('Houston, TX')}}
           <br>{{__('77259 U.S.')}}
-          <br>{{__('Phone Number: (832) 205-2160')}}
+          <hr>
+          <strong>{{__('Phone Number:')}}</strong><br>(832) 205-2160
         </p>
         <hr class="lead">
         <p><strong>{{__('Admissions:')}}</strong>
