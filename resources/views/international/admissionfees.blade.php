@@ -7,8 +7,10 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <h1>{{ __('Fees')}}</h1>
-            <hr class="style-two">
+            <div class="main-color text-light sidebar_pad shadow_only">
+              <h1>{{__('Program Fees')}}</h1>
+            </div>
+            <hr>
             <p class="lead">
               {{ __('2018-2019 International Student Tuition and Fee Schedule The tuition and fee amounts below are payable to SCPS upon receipt of acceptance letter. Except for the I-20 and Administrative fees, all amounts are fully refundable if the student is denied an F-1 visa.')}}
             </p>
