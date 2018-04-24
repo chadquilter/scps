@@ -10,9 +10,9 @@
     <div class="col">
 
       <div class="card">
-        <div class="card-body shadow_only swing">
+        <div class="card-body shadow_only">
           <a href="/admission/admission-contact" class="nounderline">
-          <div class="alert alert-info border-info">
+          <div class="alert alert-info border-info swing">
             <center>
               <h2 class="text-success"><strong>{{ __('Parent') }}</strong></h2>
               <div class="bg-warning text-light"><h2><strong>{{ __('Info') }}</strong></h2></div>

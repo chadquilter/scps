@@ -10,7 +10,7 @@
     <div class="col">
       <div class="card">
         <div class="card-body shadow_only">
-          <div class="row">
+          <div class="row swing">
             <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
               <img src="/images/event_sidebar.png" border="0">
@@ -20,7 +20,7 @@
             </a>
           </div>
           <hr>
-          <div class="row">
+          <div class="row swing">
             <a href="/academic/academic-calendar" class="nounderline">
             <div class="col">
               <img src="/images/sport_sidebar.png" border="0">
