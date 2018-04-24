@@ -11,7 +11,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <h1>{{ __('Application')}}</h1>
+          <h2>{{ __('Application')}}</h2>
         </div>
       </div>
     </div>
