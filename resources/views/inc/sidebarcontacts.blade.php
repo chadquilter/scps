@@ -26,7 +26,7 @@
     </p>
     <hr class="lead">
       <p><strong>{{__('Admissions:')}}</strong>
-        {{__('If you have questions about admissions, visit our admissions page or contact our Admissions Directore at (832) 205-2160')}}
+        {{__('If you have questions about admissions, visit our admissions page or contact our Admissions Director at (832) 205-2160')}}
       </p>
       <p><strong>{{__('General Informations:')}}</strong>Email</p>
       <p><strong>{{__('Admissions:')}}</strong>Email</p>
