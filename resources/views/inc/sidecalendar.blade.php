@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col">
       <div class="card">
-        <div class="card-body">
+        <div class="card-body shadow_only">
           <div class="row">
             <a href="/admission/admission-contact" class="nounderline">
             <div class="col">
