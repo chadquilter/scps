@@ -3,7 +3,8 @@
     <div class="main-color text-light sidebar_pad">
       <h1>{{__('Today at SCPS')}}</h1>
     </div>
-    <div class="col">
+  </div>
+  <div class="col">
       <div class="card">
         <div class="card-body shadow_only">
           <a href="/admission/admission-contact" class="nounderline">
@@ -18,6 +19,6 @@
           <hr>
         </div>
       </div>
-    </div>
+
   </div>
 </div>
