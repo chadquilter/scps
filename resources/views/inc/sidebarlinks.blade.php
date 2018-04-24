@@ -1,7 +1,7 @@
 
 <br>
 <div class="main-color text-light sidebar_pad shadow_only">
-  <h4 class="lead"><strong>{{__('Bookmarks')}}</strong></h4>
+  <h1 class="lead"><strong>{{__('Bookmarks')}}</strong></h1>
 </div>
 <div class="card">
   <div class="card-body">
