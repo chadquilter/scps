@@ -123,7 +123,7 @@
     </div>
     <br>
 
-    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Literature')}}">
+    <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
         <h1>{{ __('AP Literature')}}</h1>
@@ -144,4 +144,3 @@ $(".subdept-button").click(function() {
   $(this).next(".engcdepartmentDiv").toggle();
 });
 </script>
-ENGLISH II HONORS
