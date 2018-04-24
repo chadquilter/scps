@@ -4,7 +4,7 @@
   <h4><strong>{{__('Bookmarks')}}</strong></h4>
 </div>
 <div class="card">
-  <div class="card-body shadow_only">
+  <div class="card-body">
     <ul>
       @foreach($sidelinks as $sidelink)
           <li>
