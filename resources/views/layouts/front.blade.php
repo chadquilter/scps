@@ -21,15 +21,11 @@
 <body>
   <main role="main">
     <div class="body-container">
-      <div class="container1">
-
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')
         @include('inc.footer')
-      </div>
     </div>
-
   </main>
 </body>
 </html>
