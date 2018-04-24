@@ -30,7 +30,7 @@
     <div class="col col-sm-10">
       <div class="row">
         <div class="col">
-          <h1 class="gold-header">{{__('Space City Preparatory School')}}</h1>
+          <h1 class="display-4 gold-header">{{__('Space City Preparatory School')}}</h1>
           <h5 class="gold-subheader">{{__('~ Educating The World.')}}</h5>
         </div>
         <!-- Split dropup button -->
