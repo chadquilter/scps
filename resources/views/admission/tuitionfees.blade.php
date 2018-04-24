@@ -12,12 +12,12 @@
             <div class="card">
               <div class="card-body">
                   <ul class="list-group">
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('Applicant Testing Fee = $75')}}</h3></li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('Newly Enrolled Student Fee = $400')}}</h3></li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('Registration = $650')}}</h3><br>{{ __('*(non-refundable)')}}</li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('High School Tuition = $14,500')}}</h3><br>{{ __('*($12,000 for additional students)')}}</li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('Middle School Tuition = $12,750')}}</h3><br>{{ __('*($10,500 for additional students)')}}</li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('Special Discounts:')}}</h3><br>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('Applicant Testing Fee = $75')}}</h4></li>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('Newly Enrolled Student Fee = $400')}}</h4></li>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('Registration = $650')}}</h4><br>{{ __('*(non-refundable)')}}</li>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('High School Tuition = $14,500')}}</h4><br>{{ __('*($12,000 for additional students)')}}</li>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('Middle School Tuition = $12,750')}}</h4><br>{{ __('*($10,500 for additional students)')}}</li>
+                    <li class="list-group-item list-group-item-success"><h4>{{ __('Special Discounts:')}}</h4><br>
                     {{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
                   </ul>
               </div>
