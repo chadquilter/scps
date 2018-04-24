@@ -5,10 +5,10 @@
   </div>
   <div class="card-body">
     <div class="card-txt">
-    <ul class="list-group">
+    <ul class="list-group bg-warning">
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
-          <a class="btn btn-outline-danger btn-block btn-sm {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
+          <a class="btn btn-outline-danger btn-block btn-lg {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
         </li>
       @endforeach
     </ul>
