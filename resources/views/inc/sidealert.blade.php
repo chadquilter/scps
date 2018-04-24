@@ -1,10 +1,10 @@
 <div class="row">
-  <div class="col">
+  <div class="row">
     <div class="main-color text-light sidebar_pad">
       <h1>{{__('Today at SCPS')}}</h1>
     </div>
   </div>
-  <div class="col">
+  <div class="row">
       <div class="card">
         <div class="card-body shadow_only">
           <a href="/admission/admission-contact" class="nounderline">
