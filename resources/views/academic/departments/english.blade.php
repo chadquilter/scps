@@ -39,7 +39,7 @@
       </div>
       <div class="card-body">
         <p class="lead">
-          {{ __('This is a college prep course that will develop strong literary skills by equipping students to be critical thinkers, analytical writers, comprehensive readers, and articulate speakers. Selected novels, dramas, short stories, poems, and articles will be analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech as well as practice narrative, persuasive, and expository writing, with primary emphasis placed ')}}
+          {{ __('This is a college prep course that will develop strong literary skills by equipping students to be critical thinkers, analytical writers, comprehensive readers, and articulate speakers. Selected novels, dramas, short stories, poems, and articles will be analyzed in terms of purpose, rhetoric, and style. Writing skills will be advanced, and students will research, write and deliver a persuasive speech as well as practice narrative, persuasive, and expository writing, with primary emphasis placed.')}}
         </p>
       </div>
     </div>
