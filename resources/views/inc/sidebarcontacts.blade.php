@@ -20,7 +20,7 @@
     </div>
   </div>
 </div>
-
+<br>
 <div class="row">
   <div class="col">
     <div class="main-color text-light sidebar_pad">
