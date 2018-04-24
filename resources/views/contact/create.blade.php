@@ -11,7 +11,7 @@
             @include('inc.messages')
             <div id="after_submit"></div>
             <div class="main-color text-light sidebar_pad shadow_only">
-              <h4 class="display-4">{{__('Feel free to contact us anytime.')}}</h4>
+              <h1>{{__('Feel free to contact us anytime.')}}</h1>
 
             </div>
             <br>
