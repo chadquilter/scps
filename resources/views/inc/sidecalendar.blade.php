@@ -1,7 +1,7 @@
-<div class="shadow_only">
+<div class="">
 <div class="row">
   <div class="col">
-    <div class="main-color text-light sidebar_pad">
+    <div class="main-color text-light sidebar_pad shadow_only">
       <h1>{{__('Calendar')}}</h1>
     </div>
   </div>
