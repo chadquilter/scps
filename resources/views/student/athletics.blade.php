@@ -13,7 +13,7 @@
             {{ __('The purpose of our athletic program is to train student-athletes to manage their individual and team participation in a sportsman-like manner. This program offers its participants training to build appropriate skill sets while offering competitive opportunities to strengthen character evidenced through gracious winning and losing. It is the desire of the athletic department that every team or individual that competes at Space City Preparatory School experience the joy of rising to one’s full potential. ')}}
             </p>
           </div>
-          <div class="col col-md-6 col-lg-4">
+          <div class="col col-md-4 col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>

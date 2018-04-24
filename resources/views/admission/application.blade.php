@@ -14,7 +14,7 @@
               <br>
               <a class="btn btn-primary" href="\documents">{{ __('Application .PDF')}}</a>
           </div>
-          <div class="col col-md-6 col-lg-4">
+          <div class="col col-md-4 col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
