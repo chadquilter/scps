@@ -18,7 +18,7 @@
                     </div>
                     <div class="card-footer">
                       <div class="card-text">
-                        {{$profile["label"]}}
+                        {{ __($profile["label"]) }}
                       </div>
                     </div>
                   </div>
