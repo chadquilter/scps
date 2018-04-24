@@ -36,6 +36,7 @@
           <br>{{__('77259 U.S.')}}
           <hr>
           <strong>{{__('Phone Number:')}}</strong><br>(832) 205-2160
+          <strong>{{__('Fax:')}}</strong><br>(832) 205-2161
         </p>
         <hr class="lead">
         <p><strong>{{__('Admissions:')}}</strong>
