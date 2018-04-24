@@ -27,15 +27,17 @@
 
 
                   <div class="form-group row">
-                    <label for="name" class="col-form-label text-md-right"><strong>{{ __('Name:') }}</strong></label>
                     <div class="col-md-6">
+                    <label for="name" class="col-form-label text-md-right"><strong>{{ __('Name:') }}</strong></label>
+                    <br>
                       <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
                     </div>
                   </div>
 
                   <div class="form-group row">
-                    <label for="email" class="col-form-label text-md-right"><strong>{{ __('Email:') }}</strong></label>
                     <div class="col-md-6">
+                    <label for="email" class="col-form-label text-md-right"><strong>{{ __('Email:') }}</strong></label>
+                      <br>
                       <input id="text" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus>
                     </div>
                   </div>
