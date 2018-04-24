@@ -5,9 +5,11 @@
 </div>
 <div class="card">
   <div class="card-body shadow_only">
-    <ul>
+    <ul class="list-group">
       @foreach($sidelinks as $sidelink)
-        <a class="btn btn-outline-danger btn-block {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}"><h5>{{ __($sidelink["label"])}}</h5></a>
+        <li class="list-group-item">
+          <a class="btn btn-outline-danger btn-block {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
+        </li>
       @endforeach
     </ul>
     <hr class="style-two">
