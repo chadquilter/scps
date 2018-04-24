@@ -15,7 +15,7 @@
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Applicant Testing Fee = $75')}}</h3></li>
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Newly Enrolled Student Fee = $400')}}</h3></li>
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Registration = $650')}}</h3><br>{{ __('*(non-refundable)')}}</li>
-                    <li class="list-group-item list-group-item-success"><h3>{{ __('High School Tuition  =  $14,500')}}</h3><br>{{ __('*($12,000 for additional students)')}}</li>
+                    <li class="list-group-item list-group-item-success"><h3>{{ __('High School Tuition = $14,500')}}</h3><br>{{ __('*($12,000 for additional students)')}}</li>
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Middle School Tuition = $12,750')}}</h3><br>{{ __('*($10,500 for additional students)')}}</li>
                     <li class="list-group-item list-group-item-success"><h3>{{ __('Special Discounts:')}}</h3><br>
                     {{ __('Early Registration (by February 5, 2018) = $150 off/student')}}</li>
@@ -104,7 +104,7 @@
             </div>
             <br>
             <div class="alert alert-danger shadow_only">
-              <h2><u>Statement of Non-Discrimination</u></h2>
+              <h2><u>{{ __('Statement of Non-Discrimination')}}</u></h2>
               <p class="lead">
                 {{ __('Space City Preparatory admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
               </p>
