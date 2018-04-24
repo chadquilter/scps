@@ -3,6 +3,9 @@
     <div class="main-color text-light sidebar_pad">
       <h1>{{__('Calendar')}}</h1>
     </div>
+  </div>
+</div>
+<div class="row">
     <div class="col">
       <div class="card">
         <div class="card-body image_display_r">
@@ -29,4 +32,3 @@
       </div>
     </div>
   </div>
-</div>
