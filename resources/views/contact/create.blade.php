@@ -62,7 +62,7 @@
                   <small>{{ __('All Fields Required.')}}</small>
                 </div>
                 <div class="col form=group ml-auto">
-                  <input id="submit_button" type="submit" value="{{ __('Send email')}}" />
+                  <input id="submit_button" type="submit" value="{{ __('Send Email')}}" />
                 </div>
               </div>
             </div>
