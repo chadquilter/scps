@@ -67,7 +67,7 @@
             </div>
             <br>
             <div class="main-color text-light sidebar_pad shadow_only">
-              <h2><u>{{ __('Forms and Applications')}}</u></h2>
+              <h1>{{ __('Forms and Applications')}}</h1>
             </div>
             <hr>
             <p class="lead">
