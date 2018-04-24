@@ -5,7 +5,7 @@
   </div>
   <div class="card-body">
     <div class="card-txt">
-    <ul class="list-group bg-warning">
+    <ul class="list-group">
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
           <a class="btn btn-outline-danger btn-block btn-lg {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">{{ __($sidelink["label"])}}</a>
