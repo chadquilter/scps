@@ -29,7 +29,7 @@
     <div class="card">
       <div class="card-body shadow_only">
         <p>
-          <strong>{{__('Adress:')}}</strong><br>
+          <strong>{{__('Address:')}}</strong><br>
           {{__('Space City Preparatory School')}}
           <br>{{__('P.O. Box 590743 ')}}
           <br>{{__('Houston, TX')}}
