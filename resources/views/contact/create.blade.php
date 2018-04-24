@@ -69,11 +69,8 @@
               </form>
             </div>
           </div>
-          <br>
           <div class="col">
-            <div class="row">
             @include('inc.sidebarcontacts')
-            </div>
           </div>
         </div>
 
