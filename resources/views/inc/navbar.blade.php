@@ -12,7 +12,7 @@
         <a class="nav-link" href="/">{{__('Home')}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about-us">{{__('About-Us')}}</a>
+        <a class="nav-link" href="/about-us/about">{{__('About-Us')}}</a>
       </li>
       <li class="nav-item">
         <div class="row">
