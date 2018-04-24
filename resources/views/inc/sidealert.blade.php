@@ -10,7 +10,7 @@
     <div class="col">
 
       <div class="card">
-        <div class="card-body shadow_only">
+        <div class="card-body shadow_only swing">
           <a href="/admission/admission-contact" class="nounderline">
           <div class="alert alert-info border-info">
             <center>
