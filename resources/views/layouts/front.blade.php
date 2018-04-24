@@ -20,7 +20,7 @@
 </head>
 <body>
   <main role="main">
-    <div class="body-container">
+    <div class="container">
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')
