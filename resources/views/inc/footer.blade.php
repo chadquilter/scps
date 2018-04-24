@@ -23,7 +23,7 @@
             </address>
             <hr class="style-two">
           </div>
-          <div class="col-2">
+          <div class="col">
             <p class="shadow_text">
               {{ __('Quick Links') }}:
             </p>
@@ -42,7 +42,7 @@
             <hr class="style-two">
           </div>
 
-          <div class="col-2">
+          <div class="col">
 
             <div id="fb-root"></div>
             <script>(
