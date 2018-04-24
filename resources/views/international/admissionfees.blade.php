@@ -19,7 +19,7 @@
                   <li class="list-group-item list-group-item-success">
                     <h2><u>{{ __('NON-REFUNDABLE APPLICATION FEE: $600.00 USD')}}</u></h2>
                     <p class="lead">
-                      {{ __('Includes I-20.  You will take the I-20 to the embassy to get your visa.')}}
+                      {{ __('Includes I-20. You will take the I-20 to the embassy to get your visa.')}}
                     </p>
                   </li>
 
