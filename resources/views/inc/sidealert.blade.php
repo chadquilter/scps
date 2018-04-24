@@ -1,7 +1,7 @@
 <div class="image_display_r">
   <div class="row">
     <div class="col">
-      <div class="main-color text-light sidebar_pad ">
+      <div class="main-color text-light sidebar_pad shadow_only">
         <h1>{{__('Today at SCPS')}}</h1>
       </div>
     </div>
