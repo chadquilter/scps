@@ -120,7 +120,7 @@
             <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-partners') ) ? 'active' : '' }}" href="/international-school/international-partners">{{__('International Partners')}}</a>
           </div>
         </li>
-        <li class="nav-item {{ ( Request::route()->getName() == 'contact.index') ? 'active' : '' }}">
+        <li class="nav-item {{ ( \request()->segment(1) == 'contact-us' ) ? 'active' : '' }}">
           <a class="nav-link" href="/contact-us">{{__('Contact')}}</a>
         </li>
       </ul>
