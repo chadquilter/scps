@@ -71,7 +71,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('About Us')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'about-us' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('About Us')}}</a>
           <div class="dropdown-menu" aria-labelledby="{{__('About Us')}}">
             <a class="dropdown-item {{ ( \Request::url() == url('about-us/school-history') ) ? 'active' : '' }}" href="/about-us/school-history">{{__('School History')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('about-us/vision') ) ? 'active' : '' }}" href="/about-us/vision">{{__('Vision')}}</a>
@@ -81,7 +81,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Academics')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'academic' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Academics')}}</a>
           <div class="dropdown-menu" aria-labelledby="Academics">
             <a class="dropdown-item {{ ( \Request::url() == url('academic/academic-calendar') ) ? 'active' : '' }}" href="/academic/academic-calendar">{{__('Academic Calendar')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('academic/academic-schedule') ) ? 'active' : '' }}" href="/academic/academic-schedule">{{__('Daily Schedule')}}</a>
@@ -103,7 +103,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Student Life')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'student' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Student Life')}}</a>
           <div class="dropdown-menu" aria-labelledby="Student Life">
             <a class="dropdown-item {{ ( \Request::url() == url('student/athletics') ) ? 'active' : '' }}" href="/student-life/athletics">{{__('Athletics')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('student/growth') ) ? 'active' : '' }}" href="/student-life/growth">{{__('Personal Growth')}}</a>
@@ -111,7 +111,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('International Program')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'international-school' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('International Program')}}</a>
           <div class="dropdown-menu" aria-labelledby="International Program">
             <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-admission') ) ? 'active' : '' }}" href="/international-school/international-admission">{{__('Fees and Admissions')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('international-school/international-academy') ) ? 'active' : '' }}" href="/international-school/international-academy">{{__('The Academy')}}</a>
