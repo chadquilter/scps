@@ -6,7 +6,6 @@
   </div>
 </div>
 <div class="row">
-  <center>
   <div class="card-deck-wrapper">
     <div class="card-deck">
       @foreach($links as $link)
@@ -27,6 +26,5 @@
       @endforeach
     </div>
   </div>
-  </center>
 </div>
 <hr>
