@@ -28,7 +28,7 @@
     <div class="col col-auto">
       <a href="/"><img alt="{{ config('app.name', 'Space City Preparatory') }}" src="/images/scps_logo.png" height="140"></a>
     </div>
-    <div class="col col-sm-10">
+    <div class="col col-sm-10 text-align-center">
       <div class="row">
         <div class="col">
           <h1 class="display-4 gold-header">{{__('Space City Preparatory School')}}</h1>
