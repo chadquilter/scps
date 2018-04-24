@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     <div class="card alt-color">
       <div class='card-img-top alt-color'>
         @include('inc.jobimagecarosel')

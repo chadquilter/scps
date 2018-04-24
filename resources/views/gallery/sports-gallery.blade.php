@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     @include('gallery.gallery')
   </div>
 @endsection

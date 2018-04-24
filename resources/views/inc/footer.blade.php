@@ -1,4 +1,4 @@
-<div class="container">
+<div class="sub-container">
   <footer class="footer">
     <div class="card border-0">
       <div class="card-body main-color text-white">

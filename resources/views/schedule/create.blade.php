@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     <div class="jumbotron">
       <h1 class="display-3">Create Job</h1>
       <div class="card mx-auto border border-secondary">

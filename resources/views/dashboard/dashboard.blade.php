@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     <div class="card">
       <div class='card-body alt-color'>
         <div class="jumbotron">

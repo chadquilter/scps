@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     <div class="jumbotron">
       <h1 class="display-3">Manage Calendar Tasks/Items:</h1>
       <div class="card mx-auto">
@@ -18,7 +18,7 @@
           @endif
 
           @if(count($items) > 0)
-            <div class="container border border-secondary rounded shadow_only">
+            <div class="sub-container border border-secondary rounded shadow_only">
             <table class="table table-striped table-hover table-responsive">
               <thead class="thead-inverse">
                 <tr>

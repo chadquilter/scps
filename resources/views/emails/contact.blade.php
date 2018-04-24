@@ -1,7 +1,7 @@
 @extends('layouts.email')
 
 @section('content')
-  <div class="container">
+  <div class="sub-container">
     <br>
     <img alt="{{ config('app.name', 'Space City Preparatory') }}" src="{{ asset('/images/scps_logo_sm.png')}} " height="140">
     <br>
