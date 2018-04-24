@@ -1,6 +1,6 @@
 
 <br>
-<div class="main-color text-light sidebar_pad shadow_only">
+<div class="row main-color text-light sidebar_pad shadow_only">
   <h1>{{__('Bookmarks')}}</h1>
 </div>
 <div class="row">
