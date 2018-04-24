@@ -49,7 +49,8 @@
 
                   <div class="form-group row">
                     <label for="notes" class="col-form-label text-md-right"><strong>{{ __('Message:') }}</strong></label>
-                    <div class="col-md-6">
+                    <br>
+                    <div class="col">
                       <textarea id="notes" rows="7" cols="40" class="form-control{{ $errors->has('notes') ? ' is-invalid' : '' }}" name="notes" required autofocus>{{ old('notes') }}</textarea>
                     </div>
                   </div>
