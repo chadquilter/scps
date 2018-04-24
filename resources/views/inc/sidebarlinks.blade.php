@@ -1,6 +1,6 @@
 
 <div class="card">
-  <div class="card-img-top main-color text-light sidebar_pad shadow_only">
+  <div class="card-img-top main-color text-light sidebar_pad">
     <h1>{{__('Bookmarks')}}</h1>
   </div>
   <div class="card-body shadow_only">
@@ -11,6 +11,5 @@
         </li>
       @endforeach
     </ul>
-    <hr class="style-two">
   </div>
 </div>
