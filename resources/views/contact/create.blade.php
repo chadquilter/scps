@@ -41,8 +41,9 @@
                   </div>
 
                   <div class="form-group row">
-                    <label for="phone" class="col-form-label text-md-right"><strong>{{ __('Phone:') }}</strong></label>
                     <div class="col-md-6">
+                    <label for="phone" class="col-form-label text-md-right"><strong>{{ __('Phone:') }}</strong></label>
+                      <br>
                       <input id="phone" type="phone" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" name="phone" value="{{ old('phone') }}" required autofocus>
                     </div>
                   </div>
