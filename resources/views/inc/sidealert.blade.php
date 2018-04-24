@@ -1,4 +1,4 @@
-<div class="image_display_r">
+<div class="">
   <div class="row">
     <div class="col">
       <div class="main-color text-light sidebar_pad shadow_only">
