@@ -106,7 +106,8 @@
             </div>
             <br>
             <div class="alert alert-danger shadow_only">
-              <h2><u>{{ __('Statement of Non-Discrimination')}}</u></h2>
+              <h2>{{ __('Statement of Non-Discrimination')}}</h2>
+              <hr>
               <p class="lead">
                 {{ __('Space City Preparatory admits students of any race, color, religion, national and ethnic origin to all the rights, privileges, programs, and activities generally accorded or made available to students at the school.  It does not discriminate on the basis of race, color, religion, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.')}}
               </p>
