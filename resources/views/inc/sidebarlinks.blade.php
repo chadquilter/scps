@@ -1,10 +1,9 @@
 
 <div class="card">
+  <div class="card-img-top main-color text-light sidebar_pad shadow_only">
+    <h1>{{__('Bookmarks')}}</h1>
+  </div>
   <div class="card-body shadow_only">
-    <br>
-    <div class="main-color text-light sidebar_pad shadow_only">
-      <h1>{{__('Bookmarks')}}</h1>
-    </div>
     <ul class="list-group">
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
