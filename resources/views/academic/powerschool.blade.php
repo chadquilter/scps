@@ -18,7 +18,7 @@
               {{ __('Current parents and students may login at any time.')}}
               </p>
           </div>
-          <div class="col col-lg-4 col-xl-4">
+          <div class="col col-4">
             @include('inc.sidebarlinks')
           </div>
         </div>
