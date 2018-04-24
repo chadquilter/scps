@@ -6,7 +6,7 @@
     </div>
   </div>
 </div>
-<div class="row">
+<div class="row shadow_only">
     <div class="col">
       <div class="card">
         <div class="card-body shadow_only">
