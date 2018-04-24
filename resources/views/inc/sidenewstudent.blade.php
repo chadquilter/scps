@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col">
-    <div class="main-color text-light sidebar_pad image_display_r">
+    <div class="main-color text-light sidebar_pad ">
       <div class="row">
         <div class="col col-2">
           <img src="/images/new-course.png">
