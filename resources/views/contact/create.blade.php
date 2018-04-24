@@ -19,7 +19,7 @@
               <form id="contact_form" action={{ url('/contact/store')  }} method="POST" enctype="multipart/form-data">
                 @csrf
               <div class="card-header">
-                <h4>{{ __('Contact Form:')}}'</h4>
+                <h4>{{ __('Contact Form:')}}</h4>
               </div>
 
               <div class="card-body">
@@ -59,7 +59,7 @@
               <div class="row">
                 <div class="col">
                   <h4></h4>
-                  <small>{{ __('All Fields Required.')}}'</small>
+                  <small>{{ __('All Fields Required.')}}</small>
                 </div>
                 <div class="col form=group ml-auto">
                   <input id="submit_button" type="submit" value="{{ __('Send email')}}" />
