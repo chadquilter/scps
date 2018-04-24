@@ -20,13 +20,15 @@
 </head>
 <body>
   <main role="main">
+    <div class="body-container">
+      <div class="container">
 
-      <div class="body-container">
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')
         @include('inc.footer')
       </div>
+    </div>
 
   </main>
 </body>
