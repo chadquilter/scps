@@ -10,9 +10,9 @@
     <div class="card-deck">
       @foreach($links as $link)
 
-        <div class="card card-inverse text-center img-container shadow_only border-warning" style="min-width: 8.0rem; max-width: 9.5rem;">
+        <div class="card card-inverse text-center img-container shadow_only border-warning swing" style="min-width: 8.0rem; max-width: 9.5rem;">
           <!-- Image -->
-          <a href="{{ $link["link"] }}" class="nounderline swing">
+          <a href="{{ $link["link"] }}" class="nounderline">
             <img class="card-img-top img-image bg-warning" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
             <!-- Text Overlay -->
             <div class="card-img-overlay d-flex align-items-end">
