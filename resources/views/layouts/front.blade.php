@@ -21,7 +21,7 @@
 <body>
   <main role="main">
     <div class="body-container">
-      <div class="container">
+      <div class="container1">
 
         @include('inc.navbar')
         @yield('inc.messages')
