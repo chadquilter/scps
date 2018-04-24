@@ -1,11 +1,15 @@
 <div class="row">
   <div class="col">
+    <div class="main-color text-light sidebar_pad">
+      <h1>{{__('Our Map')}}</h1>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
     <div class="card">
-      <div class="card-body  shadow_only">
-        <div class="main-color text-light sidebar_pad  shadow_only">
-          <h1>{{__('Our Map')}}</h1>
-        </div>
-        <br>
+      <div class="card-body">
         <div class="mapouter">
           <div class="gmap_canvas">
             <iframe width="200" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=3519 burke rd,pasadena,TX,78504=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
