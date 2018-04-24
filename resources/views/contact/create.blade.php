@@ -70,7 +70,7 @@
             </div>
             <br>
           </div>
-          <div class="col">
+          <div class="col col-4">
             @include('inc.sidebarcontacts')
           </div>
         </div>
