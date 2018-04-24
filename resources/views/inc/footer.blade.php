@@ -1,6 +1,6 @@
-
+<div class="container">
   <footer class="footer">
-    <div class="card">
+    <div class="card border-0">
       <div class="card-body main-color text-white">
         <br>
         <div class="row">
@@ -66,3 +66,4 @@
         </div>
       </div>
     </footer>
+  </div>
