@@ -7,7 +7,7 @@
       <div class="card-body alt-color">
         <div class="row">
           <div class="col">
-            <div class="main-color text-light sidebar_pad">
+            <div class="main-color text-light sidebar_pad shadow_only">
               <h1>{{__('Program Fees')}}</h1>
             </div>
             <hr>
