@@ -3,7 +3,8 @@
   <div class="card-img-top main-color text-light sidebar_pad">
     <h1>{{__('Bookmarks')}}</h1>
   </div>
-  <div class="card-footer alert alert-warning shadow_only">
+  <div class="card-body">
+    <div class="card-txt">
     <ul class="list-group">
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
@@ -11,5 +12,6 @@
         </li>
       @endforeach
     </ul>
+    </div>
   </div>
 </div>
