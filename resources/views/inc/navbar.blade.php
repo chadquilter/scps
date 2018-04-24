@@ -103,10 +103,10 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'student' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Student Life')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \request()->segment(1) == 'student-life' ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Student Life')}}</a>
           <div class="dropdown-menu" aria-labelledby="Student Life">
-            <a class="dropdown-item {{ ( \Request::url() == url('student/athletics') ) ? 'active' : '' }}" href="/student-life/athletics">{{__('Athletics')}}</a>
-            <a class="dropdown-item {{ ( \Request::url() == url('student/growth') ) ? 'active' : '' }}" href="/student-life/growth">{{__('Personal Growth')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('student-life/athletics') ) ? 'active' : '' }}" href="/student-life/athletics">{{__('Athletics')}}</a>
+            <a class="dropdown-item {{ ( \Request::url() == url('student-life/growth') ) ? 'active' : '' }}" href="/student-life/growth">{{__('Personal Growth')}}</a>
           </div>
         </li>
 
