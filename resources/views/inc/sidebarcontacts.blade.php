@@ -1,4 +1,4 @@
-<div class="row shadow_only">
+<div class="row">
   <div class="col">
     <div class="main-color text-light sidebar_pad">
       <h1>{{__('Our Map')}}</h1>
