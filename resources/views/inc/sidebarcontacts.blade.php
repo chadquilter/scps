@@ -1,13 +1,13 @@
 <div class="row">
-  <div class="col">
+  <div class="col shadow_only">
     <div class="main-color text-light sidebar_pad">
       <h1>{{__('Our Map')}}</h1>
     </div>
   </div>
 </div>
 
-<div class="row shadow_only">
-  <div class="col">
+<div class="row">
+  <div class="col shadow_only">
     <div class="card">
       <div class="card-body">
         <div class="mapouter">
