@@ -1,7 +1,10 @@
-<div class="main-color text-light sidebar_pad image_display_r">
+<div class="row image_display_r">
+<div class="col main-color text-light sidebar_pad">
   <h1>{{__('Our Map')}}</h1>
 </div>
-<div class="card">
+</div>
+<div class="row">
+<div class="col card">
   <div class="card-body">
     <div class="mapouter">
       <div class="gmap_canvas">
@@ -34,4 +37,5 @@
       <p><strong>{{__('Media & Marketing:')}}</strong><a href="mailto:media-marketing@spacecityschool.com">media-marketing@spacecityschool.com</a></p>
     <hr class="lead">
   </div>
+</div>
 </div>
