@@ -19,28 +19,28 @@
               <div class="card-body">
                 <ul class="list-group">
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('NON-REFUNDABLE APPLICATION FEE: $600.00 USD')}}</u></h2>
+                    <h3><u>{{ __('NON-REFUNDABLE APPLICATION FEE: $600.00 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('Includes I-20. You will take the I-20 to the embassy to get your visa.')}}
                     </p>
                   </li>
 
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('GRADUATION FEES: $250.00 USD')}}</u></h2>
+                    <h3><u>{{ __('GRADUATION FEES: $250.00 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('For senior year only')}}
                     </p>
                   </li>
 
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('TUITION AND FEES $15,000 USD')}}</u></h2>
+                    <h3><u>{{ __('TUITION AND FEES $15,000 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('Tuition, Medical Insurance, textbookslab fees, field trips, etc.')}}
                     </p>
                   </li>
 
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('ACADEMIC PROGRAM REQUIREMENTS: $850.00 USD')}}</u></h2>
+                    <h3><u>{{ __('ACADEMIC PROGRAM REQUIREMENTS: $850.00 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('Spantran evaluation of credits, foreign language testing, health insurance,etc.')}}
                     </p>
@@ -50,14 +50,14 @@
                   </li>
 
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('ACADEMY LANGUAGE PROGRAM (IF REQUIRED) $2000.00 USD')}}</u></h2>
+                    <h3><u>{{ __('ACADEMY LANGUAGE PROGRAM (IF REQUIRED) $2000.00 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('Special instructional program to develop English proficiency while continuing academic instruction in core subjects. Extra tutorials, remediation, etc.')}}
                     </p>
                   </li>
 
                   <li class="list-group-item list-group-item-success">
-                    <h2><u>{{ __('HOST FAMILY RESIDENCE FEE: $8000.00 USD')}}</u></h2>
+                    <h3><u>{{ __('HOST FAMILY RESIDENCE FEE: $8000.00 USD')}}</u></h3>
                     <p class="lead">
                       {{ __('Includes Room, Board, School Lunch, Transportation, and Support')}}
                     </p>
@@ -66,7 +66,10 @@
               </div>
             </div>
             <br>
-            <h1><u>{{ __('Forms and Applications')}}</u></h1>
+            <div class="main-color text-light sidebar_pad shadow_only">
+              <h2><u>{{ __('Forms and Applications')}}</u></h2>
+            </div>
+            <hr>
             <p class="lead">
               {{ __('All forms regarding International students may be found below in PDF format.')}}
             </p>
