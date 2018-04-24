@@ -39,10 +39,9 @@
         <p><strong>{{__('Admissions:')}}</strong>
           {{__('If you have questions about admissions, visit our admissions page or contact our Admissions Director at (832) 205-2160')}}
         </p>
-        <p><strong>{{__('General Informations:')}}</strong><hr><small><a href="mailto:general-info@spacecityschool.com">general-info@spacecityschool.com</a></small></p>
-        <p><strong>{{__('Admissions:')}}</strong><hr><small><a href="mailto:admissions@spacecityschool.com">admissions@spacecityschool.com</a></small></p>
-        <p><strong>{{__('Job Opportunities:')}}</strong><hr><small><a href="mailto:jobs@spacecityschool.com">jobs@spacecityschool.com</a></small></p>
-        <p><strong>{{__('Media & Marketing:')}}</strong><hr><small><a href="mailto:media-marketing@spacecityschool.com">media-marketing@spacecityschool.com</small></a></p>
+        <p><strong>{{__('Admissions:')}}</strong><br><small><a href="mailto:admissions@spacecityschool.com">admissions@spacecityschool.com</a></small></p>
+        <p><strong>{{__('Job Opportunities:')}}</strong><br><small><a href="mailto:jobs@spacecityschool.com">jobs@spacecityschool.com</a></small></p>
+        <p><strong>{{__('Media & Marketing:')}}</strong><br><small><a href="mailto:media-marketing@spacecityschool.com">media-marketing@spacecityschool.com</small></a></p>
         <hr class="lead">
       </div>
     </div>
