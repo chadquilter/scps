@@ -92,7 +92,7 @@
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('') }}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Admissions')}}</a>
+          <a class="nav-link dropdown-toggle {{ ( \Request::url() == url('admission/') ) ? 'active' : '' }}" href="{{ url('') }}" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{__('Admissions')}}</a>
           <div class="dropdown-menu" aria-labelledby="Admissions">
             <a class="dropdown-item {{ ( \Request::url() == url('admission/admissions') ) ? 'active' : '' }}" href="/admission/admissions">{{__('Admission')}}</a>
             <a class="dropdown-item {{ ( \Request::url() == url('admission/tuition-fees') ) ? 'active' : '' }}" href="/admission/tuition-fees">{{__('Tuition and Fees')}}</a>
