@@ -1,16 +1,16 @@
 <div class="row">
   <div class="col">
     <img src="/images/icon-photo-gallery.png" border="0">
-    <h4 class="display-4">{{__('Photo Gallery')}}</h4>
+    <h1><strong>{{__('Photo Gallery')}}</strong></h1>
     <hr>
   </div>
 </div>
-<div class="row">
+<div class="row sidebar_pad">
   <div class="card-deck-wrapper">
     <div class="card-deck">
       @foreach($links as $link)
 
-        <div class="card card-inverse text-center img-container shadow_only border-warning" style="min-width: 8.0rem; max-width: 9.5rem;">
+        <div class="card card-inverse text-center img-container shadow_only border-warning grow" style="min-width: 8.0rem; max-width: 9.5rem;">
           <!-- Image -->
           <a href="{{ $link["link"] }}" class="nounderline">
             <img class="card-img-top img-image bg-warning" src="{{ $link["image_link"] }}" alt="Thumbnail to {{ $link["label"] }}">
