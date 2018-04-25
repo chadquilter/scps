@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('Math')}}</h1>
+    <h4>{{__('Math')}}</h4>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('Mathematics is the language of creation, and students learn to use math to describe, explain, and anticipate what they observe and see in nature. Like poets who beautifully convey imagery and scenery, mathematicians skillfully portray a creation of order, consistency, and beauty. Classes balance both computational and problem-solving skills and focus on practical applications with realistic scenarios and solutions.')}}</p>
@@ -9,7 +9,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra I')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Algebra I')}}</h1>
+        <h4>{{ __('Algebra I')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -18,11 +18,11 @@
       </div>
     </div>
     <br>
-    
+
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra II')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Algebra II')}}</h1>
+        <h4>{{ __('Algebra II')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -35,7 +35,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Algebra 2H')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Algebra 2H')}}</h1>
+        <h4>{{ __('Algebra 2H')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -48,7 +48,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Geometry')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Geometry')}}</h1>
+        <h4>{{ __('Geometry')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -61,7 +61,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Pre-Calculus')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Pre-Calculus')}}</h1>
+        <h4>{{ __('Pre-Calculus')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -74,7 +74,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Pre-Calculus Honors')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Pre-Calculus Honors')}}</h1>
+        <h4>{{ __('Pre-Calculus Honors')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -87,7 +87,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Calculus AB')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Calculus AB')}}</h1>
+        <h4>{{ __('Calculus AB')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -100,7 +100,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Calculus AB')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Calculus AB')}}</h1>
+        <h4>{{ __('AP Calculus AB')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -112,7 +112,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Calculus BC')}}">
     <div class="card mathdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Calculus BC')}}</h1>
+        <h4>{{ __('AP Calculus BC')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">

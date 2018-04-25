@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('English')}}</h1>
+    <h4>{{__('English')}}</h4>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('Skillful use of the language arts allows students to synthesize, formulate, and construct intelligent, lofty, and excellent thinking. These ideas and emotions deserve and require precise and masterful wording to properly express and communicate their depth and magnificence. The English Language Arts curriculum develops proficiency in every genre, level, and skill, but emphasizes university preparatory expository writing and literary analysis.')}}</p>
@@ -9,7 +9,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ESL')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ESL')}}</h1>
+        <h4>{{ __('ESL')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -22,7 +22,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ADVANCED ESL')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ADVANCED ESL')}}</h1>
+        <h4>{{ __('ADVANCED ESL')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -35,7 +35,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH I')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH I')}}</h1>
+        <h4>{{ __('ENGLISH I')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -48,7 +48,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH HONERS')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH HONERS')}}</h1>
+        <h4>{{ __('ENGLISH HONERS')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -61,7 +61,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('ENGLISH II HONORS')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('ENGLISH II HONORS')}}</h1>
+        <h4>{{ __('ENGLISH II HONORS')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -74,7 +74,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('American Literature')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('American Literature')}}</h1>
+        <h4>{{ __('American Literature')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -87,7 +87,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('British Literature')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('British Literature')}}</h1>
+        <h4>{{ __('British Literature')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -100,7 +100,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Advanced Composition & Literature')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Advanced Composition & Literature')}}</h1>
+        <h4>{{ __('Advanced Composition & Literature')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -113,7 +113,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Language')}}</h1>
+        <h4>{{ __('AP Language')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -126,7 +126,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Language')}}">
     <div class="card engcdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Literature')}}</h1>
+        <h4>{{ __('AP Literature')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
