@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('Visual Performing Arts')}}</h1>
+    <h3>{{__('Visual Performing Arts')}}</h3>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('Education is not only academic, but artistic, developing an appreciation for beauty, creativity, and excellence. Fine arts classes develop foundational knowledge and skills with constant practice in artistic production, expression, and performance. Visual and performing arts are constantly on display in performance throughout the school year.')}}</p>
@@ -9,7 +9,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Art I')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Art I')}}</h1>
+        <h3>{{ __('Art I')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -22,7 +22,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Art II')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Art II')}}</h1>
+        <h3>{{ __('Art II')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -35,7 +35,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Art III')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Art III')}}</h1>
+        <h3>{{ __('Art III')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -48,7 +48,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Studio Art')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Studio Art')}}</h1>
+        <h3>{{ __('AP Studio Art')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -61,7 +61,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Drama I')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Drama I')}}</h1>
+        <h3>{{ __('Drama I')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -74,7 +74,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Music II Instrumental')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Music II Instrumental')}}</h1>
+        <h3>{{ __('Music II Instrumental')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -87,7 +87,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Music II Chorale')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Music II Chorale')}}</h1>
+        <h3>{{ __('Music II Chorale')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -100,7 +100,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Chamber Choir')}}">
     <div class="card artdepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Chamber Choir')}}</h1>
+        <h3>{{ __('Chamber Choir')}}</h3>
       </div>
       <div class="card-body">
         <p class="lead">
