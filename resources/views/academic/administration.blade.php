@@ -24,9 +24,9 @@
                   </div>
                   @endforeach
                 </div>
-                <br>
               </div>
           </div>
+                          <br>
           <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
