@@ -16,8 +16,6 @@ $(function() {
 
 </script>
 
-<div class="sub-container">
-  <div class="jumbotron">
-    <div id='calendar'>test</div>
-  </div>
+<div class="jumbotron">
+  <div id='calendar'>test</div>
 </div>
