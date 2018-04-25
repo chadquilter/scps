@@ -26,7 +26,7 @@
                 </div>
               </div>
           </div>
-                          <br>
+          <hr>
           <div class="col col-lg-4 col-xl-4">
             @include('inc.sidebarlinks')
           </div>
