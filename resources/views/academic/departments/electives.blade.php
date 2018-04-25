@@ -3,7 +3,7 @@
     <h1>{{__('Electives')}}</h1>
   </div>
   <div class="card-body shadow_only">
-    <p class="lead">{{ __('Electives are an opportunity for students to develop their skills and interests in particular fields. Students are graded primarily on participation and effort and are encouraged to think and live beyond themselves and to discover their life’s mission and goal.')}}</p>
+    <p>{{ __('Electives are an opportunity for students to develop their skills and interests in particular fields. Students are graded primarily on participation and effort and are encouraged to think and live beyond themselves and to discover their life’s mission and goal.')}}</p>
     <hr class="style-two">
 
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Elective Options')}}">
