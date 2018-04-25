@@ -8,12 +8,12 @@
     <ul class="list-group">
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
-          <div class=" {{ ( \Request::url() == url($sidelink["link"]) ) ? 'static-button-cool' : 'button-cool' }}">
+          <a class=" {{ ( \Request::url() == url($sidelink["link"]) ) ? 'static-button-cool' : 'button-cool' }}"  href="{{ url($sidelink["link"]) }}">
             <a class="btn btn-block btn-danger {{ ( \Request::url() == url($sidelink["link"]) ) ? 'disabled' : '' }}" href="{{ url($sidelink["link"]) }}">
               {{ __($sidelink["label"])}}
               <span class="hide_element">&#x21D0;</span>
             </a>
-          </div>
+          </a>
         </li>
       @endforeach
     </ul>
