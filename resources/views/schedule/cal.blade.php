@@ -34,7 +34,7 @@ $(function() {
 <script>
 
 var width = 960,
-    height = 500;
+var height = 500;
 
 var tree = d3.layout.tree()
     .size([width - 20, height - 20]);
