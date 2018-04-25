@@ -11,7 +11,7 @@
           <div class=" {{ ( \Request::url() == url($sidelink["link"]) ) ? 'static-button-cool' : 'button-cool' }}">
             <a class="btn btn-block btn-danger {{ ( \Request::url() == url($sidelink["link"]) ) ? 'disabled' : '' }}" href="{{ url($sidelink["link"]) }}">
               {{ __($sidelink["label"])}}
-              <span>&#x21D0;</span>
+              <span class="hide_element">&#x21D0;</span>
             </a>
           </div>
         </li>
