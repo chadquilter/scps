@@ -1,11 +1,5 @@
-@extends('layouts.front')
-
-@section('content')
-
-
 <script>
 $(function() {
-
   // page is now ready, initialize the calendar...
 
   $('#calendar').fullCalendar({
@@ -13,10 +7,8 @@ $(function() {
   })
 
 });
-
 </script>
 
 <div class="jumbotron">
   <div id='calendar'>test</div>
 </div>
-@endsection
