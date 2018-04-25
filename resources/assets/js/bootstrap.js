@@ -27,6 +27,14 @@ try{
   window.fullCalendar = require('fullcalendar');
 } catch (e) {}
 
+try{
+  window.three = require('three');
+} catch (e) {}
+
+try{
+  window.d3 = require('d3');
+} catch (e) {}
+
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /**
