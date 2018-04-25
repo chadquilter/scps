@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-header">
-    <h1>{{__('Science')}}</h1>
+    <h4>{{__('Science')}}</h4>
   </div>
   <div class="card-body shadow_only">
     <p class="lead">{{ __('Science discovers, explains, and utilizes creation for the benefit and understanding of mankind. Technology is often employed to gain further insight and mastery over the laws of nature and to create tools or innovations to benefit others. A full complement of biological, physical, and psychological science courses and cutting edge laboratories and equipment make opportunities for learning and discovery both interesting and inevitable.')}}</p>
@@ -9,7 +9,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Science 9')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Science 9')}}</h1>
+        <h4>{{ __('Science 9')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -22,7 +22,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Biology')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Biology')}}</h1>
+        <h4>{{ __('Biology')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -35,7 +35,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Biology')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Biology')}}</h1>
+        <h4>{{ __('AP Biology')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -48,7 +48,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Chemistry')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Chemistry')}}</h1>
+        <h4>{{ __('Chemistry')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -61,7 +61,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Chemistry Honors')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Chemistry Honors')}}</h1>
+        <h4>{{ __('Chemistry Honors')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -74,7 +74,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Chemistry')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Chemistry')}}</h1>
+        <h4>{{ __('AP Chemistry')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -87,7 +87,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Physics')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Physics')}}</h1>
+        <h4>{{ __('Physics')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -100,7 +100,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Physics B')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Language')}}</h1>
+        <h4>{{ __('AP Language')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -113,7 +113,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('AP Physics C')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('AP Physics C')}}</h1>
+        <h4>{{ __('AP Physics C')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
@@ -125,7 +125,7 @@
     <input type="button"  class="btn btn-outline-primary btn-block subdept-button" value="{{__('Anatomy & Physiology')}}">
     <div class="card scidepartmentDiv">
       <div class="card-header">
-        <h1>{{ __('Anatomy & Physiology')}}</h1>
+        <h4>{{ __('Anatomy & Physiology')}}</h4>
       </div>
       <div class="card-body">
         <p class="lead">
