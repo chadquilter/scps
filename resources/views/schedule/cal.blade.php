@@ -19,3 +19,4 @@ $(function() {
 <div class="jumbotron">
   <div id='calendar'>test</div>
 </div>
+@endsection
