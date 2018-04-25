@@ -8,9 +8,9 @@
         <div class="row">
           <div class="col">
               <h1>{{ __('Daily Schedules')}}</h1>
-              <p class="lead">
+
               @include('schedule.cal')
-              </p>
+
 
           </div>
           <div class="col col-lg-4 col-xl-4">
