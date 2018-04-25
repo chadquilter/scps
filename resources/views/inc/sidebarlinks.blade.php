@@ -11,7 +11,7 @@
           <div class="button-cool text-light nounderline">
             <a class="btn btn-xl btn-danger pull-right {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">
               {{ __($sidelink["label"])}}
-              <span>{{ __($sidelink["label"])}}</span>
+              <span> <-- {{ __('Go')}} </span>
             </a>
           </div>
         </li>
