@@ -9,7 +9,7 @@
           <div class="col">
               <h1>{{ __('Daily Schedules')}}</h1>
               <p class="lead">
-              {{ __('')}}
+              @include('schedule.cal')
               </p>
 
           </div>
