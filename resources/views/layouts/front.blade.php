@@ -13,7 +13,7 @@
     <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
-    <link rel='stylesheet' href='https://fullcalendar.io/releases/fullcalendar/3.9.0/fullcalendar.min.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
     <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
