@@ -9,7 +9,7 @@
       @foreach($sidelinks as $sidelink)
         <li class="list-group-item">
           <div class="button-cool">
-            <a class="btn {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">
+            <a class="btn btn-warning {{ ( \Request::url() == url($sidelink["link"]) ) ? 'active' : '' }}" href="{{ url($sidelink["link"]) }}">
               {{ __($sidelink["label"])}}
               <span>{{ __($sidelink["label"])}}</span>
             </a>
