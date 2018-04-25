@@ -19,6 +19,7 @@
                     <div class="card-footer">
                       <div class="card-text">
                         {{ __($profile["label"]) }}
+                        @include('schedule.cal')
                       </div>
                     </div>
                   </div>
