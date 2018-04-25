@@ -15,3 +15,4 @@ $(function() {
       <div id='calendar'></div>
     </div>
   </div>
+  <br>
