@@ -193,6 +193,7 @@ background: -moz-linear-gradient(top, #544e4c, #8a8482);
   width: calc(100% + 1.5rem);
   border: 0.625rem solid #9f1b32;
   box-shadow: 0.1875rem 0.1875rem 0.125rem rgba(black, 0.15);
+  disable: true;
   span {
     visibility: hidden;
   }
