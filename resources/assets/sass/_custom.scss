@@ -155,16 +155,13 @@ background: -moz-linear-gradient(top, #544e4c, #8a8482);
   background: #e8f5f3;
   color: #d8a3ad;
   border-radius: 2.5rem;
-  padding: 0.9375rem 1.875rem;
   overflow: hidden;
-  width: 12.5rem;
+  width: 10.0rem;
   transition:
     all        1.2s,
     border     0.5s 1.2s,
     box-shadow 0.3s 1.5s;
   white-space: nowrap;
-  text-indent: 1.4375rem;
-  font-weight: bold;
   span {
     display: inline-block;
     transform: translateX(18.75rem);
@@ -175,10 +172,9 @@ background: -moz-linear-gradient(top, #544e4c, #8a8482);
       transform 0.4s 0.5s;
   }
   &:hover {
-    text-indent: 0;
     background: #d8a3ad;
     color: #FFE8A3;
-    width: 15.625rem;
+    width: 12.5rem;
     border: 0.625rem solid #9f1b32;
     box-shadow: 0.1875rem 0.1875rem 0.125rem rgba(black, 0.15);
     span {
