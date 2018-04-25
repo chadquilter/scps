@@ -10,5 +10,5 @@ $(function() {
 </script>
 
 <div class="jumbotron">
-  <div id='calendar'></div>
+  <div id='calendar'> </div>
 </div>
