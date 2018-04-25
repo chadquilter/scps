@@ -16,7 +16,7 @@
       </li>
       <li class="nav-item">
         <div class="row">
-          <a class="nav-link text-align-end">
+          <a class="col nav-link text-align-end">
             <img src="/images/icon-phone.png" class="top-navigation-right-icon" alt="Contact Space City Preparatory Today at (832) 205-2160."/>
             &nbsp (832) 205-2160
           </a>
