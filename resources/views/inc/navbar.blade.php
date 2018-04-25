@@ -18,7 +18,7 @@
         <div class="row">
           <a class="nav-link text-align-end">
             <img src="/images/icon-phone.png" class="top-navigation-right-icon" alt="Contact Space City Preparatory Today at (832) 205-2160."/>
-            &nbsb; (832) 205-2160
+            &nbsp (832) 205-2160
           </a>
         </div>
       </li>
