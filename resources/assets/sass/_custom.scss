@@ -186,6 +186,18 @@ background: -moz-linear-gradient(top, #544e4c, #8a8482);
       opacity: 1;
     }
   }
+  &:active {
+    text-indent: 0;
+    background: #9F1B32;
+    color: #FFE8A3;
+    width: 250px;
+    border: 10px solid #8DCCC4;
+    box-shadow: 3px 3px 2px rgba(black, 0.15);
+    span {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 }
 
 div.image_display {
