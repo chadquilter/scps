@@ -24,6 +24,7 @@
                   </div>
                   @endforeach
                 </div>
+                <br>
               </div>
           </div>
           <div class="col col-lg-4 col-xl-4">
