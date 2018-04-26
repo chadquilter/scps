@@ -7,8 +7,7 @@
         <h4 class="display-4">Dashboard </h4>
       </div>
       <div class='card-body alt-color'>
-        <p class="lead"><strong> Welcome {{ Auth::user()->name }}</strong></p>
-        <p class="lead"><strong> {{ $dt }} </strong></p>
+        <p class="lead"><strong> Welcome {{ Auth::user()->name }}, today is: {{ $dt }} </strong></p>
         @include('inc.dashmenu')
         <hr>
         @include('inc.messages')
