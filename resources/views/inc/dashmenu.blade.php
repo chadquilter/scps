@@ -5,6 +5,8 @@
         <h3><strong>Dashboard Services:</strong></h3>
       </div>
       <div class="card-body">
+        <div class="row">
+          <div class="col-4">
         <hr class="my-4">
         @if (  Request::url() != url('dashboard') )
           <span data-feather="home"></span>
@@ -24,6 +26,11 @@
         @if ( Request::route()->getName() == 'document.index')
           <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Document</a>
         @endif
+      </div>
+      <div class="col-8">
+        Media
+      </div>
+    </div>
       </div>
     </div>
 </p>
