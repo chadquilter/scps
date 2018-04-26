@@ -5,24 +5,24 @@
   </div>
   <div class="card-body">
     <div class="row">
-      <div class="col-4">
+      <div class="col-2">
         @if (  Request::url() != url('dashboard') )
           <span data-feather="home"></span>
-          <a href="/dashboard" class="alert alert-primary btn btn-secondary" role="button">Return to Dashboard</a>
+          <a href="/dashboard" class="alert alert-primary btn-sm btn-secondary" role="button">Return to Dashboard</a>
         @endif
         @if ( Request::route()->getName() != 'schedule.index')
           <span data-feather="scheule"></span>
-          <a href="/schedule" class="alert alert-primary btn btn-secondary" role="button">Calendar Manager</a>
+          <a href="/schedule" class="alert alert-primary btn-sm btn-secondary" role="button">Calendar Manager</a>
         @endif
         @if ( Request::route()->getName() == 'schedule.index')
-          <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Calendar Task</a>
+          <a href="/schedule/create" class="alert alert-primary btn-sm btn-secondary" role="button">Add Calendar Task</a>
         @endif
         @if ( Request::route()->getName() != 'document.index')
           <span data-feather="document"></span>
-          <a href="/document" class="alert alert-primary btn btn-secondary" role="button">Document Manager</a>
+          <a href="/document" class="alert alert-primary btn-sm btn-secondary" role="button">Document Manager</a>
         @endif
         @if ( Request::route()->getName() == 'document.index')
-          <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Document</a>
+          <a href="/schedule/create" class="alert alert-primary btn-sm btn-secondary" role="button">Add Document</a>
         @endif
       </div>
       <div class="col-8">
