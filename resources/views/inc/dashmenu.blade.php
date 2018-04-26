@@ -5,7 +5,7 @@
   </div>
   <div class="card-body">
     <div class="row">
-      <div>
+      <div class="col-4">
         @if (  Request::url() != url('dashboard') )
           <span data-feather="home"></span>
           <a href="/dashboard" class="alert alert-primary btn-sm btn-secondary" role="button">Return to Dashboard</a>
@@ -25,7 +25,7 @@
           <a href="/schedule/create" class="alert alert-primary btn-sm btn-secondary" role="button">Add Document</a>
         @endif
       </div>
-      <div class="col-10">
+      <div class="col-8">
         <div class="card">
           <div class="card-header">
             Service:
