@@ -4,7 +4,6 @@
   <div class="sub-container">
     <div class="card">
       <div class='card-body alt-color'>
-        <div class="jumbotron">
           <h4 class="display-4">Dashboard </h4>
 
           <div class="card mx-auto">
@@ -22,7 +21,6 @@
                 </div>
               @endif
             </div>
-          </div>
         </div>
       </div>
     </div>
