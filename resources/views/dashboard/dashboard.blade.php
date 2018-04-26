@@ -8,8 +8,8 @@
       </div>
       <div class='card-body alt-color'>
         <div class="row">
-          <h1 class="col"><strong> Welcome {{ Auth::user()->name }}</strong></h1>
-          <h1 class="col text-md-right"><strong> {{ $dt }} </strong></h1>
+          <h3 class="col"><strong> Welcome {{ Auth::user()->name }}</strong></h3>
+          <h3 class="col text-md-right"><strong> {{ $dt }} </strong></h3>
         </div>
         @include('inc.dashmenu')
         <hr>
