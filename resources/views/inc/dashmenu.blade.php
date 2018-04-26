@@ -7,7 +7,6 @@
       <div class="card-body">
         <div class="row">
           <div class="col-4">
-        <hr class="my-4">
         @if (  Request::url() != url('dashboard') )
           <span data-feather="home"></span>
            <a href="/dashboard" class="alert alert-primary btn btn-secondary" role="button">Return to Dashboard</a>
