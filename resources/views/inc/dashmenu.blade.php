@@ -1,10 +1,10 @@
 <hr class="my-4">
 <p class="lead">
     <div class="card border border-secondary rounded shadow_only">
+      <div class="card-header">
+        <h1><strong>Dashboard Services:</strong></h1>
+      </div>
       <div class="card-body">
-        <div class="card-header">
-          <h1><strong>Dashboard Services:</strong></h1>
-        </div>
         <hr class="my-4">
         @if (  Request::url() != url('dashboard') )
           <span data-feather="home"></span>
