@@ -15,6 +15,13 @@
         @if ( Request::route()->getName() == 'schedule.index')
           <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Calendar Task</a>
         @endif
+        @if ( Request::route()->getName() != 'document.index')
+          <span data-feather="document"></span>
+           <a href="/document" class="alert alert-primary btn btn-secondary" role="button">Document Manager</a>
+        @endif
+        @if ( Request::route()->getName() == 'document.index')
+          <a href="/schedule/create" class="alert alert-primary btn btn-secondary" role="button">Add Document</a>
+        @endif
       </div>
     </div>
 </p>
