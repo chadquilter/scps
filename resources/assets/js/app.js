@@ -15,10 +15,11 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-Vue.component('calmanager-component', require('./components/CalManagerComponent.vue'));
+
 Vue.component('file-component', require('./components/FileUploadComponent.vue'));
 /**
+Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('calmanager-component', require('./components/CalManagerComponent.vue'));
 Vue.component('example', require('./components/Examplevue'));
 Vue.component('example2', require('./components/Examplevue2'));
 Vue.component('example3', require('./components/Examplevue3'));

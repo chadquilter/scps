@@ -12,11 +12,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet"/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
     <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
-    <!-- js -->
-    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
   <main role="main">
@@ -27,5 +25,12 @@
 
     </div>
   </main>
+  <!-- js -->
+  <script>
+    window.Laravel = <?php echo json_encode([
+       'csrfToken' => csrf_token(),
+    ]); ?>
+  </script>
+  <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

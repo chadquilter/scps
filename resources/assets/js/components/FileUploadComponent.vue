@@ -1,4 +1,4 @@
-// Fo;euploadComponent.vue
+//FileUploadComponent.vue
 
 <template>
     <div class="container" id="app">
