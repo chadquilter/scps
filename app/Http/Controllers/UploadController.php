@@ -14,12 +14,11 @@ class UploadController extends Controller
   {
     if ($request->hasFile('image')) {
     {
-       $file = $request->file('image');
        //$name = time().'.' . explode('/', explode(':', substr($file, 0, strpos($file, ';')))[1])[1];
        //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
        //$destinationPath = 'images/uploads';
        //$file->move($destinationPath,$file->getClientOriginalName());
-       $filename = $file->store('documents');
+       $request->file('image')->store('docs');
      }
 
     $image= new FileUpload();
