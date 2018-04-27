@@ -24,7 +24,7 @@
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')
-        @include('inc.footer')
+
     </div>
   </main>
 </body>
