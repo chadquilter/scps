@@ -18,7 +18,8 @@ class UploadController extends Controller
        //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
        //$destinationPath = 'images/uploads';
        //$file->move($destinationPath,$file->getClientOriginalName());
-       $request->file('image')->store('docs');
+       //$request->file('image')->store('docs');
+       $request->file('image')->store('images');
      }
 
     $image= new FileUpload();
