@@ -31,9 +31,7 @@
             Service:
           </div>
           <div class="card-body">
-            <div class="container" id="app">
               <file-component></file-component>
-            </div>
           </div>
         </div>
       </div>
