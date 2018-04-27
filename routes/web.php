@@ -62,7 +62,6 @@ Route::get('/gallery/art-gallery', 'GalleryController@art');
 Route::get('/gallery/classroom-gallery', 'GalleryController@classroom');
 
 Route::resource('contact-us', 'ContactController');
-Route::resource('/scps/documents', 'DocumentsController');
 
 Route::resource('scps-schedule', 'SchedulesController');
 
