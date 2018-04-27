@@ -4,34 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="scps.com">
-    <meta name="keywords" content="houston, dallas, fort worth, corpus christi, san antonio, el paso, texas, tx"/>
-    <meta name="description" content="Space City Preparatory School"/>
+    <meta name="author" content="CNQ Software Services">
+    <meta name="keywords" content="{{__('School, Learning in the US, Learn English In the US, Enlgish in the USA, Learning world wide, learn english, speak english, learn american culture, speak native language usa')}}"/>
+    <meta name="description" content="{{__('School, Learning in the US, Learn English In the US, Enlgish in the USA, Learning world wide, learn english, speak english, learn american culture, speak native language usa')}}"/>
+    <!-- <meta name="robots" content="index, follow"> -->
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Space City Preparatory School') }}</title>
+    <title>{{__('Space City Preparatory School') }}</title>
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
     <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
+    <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
 </head>
-<body style="background-attachment:fixed;background-color:#fff;background-position:center top;background-repeat:repeat-x;background-image: url(/images/art-bg.jpg); width=100%; z-index: 1;">
+<body>
   <main role="main">
-    @include('inc.navbar')
-    <br>
-    <div class="body-container">
-      <br>
-      @yield('content')
+    <div class="container">
+        @include('inc.navbar')
+        @yield('inc.messages')
+        @yield('content')
+        @include('inc.footer')
     </div>
-    @include('inc.footer')
   </main>
 </body>
-<!-- Scripts -->
-<script>
-  $(window).load(function() {
-    // chat face un focus
-    window.scrollTo(0, 0);
-  });
-</script>
-<script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 </html>
