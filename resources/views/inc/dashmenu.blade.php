@@ -32,6 +32,7 @@
           </div>
           <div class="card-body">
               <file-component></file-component>
+              <example-componen></example-componen>
           </div>
         </div>
       </div>
