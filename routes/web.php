@@ -65,3 +65,5 @@ Route::resource('contact-us', 'ContactController');
 Route::resource('/scps/documents', 'DocumentsController');
 
 Route::resource('scps-schedule', 'SchedulesController');
+
+Route::post('/upload/store', 'ImageController@store');
