@@ -1,8 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\FileUpload;
 use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Storage;
 
 class UploadController extends Controller
 {
@@ -10,9 +14,11 @@ class UploadController extends Controller
   {
     if($request->get('image'))
     {
-       $image = $request->get('image');
-       $name = time().'.' . explode('/', explode(':', substr($image, 0, strpos($image, ';')))[1])[1];
-       \Image::make($request->get('image'))->save(public_path('storage/app/public/').$name);
+       $file = $request->get('image');
+       //$name = time().'.' . explode('/', explode(':', substr($file, 0, strpos($file, ';')))[1])[1];
+       //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
+       $destinationPath = 'images/uploads';
+       $file->move($destinationPath,$file->getClientOriginalName());
      }
 
     $image= new FileUpload();
