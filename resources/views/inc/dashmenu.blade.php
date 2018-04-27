@@ -31,7 +31,9 @@
             Service:
           </div>
           <div class="card-body">
-            Media
+            <div class="container-dash-service" id="app">
+              <image-component></image-component>
+            </div>
           </div>
         </div>
       </div>
