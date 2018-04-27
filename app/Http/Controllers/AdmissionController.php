@@ -10,10 +10,10 @@ class AdmissionController extends Controller
   private function sidelinks(){
     $links = array(
        'admission' => array('link' => 'admission/admissions', 'label' => 'Admission'),
-       'application' => array('link' => 'admission/application', 'label' => 'Admissions Application'),
-       'contact' => array('link' => 'admission/admission-contact', 'label' => 'Admissions Contact'),
-       'etution' => array('link' => 'admission/e-tuition', 'label' => 'E-Tuition'),
        'tuitionfees' => array('link' => 'admission/tuition-fees', 'label' => 'Tuition and Fees'),
+       'application' => array('link' => 'admission/application', 'label' => 'Admissions Application'),
+       'etution' => array('link' => 'admission/e-tuition', 'label' => 'E-Tuition'),
+       'contact' => array('link' => 'admission/admission-contact', 'label' => 'Admissions Contact'),
     );
     return $links;
   }
