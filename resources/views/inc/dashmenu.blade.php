@@ -32,7 +32,7 @@
           </div>
           <div class="card-body">
             <div class="container-dash-service" id="app">
-              <image-component></image-component>
+              <file-component></file-component>
             </div>
           </div>
         </div>
