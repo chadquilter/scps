@@ -65,4 +65,4 @@ Route::resource('contact-us', 'ContactController');
 
 Route::resource('scps-schedule', 'SchedulesController');
 
-Route::post('/file/store', 'FileController@store');
+Route::post('/file/store', 'UploadController@store');
