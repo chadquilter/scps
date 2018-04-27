@@ -16,6 +16,13 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('calmanager-component', require('./components/CalManagerComponent.vue'));
+/**
+Vue.component('example', require('./components/Examplevue'));
+Vue.component('example2', require('./components/Examplevue2'));
+Vue.component('example3', require('./components/Examplevue3'));
+Vue.component('example4', require('./components/Examplevue4'));
+*/
 
 const app = new Vue({
     el: '#app'

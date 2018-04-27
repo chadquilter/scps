@@ -17,10 +17,10 @@ class AboutController extends Controller
     private function sidelinks(){
       $links = array(
          'about' => array('link' => 'about-us/about', 'label' => 'About Us'),
+         'school-history' => array('link' => 'about-us/school-history', 'label' => 'School History'),
          'vision' => array('link' => 'about-us/vision', 'label' => 'Vision'),
          'core-values' => array('link' => 'about-us/core-values', 'label' => 'Core Values'),
          'testimony' => array('link' => 'about-us/testimony', 'label' => 'Testemonials'),
-         'school-history' => array('link' => 'about-us/school-history', 'label' => 'School History'),
       );
       return $links;
     }

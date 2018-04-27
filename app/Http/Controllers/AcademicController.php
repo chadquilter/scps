@@ -15,9 +15,9 @@ class AcademicController extends Controller
      private function sidelinks(){
        $links = array(
           'calendar' => array('link' => 'academic/academic-calendar', 'label' => 'Academic Calendar'),
+          'schedule' => array('link' => 'academic/academic-schedule', 'label' => 'Academic Schedule'),
           'departments' => array('link' => 'academic/departments', 'label' => 'Departments'),
           'powerschool' => array('link' => 'academic/powerschool', 'label' => 'Powerschool'),
-          'schedule' => array('link' => 'academic/academic-schedule', 'label' => 'Academic Schedule'),
           'administration' => array('link' => 'academic/administration', 'label' => 'Administration'),
        );
        return $links;
