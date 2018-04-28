@@ -10,10 +10,9 @@ use Storage;
 
 class UploadController extends Controller
 {
-  public function store(Request $request)
-  {
+  
+  public function store(Request $request){
     if ($request->hasFile('image')) {
-    {
        //$name = time().'.' . explode('/', explode(':', substr($file, 0, strpos($file, ';')))[1])[1];
        //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
        //$destinationPath = 'images/uploads';
@@ -29,7 +28,5 @@ class UploadController extends Controller
 
     return response()->json(['success' => 'You have successfully uploaded an image'], 200);
   }
-
-}
 
 }
