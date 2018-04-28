@@ -12,7 +12,7 @@ class UploadController extends Controller
 {
   public function store(Request $request)
   {
-    if ($request->hasFile('image')) {
+
        $name = $request->file('image');
        $name = time().'.' . explode('/', explode(':', substr($file, 0, strpos($file, ';')))[1])[1];
        //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
@@ -28,8 +28,8 @@ class UploadController extends Controller
        $image->save();
 
        return response()->json(['success' => 'You have successfully uploaded an image'], 200);
-     }else{
-       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. : (', 200]);
-     }
+//     }else{
+//       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. : (', 200]);
+//     }
    }
  }
