@@ -19,7 +19,7 @@ class UploadController extends Controller
        //$file->move($destinationPath,$file->getClientOriginalName());
        //$request->file('image')->store('docs');
       //$request->file('image')->store('images');
-      $path = $request->file('image')->store('images/uploads');
+      $path = $request->file('image')->store('uploads');
     }else{
       return response()->json(['failed' => 'The image was not found in the post data.'], 500);
     }
