@@ -10,15 +10,15 @@ use Storage;
 
 class UploadController extends Controller
 {
-  
+
   public function store(Request $request){
     if ($request->hasFile('image')) {
        //$name = time().'.' . explode('/', explode(':', substr($file, 0, strpos($file, ';')))[1])[1];
        //\Image::make($request->get('image'))->save(public_path('storage/app/public/').$file);
-       //$destinationPath = 'images/uploads';
-       //$file->move($destinationPath,$file->getClientOriginalName());
+       $destinationPath = 'images/uploads';
+       $request->file('image')->move($destinationPath,$file->getClientOriginalName());
        //$request->file('image')->store('docs');
-       $request->file('image')->store('images');
+       //$request->file('image')->store('images');
      }
 
     $image= new FileUpload();
