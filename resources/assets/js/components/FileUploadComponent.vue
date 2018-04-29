@@ -48,10 +48,11 @@
                 reader.readAsDataURL(file);
             },
             uploadImage(){
+              //use form data for now..
               var data = new FormData()
               var file = this.$refs.fileInput.files[0]
               data.append('my_file', file)
-              axios.post('/file/store',{image: this.image}).then(response => {
+              axios.post('/file/store',data).then(response => {
                    console.log(response.data);
                    if (response.data.success) {
                      alert(response.data.success);
