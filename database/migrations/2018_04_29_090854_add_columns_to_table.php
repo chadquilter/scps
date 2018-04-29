@@ -14,7 +14,10 @@ class AddColumnsToTable extends Migration
     public function up()
     {
         Schema::table('file_uploads', function (Blueprint $table) {
-            //
+          $table->string('upload_desc');
+          $table->string('upload_display_name');
+          $table->string('upload_extension');
+          $table->integer('upload_user_id')->unsigned();;
         });
     }
 
