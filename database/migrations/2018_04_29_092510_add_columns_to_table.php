@@ -14,7 +14,7 @@ class AddColumnsToTable extends Migration
     public function up()
     {
         Schema::table('file_uploads', function (Blueprint $table) {
-            //
+          $table->string('upload_name')->unique()->change();
         });
     }
 

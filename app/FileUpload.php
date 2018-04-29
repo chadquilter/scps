@@ -19,6 +19,10 @@ class FileUpload extends Model
     'upload_users',
     'upload_dir',
     'upload_url_long',
-    'upload_url_short'
+    'upload_url_short',
+    'upload_desc'),
+    'upload_display_name'),
+    'upload_extension'),
+    'upload_user_id'
   ];
 }
