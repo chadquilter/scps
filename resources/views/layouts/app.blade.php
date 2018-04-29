@@ -11,6 +11,10 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{__('Space City Preparatory School') }}</title>
+    <!-- CSRF Token -->
+    <script>
+      window.Laravel = { csrfToken: '{{ csrf_token() }}' }
+    </script>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet"/>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css' />
@@ -22,15 +26,9 @@
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')
-
     </div>
   </main>
   <!-- js -->
   <script src="{{ asset('js/app.js') }}"></script>
-  <script>
-    window.Laravel = <?php echo json_encode([
-       'csrfToken' => csrf_token(),
-    ]); ?>
-  </script>
 </body>
 </html>
