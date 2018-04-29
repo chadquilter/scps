@@ -22,7 +22,9 @@
                             </p>
                          </div>
                           <div class="col-md-3">
-                             <button class="btn btn-success btn-block" @click="uploadImage">Upload Image</button>
+                            <button type="submit" class="btn btn-primary">
+                              Add new file
+                            </button>
                           </div>
                         </form>
                        </div>
@@ -72,7 +74,7 @@
 
             },
 
-            uploadImage(){
+            submitForm(){
               //use form data for now..
               //var data = new FormData();
               this.formData = new FormData();
