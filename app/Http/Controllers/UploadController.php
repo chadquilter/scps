@@ -28,9 +28,9 @@ class UploadController extends Controller
        //$image->image_active = 'Y';
        //$image->save();
 
-       return response()->json(['success' => 'You have successfully uploaded an image'], 200);
+       return response()->json(['success' => 'You have successfully uploaded an image $request'], 200);
      }else{
-       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. : (', 200]);
+       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. $request : (', 200]);
      }
    }
  }
