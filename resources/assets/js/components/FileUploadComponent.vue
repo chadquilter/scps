@@ -12,7 +12,7 @@
                               <img :src="image" class="img-responsive" height="70" width="90">
                            </div>
                           <div class="col-md-6">
-                              <input type="file" v-on:change="onImageChange" class="form-control">
+                              <input type="file" v-on:change="onImageChange" class="form-control" ref="fileInput" id="my_file">
                           </div>
                           <div class="col-md-3">
                              <button class="btn btn-success btn-block" @click="uploadImage">Upload Image</button>
@@ -48,7 +48,11 @@
                 reader.readAsDataURL(file);
             },
             uploadImage(){
-                axios.post('/file/store',{image: this.image}).then(response => {
+              var data = new FormData()
+              var file = this.$refs.fileInput.files[0]
+              data.append('my_file', file)
+              axios.post('/file/store',{image: this.image}).then(response => {
+                   console.log(response.data);
                    if (response.data.success) {
                      alert(response.data.success);
                    }
