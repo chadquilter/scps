@@ -8,6 +8,7 @@
                     <div class="card-header">File Upload Component</div>
                     <div class="card-body">
                        <div class="row">
+                          <form id="new-file-form" action="#" method="#" @submit.prevent="submitForm">
                           <div class="col-md-3" v-if="image">
                               <img :src="image" class="img-responsive" height="70" width="90">
                                <span class="file-name" v-if="attachment.name" v-html="attachment.name"></span>
@@ -23,6 +24,7 @@
                           <div class="col-md-3">
                              <button class="btn btn-success btn-block" @click="uploadImage">Upload Image</button>
                           </div>
+                        </form>
                        </div>
                     </div>
                 </div>
@@ -57,24 +59,62 @@
                 };
                 reader.readAsDataURL(file);
             },
+            fetchFile(type, page) {
+              this.loading = true;
+              axios.get('files/' + type + '?page=' + page).then(result => {
+                this.loading = false;
+                this.files = result.data.data.data;
+                this.pagination = result.data.pagination;
+              }).catch(error => {
+                console.log(error);
+                this.loading = false;
+              });
+
+            },
+
             uploadImage(){
               //use form data for now..
-              var data = new FormData();
-              data.append('name', this.fileName);
-              data.append('file', this.attachment);
+              //var data = new FormData();
+              this.formData = new FormData();
+              this.formData.append('name', this.fileName);
+              this.formData.append('file', this.attachment);
 
-              axios.post('/file/store', data,  {headers: {'Content-Type': 'multipart/form-data'}})
+              axios.post('/file/store', this.formData,  {headers: {'Content-Type': 'multipart/form-data'}})
                 .then(response => {
                     this.resetForm();
                     this.showNotification('File successfully upload!', true);
-                    this.fetchFile(this.activeTab);
+                    //this.fetchFile(this.activeTab);
                 })
                 .catch(error => {
                     this.errors = error.response.data.errors;
                     this.showNotification(error.response.data.message, false);
-                    this.fetchFile(this.activeTab);
+                    //this.fetchFile();
               });
 
+            },
+            showNotification(text, success) {
+                if (success === true) {
+                    this.clearErrors();
+                }
+
+                var application = this;
+                application.message = text;
+                application.notification = true;
+                setTimeout(function() {
+                    application.notification = false;
+                }, 15000);
+            },
+            resetForm() {
+                this.formData = {};
+                this.fileName = '';
+                this.attachment = '';
+            },
+            anyError() {
+                return Object.keys(this.errors).length > 0;
+            },
+
+            clearErrors() {
+                this.errors = {};
             }
         }
     }
