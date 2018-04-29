@@ -36,15 +36,10 @@
         data(){
             return {
                 image: '',
-                files: {},
-                file: {},
 
                 formData: {},
                 fileName: '',
-                attachment: '',
-
-                message: '',
-                errors: {}
+                attachment: ''
             }
         },
         methods: {
@@ -64,7 +59,7 @@
             },
             uploadImage(){
               //use form data for now..
-              var data = new FormData()
+              var data = new FormData();
               data.append('name', this.fileName);
               data.append('file', this.attachment);
 
