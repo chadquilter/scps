@@ -21,10 +21,10 @@ class UploadController extends Controller
        //$request->file('image')->store('public');
        $request->image->storeAs('public', $request->image->getClientOriginalName());
 
-       $image = new FileUpload();
-       $image->image_name = $name;
-       $image->image_active = 'Y';
-       $image->save();
+       //$image = new FileUpload();
+       //$image->image_name = $name;
+       //$image->image_active = 'Y';
+       //$image->save();
 
        return response()->json(['success' => 'You have successfully uploaded an image'], 200);
 //     }else{
