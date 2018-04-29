@@ -30,7 +30,7 @@ class UploadController extends Controller
 
        return response()->json(['success' => 'You have successfully uploaded an image $request'], 200);
      }else{
-       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. $request : (', 200]);
+       return response()->json(['success' => 'not really, your stuff isnt here. Sorry. {$request} : (', 200]);
      }
    }
  }
