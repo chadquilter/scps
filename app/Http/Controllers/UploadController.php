@@ -19,7 +19,7 @@ class UploadController extends Controller
        //$file->move($destinationPath,$file->getClientOriginalName());
        //$request->file('image')->store('docs');
        //$request->file('image')->store('public');
-       $request->image->storeAs('public', $request->image->getClientOriginalName());
+       //$request->image->storeAs('public', $request->image->getClientOriginalName());
 
        //$image = new FileUpload();
        //$image->image_name = $name;
