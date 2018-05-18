@@ -59,9 +59,10 @@
             </div>
 
             <div class="col col-md-4 col-lg-4 col-xl-4">
-              @include('contact.contactmini')
+              @if(( \Request::url() != url('contact-us') ) || (\Request::url() != url('admission/admission-contact') ) ||  (\Request::url() != url('admission/admission-contact') ) )
+                @include('contact.contactmini')
+              @endif
             </div>
-
           </div>
         </div>
       </div>

@@ -89,7 +89,7 @@
               this.formData.append('name', this.fileName);
               this.formData.append('file', this.attachment);
 
-              axios.post('/file/store', this.formData,  {headers: {'Content-Type': 'multipart/form-data'}})
+              axios.post('files/add', this.formData,  {headers: {'Content-Type': 'multipart/form-data'}})
                 .then(response => {
                     this.resetForm();
                     this.showNotification('File successfully upload!', true);

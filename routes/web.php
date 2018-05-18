@@ -65,4 +65,9 @@ Route::resource('contact-us', 'ContactController');
 
 Route::resource('scps-schedule', 'SchedulesController');
 
-Route::resource('file', 'UploadController');
+//Route::resource('file', 'UploadController');
+Route::get('/files/{type}/{id?}', 'UploadController@index');
+
+Route::post('files/add', 'UploadController@store');
+Route::post('files/edit/{id}', 'UploadController@edit');
+Route::post('files/delete/{id}', 'UploadController@destroy');
