@@ -27,7 +27,11 @@
         @yield('content')
         @include('inc.footer')
     </div>
-    <script> document.getElementById('container').scrollTop =0; </script>
+    <script>
+      $(window).on('load', function() {
+        setTimeout(function(){$("body").focus()}, 100);
+      };
+    </script>
   </main>
 </body>
 </html>
