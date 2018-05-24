@@ -29,8 +29,8 @@
     </div>
     <script>
       $(window).on('load', function() {
-        setTimeout(function(){$("body").focus()}, 100);
-      };
+          setTimeout(function(){$("body").focus()}, 100);
+        });
     </script>
   </main>
 </body>
