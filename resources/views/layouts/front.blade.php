@@ -18,9 +18,9 @@
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script>
-      $(window).on('load', function() {
-          setTimeout(function(){$("body").focus()}, 100);
-        });
+      window.addEventListener('load', function() {
+        window.scrollTo(0,0);
+      });
     </script>
 </head>
 <body>
