@@ -27,6 +27,7 @@
         @yield('content')
         @include('inc.footer')
     </div>
+    <script> document.getElementById('container').scrollTop =0; </script>
   </main>
 </body>
 </html>
