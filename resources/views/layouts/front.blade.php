@@ -17,7 +17,11 @@
     <link rel="shortcut icon" href="{{ asset('images/scps.ico') }}">
     <!-- js -->
     <script src="{{ asset('js/app.js') }}"></script>
-
+    <script>
+      $(window).on('load', function() {
+          setTimeout(function(){$("body").focus()}, 100);
+        });
+    </script>
 </head>
 <body>
   <main role="main">
@@ -27,11 +31,6 @@
         @yield('content')
         @include('inc.footer')
     </div>
-    <script>
-      $(window).on('load', function() {
-          setTimeout(function(){$("body").focus()}, 100);
-        });
-    </script>
   </main>
 </body>
 </html>
