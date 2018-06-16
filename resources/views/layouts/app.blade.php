@@ -22,7 +22,7 @@
 </head>
 <body>
   <main role="main">
-    <div class="container" id="app">
+    <div class="container">
         @include('inc.navbar')
         @yield('inc.messages')
         @yield('content')

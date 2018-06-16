@@ -16,8 +16,8 @@ window.Vue = require('vue');
  */
 
 
-Vue.component('file-component', require('./components/FileUploadComponent.vue'));
-Vue.component('fileView-component', require('./components/FileViewComponent.vue'));
+//Vue.component('file-component', require('./components/FileUploadComponent.vue'));
+//Vue.component('fileView-component', require('./components/FileViewComponent.vue'));
 /**
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('calmanager-component', require('./components/CalManagerComponent.vue'));
